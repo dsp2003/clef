@@ -1,0 +1,11 @@
+{
+	"name" : "ChokeLeFish",
+	"path" : ".",
+	"requires" : [],
+	"includes" : [],
+	"metadata" : {
+		"author" : "dsp2003",
+		"description" : "Tweaks various aspects of the game and attempts to restore some old features.",
+		"version" : "0.1"
+	}
+}
