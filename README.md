@@ -1,27 +1,26 @@
-# clf
-Choke Le Fish: Starbound content restoration and gameplay tweaking mod
+# Choke Le Fish
+Starbound content restoration and gameplay tweaking mod
 
 Version 1 (2015/02/10)
 ---------
 For Upbeat Giraffe 2-666
 
 Overview
-========
+--------
 
 As you probably know, not all players are happy with the changes that were made to the game in comparison with Enraged Koala builds. Although many new things were added, a lot of the aspects were nerfed or removed altogether, which made the game less fun and far more boring.
 
 This mod is my small and cumbersome attempt to address and revert these changes in Upbeat Giraffe to some degree, as well as introduce other balance tweaks, which are backported from the Enraged Koala I modded privately for my personal enjoyment. ;)
 
 
-Definitions:
-===========
-EK - Enraged Koala
-UG - Upbeat Giraffe
-+  - working properly
-!  - buggy/inconsistent, needs work
+Glossary:
+--------
+
+* EK - Enraged Koala
+* UG - Upbeat Giraffe
 
 Changes:
-=======
+-------
 
 + Molten Core can be crafted from 10 core fragments (the recipe added to stone furnace upon pickup, originally was dropped by UFO boss in EK)
 
@@ -49,13 +48,13 @@ Changes:
 
 + Iron Beacon is available for crafting. As a result, the Penguin UFO boss can be summoned (moved to its own quest location in UG)
 
-! Decoy Princess is available for crafting. As a result, the bone dragon boss can be summoned (disabled in UG, no proper quest yet. Sadly, dragon acts like a bird and won't breathe any fire nor open its mouth)
++ [Incomplete] Decoy Princess is available for crafting. As a result, the bone dragon boss can be summoned (disabled in UG, no proper quest yet. Sadly, dragon acts like a bird and won't breathe any fire nor open its mouth)
 
-! Brain extractor and all robot parts are available for crafting. As a result, you can summon the robot boss (disabled in UG, no proper quest yet. In UG original robot was replaced by Penguin Bot and appears instead of the old one when summoned)
++ [Incomplete] Brain extractor and all robot parts are available for crafting. As a result, you can summon the robot boss (disabled in UG, no proper quest yet. In UG original robot was replaced by Penguin Bot and appears instead of the old one when summoned)
 
 
 To-do:
-=====
+-----
 
 ! The moons with more life and loot underneath, not just a stinky fuel
 
@@ -67,7 +66,7 @@ To-do:
 
 
 Stuff I can't fix (yet):
-=======================
+-----------------------
 
 * Lack of hunger and cold/hot temperatures on the lowest game setting (hardcoded)
 
@@ -78,7 +77,7 @@ P.S. The patch system doesn't seem to work properly in my case, so using the ent
 
 
 License
-=======
+-------
 
 This modification has been released under Creative Commons Attribution Share-Alike 4.0 International license terms.
 
