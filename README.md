@@ -56,21 +56,21 @@ Changes:
 To-do:
 -----
 
-! The moons with more life and loot underneath, not just a stinky fuel
++ The moons with more life and loot underneath, not just a stinky fuel
 
-! Barren worlds with realistic core, undercaves and stuff
++ Barren worlds with realistic core, undercaves and stuff
 
-! Make Penguin UFO boss to drop 5 Molten Core (removed in UG)
++ Make Penguin UFO boss to drop 5 Molten Core (removed in UG)
 
-! Seamlessly integrate the old quests and boss fights back into game, including the distress beacon UFO with the secondaries and the old robot boss (add as an alternative way of obtaining Core Fragments and/or Molten Core and the processor chip)
++ Seamlessly integrate the old quests and boss fights back into game, including the distress beacon UFO with the secondaries and the old robot boss (add as an alternative way of obtaining Core Fragments and/or Molten Core and the processor chip)
 
 
 Stuff I can't fix (yet):
 -----------------------
 
-* Lack of hunger and cold/hot temperatures on the lowest game setting (hardcoded)
++ Lack of hunger and cold/hot temperatures on the lowest game setting (hardcoded)
 
-* Repairable pickaxes and drills (hardcoded, but may possibly be overridden if you'll hook them with LUA code which re-adds "broken" counterparts and accepts the ore)
++ Repairable pickaxes and drills (hardcoded, but may possibly be overridden if you'll hook them with LUA code which re-adds "broken" counterparts and accepts the ore)
 
 
 P.S. The patch system doesn't seem to work properly in my case, so using the entire file replacements instead (compatible with patches). Will surely break compatibility with UG other than 2-666, so any help would be very much appreciated.
