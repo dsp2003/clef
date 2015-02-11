@@ -13,13 +13,13 @@ As you probably know, not all players are happy with the changes that were made 
 This mod is my small and cumbersome attempt to address and revert these changes in Upbeat Giraffe to some degree, as well as introduce other balance tweaks, which are backported from the Enraged Koala I modded privately for my personal enjoyment. ;)
 
 
-Glossary:
+Glossary
 --------
 
 * EK - Enraged Koala
 * UG - Upbeat Giraffe
 
-Changes:
+Changes
 -------
 
 + Molten Core can be crafted from 10 core fragments (the recipe added to stone furnace upon pickup, originally was dropped by UFO boss in EK)
@@ -53,7 +53,7 @@ Changes:
 + [Incomplete] Brain extractor and all robot parts are available for crafting. As a result, you can summon the robot boss (disabled in UG, no proper quest yet. In UG original robot was replaced by Penguin Bot and appears instead of the old one when summoned)
 
 
-To-do:
+To-do
 -----
 
 + The moons with more life and loot underneath, not just a stinky fuel
@@ -65,7 +65,7 @@ To-do:
 + Seamlessly integrate the old quests and boss fights back into game, including the distress beacon UFO with the secondaries and the old robot boss (add as an alternative way of obtaining Core Fragments and/or Molten Core and the processor chip)
 
 
-Stuff I can't fix (yet):
+Stuff I can't fix (yet)
 -----------------------
 
 + Lack of hunger and cold/hot temperatures on the lowest game setting (hardcoded)
