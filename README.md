@@ -1,9 +1,10 @@
 # Choke Le Fish
 Starbound content restoration and gameplay tweaking mod
 
-Version 1 (2015/02/10)
+Version 2 (2015/02/12)
 ---------
 For Upbeat Giraffe 2-666
+
 
 Overview
 --------
