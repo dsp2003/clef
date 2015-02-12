@@ -47,6 +47,8 @@ Changes
  - Diamond Pickaxe  (350 -> 7500)
  - Platinum Pickaxe (200 -> 10000)
 
++ Silver, Gold, Platinum and Matter (Bonus) armors are now available for crafting
+
 + Iron Beacon is available for crafting. As a result, the Penguin UFO boss can be summoned (moved to its own quest location in UG)
 
 + [Incomplete] Decoy Princess is available for crafting. As a result, the bone dragon boss can be summoned (disabled in UG, no proper quest yet. Sadly, dragon acts like a bird and won't breathe any fire nor open its mouth)
