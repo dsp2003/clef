@@ -19,27 +19,30 @@ Glossary
 
 * EK - Enraged Koala
 * UG - Upbeat Giraffe
+* [N] - new feature / addon
+* [M] - modified restoration
+* [R] - restored feature
 
 Changes
 -------
 
-+ Molten Core can be crafted from 10 core fragments (the recipe added to stone furnace upon pickup, originally was dropped by UFO boss in EK)
++ [N] Molten Core can be crafted from 10 core fragments (the recipe added to stone furnace upon pickup, originally was dropped by UFO boss in EK)
 
-+ Metalwork station now requires 1 Molten Core to craft (same as in EK)
++ [R] Metalwork station now requires 1 Molten Core to craft (same as in EK)
 
-+ Core fragment now gives 10 points of fuel (seriously, what that pile of blasted glowing stones is even good for?!)
++ [N] Core fragment now gives 10 points of fuel (seriously, what that pile of blasted glowing stones is even good for?!)
 
-+ Oil now gives 1 point of fuel (it's flammable IRL, so why not?)
++ [N] Oil now gives 1 point of fuel (it's flammable IRL, so why not?)
 
-+ Coal now gives 2 points of fuel (same as in EK, 0 in UG)
++ [R] Coal now gives 2 points of fuel (same as in EK, 0 in UG)
 
-+ Intraspace travel now takes 5 points of fuel (was 50 in EK, 0 in UG made little to no sense, but...)
++ [M] Intraspace travel now takes 5 points of fuel (was 50 in EK, 0 in UG made little to no sense, but...)
 
-+ Interspace travel now takes 300 points maximum (was 200 in EK and up to 1000 in UG, which is unreal and would leave you with depleted engine. This seems to be the reason (beside the coal not being a "fuel" anymore) why intraspace travel was made cost free in UG, otherwise you'd stuck forever if landed on anything but the Moon or Outpost planet)
++ [M] Interspace travel now takes 300 points maximum (was 200 in EK and up to 1000 in UG, which is unreal and would leave you with depleted engine. This seems to be the reason (beside the coal not being a "fuel" anymore) why intraspace travel was made cost free in UG, otherwise you'd stuck forever if landed on anything but the Moon or Outpost planet)
 
-+ Limit for items per cell changed to 9999 (was 1000 in EK/UG. Everybody wants to be super greedy sometimes :3 )
++ [N] Limit for items per cell changed to 9999 (was 1000 in EK/UG. Everybody wants to be super greedy sometimes :3 )
 
-+ All pickaxes and drills now have EK's durability values (not the mining area, though) and won't break so fast:
++ [R] All pickaxes and drills now have EK's durability values (not the mining area, though) and won't break so fast:
  - All drills      (1000 -> 3000)
  - Copper Pickaxe   (200 -> 7500)
  - Silver Pickaxe   (200 -> 7500)
@@ -47,13 +50,17 @@ Changes
  - Diamond Pickaxe  (350 -> 7500)
  - Platinum Pickaxe (200 -> 10000)
 
-+ Silver, Gold, Platinum and Matter (Bonus) armors are now available for crafting
++ [R] Silver, Gold, Platinum and Matter (Bonus) armors are now available for crafting
 
-+ Iron Beacon is available for crafting. As a result, the Penguin UFO boss can be summoned (moved to its own quest location in UG)
++ [R] Iron Beacon is available for crafting. As a result, the Penguin UFO boss can be summoned (moved to its own quest location in UG)
 
-+ [Incomplete] Decoy Princess is available for crafting. As a result, the bone dragon boss can be summoned (disabled in UG, no proper quest yet. Sadly, dragon acts like a bird and won't breathe any fire nor open its mouth)
++ [R][Incomplete] Decoy Princess is available for crafting. As a result, the bone dragon boss can be summoned (disabled in UG, no proper quest yet. Sadly, dragon acts like a bird and won't breathe any fire nor open its mouth)
 
-+ [Incomplete] Brain extractor and all robot parts are available for crafting. As a result, you can summon the robot boss (disabled in UG, no proper quest yet. In UG original robot was replaced by Penguin Bot and appears instead of the old one when summoned)
++ [R][Incomplete] Brain extractor and all robot parts are available for crafting. As a result, you can summon the robot boss (disabled in UG, no proper quest yet. In UG original robot was replaced by Penguin Bot and appears instead of the old one when summoned)
+
++ [N] 2 new cooking recipes:
+ - Brain Stew. Cooked from Wheat, Pearlpea, Corn and Inferior Brain
+ - Brain Pie. Cooked from Mashed Potato, Inferior Brain and Superior Brain
 
 
 To-do
