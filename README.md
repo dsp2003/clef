@@ -1,7 +1,7 @@
 # Choke Le Fish
 Starbound content restoration and gameplay tweaking mod
 
-Version 2 (2015/02/12)
+Version 3 (2015/02/13)
 ---------
 For Upbeat Giraffe 2-666
 
@@ -22,6 +22,7 @@ Glossary
 * [N] - new feature / addon
 * [M] - modified restoration
 * [R] - restored feature
+* [F] - fix
 
 Changes
 -------
@@ -37,6 +38,9 @@ Changes
 + [R] Coal now gives 2 points of fuel (same as in EK, 0 in UG)
 
 + [M] Intraspace travel now takes 5 points of fuel (was 50 in EK, 0 in UG made little to no sense, but...)
+
++ [F] Fixed inability to fuel your ship for new stock characters (required because intraspace travels are not free anymore). Fan races known to work with the old-new requirements without any tweaks or modifications:
+ - Felins (by Kawa)
 
 + [M] Interspace travel now takes 300 points maximum (was 200 in EK and up to 1000 in UG, which is unreal and would leave you with depleted engine. This seems to be the reason (beside the coal not being a "fuel" anymore) why intraspace travel was made cost free in UG, otherwise you'd stuck forever if landed on anything but the Moon or Outpost planet)
 
