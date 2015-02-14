@@ -105,10 +105,10 @@ P.S. The patch system doesn't seem to work properly in my case, so using the ent
 Version history
 ---------------
 
-2015/02/15 v4 - ported to current .patch system, reorganized mod directory structure, added "The Brain Hunter" quest, removed Rope limit
-2015/02/13 v3 - unlocked old armours, fixed inability to access fuel tank in tier2 ships
-2015/02/12 v2 - added brain recipes
-2015/02/10 v1 - first release
+- 2015/02/15 v4 - ported to current .patch system, reorganized mod directory structure, added "The Brain Hunter" quest, removed Rope limit
+- 2015/02/13 v3 - unlocked old armours, fixed inability to access fuel tank in tier2 ships
+- 2015/02/12 v2 - added brain recipes
+- 2015/02/10 v1 - first release
 
 
 License
