@@ -1,9 +1,9 @@
 # Choke Le Fish
 Starbound content restoration and gameplay tweaking mod
 
-Version 3 (2015/02/13)
+Version 4 (2015/02/15)
 ---------
-For Upbeat Giraffe 2-666
+For [Stable] Upbeat Giraffe 2-666
 
 
 Overview
@@ -12,6 +12,14 @@ Overview
 As you probably know, not all players are happy with the changes that were made to the game in comparison with Enraged Koala builds. Although many new things were added, a lot of the aspects were nerfed or removed altogether, which made the game less fun and far more boring.
 
 This mod is my small and clumsy attempt to address and revert these changes in Upbeat Giraffe to some degree, as well as introduce other balance tweaks, which are backported from the Enraged Koala I modded privately for my personal enjoyment. ;)
+
+
+Known bugs
+----------
+
++ The game prevents patching of items/defaultparameters.config, hence a complete replacement file is used instead. CLeF will conflict with any mods that replace it.
+
++ CLeF will conflict with any mod which adds learnBlueprintsOnPickup variable to items/generic/crafting/corefragmentore.item. Various ore farming mods included. The solution is to remove the above-mentioned variable from CLeF's .patch and insert contents of variable into problematic mod's patch instead.
 
 
 Glossary
@@ -66,6 +74,8 @@ Changes
  - Brain Stew. Cooked from Wheat, Pearlpea, Corn and Inferior Brain
  - Brain Pie. Cooked from Mashed Potato, Inferior Brain and Superior Brain
 
++ [N] New quest: "The Brain Hunter". Automatically assigned upon picking up the Brain Extractor. Reward: 100-500 pixels
+
 
 To-do
 -----
@@ -88,6 +98,15 @@ Stuff I can't fix (yet)
 
 
 P.S. The patch system doesn't seem to work properly in my case, so using the entire file replacements instead (compatible with patches). Will surely break compatibility with UG other than 2-666, so any help would be very much appreciated.
+
+
+Version history
+---------------
+
+2015/02/15 v4 - ported to current .patch system, reorganized mod directory structure, added "The Brain Hunter" quest
+2015/02/13 v3 - unlocked old armours, fixed inability to access fuel tank in tier2 ships
+2015/02/12 v2 - added brain recipes
+2015/02/10 v1 - first release
 
 
 License

@@ -1,8 +1,0 @@
-{
-  "itemName" : "inferiorbrain",
-  "rarity" : "Common",
-  "inventoryIcon" : "inferiorbrain.png",
-  "description" : "A waste of brain cells. Might taste good when cooked.",
-  "shortdescription" : "Inferior Brain",
-  "learnBlueprintsOnPickup" : [ "brainstew", "brainpie" ]
-}
