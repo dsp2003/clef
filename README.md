@@ -54,6 +54,8 @@ Changes
 
 + [N] Limit for items per cell changed to 9999 (was 1000 in EK/UG. Everybody wants to be super greedy sometimes :3 )
 
++ [N] Removed 1000 items limit for Rope
+
 + [R] All pickaxes and drills now have EK's durability values (not the mining area, though) and won't break so fast:
  - All drills      (1000 -> 3000)
  - Copper Pickaxe   (200 -> 7500)
