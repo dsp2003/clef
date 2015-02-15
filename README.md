@@ -47,8 +47,7 @@ Changes
 
 + [M] Intraspace travel now takes 5 points of fuel (was 50 in EK, 0 in UG made little to no sense, but...)
 
-+ [F] Fixed inability to fuel your ship for new stock characters (required because intraspace travels are not free anymore). Fan races known to work with the old-new requirements without any tweaks or modifications:
- - Felins (by Kawa)
++ [F] Fixed inability to fuel your ship for vanilla races when starting a new game (required because intraspace travels are not free anymore).
 
 + [M] Interspace travel now takes 300 points maximum (was 200 in EK and up to 1000 in UG, which is unreal and would leave you with depleted engine. This seems to be the reason (beside the coal not being a "fuel" anymore) why intraspace travel was made cost free in UG, otherwise you'd stuck forever if landed on anything but the Moon or Outpost planet)
 
