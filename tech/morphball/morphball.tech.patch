@@ -1,0 +1,1 @@
+[ { "op" : "replace", "path" : "/energyCostPerSecond", "value" : 20 } ]

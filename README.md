@@ -64,6 +64,8 @@ Changes
  - Diamond Pickaxe  (350 -> 7500)
  - Platinum Pickaxe (200 -> 10000)
 
++ [M] Un-nerfed Morph Ball tech. Now it consumes 20 points of energy (was 35 in EK and 65 in UG)
+
 + [R] Silver, Gold, Platinum and Matter (Bonus) armors are now available for crafting
 
 + [R] Iron Beacon is available for crafting. As a result, the Penguin UFO boss can be summoned (moved to its own quest location in UG)
