@@ -1,7 +1,7 @@
 # Choke Le Fish
 Starbound content restoration and gameplay tweaking mod
 
-Version 5 (2015/02/15)
+Version 6 (2015/02/16)
 ---------
 For [Stable] Upbeat Giraffe 2-666
 
@@ -12,6 +12,8 @@ Overview
 As you probably know, not all players are happy with the changes that were made to the game in comparison with Enraged Koala builds. Although many new things were added, a lot of the aspects were nerfed or removed altogether, which made the game less fun and far more boring.
 
 This mod is my small and clumsy attempt to address and revert these changes in Upbeat Giraffe to some degree, as well as introduce other balance tweaks, which are backported from the Enraged Koala I modded privately for my personal enjoyment. ;)
+
+Starting from Version 6, CLeF also incorporates work by other awesome people. See the full list of mods and their authors at the end of the description.
 
 
 Known bugs
@@ -53,7 +55,7 @@ Changes
 
 + [M] Intraspace travel takes 5 points of fuel (was 50 in EK, 0 in UG made little to no sense, but...)
 
-+ [F] Fixed inability to fuel your ship for vanilla races when starting a new game (required because intraspace travels are not free anymore).
++ [F] Fixed inability to fuel your ship for vanilla races when starting a new game (required because intraspace travels are not free anymore)
 
 + [M] Interspace travel takes 300 points maximum (was 200 in EK and up to 1000 in UG, which is unreal and would leave you with depleted engine. This seems to be the reason (beside the coal not being a "fuel" anymore) why intraspace travel was made cost free in UG, otherwise you'd stuck forever if landed on anything but the Moon or Outpost planet)
 
@@ -61,13 +63,21 @@ Changes
 
 + [N] Removed 1000 items limit for Rope
 
-+ [R] All pickaxes and drills have EK's durability values (not the mining area, though) and won't break so fast:
- - All drills      (1000 -> 3000)
- - Copper Pickaxe   (200 -> 7500)
- - Silver Pickaxe   (200 -> 7500)
- - Golden Pickaxe   (200 -> 7500)
- - Diamond Pickaxe  (350 -> 7500)
- - Platinum Pickaxe (200 -> 10000)
++ [R] All pickaxes and drills have EK's durability values (which means they won't break so fast), block radius, tile damage and material costs (except pixel requirements):
+ - Copper Drill     (d: 1000 -> 3000, b: 2 -> 3, d: 1.5 -> 2.9)
+ - Silver Drill     (d: 1000 -> 3000, b: 2 -> 3, d: 2.0 -> 3.1)
+ - Golden Drill     (d: 1000 -> 3000, b: 2 -> 3, d: 2.5 -> 3.3)
+ - Diamond Drill    (d: 1000 -> 3000, b: 2 -> 3, d: 3.5 -> 3.7)
+ - Platinum Drill   (d: 1000 -> 3000, b: 2 -> 3, d: 3.0 -> 3.5)
+ - Copper Pickaxe   (d:  200 -> 7500)
+ - Silver Pickaxe   (d:  200 -> 7500)
+ - Golden Pickaxe   (d:  200 -> 7500)
+ - Diamond Pickaxe  (d:  350 -> 7500)
+ - Platinum Pickaxe (d: 200 -> 10000)
+
++ [M] Drills and pickaxes can be repaired via Basic Crafting, with both bars and ore (new custom button at the bottom left). Because the original repair funcionality was cut out from the game logic and the way the new repair function was implemented, it is (currently) impossible to distinguish between the new and used tools, hence it is strongly recommended to keep only a single instance of each in your inventory. Also, it is still possible to break them completely, which will make them disappear, so don't let their health bar to deplete!
+
++ [N] Chainsaw can be crafted via Metalwork Station for 6 Durasteel Bar and 12 Steel Bar
 
 + [M] Un-nerfed Morph Ball tech. It consumes 20 points of energy (was 35 in EK and 65 in UG)
 
@@ -95,23 +105,28 @@ To-do
 
 + Make Penguin UFO boss to drop 5 Molten Core (removed in UG)
 
-+ Seamlessly integrate the old quests and boss fights back into game, including the distress beacon UFO with the secondaries and the old robot boss (add as an alternative way of obtaining Core Fragments and/or Molten Core and the processor chip)
++ Seamlessly integrate the old quests and boss fights back into game (as alternative way of obtaining quest items required for progression) and/or make progression as non-linear as possible
+
++ Bunch of other stuff I tend to forget...
 
 
 Stuff I can't fix (yet)
 -----------------------
 
-+ Lack of hunger and cold/hot temperatures on the lowest game setting (hardcoded)
-
-+ Repairable pickaxes and drills (hardcoded, but may possibly be overridden if you'll hook them with LUA code which re-adds "broken" counterparts and accepts the ore)
++ Lack of hunger and temperature system (hardcoded)
 
 
-P.S. The patch system doesn't seem to work properly in my case, so using the entire file replacements instead (compatible with patches). Will surely break compatibility with UG other than 2-666, so any help would be very much appreciated.
+Third-party mods merged with CLeF
+---------------------------------
+
++ http://community.playstarbound.com/?resources/2644/ - Craftable Chainsaw (by XNicoX14)
++ http://community.playstarbound.com/?resources/2648/ - Repair Tools (by XNicoX14)
 
 
 Version history
 ---------------
 
+- 2015/02/16 v6 - added craftable chainsaw, added repairable pickaxes and drills (based on mods by XNicoX14)
 - 2015/02/15 v5 - un-nerfed morph ball tech, core fragment ore from 10 Lava and 1 Oil, Lava gives 1 fuel, Coal from 10 Wood
 - 2015/02/15 v4 - ported to current .patch system, reorganized mod directory structure, added "The Brain Hunter" quest, removed Rope limit
 - 2015/02/13 v3 - unlocked old armours, fixed inability to access fuel tank in tier2 ships

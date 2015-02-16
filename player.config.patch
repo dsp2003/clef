@@ -19,5 +19,6 @@
   { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "robotarms" } },
   { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "robot" } },
   { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "decoyprincess" } },
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "chainsaw"} },
   { "op" : "replace", "path" : "/movementParameters/maximumCorrection", "value" : 10 }
 ]

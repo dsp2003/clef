@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "platinumore", "count" : 4 },
+    { "item" : "platinumdrill", "count" : 1 }
+  ],
+  "output" : { "item" : "platinumdrill", "count" : 1 },
+  "groups" : [ "plain", "repair", "all" ]
+}
