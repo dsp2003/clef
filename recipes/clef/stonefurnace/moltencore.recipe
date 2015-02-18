@@ -1,6 +1,7 @@
 {
   "input" : [
-    { "item" : "corefragmentore", "count" : 10 }
+    { "item" : "corefragmentore", "count" : 10 },
+    { "item" : "ironbar", "count" : 2 }
   ],
   "output" : { "item" : "moltencore", "count" : 1 },
   "groups" : [ "stonefurnace", "all" ]

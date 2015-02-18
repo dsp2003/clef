@@ -1,9 +1,12 @@
 # Choke Le Fish
 Starbound content restoration and gameplay tweaking mod
 
-Version 6 (2015/02/16)
+Version 7 (2015/02/18)
 ---------
-For [Stable] Upbeat Giraffe 2-666
+
+Known to work with:
+- [Stable] Upbeat Giraffe 2-666
+- [Stable] Upbeat Giraffe 2-668
 
 
 Overview
@@ -21,7 +24,9 @@ Known bugs
 
 + The game prevents patching of items/defaultparameters.config, hence a complete replacement file is used instead. CLeF will conflict with any mods that replace it.
 
-+ CLeF will conflict with any mod which adds learnBlueprintsOnPickup variable to items/generic/crafting/corefragmentore.item. Various ore farming mods included. The solution is to remove the above-mentioned variable from CLeF's .patch and insert contents of variable into problematic mod's patch instead.
++ CLeF will conflict with any mod which adds learnBlueprintsOnPickup variable to items/generic/crafting/corefragmentore.item. The solution is to remove the above-mentioned variable from CLeF and insert contents of variable into problematic mod's patch.
+
++ The fuel cost indicator doesn't show up on Tier 2 ships (without repaired FTL drive), even though the intraspace travel is no longer free. Please keep this in mind.
 
 
 Glossary
@@ -37,11 +42,17 @@ Glossary
 Changes
 -------
 
++ [R] Diamond ore will spawn instead of "perfectly cut" diamonds in unvisited worlds (which made zero sense)
+
++ [M] Diamond can be crafted in Alloy Furnace from 2 diamond ores (recipe learned on picking up the diamond ore, was 4 diamond ores in EK and removed entirely in UG)
+
 + [N] Core fragment ore can be crafted in Alloy Furnace from 10 Lava and 1 Oil (recipe learned on picking the Lava)
 
-+ [N] Molten Core can be crafted from 10 core fragments (the recipe added to stone furnace upon pickup, originally was dropped by UFO boss in EK)
++ [N] Molten Core can be crafted from 2 iron bars and 10 core fragments (the recipe added to stone furnace upon pickup, originally was dropped by UFO boss in EK)
 
 + [R] Metalwork station requires 1 Molten Core to craft (same as in EK)
+
++ [R] Coal can be crafted from 10 Unrefined Wood in Stone Furnace (recipe learned on picking up the Wood)
 
 + [N] Core fragment gives 10 points of fuel (seriously, what that pile of blasted glowing stones is even good for?!)
 
@@ -50,8 +61,6 @@ Changes
 + [N] Lava gives 1 point of fuel (because it's basically the source of core fragments)
 
 + [R] Coal gives 2 points of fuel (same as in EK, 0 in UG)
-
-+ [R] Coal can be crafted from 10 Unrefined Wood in Stone Furnace (recipe learned on picking up the Wood)
 
 + [M] Intraspace travel takes 5 points of fuel (was 50 in EK, 0 in UG made little to no sense, but...)
 
@@ -95,9 +104,26 @@ Changes
 
 + [N] New quest: "The Brain Hunter". Automatically assigned upon picking up the Brain Extractor. Reward: 100-500 pixels
 
++ [M] Removed protection from randomly generated dungeons. Explaination: they weren't designed to use shields in the first place, and lots of players has already experienced problems with being unable to even access their front entrances, "thanks" to randomly generated ground obstacles, which also went under protection of the shield.
+
++ [N] More zoom levels (from 1.0 to 10, with 0.5 step) and screen resolutions:
+ - 640 x 480
+ - 800 x 600
+ - 1024 x 576
+ - 1360 x 768
+ - 3200 x 1080
+ - 3200 x 1200
+ - 3200 x 1536
+ - 3840 x 1080
+ - 3840 x 1200
+ - 3840 x 1536
+ - 4096 x 2160
+
 
 To-do
 -----
+
++ Restore all removed biomes and mini-biomes
 
 + The moons with more life and loot underneath, not just a stinky fuel
 
@@ -121,11 +147,14 @@ Third-party mods merged with CLeF
 
 + http://community.playstarbound.com/?resources/2644/ - Craftable Chainsaw (by XNicoX14)
 + http://community.playstarbound.com/?resources/2648/ - Repair Tools (by XNicoX14)
++ http://community.playstarbound.com/?resources/2498/ - More Screen Resolutions (by eurosat7)
++ http://community.playstarbound.com/?resources/2640/ - Apex Grind Again (by eurosat7)
 
 
 Version history
 ---------------
 
+- 2015/02/18 v7 - balance: added 2 iron bar requirement for molten core, added new screen resolutions and zoom levels (based on mod by eurosat7), removed shield protection from randomly generated dungeons (thanks to eurosat7), diamond ore returns
 - 2015/02/16 v6 - added craftable chainsaw, added repairable pickaxes and drills (based on mods by XNicoX14)
 - 2015/02/15 v5 - un-nerfed morph ball tech, core fragment ore from 10 Lava and 1 Oil, Lava gives 1 fuel, Coal from 10 Wood
 - 2015/02/15 v4 - ported to current .patch system, reorganized mod directory structure, added "The Brain Hunter" quest, removed Rope limit
