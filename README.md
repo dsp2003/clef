@@ -1,7 +1,7 @@
 # Choke Le Fish
 Starbound content restoration and gameplay tweaking mod
 
-Version 7 (2015/02/18)
+Version 8 (2015/02/19)
 ---------
 
 Known to work with:
@@ -104,6 +104,15 @@ Changes
 
 + [N] New quest: "The Brain Hunter". Automatically assigned upon picking up the Brain Extractor. Reward: 100-500 pixels
 
++ [R] Re-added developer clothing sets (recipes learned upon picking up the Plant Fibre and can be crafted via Yarn Spinner):
+ - Ban's set
+ - Bartwe's glasses
+ - George's set
+ - Kyren's set
+ - Molly's set
+ - Rhopunzel's set
+ - Tiy's set
+
 + [M] Removed protection from randomly generated dungeons. Explaination: they weren't designed to use shields in the first place, and lots of players has already experienced problems with being unable to even access their front entrances, "thanks" to randomly generated ground obstacles, which also went under protection of the shield.
 
 + [N] More zoom levels (from 1.0 to 10, with 0.5 step) and screen resolutions:
@@ -149,11 +158,13 @@ Third-party mods merged with CLeF
 + http://community.playstarbound.com/?resources/2648/ - Repair Tools (by XNicoX14)
 + http://community.playstarbound.com/?resources/2498/ - More Screen Resolutions (by eurosat7)
 + http://community.playstarbound.com/?resources/2640/ - Apex Grind Again (by eurosat7)
++ http://community.playstarbound.com/?resources/2696/ - Developer Clothing Sets (by Lucaine)
 
 
 Version history
 ---------------
 
+- 2015/02/19 v8 - re-added developer clothing sets (based on mod by Lucaine)
 - 2015/02/18 v7 - balance: added 2 iron bar requirement for molten core, added new screen resolutions and zoom levels (based on mod by eurosat7), removed shield protection from randomly generated dungeons (thanks to eurosat7), diamond ore returns
 - 2015/02/16 v6 - added craftable chainsaw, added repairable pickaxes and drills (based on mods by XNicoX14)
 - 2015/02/15 v5 - un-nerfed morph ball tech, core fragment ore from 10 Lava and 1 Oil, Lava gives 1 fuel, Coal from 10 Wood
