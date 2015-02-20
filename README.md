@@ -1,7 +1,7 @@
 # Choke Le Fish
 Starbound content restoration and gameplay tweaking mod
 
-Version 8 (2015/02/19)
+Version 9 (2015/02/20)
 ---------
 
 Known to work with:
@@ -90,8 +90,6 @@ Changes
 
 + [M] Un-nerfed Morph Ball tech. It consumes 20 points of energy (was 35 in EK and 65 in UG)
 
-+ [R] Silver, Gold, Platinum and Matter (Bonus) armors are available for crafting
-
 + [R] Iron Beacon is available for crafting. As a result, the Penguin UFO boss can be summoned (moved to its own quest location in UG)
 
 + [R][Incomplete] Decoy Princess is available for crafting. As a result, the bone dragon boss can be summoned (disabled in UG, no proper quest yet. Sadly, dragon acts like a bird and won't breathe any fire nor open its mouth)
@@ -113,6 +111,8 @@ Changes
  - Rhopunzel's set
  - Tiy's set
 
++ [R] Silver, Gold, Platinum and Matter (Bonus) armors are available for crafting
+
 + [M] Removed protection from randomly generated dungeons. Explaination: they weren't designed to use shields in the first place, and lots of players has already experienced problems with being unable to even access their front entrances, "thanks" to randomly generated ground obstacles, which also went under protection of the shield.
 
 + [N] More zoom levels (from 1.0 to 10, with 0.5 step) and screen resolutions:
@@ -127,6 +127,8 @@ Changes
  - 3840 x 1200
  - 3840 x 1536
  - 4096 x 2160
+
++ [F] Performance patch: added optimized Hobo true-type font (58 KiB and ~50000 points versus 86 Kib and ~90000 points) with fixed cyrillic characters
 
 
 To-do
@@ -164,6 +166,7 @@ Third-party mods merged with CLeF
 Version history
 ---------------
 
+- 2015/02/20 v9 - added optimized Hobo font with fixed cyrillic characters
 - 2015/02/19 v8 - re-added developer clothing sets (based on mod by Lucaine)
 - 2015/02/18 v7 - balance: added 2 iron bar requirement for molten core, added new screen resolutions and zoom levels (based on mod by eurosat7), removed shield protection from randomly generated dungeons (thanks to eurosat7), diamond ore returns
 - 2015/02/16 v6 - added craftable chainsaw, added repairable pickaxes and drills (based on mods by XNicoX14)
