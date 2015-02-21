@@ -1,8 +1,8 @@
 # Choke Le Fish
 Starbound content restoration and gameplay tweaking mod
 
-Version 9 (2015/02/20)
----------
+Version 10 (2015/02/20)
+----------
 
 Known to work with:
 - [Stable] Upbeat Giraffe 2-666
@@ -42,7 +42,7 @@ Glossary
 Changes
 -------
 
-+ [R] Diamond ore will spawn instead of "perfectly cut" diamonds in unvisited worlds (which made zero sense)
++ [R] Diamond ore will spawn instead of "perfectly cut" diamonds in unvisited worlds, but will still spawn in treasure chests
 
 + [M] Diamond can be crafted in Alloy Furnace from 2 diamond ores (recipe learned on picking up the diamond ore, was 4 diamond ores in EK and removed entirely in UG)
 
@@ -166,6 +166,7 @@ Third-party mods merged with CLeF
 Version history
 ---------------
 
+- 2015/02/21 v10 - added missing .matmod patch, removed diamond ore from treasure pools
 - 2015/02/20 v9 - added optimized Hobo font with fixed cyrillic characters
 - 2015/02/19 v8 - re-added developer clothing sets (based on mod by Lucaine)
 - 2015/02/18 v7 - balance: added 2 iron bar requirement for molten core, added new screen resolutions and zoom levels (based on mod by eurosat7), removed shield protection from randomly generated dungeons (thanks to eurosat7), diamond ore returns
