@@ -42,7 +42,7 @@ Glossary
 Changes
 -------
 
-+ [R] Diamond ore will spawn instead of "perfectly cut" diamonds in unvisited worlds, but diamonds will still spawn in treasure chests
++ [R] Diamond ore will spawn instead of "perfectly cut" diamonds in unvisited worlds (diamonds will still spawn in treasure chests)
 
 + [M] Diamond can be crafted in Alloy Furnace from 2 diamond ores (recipe learned on picking up the diamond ore, was 4 diamond ores in EK and removed entirely in UG)
 
