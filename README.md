@@ -174,7 +174,7 @@ Third-party mods merged with CLeF
 Version history
 ---------------
 
-- 2015/02/23 v11 - changed liquid interactions
+- 2015/02/23 v11 - changed liquid interactions, core lava will now act like normal lava
 - 2015/02/21 v10 - added missing .matmod patch, removed diamond ore from treasure pools
 - 2015/02/20 v9 - added optimized Hobo font with fixed cyrillic characters
 - 2015/02/19 v8 - re-added developer clothing sets (based on mod by Lucaine)
