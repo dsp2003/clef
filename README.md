@@ -1,7 +1,7 @@
 # Choke Le Fish
 Starbound content restoration and gameplay tweaking mod
 
-Version 10 (2015/02/21)
+Version 11 (2015/02/23)
 ----------
 
 Known to work with:
@@ -41,6 +41,10 @@ Glossary
 
 Changes
 -------
+
++ [M] Liquid interactions changed:
+ - Water + Healing -> Healing Water
+ - Poison + Healing Water -> Water
 
 + [R] Diamond ore will spawn instead of "perfectly cut" diamonds in unvisited worlds (diamonds will still spawn in treasure chests)
 
@@ -166,6 +170,7 @@ Third-party mods merged with CLeF
 Version history
 ---------------
 
+- 2015/02/23 v11 - changed liquid interactions
 - 2015/02/21 v10 - added missing .matmod patch, removed diamond ore from treasure pools
 - 2015/02/20 v9 - added optimized Hobo font with fixed cyrillic characters
 - 2015/02/19 v8 - re-added developer clothing sets (based on mod by Lucaine)
