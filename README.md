@@ -43,8 +43,12 @@ Changes
 -------
 
 + [M] Liquid interactions changed:
- - Water + Healing Water -> Healing Water
- - Poison + Healing Water -> Water
+ - Water + Healing water -> Healing water
+ - Poison + Healing water -> Water
+ - Lava + Healing water -> Magma rock
+ - Lava + Coffee -> Magma rock
+ - Lava + Alien juice -> Magma rock
+ - Lava + Poison -> Magma rock
 
 + [R] Diamond ore will spawn instead of "perfectly cut" diamonds in unvisited worlds (diamonds will still spawn in treasure chests)
 

@@ -1,4 +1,8 @@
 [
   { "op" : "add", "path" : "/liquids/1/interactions/-", "value" : { "liquid" : 6, "liquidResult" : 6 } },
-  { "op" : "add", "path" : "/liquids/3/interactions/-", "value" : { "liquid" : 6, "liquidResult" : 1 } }
+  { "op" : "add", "path" : "/liquids/3/interactions/-", "value" : { "liquid" : 6, "liquidResult" : 1 } },
+  { "op" : "add", "path" : "/liquids/2/interactions/-", "value" : { "liquid" : 3, "materialResult" : "magmarock" } },
+  { "op" : "add", "path" : "/liquids/2/interactions/-", "value" : { "liquid" : 4, "materialResult" : "magmarock" } },
+  { "op" : "add", "path" : "/liquids/2/interactions/-", "value" : { "liquid" : 6, "materialResult" : "magmarock" } },
+  { "op" : "add", "path" : "/liquids/2/interactions/-", "value" : { "liquid" : 7, "materialResult" : "magmarock" } }
 ]
