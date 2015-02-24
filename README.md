@@ -1,7 +1,7 @@
 # Choke Le Fish
 Starbound content restoration and gameplay tweaking mod
 
-Version 11 (2015/02/23)
+Version 12 (2015/02/24)
 ----------
 
 Known to work with:
@@ -174,6 +174,7 @@ Third-party mods merged with CLeF
 Version history
 ---------------
 
+- 2015/02/24 v12 - moved developer clothes recipe to tier1 items in player.config.patch, removed plantfibre.item.patch. fixes bunch of "learned how to craft..." messages which covered the entire screen
 - 2015/02/23 v11 - changed liquid interactions, core lava will now act like normal lava
 - 2015/02/21 v10 - added missing .matmod patch, removed diamond ore from treasure pools
 - 2015/02/20 v9 - added optimized Hobo font with fixed cyrillic characters

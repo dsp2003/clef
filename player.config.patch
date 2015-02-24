@@ -11,6 +11,7 @@
   { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "platinumarmorhead" } },
   { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "platinumarmorchest" } },
   { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "platinumarmorpants" } },
+
   { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "brainextractor" } },
   { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "artificialbrain" } },
   { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "robothead" } },
@@ -19,6 +20,28 @@
   { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "robotarms" } },
   { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "robot" } },
   { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "decoyprincess" } },
+
   { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "chainsaw"} },
+
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "banhead" } },
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "banchest" } },
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "banlegs" } },
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "bartwehead" } },
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "georgehead" } },
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "georgechest" } },
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "georgelegs" } },
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "kyrenhead" } },
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "kyrenchest" } },
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "kyrenlegs" } },
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "mollyhead" } },
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "mollychest" } },
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "mollylegs" } },
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "rhohead" } },
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "rhochest" } },
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "rholegs" } },
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "tiyhead" } },
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "tiychest" } },
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "tiylegs" } },
+
   { "op" : "replace", "path" : "/movementParameters/maximumCorrection", "value" : 10 }
 ]
