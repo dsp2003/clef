@@ -110,7 +110,7 @@ Changes
 
 + [N] New quest: "The Brain Hunter". Automatically assigned upon picking up the Brain Extractor. Reward: 100-500 pixels
 
-+ [R] Re-added developer clothing sets (recipes learned upon picking up the Plant Fibre and can be crafted via Yarn Spinner):
++ [R] Re-added developer clothing sets (can be crafted via Yarn Spinner):
  - Ban's set
  - Bartwe's glasses
  - George's set
