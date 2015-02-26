@@ -158,8 +158,6 @@ To-do
 
 + Barren worlds with realistic core, undercaves and stuff
 
-+ Make Penguin UFO boss to drop 5 Molten Core (removed in UG)
-
 + Seamlessly integrate the old quests and boss fights back into game (as alternative way of obtaining quest items required for progression) and/or make progression as non-linear as possible
 
 + Bunch of other stuff I tend to forget...
