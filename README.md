@@ -1,7 +1,7 @@
 # Choke Le Fish
 Starbound content restoration and gameplay tweaking mod
 
-Version 13 (2015/02/25)
+Version 14 (2015/02/26)
 ----------
 
 Known to work with:
@@ -102,15 +102,21 @@ Changes
 
 + [R] Iron Beacon is available for crafting. As a result, the Penguin UFO boss can be summoned (moved to its own quest location in UG)
 
++ [R] Quest "The First Contact". Automatically assigned upon crafting or picking up the Iron Anvil. Reward: 500 pixels
+
++ [M] Quest "Tutorial VIII: Ups, Downs and the Beacons". Added mention of Distress Beacon
+
++ [M] Dreadwing Codex matches the old-new progression. Also, the boss will drop 5 Molten Core, 21 Core Fragment Ore and 1 Dreadwing Codex.
+
 + [R][Incomplete] Decoy Princess is available for crafting. As a result, the bone dragon boss can be summoned (disabled in UG, no proper quest yet. Sadly, dragon acts like a bird and won't breathe any fire nor open its mouth)
 
 + [R][Incomplete] Brain extractor and all robot parts are available for crafting. As a result, you can summon the robot boss (disabled in UG, no proper quest yet. In UG original robot was replaced by Penguin Bot and appears instead of the old one when summoned)
 
++ [N] Quest "The Brain Hunter". Automatically assigned upon crafting or picking up the Brain Extractor. Reward: 100-500 pixels
+
 + [N] 2 new cooking recipes:
  - Brain Stew. Cooked from Wheat, Pearlpea, Corn and Inferior Brain
  - Brain Pie. Cooked from Mashed Potato, Inferior Brain and Superior Brain
-
-+ [N] New quest: "The Brain Hunter". Automatically assigned upon picking up the Brain Extractor. Reward: 100-500 pixels
 
 + [R] Re-added developer clothing sets (can be crafted via Yarn Spinner):
  - Ban's set
@@ -124,6 +130,8 @@ Changes
 + [R] Silver, Gold, Platinum and Matter (Bonus) armors are available for crafting
 
 + [M] Removed protection from randomly generated dungeons. Explaination: they weren't designed to use shields in the first place, and lots of players has already experienced problems with being unable to even access their front entrances, "thanks" to randomly generated ground obstacles, which also went under protection of the shield.
+
++ [M] Restored battle music (mixdown at lower levels in order to tone down the interference with mission dungeons)
 
 + [N] More zoom levels (from 1.0 to 10, with 0.5 step) and screen resolutions:
  - 640 x 480
@@ -171,11 +179,13 @@ Third-party mods merged with CLeF
 + http://community.playstarbound.com/?resources/2498/ - More Screen Resolutions (by eurosat7)
 + http://community.playstarbound.com/?resources/2640/ - Apex Grind Again (by eurosat7)
 + http://community.playstarbound.com/?resources/2696/ - Developer Clothing Sets (by Lucaine)
++ http://community.playstarbound.com/?resources/2635/ - Prepare for Glory! (by LegendXCarisso)
 
 
 Version history
 ---------------
 
+- 2015/02/26 v14 - re-integrated "The First Contact" quest, Dreadwing UFO drops 5 Molten Core and 21 Core Fragment Ore. restored battle music (based on mod by LegendXCarisso)
 - 2015/02/25 v13 - restored Butterfly Boost tech, fixed description of Morph Ball tech
 - 2015/02/24 v12 - moved developer clothes recipe to tier1 items in player.config.patch, removed plantfibre.item.patch. fixes bunch of "learned how to craft..." messages which covered the entire screen
 - 2015/02/23 v11 - changed liquid interactions, core lava will now act like normal lava
