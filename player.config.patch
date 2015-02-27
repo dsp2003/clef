@@ -43,5 +43,12 @@
   { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "tiychest" } },
   { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "tiylegs" } },
 
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "lagoonchest" } },
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "lagoonhead" } },
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "lagoonpants" } },
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "slimechest" } },
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "slimehead" } },
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "slimelegs" } },
+
   { "op" : "replace", "path" : "/movementParameters/maximumCorrection", "value" : 10 }
 ]

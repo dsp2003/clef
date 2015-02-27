@@ -1,11 +1,10 @@
 # Choke Le Fish
 Starbound content restoration and gameplay tweaking mod
 
-Version 14 (2015/02/26)
+Version 15 (2015/02/27)
 ----------
 
 Known to work with:
-- [Stable] Upbeat Giraffe 2-666
 - [Stable] Upbeat Giraffe 2-668
 
 
@@ -132,6 +131,10 @@ Gameplay changes
  - Rhopunzel's set
  - Tiy's set
 
++ [R] Re-added armor sets:
+ - Slime set
+ - Lagoon set
+
 + [R] Silver, Gold, Platinum and Matter (Bonus) armors are available for crafting
 
 + [M] Removed protection from randomly generated dungeons. Explaination: they weren't designed to use shields in the first place, and lots of players has already experienced problems with being unable to even access their front entrances, "thanks" to randomly generated ground obstacles, which also went under protection of the shield.
@@ -183,11 +186,13 @@ Third-party mods merged with CLeF
 + http://community.playstarbound.com/?resources/2640/ - Apex Grind Again (by eurosat7)
 + http://community.playstarbound.com/?resources/2696/ - Developer Clothing Sets (by Lucaine)
 + http://community.playstarbound.com/?resources/2635/ - Prepare for Glory! (by LegendXCarisso)
++ http://community.playstarbound.com/?resources/2728/ - Swamp & Lagoon Armor Returned (by Campaigner)
 
 
 Version history
 ---------------
 
+- 2015/02/27 v15 - re-added swamp & lagoon armour sets (based on mod by Campaigner)
 - 2015/02/26 v14 - re-integrated "The First Contact" quest, Dreadwing UFO drops 5 Molten Core and 21 Core Fragment Ore. restored battle music (based on mod by LegendXCarisso)
 - 2015/02/25 v13 - restored Butterfly Boost tech, fixed description of Morph Ball tech
 - 2015/02/24 v12 - moved developer clothes recipe to tier1 items in player.config.patch, removed plantfibre.item.patch. fixes bunch of "learned how to craft..." messages which covered the entire screen
