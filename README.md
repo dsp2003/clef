@@ -39,16 +39,21 @@ Glossary
 * [R] - restored feature
 * [F] - fix
 
-Changes
--------
+Gameplay changes
+----------------
 
-+ [M] Liquid interactions changed:
- - Water + Healing water -> Healing water
- - Poison + Healing water -> Water
- - Lava + Healing water -> Magma rock
- - Lava + Coffee -> Magma rock
- - Lava + Alien juice -> Magma rock
- - Lava + Poison -> Magma rock
++ [N] Implemented more liquid interactions (also added all interactions from Lava to Core lava. Yes, you can harvest it too):
+
+ - Water + Healing Water => Healing Water
+ - Poison + Healing Water => Water
+ - Lava + Healing water => Magma rock
+ - Lava + Coffee => Magma rock
+ - Lava + Alien juice => Magma rock
+ - Lava + Poison => Magma rock
+ - Core Lava + Healing water => Magma rock
+ - Core Lava + Coffee => Magma rock
+ - Core Lava + Alien juice => Magma rock
+ - Core Lava + Poison => Magma rock
 
 + [R] Diamond ore will spawn instead of "perfectly cut" diamonds in unvisited worlds (diamonds will still spawn in treasure chests)
 
