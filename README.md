@@ -1,7 +1,7 @@
 # Choke Le Fish
 Starbound content restoration and gameplay tweaking mod
 
-Version 15 (2015/02/27)
+Version 16 (2015/02/28)
 ----------
 
 Known to work with:
@@ -54,6 +54,8 @@ Gameplay changes
  - Core Lava + Alien juice => Magma rock
  - Core Lava + Poison => Magma rock
 
++ [M] Renamed "Coffee Seed" into "Raw Coffee Beans". You can roast them in Microwave or Campfire and get consumable "Coffee Beans"
+
 + [R] Diamond ore will spawn instead of "perfectly cut" diamonds in unvisited worlds (diamonds will still spawn in treasure chests)
 
 + [M] Diamond can be crafted in Alloy Furnace from 2 diamond ores (recipe learned on picking up the diamond ore, was 4 diamond ores in EK and removed entirely in UG)
@@ -96,7 +98,7 @@ Gameplay changes
  - Diamond Pickaxe  (d:  350 -> 7500)
  - Platinum Pickaxe (d: 200 -> 10000)
 
-+ [M] Drills and pickaxes can be repaired via Basic Crafting, with both bars and ore (new custom button at the bottom left). Because the original repair funcionality was cut out from the game logic and the way the new repair function was implemented, it is (currently) impossible to distinguish between the new and used tools, hence it is strongly recommended to keep only a single instance of each in your inventory. Also, it is still possible to break them completely, which will make them disappear, so don't let their health bar to deplete!
++ [R] Drills and pickaxes can be repaired with bars, ore and diamonds (open your inventory, equip tool, select ore/bar/diamond and right-click on the tool icon)
 
 + [N] Chainsaw can be crafted via Metalwork Station for 6 Durasteel Bar and 12 Steel Bar
 
@@ -132,7 +134,7 @@ Gameplay changes
  - Tiy's set
 
 + [R] Re-added armor sets:
- - Slime set
+ - Slime set (requires 1 Slime Block per item, recipes learned upon Slime Block pickup)
  - Lagoon set
 
 + [R] Silver, Gold, Platinum and Matter (Bonus) armors are available for crafting
@@ -192,6 +194,7 @@ Third-party mods merged with CLeF
 Version history
 ---------------
 
+- 2015/02/28 v16 - restored classic repair functionality (thanks to Grover Cures Houses), removed "repair" recipes, renamed Coffee Seed to Raw Coffee Beans, Raw Coffee Beans to Coffee Beans via campfire/microwave, slime armor now requires 1 slime block per item
 - 2015/02/27 v15 - re-added swamp & lagoon armour sets (based on mod by Campaigner)
 - 2015/02/26 v14 - re-integrated "The First Contact" quest, Dreadwing UFO drops 5 Molten Core and 21 Core Fragment Ore. restored battle music (based on mod by LegendXCarisso)
 - 2015/02/25 v13 - restored Butterfly Boost tech, fixed description of Morph Ball tech

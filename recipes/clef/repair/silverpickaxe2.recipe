@@ -1,8 +1,0 @@
-{
-  "input" : [
-    { "item" : "silverpickaxe", "count" : 1 },
-    { "item" : "silverore", "count" : 2 }
-  ],
-  "output" : { "item" : "silverpickaxe", "count" : 1 },
-  "groups" : [ "plain", "repair", "all" ]
-}
