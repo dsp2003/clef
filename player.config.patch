@@ -21,6 +21,8 @@
   { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "robot" } },
   { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "decoyprincess" } },
 
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "distressbeacon" } },
+
   { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "chainsaw"} },
 
   { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "banhead" } },

@@ -12,13 +12,8 @@
     {
         "effect" : "maxhealthboost20",
         "duration" : 120
-    },
-    {
-        "effect" : "wellfed",
-        "duration" : 240
     }
   ] ],
   "blockingEffects" : [
-    "wellfed"
   ]
 }

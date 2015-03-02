@@ -6,7 +6,7 @@
     { "item" : "silverbar", "count" : 1 }
   ],
   "output" : {
-    "item" : "ironbeacon",
+    "item" : "distressbeacon",
     "count" : 1
   },
   "groups" : [ "craftingtable", "objects", "tools", "all" ]

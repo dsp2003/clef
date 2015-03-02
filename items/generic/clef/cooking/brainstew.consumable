@@ -9,14 +9,9 @@
     {
         "effect" : "foodheal240",
         "duration" : 60
-    },
-    {
-        "effect" : "wellfed",
-        "duration" : 210
     }
   ] ],
   "blockingEffects" : [
-    "wellfed"
   ],
   "emitters" : [ "drinking" ],
   "learnBlueprintsOnPickup" : [ "brainpie", "mashedpotato" ]

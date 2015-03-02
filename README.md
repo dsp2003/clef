@@ -1,7 +1,7 @@
 # Choke Le Fish
 Starbound content restoration and gameplay tweaking mod
 
-Version 16 (2015/02/28)
+Version 17 (2015/03/03)
 ----------
 
 Known to work with:
@@ -194,6 +194,7 @@ Third-party mods merged with CLeF
 Version history
 ---------------
 
+- 2015/03/03 v17 - removed "wellfed" effect from CLeF consumables, added plain Popcorn consumable and recipe for cooking and kitchen categories, cloned and repainted distress beacon object in order to remove possible collisions with other mods, removed recipe for vanilla distress beacon
 - 2015/02/28 v16 - restored classic repair functionality (thanks to Grover Cures Houses), removed "repair" recipes, renamed Coffee Seed to Raw Coffee Beans, Raw Coffee Beans to Coffee Beans via campfire/microwave, slime armor now requires 1 slime block per item
 - 2015/02/27 v15 - re-added swamp & lagoon armour sets (based on mod by Campaigner)
 - 2015/02/26 v14 - re-integrated "The First Contact" quest, Dreadwing UFO drops 5 Molten Core and 21 Core Fragment Ore. restored battle music (based on mod by LegendXCarisso)
