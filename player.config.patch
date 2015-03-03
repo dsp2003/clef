@@ -2,15 +2,15 @@
   { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "bonusarmorhead" } },
   { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "bonusarmorchest" } },
   { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "bonusarmorpants" } },
-  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "silverarmorhead" } },
-  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "silverarmorchest" } },
-  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "silverarmorpants" } },
-  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "goldarmorhead" } },
-  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "goldarmorchest" } },
-  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "goldarmorpants" } },
-  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "platinumarmorhead" } },
-  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "platinumarmorchest" } },
-  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "platinumarmorpants" } },
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "silverhead" } },
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "silverchest" } },
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "silverpants" } },
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "goldhead" } },
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "goldchest" } },
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "goldpants" } },
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "platinumhead" } },
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "platinumchest" } },
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "platinumpants" } },
 
   { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "brainextractor" } },
   { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "artificialbrain" } },
@@ -23,7 +23,11 @@
 
   { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "distressbeacon" } },
 
-  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "chainsaw"} },
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "chainsaw" } },
+
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "stoneaxe" } },
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "stonepickaxe" } },
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "stonehoe" } },
 
   { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "banhead" } },
   { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "banchest" } },

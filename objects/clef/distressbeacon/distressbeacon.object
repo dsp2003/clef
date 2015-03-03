@@ -2,7 +2,7 @@
   "objectName" : "distressbeacon",
   "rarity" : "Uncommon",
   "description" : "A distress beacon. Who knows who might hear it?",
-  "shortdescription" : "Distress Beacon",
+  "shortdescription" : "Oldschool Distress Beacon",
   "race" : "generic",
   "category" : "tools",
   "printable" : false,

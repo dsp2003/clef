@@ -1,7 +1,7 @@
 # Choke Le Fish
 Starbound content restoration and gameplay tweaking mod
 
-Version 17 (2015/03/03)
+Version 18 (2015/03/04)
 ----------
 
 Known to work with:
@@ -86,12 +86,15 @@ Gameplay changes
 
 + [N] Removed 1000 items limit for Rope
 
-+ [R] All pickaxes and drills have EK's durability values (which means they won't break so fast), block radius, tile damage and material costs (except pixel requirements):
++ [R] Stone Axe, Stone Pickaxe and Stone Hoe can be crafted at Crafting Table. Note that Stone Pickaxe cannot be repaired.
+
++ [R] All pickaxes (except Stone Pickaxe) and drills have EK's durability values (which means they won't break so fast), block radius, tile damage and material costs (except pixel requirements):
  - Copper Drill     (d: 1000 -> 3000, b: 2 -> 3, d: 1.5 -> 2.9)
  - Silver Drill     (d: 1000 -> 3000, b: 2 -> 3, d: 2.0 -> 3.1)
  - Golden Drill     (d: 1000 -> 3000, b: 2 -> 3, d: 2.5 -> 3.3)
  - Diamond Drill    (d: 1000 -> 3000, b: 2 -> 3, d: 3.5 -> 3.7)
  - Platinum Drill   (d: 1000 -> 3000, b: 2 -> 3, d: 3.0 -> 3.5)
+ - Stone Pickaxe    (d: 5000, b: 3, d: 2.0, cannot be repaired)
  - Copper Pickaxe   (d:  200 -> 7500)
  - Silver Pickaxe   (d:  200 -> 7500)
  - Golden Pickaxe   (d:  200 -> 7500)
@@ -133,9 +136,14 @@ Gameplay changes
  - Rhopunzel's set
  - Tiy's set
 
-+ [R] Re-added armor sets:
++ [R] Re-added armour sets:
  - Slime set (requires 1 Slime Block per item, recipes learned upon Slime Block pickup)
- - Lagoon set
+ - Lagoon set (not yet balanced)
+ - Diamond set (requires 19 Diamonds and 6 Durasteel Bar, crafted at Metalwork Station)
+ - Silver set
+ - Golden set
+ - Platinum set
+ - Matter set (aka Bonus set)
 
 + [R] Silver, Gold, Platinum and Matter (Bonus) armors are available for crafting
 
@@ -194,6 +202,7 @@ Third-party mods merged with CLeF
 Version history
 ---------------
 
+- 2015/03/04 v18 - added Creative Mode spawn recipes for every restored/implemented item, re-added stone tools (axe, pickaxe and hoe), added recipe for vanilla diamond armor, fixed links to restored vanilla armour sets (silver, golden, platinum, matter)
 - 2015/03/03 v17 - removed "wellfed" effect from CLeF consumables, added plain Popcorn consumable and recipe for cooking and kitchen categories, cloned and repainted distress beacon object in order to remove possible collisions with other mods, removed recipe for vanilla distress beacon
 - 2015/02/28 v16 - restored classic repair functionality (thanks to Grover Cures Houses), removed "repair" recipes, renamed Coffee Seed to Raw Coffee Beans, Raw Coffee Beans to Coffee Beans via campfire/microwave, slime armor now requires 1 slime block per item
 - 2015/02/27 v15 - re-added swamp & lagoon armour sets (based on mod by Campaigner)
