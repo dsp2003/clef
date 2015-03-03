@@ -145,8 +145,6 @@ Gameplay changes
  - Platinum set
  - Matter set (aka Bonus set)
 
-+ [R] Silver, Gold, Platinum and Matter (Bonus) armors are available for crafting
-
 + [M] Removed protection from randomly generated dungeons. Explaination: they weren't designed to use shields in the first place, and lots of players has already experienced problems with being unable to even access their front entrances, "thanks" to randomly generated ground obstacles, which also went under protection of the shield.
 
 + [M] Restored battle music (mixdown at lower levels in order to tone down the interference with mission dungeons)
