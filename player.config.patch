@@ -11,6 +11,9 @@
   { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "platinumhead" } },
   { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "platinumchest" } },
   { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "platinumpants" } },
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "diamondarmorhead" } },
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "diamondarmorchest" } },
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "diamondarmorpants" } },
 
   { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "brainextractor" } },
   { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "artificialbrain" } },
