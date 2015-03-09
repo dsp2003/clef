@@ -18,14 +18,33 @@ This mod is my small and clumsy attempt to address and revert these changes in U
 Starting from Version 6, CLeF also incorporates work by other awesome people. See the full list of mods and their authors at the end of the description.
 
 
+Frequently Asked Questions
+--------------------------
+
+Q: So, I've repaired my ship and decided to move to another planet in the local system. I'm clicking "GO" and nothing happens.
+A: You'll have to fuel your ship first (lava, coal, core fragment ore or even oil will do the trick). Please keep in mind the intraspace travel is no longer free. The fuel cost simply doesn't show up on Tier 2 ships (without repaired FTL drive) due to a bug.
+
+Q: I can't access fuel hatch! My character has stuck at his starter planet! I was playing as custom race.
+A: It's impossible for me to fix custom races due to random mod load order and the fact .png definition files cannot be incrementally patched. Please ask the author of that race to move working fuel hatch from Tier 3 ship to Tier 2 (I've asked some of them, and you can find their races in "Recommended mods" section).
+
+Also, you can fix it on your own - open <racename>t2blocks.png and copy fuel hatch pixel (orange-red at the top of a blue block) from <racename>t3blocks.png. Note you'll have to delete your shipworld, otherwise the fix won't be applied (don't forget to take everything you don't want to lose with you).
+
+Q: Okay, I beat the UFO boss. Where's the rest of the quests?
+A: This mod is work-in-progress. Please be patient.
+
+
+Help wanted
+-----------
+
+As a beginner in Starbound modding, I have little to no knowledge in LUA, so this prevents me from re-implementing lots of things. I would really appreciate your help. If you've noticed another feature, object or armor that was removed by Chucklefish and want it back, please tell me immediately!
+
+
 Known bugs
 ----------
 
 + The game prevents patching of items/defaultparameters.config, hence a complete replacement file is used instead. CLeF will conflict with any mods that replace it.
 
-+ CLeF will conflict with any mod which adds learnBlueprintsOnPickup variable to items/generic/crafting/corefragmentore.item. The solution is to remove the above-mentioned variable from CLeF and insert contents of variable into problematic mod's patch.
-
-+ The fuel cost indicator doesn't show up on Tier 2 ships (without repaired FTL drive), even though the intraspace travel is no longer free. Please keep this in mind.
++ CLeF will conflict with any mod which adds "learnBlueprintsOnPickup" variable to items/objects. The solution is to move the above-mentioned variable from CLeF and insert contents of variable into problematic mod's patch.
 
 
 Glossary
