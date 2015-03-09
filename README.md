@@ -17,6 +17,8 @@ This mod is my small and clumsy attempt to address and revert these changes in U
 
 Starting from Version 6, CLeF also incorporates work by other awesome people. See the full list of mods and their authors at the end of the description.
 
+Note though THIS IS NOT A MODPACK, as the merged mods are not simply copy-pasted, but rebalanced, rearranged and tightly integrated with the rest of the content, hence they WILL CONFLICT WITH ORIGINAL MODS.
+
 
 Frequently Asked Questions
 --------------------------
