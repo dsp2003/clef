@@ -1,7 +1,7 @@
 # Choke Le Fish
 Starbound content restoration and gameplay tweaking mod
 
-Version 18 (2015/03/04)
+Version 19 (2015/03/15)
 ----------
 
 Known to work with:
@@ -87,6 +87,8 @@ Gameplay changes
 
 + [R] Metalwork station requires 1 Molten Core to craft (same as in EK)
 
++ [M] Added Old Stone Furnace and Old Alloy Furnace (unlike the UG's workbench-based versions, these are container-based and significantly cheaper)
+
 + [R] Coal can be crafted from 10 Unrefined Wood in Stone Furnace (recipe learned on picking up the Wood)
 
 + [N] Core fragment gives 10 points of fuel (seriously, what that pile of blasted glowing stones is even good for?!)
@@ -147,6 +149,8 @@ Gameplay changes
 + [N] 2 new cooking recipes:
  - Brain Stew. Cooked from Wheat, Pearlpea, Corn and Inferior Brain
  - Brain Pie. Cooked from Mashed Potato, Inferior Brain and Superior Brain
+
++ [N] Monster's Brain in a Jar decorative item can be crafted from 1 Inferior Brain, 1 Glass Block and 1 Iron Bar at Crafting Table (recipe learned upon picking up Inferior Brain)
 
 + [R] Re-added developer clothing sets (can be crafted via Yarn Spinner):
  - Ban's set
@@ -221,6 +225,7 @@ Third-party mods merged with CLeF
 Version history
 ---------------
 
+- 2015/03/15 v19 - added Old Stone Furnace, Old Alloy Furnace and Monster's Brain in a Jar
 - 2015/03/04 v18 - added Creative Mode spawn recipes for every restored/implemented item, re-added stone tools (axe, pickaxe and hoe), added recipe for vanilla diamond armor, fixed links to restored vanilla armour sets (silver, golden, platinum, matter)
 - 2015/03/03 v17 - removed "wellfed" effect from CLeF consumables, added plain Popcorn consumable and recipe for cooking and kitchen categories, cloned and repainted distress beacon object in order to remove possible collisions with other mods, removed recipe for vanilla distress beacon
 - 2015/02/28 v16 - restored classic repair functionality (thanks to Grover Cures Houses), removed "repair" recipes, renamed Coffee Seed to Raw Coffee Beans, Raw Coffee Beans to Coffee Beans via campfire/microwave, slime armor now requires 1 slime block per item
