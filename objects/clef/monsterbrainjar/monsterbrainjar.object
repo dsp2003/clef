@@ -5,7 +5,7 @@
   "price" : 50,
   "description" : "A brain in a jar, daydreaming.",
   "shortdescription" : "Monster's brain in a Jar",
-  "race" : "apex",
+  "race" : "generic",
   "apexDescription" : "This is an animal brain...",
   "avianDescription" : "A brain of a vicious creature.",
   "floranDescription" : "Resssst in piecessss.",
