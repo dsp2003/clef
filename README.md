@@ -1,7 +1,7 @@
 # Choke Le Fish
 Starbound content restoration and gameplay tweaking mod
 
-Version 20 (2015/03/16)
+Version 20 (2015/03/17)
 ----------
 
 Known to work with:
@@ -98,7 +98,11 @@ Gameplay changes
 
 + [R] Coal can be crafted from 10 Unrefined Wood in Stone Furnace (recipe learned on picking up the Wood)
 
++ [N] Erchius Crystal can be crafted from 8 Liquid Erchius Fuel and 1 Diamond in Alloy Furnace (recipe learned on picking up the Erchius Fuel)
+
 + [N] Core fragment gives 10 points of fuel (seriously, what that pile of blasted glowing stones is even good for?!)
+
++ [N] Erchius Crystal gives 10 points of fuel (same as above)
 
 + [N] Oil gives 1 point of fuel (it's flammable IRL, so why not?)
 
@@ -232,6 +236,7 @@ Third-party mods merged with CLeF
 Version history
 ---------------
 
+- 2015/03/17 v20 - erchius crystal from liquid fuel and diamonds, erchius crystal as fuel, does not deserve a separate version number
 - 2015/03/16 v20 - balanced pixel prices for old furnaces, blocks of Erchius Crystals drop Erchius Crystals
 - 2015/03/15 v19 - added Old Stone Furnace, Old Alloy Furnace and Monster's Brain in a Jar, renamed Distress Beacon and fixed quest descriptions
 - 2015/03/04 v18 - added Creative Mode spawn recipes for every restored/implemented item, re-added stone tools (axe, pickaxe and hoe), added recipe for vanilla diamond armor, fixed links to restored vanilla armour sets (silver, golden, platinum, matter)
