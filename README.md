@@ -1,7 +1,7 @@
 # Choke Le Fish
 Starbound content restoration and gameplay tweaking mod
 
-Version 19 (2015/03/15)
+Version 20 (2015/03/16)
 ----------
 
 Known to work with:
@@ -82,6 +82,8 @@ Gameplay changes
 
 + [M] Renamed "Coffee Seed" into "Raw Coffee Beans". You can roast them in Microwave or Campfire and get consumable "Coffee Beans"
 
++ [F] Blocks of Erchius Crystals will drop Erchius Crystals (instead of placeholder crystals)
+
 + [R] Diamond ore will spawn instead of "perfectly cut" diamonds in unvisited worlds (diamonds will still spawn in treasure chests)
 
 + [M] Diamond can be crafted in Alloy Furnace from 2 diamond ores (recipe learned on picking up the diamond ore, was 4 diamond ores in EK and removed entirely in UG)
@@ -151,11 +153,11 @@ Gameplay changes
 
 + [N] Quest "The Brain Hunter". Automatically assigned upon crafting or picking up the Brain Extractor. Reward: 100-500 pixels
 
-+ [N] 2 new cooking recipes:
- - Brain Stew. Cooked from Wheat, Pearlpea, Corn and Inferior Brain
- - Brain Pie. Cooked from Mashed Potato, Inferior Brain and Superior Brain
++ [N] Cooking recipe "Brain Stew". Cooked from Wheat, Pearlpea, Corn and Inferior Brain
 
-+ [N] Monster's Brain in a Jar decorative item can be crafted from 1 Inferior Brain, 1 Glass Block and 1 Iron Bar at Crafting Table (recipe learned upon picking up Inferior Brain)
++ [N] Cooking recipe "Brain Pie. Cooked from Mashed Potato, Inferior Brain and Superior Brain
+
++ [N] Decorative "Monster's Brain in a Jar" item can be crafted from 1 Inferior Brain, 1 Glass Block and 1 Iron Bar at Crafting Table (recipe learned upon picking up Inferior Brain)
 
 + [R] Re-added developer clothing sets (can be crafted via Yarn Spinner):
  - Ban's set
@@ -230,6 +232,7 @@ Third-party mods merged with CLeF
 Version history
 ---------------
 
+- 2015/03/16 v20 - balanced pixel prices for old furnaces, blocks of Erchius Crystals drop Erchius Crystals
 - 2015/03/15 v19 - added Old Stone Furnace, Old Alloy Furnace and Monster's Brain in a Jar, renamed Distress Beacon and fixed quest descriptions
 - 2015/03/04 v18 - added Creative Mode spawn recipes for every restored/implemented item, re-added stone tools (axe, pickaxe and hoe), added recipe for vanilla diamond armor, fixed links to restored vanilla armour sets (silver, golden, platinum, matter)
 - 2015/03/03 v17 - removed "wellfed" effect from CLeF consumables, added plain Popcorn consumable and recipe for cooking and kitchen categories, cloned and repainted distress beacon object in order to remove possible collisions with other mods, removed recipe for vanilla distress beacon

@@ -6,7 +6,7 @@
   "race" : "generic",
   "subtitle" : "Classic smelting.",
   "category" : "crafting",
-  "price" : 200,
+  "price" : 25,
   "objectType" : "container",
   "printable" : false,
   "hydrophobic" : true,
