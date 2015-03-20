@@ -34,6 +34,7 @@
 
   { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "oldstonefurnace" } },
   { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "oldalloyfurnace" } },
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "powerloom" } },
 
   { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "banhead" } },
   { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "banchest" } },

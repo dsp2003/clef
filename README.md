@@ -1,7 +1,7 @@
 # Choke Le Fish
 Starbound content restoration and gameplay tweaking mod
 
-Version 20 (2015/03/17)
+Version 21 (2015/03/21)
 ----------
 
 Known to work with:
@@ -163,6 +163,8 @@ Gameplay changes
 
 + [N] Decorative "Monster's Brain in a Jar" item can be crafted from 1 Inferior Brain, 1 Glass Block and 1 Iron Bar at Crafting Table (recipe learned upon picking up Inferior Brain)
 
++ [N] Power Loom, a modern replacement for Spinning Wheel, can be crafted in Metalwork Station for 8 Steel Bars
+
 + [R] Re-added developer clothing sets (can be crafted via Yarn Spinner):
  - Ban's set
  - Bartwe's glasses
@@ -200,6 +202,8 @@ Gameplay changes
 
 + [F] Performance patch: added optimized Hobo true-type font (58 KiB and ~50000 points versus 86 Kib and ~90000 points) with fixed cyrillic characters
 
++ [M] Replaced Chucklefish icon and logo animation with recoloured & shaded version (also fixed "u" which strongly resembled "v")
+
 
 To-do
 -----
@@ -231,11 +235,13 @@ Third-party mods merged with CLeF
 + http://community.playstarbound.com/?resources/2696/ - Developer Clothing Sets (by Lucaine)
 + http://community.playstarbound.com/?resources/2635/ - Prepare for Glory! (by LegendXCarisso)
 + http://community.playstarbound.com/?resources/2728/ - Swamp & Lagoon Armor Returned (by Campaigner)
++ http://community.playstarbound.com/?resources/2705/ - Loom (by I Said No)
 
 
 Version history
 ---------------
 
+- 2015/03/21 v21 - added Power Loom object (based on mod by I Said No), added reworked Chucklefish icon and logo animation
 - 2015/03/17 v20 - erchius crystal from liquid fuel and diamonds, erchius crystal as fuel, does not deserve a separate version number
 - 2015/03/16 v20 - balanced pixel prices for old furnaces, blocks of Erchius Crystals drop Erchius Crystals
 - 2015/03/15 v19 - added Old Stone Furnace, Old Alloy Furnace and Monster's Brain in a Jar, renamed Distress Beacon and fixed quest descriptions
