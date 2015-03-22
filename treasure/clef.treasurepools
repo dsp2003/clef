@@ -4,8 +4,12 @@
   // Penguin UFO
   "clefPenguinUFO" : [
     [1, {
-      "fill" : [ {"item" : [ "corefragmentore", 21]}, {"item" : [ "moltencore", 5]}, {"item" : "bossdreadwingCodex"}]
+      "fill" : [ { "item" : [ "corefragmentore", 21 ] }, { "item" : [ "moltencore", 5 ] }, { "item" : "bossdreadwingCodex" } ]
+    }]
+  ],
+  "clefBoneDragon" : [
+    [1, {
+      "fill" : [ { "item" : [ "dragonbone", 5 ] }, { "item" : "bossbonedragonCodex" } ]
     }]
   ]
-
 }

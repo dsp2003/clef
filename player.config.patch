@@ -22,7 +22,6 @@
   { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "robotlegs" } },
   { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "robotarms" } },
   { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "robot" } },
-  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "decoyprincess" } },
 
   { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "distressbeacon" } },
 

@@ -1,7 +1,7 @@
 # Choke Le Fish
 Starbound content restoration and gameplay tweaking mod
 
-Version 21 (2015/03/21)
+Version 22 (2015/03/22)
 ----------
 
 Known to work with:
@@ -13,7 +13,7 @@ Overview
 
 As you probably know, not all players are happy with the changes that were made to the game in comparison with Enraged Koala builds. Although many new things were added, a lot of the aspects were nerfed or removed altogether, which made the game less fun and far more boring.
 
-This mod is my small and clumsy attempt to address and revert these changes in Upbeat Giraffe to some degree, as well as introduce other balance tweaks, which are backported from the Enraged Koala I modded privately for my personal enjoyment. ;)
+This mod is my attempt to address and revert these changes in Upbeat Giraffe to some degree, as well as introduce other balance tweaks, which are backported from the Enraged Koala I modded privately for my personal enjoyment. ;)
 
 Starting from Version 6, CLeF also incorporates work by other awesome people. See the full list of mods and their authors at the end of the description.
 
@@ -38,6 +38,7 @@ Also, you can fix it on your own - open <racename>t2blocks.png and copy fuel hat
 Q: Okay, I beat the UFO boss. Where's the rest of the quests?
 
 A: This mod is work-in-progress. Please be patient.
+Since the v22 you can beat the Bone Dragon boss. It's integrated into Outpost Mute Glitch's quest line.
 
 
 Help wanted
@@ -151,7 +152,15 @@ Gameplay changes
 
 + [M] Dreadwing Codex matches the old-new progression. Also, the boss will drop 5 Molten Core, 21 Core Fragment Ore and 1 Dreadwing Codex.
 
-+ [R][Incomplete] Decoy Princess is available for crafting. As a result, the bone dragon boss can be summoned (disabled in UG, no proper quest yet. Sadly, dragon acts like a bird and won't breathe any fire nor open its mouth)
++ [N] Quest "Wreckage of the Dreadwing". Automatically assigned upon picking up the Dreadwing's Wreckage.
+
++ [M] Upon completing the "Dreadwing" quest, penguin will give 50 Matter Item, which can be used to craft Bonus Armour (otherwise the material for it is nowhere to be found)
+
++ [R] Decoy Princess is available for crafting. As a result, the Bone Dragon boss can be summoned (disabled in UG. Sadly, dragon acts like a bird and won't breathe any fire nor open its mouth. I'm unable to restore its original behaviour without scripting help!)
+
++ [N] Added decorative Decoy Princess Scheme object. Given by "Mute" Glitch upon starting "Bad To The Bone" quest.
+
++ [N] Quest "Bad To The Bone". Given by "Mute" Glitch at Outpost for players with Tier 5 ship.
 
 + [R][Incomplete] Brain extractor and all robot parts are available for crafting. As a result, you can summon the robot boss (disabled in UG, no proper quest yet. In UG original robot was replaced by Penguin Bot and appears instead of the old one when summoned)
 
@@ -241,6 +250,7 @@ Third-party mods merged with CLeF
 Version history
 ---------------
 
+- 2015/03/22 v22 - added Wreckage of Dreadwing quest, patched Dreadwing quest to obtain matteritem and Bonus Armour, added Bad To The Bone quest and Decoy Princess Schematics decorative object. Bone Dragon boss is now integrated into quest line
 - 2015/03/21 v21 - added Power Loom object (based on mod by I Said No), added reworked Chucklefish icon and logo animation
 - 2015/03/17 v20 - erchius crystal from liquid fuel and diamonds, erchius crystal as fuel, does not deserve a separate version number
 - 2015/03/16 v20 - balanced pixel prices for old furnaces, blocks of Erchius Crystals drop Erchius Crystals
