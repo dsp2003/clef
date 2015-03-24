@@ -14,15 +14,15 @@ Known to work with:
 Installation
 ------------
 
-0. Create "clef" directory in "starbound/giraffe_storage/mods/".
+Copy the following directories into "starbound/giraffe_storage/mods/" directory:
 
-1. Copy contents of "CLeF - Common" into "starbound/giraffe_storage/mods/clef/" directory.
++ "CLeF - Common"
 
-2a. Merge contents of "CLeF - UG 2-66x" with the "clef" directory, if you have stable release between UG 2-666 and 2-668.
++ "CLeF - UG 2-66x", if you have Stable release between UG 2-666 and 2-668
 
-2b. Merge contents of "CLeF - UG 2-67x" with the "clef" directory, if you have unstable release between UG 2-670 and 2-673.
++ "CLeF - UG 2-67x", if you have Unstable release between UG 2-670 and 2-673
 
-3. If you hate the restrictions which were imposed on us by Chucklefish and want to loot everything in the scripted worlds - merge contents of "CLeF - Cheats" as well.
++ "CLeF - Cheats", if you hate the restrictions which were imposed on us by Chucklefish and want to loot everything in the scripted worlds ;)
 
 
 Overview
