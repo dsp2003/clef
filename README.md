@@ -1,11 +1,28 @@
 # Choke Le Fish
 Starbound content restoration and gameplay tweaking mod
 
-Version 22 (2015/03/22)
+Version 23 (2015/03/24)
 ----------
 
 Known to work with:
+- [Stable] Upbeat Giraffe 2-666
 - [Stable] Upbeat Giraffe 2-668
+- [Unstable] Upbeat Giraffe 2-670
+- [Unstable] Upbeat Giraffe 2-673
+
+
+Installation
+------------
+
+0. Create "clef" directory in "starbound/giraffe_storage/mods/".
+
+1. Copy contents of "CLeF - Common" into "starbound/giraffe_storage/mods/clef/" directory.
+
+2a. Merge contents of "CLeF - UG 2-66x" with the "clef" directory, if you have stable release between UG 2-666 and 2-668.
+
+2b. Merge contents of "CLeF - UG 2-67x" with the "clef" directory, if you have unstable release between UG 2-670 and 2-673.
+
+3. If you hate the restrictions which were imposed on us by Chucklefish and want to loot everything in the scripted worlds - merge contents of "CLeF - Cheats" as well.
 
 
 Overview
@@ -111,6 +128,10 @@ Gameplay changes
 
 + [R] Coal gives 2 points of fuel (same as in EK, 0 in UG)
 
++ [M] Remote Teleporter can be crafted via Iron Crafting Table for 2 Circuit Boards, 1 Diamond, 5 Golden Bars and 5 Durasteel Bars. Also, it can be safely placed and removed without object's destruction. Added hint lines for Novakid race
+
++ [N] Added Portable Teleporter object. Can be crafted via Iron Crafting Table for 1 Circuit Board, 1 Diamond, 2 Golden Bars and 2 Durasteel Bars
+
 + [M] Intraspace travel takes 5 points of fuel (was 50 in EK, 0 in UG made little to no sense, but...)
 
 + [F] Fixed inability to fuel your ship for vanilla races when starting a new game (required because intraspace travels are not free anymore)
@@ -192,7 +213,9 @@ Gameplay changes
  - Platinum set
  - Matter set (aka Bonus set)
 
-+ [M] Removed protection from randomly generated dungeons. Explaination: they weren't designed to use shields in the first place, and lots of players has already experienced problems with being unable to even access their front entrances, "thanks" to randomly generated ground obstacles, which also went under protection of the shield.
++ [M] Removed protection from randomly generated dungeons. Explaination: they weren't designed to use shields in the first place, and lots of players has already experienced problems with being unable to even access their front entrances, "thanks" to randomly generated ground obstacles, which also went under protection of the shield
+
++ [M] In order to compensate the protection removal, Tesla Spikes now have 200 points of "health" and much harder to harvest as a result
 
 + [M] Restored battle music (mixdown at lower levels in order to tone down the interference with mission dungeons)
 
@@ -214,16 +237,32 @@ Gameplay changes
 + [M] Replaced Chucklefish icon and logo animation with recoloured & shaded version (also fixed "u" which strongly resembled "v")
 
 
-To-do
------
+Cheat addon changes
+-------------------
+
++ [M] Removed protection from all mission-generated dungeons
+
++ [N] Extra zoom levels (from 0.5 to 1, with 0.1 step)
+
+
+To-do list
+----------
+
+Seamlessly integrate the old quests and boss fights back into game:
+
++ Restore Fatal Circuit (partially done, script crash prevents further integration)
+
++ Restore Bone Dragon (partially done, needs LUA/behavior changes)
+
++ Restore Jelly Monster (needs some quest scripting)
+
+Bring back biome variety:
 
 + Restore all removed biomes and mini-biomes
 
 + The moons with more life and loot underneath, not just a stinky fuel
 
 + Barren worlds with realistic core, undercaves and stuff
-
-+ Seamlessly integrate the old quests and boss fights back into game (as alternative way of obtaining quest items required for progression) and/or make progression as non-linear as possible
 
 + Bunch of other stuff I tend to forget...
 
@@ -250,6 +289,7 @@ Third-party mods merged with CLeF
 Version history
 ---------------
 
+- 2015/03/24 v23 - added option to install on both Stable and Nightly, patched teleporter object to be craftable and transferable, added portable teleporter, added cheats
 - 2015/03/22 v22 - added Wreckage of Dreadwing quest, patched Dreadwing quest to obtain matteritem and Bonus Armour, added Bad To The Bone quest and Decoy Princess Schematics decorative object. Bone Dragon boss is now integrated into quest line
 - 2015/03/21 v21 - added Power Loom object (based on mod by I Said No), added reworked Chucklefish icon and logo animation
 - 2015/03/17 v20 - erchius crystal from liquid fuel and diamonds, erchius crystal as fuel, does not deserve a separate version number
