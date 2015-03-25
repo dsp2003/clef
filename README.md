@@ -16,11 +16,11 @@ Installation
 
 Copy the following directories into "starbound/giraffe_storage/mods/" directory:
 
-+ "CLeF - Common"
++ "CLeF - Common", contains the core mod files common for all game versions
 
 + "CLeF - UG 2-66x", if you have Stable release between UG 2-666 and 2-668
 
-+ "CLeF - UG 2-67x", if you have Unstable release between UG 2-670 and 2-673
++ "CLeF - UG 2-67x", if you have Nightly release between UG 2-670 and 2-673
 
 + "CLeF - Cheats", if you hate the restrictions which were imposed on us by Chucklefish and want to loot everything in the scripted worlds ;)
 
