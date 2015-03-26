@@ -240,7 +240,7 @@ Gameplay changes
 Cheat addon changes
 -------------------
 
-+ [M] Removed protection from all mission-generated dungeons
++ [M] Removed protection from all mission-generated (and outpost) dungeons
 
 + [M] Removed pixel and ore drops on "Casual" and "Normal" in order to compensate the removal of auto-return to ship on "Save & Quit"
 
