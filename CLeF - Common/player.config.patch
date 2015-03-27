@@ -38,10 +38,6 @@
   { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "oldalloyfurnace" } },
   { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "powerloom" } },
 
-  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "pioneer2head" } },
-  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "pioneer2chest" } },
-  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "pioneer2pants" } },
-
   { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "banhead" } },
   { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "banchest" } },
   { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "banlegs" } },
