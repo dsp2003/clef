@@ -1,14 +1,15 @@
 # Choke Le Fish
 Starbound content restoration and gameplay tweaking mod
 
-Version 23 (2015/03/24)
+Version 24 (2015/03/28)
 ----------
 
 Known to work with:
 - [Stable] Upbeat Giraffe 2-666
 - [Stable] Upbeat Giraffe 2-668
 - [Unstable] Upbeat Giraffe 2-670
-- [Unstable] Upbeat Giraffe 2-673
+- [Unstable] Upbeat Giraffe 2-673 (March 23)
+- [Unstable] Upbeat Giraffe 2-673 (March 26)
 
 
 Installation
@@ -18,9 +19,11 @@ Copy the following directories into "starbound/giraffe_storage/mods/" directory:
 
 + "CLeF - Common", contains the core mod files common for all game versions
 
-+ "CLeF - UG 2-66x", if you have Stable release between UG 2-666 and 2-668
++ "CLeF - UG 2-668 Stable", if you have Stable release between UG 2-666 and 2-668
 
-+ "CLeF - UG 2-67x", if you have Nightly release between UG 2-670 and 2-673
++ "CLeF - UG 2-673 Nightly M23", if you have Nightly release between UG 2-670 and 2-673 up till The March 23
+
++ "CLef - UG 2-673 Nightly M26", if you have Nightly release UG 2-673 from March 26 and up
 
 + "CLeF - Cheats", if you hate the restrictions which were imposed on us by Chucklefish and want to loot everything in the scripted worlds ;)
 
@@ -33,8 +36,6 @@ As you probably know, not all players are happy with the changes that were made 
 This mod is my attempt to address and revert these changes in Upbeat Giraffe to some degree, as well as introduce other balance tweaks, which are backported from the Enraged Koala I modded privately for my personal enjoyment. ;)
 
 Starting from Version 6, CLeF also incorporates work by other awesome people. See the full list of mods and their authors at the end of the description.
-
-Note though THIS IS NOT A MODPACK, as the merged mods are not simply copy-pasted, but rebalanced, rearranged and tightly integrated with the rest of the content, hence they WILL CONFLICT WITH ORIGINAL MODS.
 
 
 Frequently Asked Questions
@@ -128,9 +129,21 @@ Gameplay changes
 
 + [R] Coal gives 2 points of fuel (same as in EK, 0 in UG)
 
-+ [M] Remote Teleporter can be crafted via Iron Crafting Table for 2 Circuit Boards, 1 Diamond, 5 Golden Bars and 5 Durasteel Bars. Also, it can be safely placed and removed without object's destruction. Added hint lines for Novakid race
++ [N][2-673 M26 ONLY] Teleporter Core can be crafted from 2 Iron Bars and 3 Diamonds
 
-+ [N] Added Portable Teleporter object. Can be crafted via Iron Crafting Table for 1 Circuit Board, 1 Diamond, 2 Golden Bars and 2 Durasteel Bars
++ [M][2-673 M26 ONLY] All vanilla teleporters from "2-Stop Teleshop" can be crafted via Iron Crafting Table. Each requires 1 Teleporter Core and 1 Circuit board to craft (also, all of them can be safely placed and removed without object's destruction. Also included proper descriptions for each teleporter type). Other requirements vary:
+
+ - Executive  : 3 Diamonds, 6 Durasteel Bars and 6 Glass Blocks
+ - Brass      : 2 Diamonds, 10 Liquid Oil, 5 Copper Bars and 4 Glass Blocks
+ - Futuristic : 2 Diamonds, 6 Silver Bars and 6 Glass Blocks
+ - Scientific : 5 Steel Bars, 5 Durasteel Bars and 2 Glass Blocks
+ - Stone      : 25 Cobblestone and 2 Glass Blocks
+ - Tomb       : 10 Golden Bars, 4 Rubium Ore and 2 Glass Blocks
+ - Wooden     : 1 Diamond, 50 Wood Planks, 3 Steel Bars and 2 Glass Blocks
+
++ [N][2-673 M26 ONLY] Orange Teleporter Core can be crafted from 2 Iron Bars, 4 Core Fragment Ores and 1 Diamond
+
++ [N][2-673 M26 ONLY] Added Portable Teleporter object. Can be crafted via Iron Crafting Table for 1 Orange Teleporter Core, 1 Circuit Board, 2 Durasteel Bars and 2 Glass Blocks
 
 + [M] Intraspace travel takes 5 points of fuel (was 50 in EK, 0 in UG made little to no sense, but...)
 
@@ -205,17 +218,18 @@ Gameplay changes
  - Tiy's set
 
 + [R] Re-added armour sets:
- - Slime set (requires 1 Slime Block per item, recipes learned upon Slime Block pickup)
- - Lagoon set (not yet balanced)
+ - [2-668 ONLY] Slime set (requires 1 Slime Block per item, recipes learned upon Slime Block pickup)
+ - [2-668 ONLY] Lagoon set
  - Diamond set (requires 19 Diamonds and 6 Durasteel Bar, crafted at Metalwork Station)
  - Silver set
  - Golden set
  - Platinum set
  - Matter set (aka Bonus set)
+ - Original Pioneer set
 
 + [M] Removed protection from randomly generated dungeons. Explaination: they weren't designed to use shields in the first place, and lots of players has already experienced problems with being unable to even access their front entrances, "thanks" to randomly generated ground obstacles, which also went under protection of the shield
 
-+ [M] In order to compensate the protection removal, Tesla Spikes now have 200 points of "health" and much harder to harvest as a result
++ [M] In order to compensate the protection removal, Tesla Spikes now have 20 points of "health" and much harder to harvest as a result
 
 + [M] Restored battle music (mixdown at lower levels in order to tone down the interference with mission dungeons)
 
@@ -278,6 +292,8 @@ Stuff I can't fix (yet)
 Third-party mods merged with CLeF
 ---------------------------------
 
+Note: THIS IS NOT A MODPACK, as the merged mods are not simply copy-pasted, but rebalanced, rearranged and tightly integrated with the rest of the content, hence they WILL CONFLICT WITH ORIGINAL MODS.
+
 + http://community.playstarbound.com/?resources/2644/ - Craftable Chainsaw (by XNicoX14)
 + http://community.playstarbound.com/?resources/2648/ - Repair Tools (by XNicoX14)
 + http://community.playstarbound.com/?resources/2498/ - More Screen Resolutions (by eurosat7)
@@ -286,11 +302,13 @@ Third-party mods merged with CLeF
 + http://community.playstarbound.com/?resources/2635/ - Prepare for Glory! (by LegendXCarisso)
 + http://community.playstarbound.com/?resources/2728/ - Swamp & Lagoon Armor Returned (by Campaigner)
 + http://community.playstarbound.com/?resources/2705/ - Loom (by I Said No)
++ http://community.playstarbound.com/?resources/2811/ - Original Pioneer Armor (by Snigery)
 
 
 Version history
 ---------------
 
+- 2015/03/28 v24 - restored original Pioneer armour set (requested by Snigery), craftable teleporters and teleporter cores
 - 2015/03/24 v23 - added option to install on both Stable and Nightly, patched teleporter object to be craftable and transferable, added portable teleporter, added cheats
 - 2015/03/22 v22 - added Wreckage of Dreadwing quest, patched Dreadwing quest to obtain matteritem and Bonus Armour, added Bad To The Bone quest and Decoy Princess Schematics decorative object. Bone Dragon boss is now integrated into quest line
 - 2015/03/21 v21 - added Power Loom object (based on mod by I Said No), added reworked Chucklefish icon and logo animation
@@ -323,3 +341,5 @@ License
 This modification has been released under Creative Commons Attribution Share-Alike 4.0 International license terms.
 
 You don't need to ask my permission to modify or integrate this mod or any part of it into other modpacks, but please release the resulting material under the exact same license terms, so the other people would enjoy it. Thank you. ^_^
+
+Exception: TheOneDon @ ChuckleFish Forums is no longer allowed to include this mod into any of his "compilations" for spreading misinformation about the "lack of balance", "game slowdowns" and "pointless restoration of deprecated features and objects which were replaced by a better versions". Me and my contributors put a lot of their free time into this mod and won't tolerate any insults from incompetent flapjaws.
