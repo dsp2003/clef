@@ -52,11 +52,16 @@ A: It's impossible for me to fix custom races due to random mod load order and t
 
 Also, you can fix it on your own - open <racename>t2blocks.png and copy fuel hatch pixel (orange-red at the top of a blue block) from <racename>t3blocks.png. Note you'll have to delete your shipworld, otherwise the fix won't be applied (don't forget to take everything you don't want to lose with you).
 
-
 Q: Okay, I beat the UFO boss. Where's the rest of the quests?
 
 A: This mod is work-in-progress. Please be patient.
-Since the v22 you can beat the Bone Dragon boss. It's integrated into Outpost Mute Glitch's quest line.
+
+Since the version 22 you can beat the Bone Dragon boss. It's integrated into Outpost Mute Glitch's quest line.
+
+
+Q: Will I be able to play on vanilla servers if I'll install this mod?
+
+A: Short answer: no. Long answer: any mod which makes changes to .config files or adds new objects will not be compatible with vanilla servers.
 
 
 Help wanted
