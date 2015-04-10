@@ -1,15 +1,13 @@
 # Choke Le Fish
 Starbound content restoration and gameplay tweaking mod
 
-Version 24 (2015/03/28)
+Version 25 (2015/04/10)
 ----------
 
 Known to work with:
-- [Stable] Upbeat Giraffe 2-666
 - [Stable] Upbeat Giraffe 2-668
-- [Unstable] Upbeat Giraffe 2-670
-- [Unstable] Upbeat Giraffe 2-673 (March 23)
-- [Unstable] Upbeat Giraffe 2-673 (March 26)
+- [Nightly] Upbeat Giraffe 2-673 (March 23)
+- [Nightly] Spirited Giraffe 1 (April 9)
 
 
 Installation
@@ -21,9 +19,9 @@ Copy the following directories into "starbound/giraffe_storage/mods/" directory:
 
 + "CLeF - UG 2-668 Stable", if you have Stable release between UG 2-666 and 2-668
 
-+ "CLeF - UG 2-673 Nightly M23", if you have Nightly release between UG 2-670 and 2-673 up till The March 23
++ "CLeF - UG 2015-03-23 Nightly", if you have Nightly release between UG 2-670 and 2-673 up till The March 23
 
-+ "CLef - UG 2-673 Nightly M26", if you have Nightly release UG 2-673 from March 26 and up
++ "CLeF - SG 2015-04-09 Nightly", if you have Nightly release UG 2-673 from March 26 and up
 
 + "CLeF - Cheats", if you hate the restrictions which were imposed on us by Chucklefish and want to loot everything in the scripted worlds ;)
 
@@ -95,14 +93,25 @@ Gameplay changes
 
  - Water + Healing Water => Healing Water
  - Poison + Healing Water => Water
+ - Alien Juice + Water => Alien Juice
+ - Alien Juice + Poison => Alien Juice
+ - Alien Juice + Healing Water => Alien Juice
+ - Alien Juice + Milk => Alien Juice
+ - Alien Juice + Coffee => Alien Juice
+ - [SG ONLY] Alien Juice + Swamp Water => Alien Juice
+ - [SG ONLY] Alien Juice + Slime Liquid => Slime Liquid
  - Lava + Healing water => Magma rock
  - Lava + Coffee => Magma rock
  - Lava + Alien juice => Magma rock
  - Lava + Poison => Magma rock
+ - Lava + Coffee => Magma rock
+ - [SG ONLY] Lava + Swamp water => Magma rock
  - Core Lava + Healing water => Magma rock
  - Core Lava + Coffee => Magma rock
  - Core Lava + Alien juice => Magma rock
  - Core Lava + Poison => Magma rock
+ - Core Lava + Coffee => Magma rock
+ - [SG ONLY] Core Lava + Swamp water => Magma rock
 
 + [M] Renamed "Coffee Seed" into "Raw Coffee Beans". You can roast them in Microwave or Campfire and get consumable "Coffee Beans"
 
@@ -134,9 +143,9 @@ Gameplay changes
 
 + [R] Coal gives 2 points of fuel (same as in EK, 0 in UG)
 
-+ [N][2-673 M26 ONLY] Teleporter Core can be crafted from 2 Iron Bars and 3 Diamonds
++ [N][SG ONLY] Teleporter Core can be crafted from 2 Iron Bars and 3 Diamonds
 
-+ [M][2-673 M26 ONLY] All vanilla teleporters from "2-Stop Teleshop" can be crafted via Iron Crafting Table. Each requires 1 Teleporter Core and 1 Circuit board to craft (also, all of them can be safely placed and removed without object's destruction. Also included proper descriptions for each teleporter type). Other requirements vary:
++ [M][SG ONLY] All vanilla teleporters from "2-Stop Teleshop" can be crafted via Iron Crafting Table. Each requires 1 Teleporter Core and 1 Circuit board to craft (also, all of them can be safely placed and removed without object's destruction. Also included proper descriptions for each teleporter type). Other requirements vary:
 
  - Executive  : 3 Diamonds, 6 Durasteel Bars and 6 Glass Blocks
  - Brass      : 2 Diamonds, 10 Liquid Oil, 5 Copper Bars and 4 Glass Blocks
@@ -146,9 +155,11 @@ Gameplay changes
  - Tomb       : 10 Golden Bars, 4 Rubium Ore and 2 Glass Blocks
  - Wooden     : 1 Diamond, 50 Wood Planks, 3 Steel Bars and 2 Glass Blocks
 
-+ [N][2-673 M26 ONLY] Orange Teleporter Core can be crafted from 2 Iron Bars, 4 Core Fragment Ores and 1 Diamond
++ [N][SG ONLY] Orange Teleporter Core can be crafted from 2 Iron Bars, 4 Core Fragment Ores and 1 Diamond
 
-+ [N][2-673 M26 ONLY] Added Portable Teleporter object. Can be crafted via Iron Crafting Table for 1 Orange Teleporter Core, 1 Circuit Board, 2 Durasteel Bars and 2 Glass Blocks
++ [N][SG ONLY] Added Portable Teleporter object. Can be crafted via Iron Crafting Table for 1 Orange Teleporter Core, 1 Circuit Board, 2 Durasteel Bars and 2 Glass Blocks
+
++ [M][SG ONLY] Instant teleportation! Removed fullscreen teleport animation (causes epilepsy and slows down the game. Chucklefish, what were you thinking?!)
 
 + [M] Intraspace travel takes 5 points of fuel (was 50 in EK, 0 in UG made little to no sense, but...)
 
@@ -223,8 +234,8 @@ Gameplay changes
  - Tiy's set
 
 + [R] Re-added armour sets:
- - [2-668 ONLY] Slime set (requires 1 Slime Block per item, recipes learned upon Slime Block pickup)
- - [2-668 ONLY] Lagoon set
+ - [UG 2-668 ONLY] Slime set (requires 1 Slime Block per item, recipes learned upon Slime Block pickup)
+ - [UG 2-668 ONLY] Lagoon set
  - Diamond set (requires 19 Diamonds and 6 Durasteel Bar, crafted at Metalwork Station)
  - Silver set
  - Golden set
@@ -251,7 +262,7 @@ Gameplay changes
  - 3840 x 1536
  - 4096 x 2160
 
-+ [F] Performance patch: added optimized Hobo true-type font (58 KiB and ~50000 points versus 86 Kib and ~90000 points) with fixed cyrillic characters
++ [F] Performance patch: added optimized Hobo true-type font (58 KiB and ~50000 points versus 86 Kib and ~90000 points) with fixed cyrillic characters (officially part of the game since Spirited Giraffe builds)
 
 + [M] Replaced Chucklefish icon and logo animation with recoloured & shaded version (also fixed "u" which strongly resembled "v")
 
@@ -313,6 +324,7 @@ Note: THIS IS NOT A MODPACK, as the merged mods are not simply copy-pasted, but 
 Version history
 ---------------
 
+- 2015/04/10 v25 - added support for Spirited Giraffe, more liquid interactions, removed fullscreen teleport animation
 - 2015/03/28 v24 - restored original Pioneer armour set (requested by Snigery), craftable teleporters and teleporter cores
 - 2015/03/24 v23 - added option to install on both Stable and Nightly, patched teleporter object to be craftable and transferable, added portable teleporter, added cheats
 - 2015/03/22 v22 - added Wreckage of Dreadwing quest, patched Dreadwing quest to obtain matteritem and Bonus Armour, added Bad To The Bone quest and Decoy Princess Schematics decorative object. Bone Dragon boss is now integrated into quest line
