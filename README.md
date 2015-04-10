@@ -277,6 +277,8 @@ Cheat addon changes
 
 + [N] Extra zoom levels (from 0.5 to 1, with 0.1 step)
 
++ [M] No slowdown when running backwards
+
 
 To-do list
 ----------

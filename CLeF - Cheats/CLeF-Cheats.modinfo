@@ -1,6 +1,6 @@
 {
 	"name" : "CLeF-Cheats",
-	"version" : "Beta v. Upbeat Giraffe",
+	"version" : "",
 	"path" : ".",
 	"requires" : [ "CLeF" ],
 	"includes" : [],
