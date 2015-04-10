@@ -21,7 +21,7 @@ Copy the following directories into "starbound/giraffe_storage/mods/" directory:
 
 + "CLeF - UG 2015-03-23 Nightly", if you have Nightly release between UG 2-670 and 2-673 up till The March 23
 
-+ "CLeF - SG 2015-04-09 Nightly", if you have Nightly release UG 2-673 from March 26 and up
++ "CLeF - SG 2015-04-09 Nightly", if you have Nightly release SG 1 from April 9 and up
 
 + "CLeF - Cheats", if you hate the restrictions which were imposed on us by Chucklefish and want to loot everything in the scripted worlds ;)
 
@@ -81,6 +81,7 @@ Glossary
 
 * EK - Enraged Koala
 * UG - Upbeat Giraffe
+* SG - Spirited Giraffe
 * [N] - new feature / addon
 * [M] - modified restoration
 * [R] - restored feature
