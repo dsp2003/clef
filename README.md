@@ -1,13 +1,13 @@
 # Choke Le Fish
 Starbound content restoration and gameplay tweaking mod
 
-Version 25 (2015/04/10)
+Version 26 (2015/04/17)
 ----------
 
 Known to work with:
 - [Stable] Upbeat Giraffe 2-668
 - [Nightly] Upbeat Giraffe 2-673 (March 23)
-- [Nightly] Spirited Giraffe 1 (April 9)
+- [Nightly] Spirited Giraffe 1-676 (April 9)
 
 
 Installation
@@ -19,9 +19,7 @@ Copy the following directories into "starbound/giraffe_storage/mods/" directory:
 
 + "CLeF - UG 2-668 Stable", if you have Stable release between UG 2-666 and 2-668
 
-+ "CLeF - UG 2015-03-23 Nightly", if you have Nightly release between UG 2-670 and 2-673 up till The March 23
-
-+ "CLeF - SG 2015-04-09 Nightly", if you have Nightly release SG 1 from April 9 and up
++ "CLeF - SG 1-676 Nightly", if you have Nightly release SG 1-676 from April 9 and up
 
 + "CLeF - Cheats", if you hate the restrictions which were imposed on us by Chucklefish and want to loot everything in the scripted worlds ;)
 
@@ -161,6 +159,10 @@ Gameplay changes
 + [N][SG ONLY] Added Portable Teleporter object. Can be crafted via Iron Crafting Table for 1 Orange Teleporter Core, 1 Circuit Board, 2 Durasteel Bars and 2 Glass Blocks
 
 + [M][SG ONLY] Instant teleportation! Removed fullscreen teleport animation (causes epilepsy and slows down the game. Chucklefish, what were you thinking?!)
+
++ [R] The player will start from forest planet (same as in EK, was "Garden" in UG). This largely increases variety in comparison with bland "Lush / Garden" worlds
+
++ [F] The starter planet lookup values are 5/100 (same as in EK, was 100/300 in UG). Also removed requirement for "Ancient Gateway" dungeon world, since it's always generated in every planetary system. Also removed requirement for "small" world type. This makes the first run universe generation to only take 2 minutes instead of 15(!!) on my machine
 
 + [M] Intraspace travel takes 5 points of fuel (was 50 in EK, 0 in UG made little to no sense, but...)
 
@@ -327,6 +329,7 @@ Note: THIS IS NOT A MODPACK, as the merged mods are not simply copy-pasted, but 
 Version history
 ---------------
 
+- 2015/04/18 v26 - changed starter world lookup to "forest" biome and removed planet size restriction, speeded up first run universe generation and world lookup, removed support for 2-670 - 2-673 Nightly
 - 2015/04/10 v25 - added support for Spirited Giraffe, more liquid interactions, removed fullscreen teleport animation
 - 2015/03/28 v24 - restored original Pioneer armour set (requested by Snigery), craftable teleporters and teleporter cores
 - 2015/03/24 v23 - added option to install on both Stable and Nightly, patched teleporter object to be craftable and transferable, added portable teleporter, added cheats
