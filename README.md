@@ -364,5 +364,3 @@ License
 This modification has been released under Creative Commons Attribution Share-Alike 4.0 International license terms.
 
 You don't need to ask my permission to modify or integrate this mod or any part of it into other modpacks, but please release the resulting material under the exact same license terms, so the other people would enjoy it. Thank you. ^_^
-
-Exception: TheOneDon @ ChuckleFish Forums is no longer allowed to include this mod into any of his "compilations" for spreading misinformation about the "lack of balance", "game slowdowns" and "pointless restoration of deprecated features and objects which were replaced by a better versions". Me and my contributors put a lot of their free time into this mod and won't tolerate any insults from incompetent flapjaws.
