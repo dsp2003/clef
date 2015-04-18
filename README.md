@@ -5,8 +5,8 @@ Version 26 (2015/04/17)
 ----------
 
 Known to work with:
+- [Stable] Upbeat Giraffe 2-666
 - [Stable] Upbeat Giraffe 2-668
-- [Nightly] Upbeat Giraffe 2-673 (March 23)
 - [Nightly] Spirited Giraffe 1-676 (April 9)
 
 
