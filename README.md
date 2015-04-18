@@ -63,7 +63,7 @@ A: Short answer: no. Long answer: any mod which makes changes to .config files o
 Help wanted
 -----------
 
-As a beginner in Starbound modding, I have little to no knowledge in LUA, so this prevents me from re-implementing lots of things. I would really appreciate your help. If you've noticed another feature, object or armor that was removed by Chucklefish and want it back, please tell me immediately!
+As a beginner in Starbound modding, I have little to no knowledge in Lua, so this prevents me from re-implementing lots of things. I would really appreciate your help. If you've noticed another feature, object or armor that was removed by Chucklefish and want it back, please tell me immediately!
 
 
 Known bugs
@@ -289,7 +289,7 @@ Seamlessly integrate the old quests and boss fights back into game:
 
 + Restore Fatal Circuit (partially done, script crash prevents further integration)
 
-+ Restore Bone Dragon (partially done, needs LUA/behavior changes)
++ Restore Bone Dragon (partially done, needs Lua/behavior changes)
 
 + Restore Jelly Monster (needs some quest scripting)
 
