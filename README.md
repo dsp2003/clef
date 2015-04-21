@@ -1,13 +1,13 @@
 # Choke Le Fish
 Starbound content restoration and gameplay tweaking mod
 
-Version 26 (2015/04/17)
+Version 27 (2015/04/21)
 ----------
 
 Known to work with:
 - [Stable] Upbeat Giraffe 2-666
 - [Stable] Upbeat Giraffe 2-668
-- [Nightly] Spirited Giraffe 1-676 (April 9)
+- [Nightly] Spirited Giraffe 1-676 (April 17)
 
 
 Installation
@@ -19,7 +19,7 @@ Copy the following directories into "starbound/giraffe_storage/mods/" directory:
 
 + "CLeF - UG 2-668 Stable", if you have Stable release between UG 2-666 and 2-668
 
-+ "CLeF - SG 1-676 Nightly", if you have Nightly release SG 1-676 from April 9 and up
++ "CLeF - SG 1-676 Nightly", if you have Nightly release SG 1-676 from April 17 and up
 
 + "CLeF - Cheats", if you hate the restrictions which were imposed on us by Chucklefish and want to loot everything in the scripted worlds ;)
 
@@ -237,14 +237,18 @@ Gameplay changes
  - Tiy's set
 
 + [R] Re-added armour sets:
- - [UG 2-668 ONLY] Slime set (requires 1 Slime Block per item, recipes learned upon Slime Block pickup)
- - [UG 2-668 ONLY] Lagoon set
- - Diamond set (requires 19 Diamonds and 6 Durasteel Bar, crafted at Metalwork Station)
- - Silver set
- - Golden set
- - Platinum set
- - Matter set (aka Bonus set)
- - Original Pioneer set
+ - [UG ONLY] Slime set (requires 25 Slime Block per item and 10-15 Fabric, recipes learned upon Slime Block pickup)
+ - [SG ONLY] Slime set (requires 25 Green Slimes per item and 10-15 Fabric, recipes learned upon Green Slime pickup)
+ - Lagoon set (can be bought for 750 pixels, available from the start)
+ - Diamond set (requires 19 Diamonds and 6 Durasteel Bars, crafted at Metalwork Station)
+ - Copper set (requires 5-15 Copper Bars, crafted at Metalwork Station, recipes learned upon Copper Bar pickup)
+ - Silver set (recipes learned upon Silver Bar pickup)
+ - Golden set (recipes learned upon Gold Bar pickup)
+ - Platinum set (recipes learned upon Platinum Bar pickup)
+ - Matter set (aka Bonus set) (recipes learned upon Matter Item pickup)
+ - Original Pioneer set (recipes learned upon Titanium Bar pickup)
+
++ [M] Slime furniture recipes auto-learned upon Green Slime pickup
 
 + [M] Removed protection from randomly generated dungeons. Explaination: they weren't designed to use shields in the first place, and lots of players has already experienced problems with being unable to even access their front entrances, "thanks" to randomly generated ground obstacles, which also went under protection of the shield
 
@@ -329,6 +333,7 @@ Note: THIS IS NOT A MODPACK, as the merged mods are not simply copy-pasted, but 
 Version history
 ---------------
 
+- 2015/04/21 v27 - fixed incorrect Erchius Crystal recipe (reported by crushinblue), added copper armour recipe, re-added slime and lagoon armour recipes, changed the way common metal armour recipes are learned, slime furniture recipe learning now attached to Green Slime pickup
 - 2015/04/18 v26 - changed starter world lookup to "forest" biome and removed planet size restriction, speeded up first run universe generation and world lookup, removed support for 2-670 - 2-673 Nightly
 - 2015/04/10 v25 - added support for Spirited Giraffe, more liquid interactions, removed fullscreen teleport animation
 - 2015/03/28 v24 - restored original Pioneer armour set (requested by Snigery), craftable teleporters and teleporter cores

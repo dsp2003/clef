@@ -1,8 +1,8 @@
 {
   "input" : [
     { "item" : "fabric", "count" : 10 },
-    { "item" : "slime", "count" : 25 }
+    { "item" : "greenslime", "count" : 25 }
   ],
-  "output" : { "item" : "slimechest", "count" : 1 },
+  "output" : { "item" : "slimelegs", "count" : 1 },
   "groups" : [ "spinningwheel", "armors" ]
 }
