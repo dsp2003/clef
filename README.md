@@ -1,13 +1,12 @@
 # Choke Le Fish
 Starbound content restoration and gameplay tweaking mod
 
-Version 27 (2015/04/21)
+Version 28 (2015/04/25)
 ----------
 
 Known to work with:
-- [Stable] Upbeat Giraffe 2-666
-- [Stable] Upbeat Giraffe 2-668
-- [Nightly] Spirited Giraffe 1-676 (April 17)
+- [Stable] Upbeat Giraffe 2-666/2-668
+- [Stable] Spirited Giraffe 1-677 (April 21)
 
 
 Installation
@@ -19,7 +18,7 @@ Copy the following directories into "starbound/giraffe_storage/mods/" directory:
 
 + "CLeF - UG 2-668 Stable", if you have Stable release between UG 2-666 and 2-668
 
-+ "CLeF - SG 1-676 Nightly", if you have Nightly release SG 1-676 from April 17 and up
++ "CLeF - SG 1-677 Stable", if you have Stable release SG 1-677 from April 21 and up
 
 + "CLeF - Cheats", if you hate the restrictions which were imposed on us by Chucklefish and want to loot everything in the scripted worlds ;)
 
@@ -333,6 +332,7 @@ Note: THIS IS NOT A MODPACK, as the merged mods are not simply copy-pasted, but 
 Version history
 ---------------
 
+- 2015/04/25 v28 - added SG 1-677 Stable support, changed teleport delay timing a bit
 - 2015/04/21 v27 - fixed incorrect Erchius Crystal recipe (reported by crushinblue), added copper armour recipe, re-added slime and lagoon armour recipes, changed the way common metal armour recipes are learned, slime furniture recipe learning now attached to Green Slime pickup
 - 2015/04/18 v26 - changed starter world lookup to "forest" biome and removed planet size restriction, speeded up first run universe generation and world lookup, removed support for 2-670 - 2-673 Nightly
 - 2015/04/10 v25 - added support for Spirited Giraffe, more liquid interactions, removed fullscreen teleport animation
