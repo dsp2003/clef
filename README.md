@@ -12,6 +12,8 @@ Known to work with:
 Installation
 ------------
 
+Warning! If you have previous version installed, please delete any directories or .modpak files which match "cl*f*" pattern.
+
 Copy the following directories into "starbound/giraffe_storage/mods/" directory:
 
 + "CLeF - Common", contains the core mod files common for all game versions
