@@ -1,11 +1,11 @@
 {
-	"name" : "CLeF-2-66x",
+	"name" : "CLeF-UG-2-66x-Stable",
 	"version" : "Beta v. Upbeat Giraffe",
 	"path" : ".",
 	"requires" : [ "CLeF" ],
 	"includes" : [],
 	"metadata" : {
-	  "displayName" : "CLeF 2-66x Module",
+	  "displayName" : "CLeF UG 2-66x Module",
 		"author" : "dsp2003",
 		"description" : "",
 		"support_url" : "https://github/dsp2003/clf/",
