@@ -1,7 +1,7 @@
 # Choke Le Fish
 Starbound content restoration and gameplay tweaking mod
 
-Version 28 (2015/04/25)
+Version 29 (2015/04/29)
 ----------
 
 Known to work with:
@@ -334,6 +334,7 @@ Note: THIS IS NOT A MODPACK, as the merged mods are not simply copy-pasted, but 
 Version history
 ---------------
 
+- 2015/04/29 v29 - added Fatal Circuit files (not used yet), fixed beacon scripts, restored Impervium Bars (no purpose yet)
 - 2015/04/25 v28 - added SG 1-677 Stable support, changed teleport delay timing a bit
 - 2015/04/21 v27 - fixed incorrect Erchius Crystal recipe (reported by crushinblue), added copper armour recipe, re-added slime and lagoon armour recipes, changed the way common metal armour recipes are learned, slime furniture recipe learning now attached to Green Slime pickup
 - 2015/04/18 v26 - changed starter world lookup to "forest" biome and removed planet size restriction, speeded up first run universe generation and world lookup, removed support for 2-670 - 2-673 Nightly
