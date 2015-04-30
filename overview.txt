@@ -1,0 +1,368 @@
+[CENTER][IMG]http://i.imgur.com/TfCveyf.png[/IMG][/CENTER]
+
+[RIGHT][I]"...people play your game as they want, [B]not as you wished them to[/B]."
+-- Me, the Starbound fan
+
+"...all you do is complain..."
+-- metadept[/I][/RIGHT]
+
+[COLOR=#ffffff][B]OVERVIEW[/B][/COLOR]
+[B][COLOR=#ffffff]_________[/COLOR][/B]
+
+As you probably know, not all players are happy with the changes that were made to the game in comparison with Enraged Koala builds. Although many new things were added, [URL='http://community.playstarbound.com/index.php?threads/hark-a-stable-update-v-upbeat-giraffe.89411/page-49#post-2438012'][COLOR=#ffffff]a lot of the aspects were nerfed or removed altogether, which made the game less fun and far more boring[/COLOR][/URL] (click on the white text to see my thoughts about these changes).
+
+[B]CLeF[/B] is my [S]small and clumsy[/S] attempt to address and revert these changes in Upbeat Giraffe to some degree, as well as introduce other balance tweaks and enhancements, which are ported from the Enraged Koala I modded privately for my personal enjoyment. ;)
+
+Starting from Version 6, [B]CLeF[/B] also incorporates work by other awesome people. [B]See the full list of mods and their authors at the end of the description.[/B]
+
+
+[COLOR=#ccff99][B]INSTALLATION[/B]
+[B]___________[/B][/COLOR]
+
+[COLOR=#ffffff][B]Warning! If you have previous version installed, please delete any directories or .modpak files which match "cl*f*" pattern.[/B][/COLOR]
+
+Copy the following directories into "starbound/giraffe_storage/mods/" directory:
+[LIST]
+[*][COLOR=#99ffff][B]CLeF - Common[/B][/COLOR][COLOR=#ffffff], contains the core mod files common for all game versions[/COLOR]
+[*][COLOR=#ccff99][B]CLeF - UG 2-668 Stable[/B][/COLOR], if you have [COLOR=#ccff99][B]Stable[/B][/COLOR] release between UG [B]2-666[/B] and [B]2-668[/B]
+[*][COLOR=#ffcc99][B]CLeF - SG 1-677 Stable[/B][/COLOR], if you have [B][COLOR=#ffcc99]Stable[/COLOR][/B] release SG [B]1-677[/B] from April 21 and up
+[*][COLOR=#cc99ff][B]CLeF - Cheats[/B][/COLOR], if you hate the restrictions which were imposed on us by Chucklefish (and want to loot everything in the scripted worlds) ;)
+[/LIST]
+
+[COLOR=#ff9999][B]F[/B]REQUENTLY[B] A[/B]SKED[B] Q[/B]UESTIONS
+[B]____________________________[/B][/COLOR]
+
+[B]Q: [COLOR=#ffffff]So, I've repaired my ship and decided to move to another planet in the local system. I'm clicking "GO" and nothing happens.[/COLOR]
+A:[/B] You'll have to fuel your ship first (lava, coal, core fragment ore or even oil will do the trick). Please keep in mind the intraspace travel is no longer free. The fuel cost simply doesn't show up on Tier 2 ships (without repaired FTL drive) due to a bug.
+
+[B]Q: [COLOR=#ffffff]I can't access fuel hatch! My character has stuck at his starter planet! I was playing as custom race.[/COLOR]
+A:[/B] It's impossible for me to fix custom races due to random mod load order and the fact .png definition files cannot be incrementally patched. Please ask the author of that race to move working fuel hatch from Tier 3 ship to Tier 2 (I've asked some of them, and you can find their races in "Recommended mods" section).
+
+Also, you can fix it on your own - open <racename>t2blocks.png and copy fuel hatch pixel (orange-red at the top of a blue block) from <racename>t3blocks.png. Note you'll have to delete your shipworld, otherwise the fix won't be applied (don't forget to take everything you don't want to lose with you).
+
+[B]Q: [COLOR=#ffffff]Okay, I beat the UFO boss. Where's the rest of the quests?[/COLOR]
+A:[/B] Since the version 22 you can beat the Bone Dragon boss. It's integrated into Outpost Mute Glitch's quest line.
+
+[B]Q: [COLOR=#ffffff]Will I be able to play on vanilla servers if I'll install this mod?[/COLOR]
+A:[/B] Short answer: no. Long answer: any mod which makes changes to .config files or adds new objects will not be compatible with vanilla servers.
+
+
+[COLOR=#cc99ff][B]HELP WANTED[/B]
+[B]____________[/B][/COLOR]
+
+As a beginner in Starbound modding, I have little to no knowledge in Lua, so this prevents me from re-implementing lots of things. I would really appreciate your help.[COLOR=#ffffff][B] If you've noticed another feature, object or armor that was removed by Chucklefish and want it back, [COLOR=#ffff99]please tell me immediately[/COLOR]![/B][/COLOR]
+
+
+[COLOR=#ccff99][B]GAMEPLAY CHANGES[/B]
+[B]_________________[/B][/COLOR]
+
+[IMG]http://i.imgur.com/UDFcXAe.png[/IMG]
+[I][B][COLOR=#99ff99][New][/COLOR] Implemented more liquid interactions[/B][/I] (also added all interactions from Lava to Core lava. Yes, you can harvest it too):
+[LIST]
+[*][B][COLOR=#99ccff]Water[/COLOR] + [COLOR=#99ffff]Healing Water[/COLOR] => [COLOR=#99ffff]Healing Water[/COLOR][/B]
+[*][B][COLOR=#99ff99]Poison[/COLOR] + [COLOR=#99ffff]Healing Water[/COLOR] => [COLOR=#99ccff]Water[/COLOR][/B]
+[*][B][COLOR=#ffff99]Alien Juice[/COLOR] + [COLOR=#99ccff]Water[/COLOR] => [COLOR=#ffff99]Alien Juice[/COLOR][/B]
+[*][B][COLOR=#ffff99]Alien Juice[/COLOR] + [COLOR=#99ff99]Poison[/COLOR] => [COLOR=#ffff99]Alien Juice[/COLOR][/B]
+[*][B][COLOR=#ffff99]Alien Juice[/COLOR] + [COLOR=#99ffff]Healing Water[/COLOR] => [COLOR=#ffff99]Alien Juice[/COLOR][/B]
+[*][B][COLOR=#ffff99]Alien Juice[/COLOR] + [COLOR=#ffffff]Milk[/COLOR] => [COLOR=#ffff99]Alien Juice[/COLOR][/B]
+[*][B][COLOR=#ffff99]Alien Juice[/COLOR] + [COLOR=#ff8000]Coffee[/COLOR] => [COLOR=#ffff99]Alien Juice[/COLOR][/B]
+[*][B][I][COLOR=#ffcc99][SG ONLY][/COLOR][/I] [COLOR=#ffff99]Alien Juice[/COLOR] + [COLOR=#ccff99]Swamp Water[/COLOR] => [COLOR=#ffff99]Alien Juice[/COLOR][/B]
+[*][B][I][COLOR=#ffcc99][SG ONLY][/COLOR][/I] [COLOR=#ffff99]Alien Juice[/COLOR] + [COLOR=#99ffcc]Slime Liquid[/COLOR] => [COLOR=#99ffcc]Slime Liquid[/COLOR][/B]
+[*][B][COLOR=#ffcc99]Lava[/COLOR] + [COLOR=#99ffff]Healing water[/COLOR] => [COLOR=#b30000]Magma rock[/COLOR][/B]
+[*][B][COLOR=#ffcc99]Lava[/COLOR] + [COLOR=#ff8000]Coffee[/COLOR] => [COLOR=#b30000]Magma rock[/COLOR][/B]
+[*][B][COLOR=#ffcc99]Lava[/COLOR] + [COLOR=#ffff99]Alien juice[/COLOR] => [COLOR=#b30000]Magma rock[/COLOR][/B]
+[*][B][COLOR=#ffcc99]Lava[/COLOR] + [COLOR=#99ff99]Poison[/COLOR] => [COLOR=#b30000]Magma rock[/COLOR][/B]
+[*][B][COLOR=#ffcc99]Lava[/COLOR] + [COLOR=#ff8000]Coffee[/COLOR] => [COLOR=#b30000]Magma rock[/COLOR][/B]
+[*][B][I][COLOR=#ffcc99][SG ONLY][/COLOR][/I] [COLOR=#ffcc99]Lava[/COLOR] + [COLOR=#ccff99]Swamp water[/COLOR] => [COLOR=#b30000]Magma rock[/COLOR][/B]
+[*][B][COLOR=#ffa64d]Core Lava[/COLOR] + [COLOR=#99ffff]Healing water[/COLOR] => [COLOR=#b30000]Magma rock[/COLOR][/B]
+[*][B][COLOR=#ffa64d]Core Lava[/COLOR] + [COLOR=#ff8000]Coffee[/COLOR] => [COLOR=#b30000]Magma rock[/COLOR][/B]
+[*][B][COLOR=#ffa64d]Core Lava[/COLOR] + [COLOR=#ffff99]Alien juice[/COLOR] => [COLOR=#b30000]Magma rock[/COLOR][/B]
+[*][B][COLOR=#ffa64d]Core Lava[/COLOR] + [COLOR=#99ff99]Poison[/COLOR] => [COLOR=#b30000]Magma rock[/COLOR][/B]
+[*][B][COLOR=#ffa64d]Core Lava[/COLOR] + [COLOR=#ff8000]Coffee[/COLOR] => [COLOR=#b30000]Magma rock[/COLOR][/B]
+[*][B][COLOR=#ffcc99][I][SG ONLY][/I][/COLOR] [COLOR=#ffa64d]Core Lava[/COLOR] + [COLOR=#ccff99]Swamp water[/COLOR] => [COLOR=#b30000]Magma rock[/COLOR][/B]
+[/LIST]
+[I][B][COLOR=#99ffff][IMG]http://i.imgur.com/6KbW5uc.png[/IMG] 
+[Mod][/COLOR] Renamed "Coffee Seed" into "Raw Coffee Beans". You can roast them in Microwave or Campfire and get consumable "Coffee Beans"[/B][/I]
+
+[IMG]http://i.imgur.com/meyDfcf.png[/IMG]
+[I][B] [COLOR=#ff99cc][Fix][/COLOR] Blocks of Erchius Crystals will drop Erchius Crystals[/B][/I] (instead of placeholder crystals)
+
+[IMG]http://i.imgur.com/d3KUonY.png[/IMG]
+[I][B][COLOR=#ff9999][Restore][/COLOR] Diamond ore will spawn instead of "perfectly cut" diamonds in previously unvisited worlds [/B](diamonds will still spawn in treasure chests[/I])
+[I][B][COLOR=#99ffff][Mod][/COLOR] Diamond can be crafted in Alloy Furnace from 2 diamond ores[/B][/I] (recipe learned on picking up the diamond ore, was 4 diamond ores in EK and removed entirely in UG)
+
+[IMG]http://i.imgur.com/6cXaNk2.png[/IMG]
+[I][B][COLOR=#99ff99][New][/COLOR] Core fragment ore can be crafted in Alloy Furnace from 10 Lava and 1 Oil [/B][/I](recipe learned on picking the Lava)
+
+[IMG]http://i.imgur.com/PKLJoIo.png[/IMG]
+[I][B][COLOR=#99ff99][New][/COLOR] Molten Core can be crafted from 2 iron bars and 10 core fragments[/B][/I] (the recipe added to stone furnace upon pickup, originally was dropped by UFO boss in EK)
+
+[IMG]http://i.imgur.com/lLWTSif.png[/IMG]
+[I][B][COLOR=#ff9999][Restore][/COLOR] Metalwork station requires 1 Molten Core to craft[/B][/I] (same as in EK)
+
+[IMG]http://i.imgur.com/6L9BtNg.png[/IMG]
+[IMG]http://i.imgur.com/VACrAC0.png[/IMG]
+[IMG]http://i.imgur.com/x7gpAX3.png[/IMG]
+[I][B][COLOR=#99ffff][Mod][/COLOR] Added Old Stone Furnace and Old Alloy Furnace (unlike the UG's workbench-based versions, [COLOR=#ffff99]these are container-based and significantly cheaper[/COLOR])[/B][/I]
+
+[IMG]http://i.imgur.com/ZTbl7po.png[/IMG]
+[I][B][COLOR=#ff9999][Restore][/COLOR] Coal can be crafted from 10 Unrefined Wood in Stone Furnace[/B][/I] (recipe learned on picking up the Wood)
+
+[IMG]http://i.imgur.com/993eSOz.png[/IMG]
+[I][B][COLOR=#99ff99][New][/COLOR] Erchius Crystal can be crafted from 8 Liquid Erchius Fuel and 1 Diamond in Alloy Furnace[/B][/I] (recipe learned on picking up the Erchius Fuel)
+
+[IMG]http://i.imgur.com/3YhCTy8.png[/IMG]
+[I][B][COLOR=#99ff99][New][/COLOR] Core fragment gives 10 points of fuel[/B][/I] (seriously, what that pile of blasted glowing stones is even good for?!)
+[I][B][COLOR=#99ff99][New][/COLOR] Erchius Crystal gives 10 points of fuel[/B][/I] (same as above)
+[I][B][COLOR=#99ff99][New][/COLOR] Oil gives 1 point of fuel[/B][/I] (it's flammable IRL, so why not?)
+[I][B][COLOR=#99ff99][New][/COLOR] Lava gives 1 point of fuel[/B][/I] (because it's basically the source of core fragments)
+[I][B][COLOR=#ff9999][Restore][/COLOR] Coal gives 2 points of fuel[/B][/I] (same as in EK, 0 in UG)
+
+[IMG]http://i.imgur.com/TigT12M.png[/IMG]
+
+[IMG]http://i.imgur.com/q7pyb4J.png[/IMG]
+[I][B][COLOR=#99ff99][New][/COLOR] [COLOR=#ffcc99][SG ONLY][/COLOR] Teleporter Core can be crafted from 2 Iron Bars and 3 Diamonds[/B][/I]
+
+[IMG]http://i.imgur.com/pxWnqYU.png[/IMG]
+[IMG]http://i.imgur.com/FBP12a7.png[/IMG]
+[IMG]http://i.imgur.com/2St3yZ2.png[/IMG]
+[IMG]http://i.imgur.com/e2nF6Kd.png[/IMG]
+[IMG]http://i.imgur.com/ZPC46yO.png[/IMG]
+[IMG]http://i.imgur.com/bB0duRO.png[/IMG]
+[IMG]http://i.imgur.com/39jGVGL.png[/IMG]
+[I][B][COLOR=#99ffff][Mod][/COLOR] [COLOR=#ffcc99][SG ONLY][/COLOR] All vanilla teleporters from "2-Stop Teleshop" can be crafted via Iron Crafting Table[/B][/I]. Each requires 1 Teleporter Core and 1 Circuit board to craft (also, all of them can be safely placed and removed without object's destruction. Also included proper descriptions for each teleporter type). Other requirements vary:
+[LIST]
+[*]Executive : 3 Diamonds, 6 Durasteel Bars and 6 Glass Blocks
+[*]Brass : 2 Diamonds, 10 Liquid Oil, 5 Copper Bars and 4 Glass Blocks
+[*]Futuristic : 2 Diamonds, 6 Silver Bars and 6 Glass Blocks
+[*]Scientific : 5 Steel Bars, 5 Durasteel Bars and 2 Glass Blocks
+[*]Stone : 25 Cobblestone and 2 Glass Blocks
+[*]Tomb : 10 Golden Bars, 4 Rubium Ore and 2 Glass Blocks
+[*]Wooden : 1 Diamond, 50 Wood Planks, 3 Steel Bars and 2 Glass Blocks
+[/LIST]
+[IMG]http://i.imgur.com/Iy8a3sd.png[/IMG]
+[I][B][COLOR=#99ff99][New][/COLOR] [COLOR=#ffcc99][SG ONLY][/COLOR] Orange Teleporter Core can be crafted from 2 Iron Bars, 4 Core Fragment Ores and 1 Diamond
+[/B][/I]
+[IMG]http://i.imgur.com/KIuWD6t.png[/IMG]
+[I][B][COLOR=#99ff99][New][/COLOR] [COLOR=#ffcc99][SG ONLY][/COLOR] Added Portable Teleporter object[/B][/I]. Can be crafted via Iron Crafting Table for 1 Orange Teleporter Core, 1 Circuit Board, 2 Durasteel Bars and 2 Glass Blocks
+
+[I][B][COLOR=#99ffff][Mod][/COLOR] [COLOR=#ffcc99][SG ONLY][/COLOR] [COLOR=#ccff99]Instant teleportation! Removed fullscreen teleport animation[/COLOR] [/B][/I](causes epilepsy and slows down the game. [COLOR=#ffff99]Chucklefish, what were you thinking?![/COLOR])
+
+[I][B][COLOR=#ff9999][Restore][/COLOR] [COLOR=#ccff99]The player will start from the [COLOR=#99ff99]Forest[/COLOR] planet[/COLOR][/B][/I] (same as in EK, was "Garden" in UG). This largely increases variety in comparison with bland "Lush / Garden" worlds
+
+[I][B][COLOR=#ff9999][Restore][/COLOR][COLOR=#ff99cc] [Fix][/COLOR] The starter planet lookup values are [COLOR=#ffff99]5/100[/COLOR][/B][/I] (same as in EK, was 100/300 in UG). [I][B]Also removed requirement for "[COLOR=#cc99ff]Ancient Gateway[/COLOR]" dungeon world, since it's always generated in every planetary system. Also removed requirement for "small" world type. [COLOR=#ffff99]This makes the first run universe generation to only take 2 minutes instead of 15[COLOR=#ff9999](!!) [/COLOR]on my machine[/COLOR][/B][/I]
+
+[IMG]http://i.imgur.com/2F6153G.png[/IMG] [IMG]http://i.imgur.com/0DYd4DC.png[/IMG]
+[I][B][COLOR=#99ffff][Mod][/COLOR] Intraspace travel now takes 5 points of fuel[/B][/I] (was 50 in EK, 0 in UG made little to no sense, but...)
+[I][B][COLOR=#ff99cc][Fix][/COLOR] Fixed inability to fuel your ship for vanilla races when starting a new game[/B][/I] (required because intraspace travels are not free anymore)
+[I][B][COLOR=#99ffff][Mod][/COLOR] Interspace travel now takes 300 points maximum[/B][/I] (was 200 in EK and up to 1000 in UG, which is unreal and would leave you with depleted engine. This seems to be the reason (beside the coal not being a "fuel" anymore) why intraspace travel was made cost free in UG, otherwise you'd stuck forever if landed on anything but the Moon or Outpost planet)
+
+[IMG]http://i.imgur.com/IRkfsWx.png[/IMG]
+[I][B][COLOR=#99ffff][Mod][/COLOR] Limit for items per cell changed to 9999[/B][/I] (was 1000 in EK/UG. Everybody wants to be super greedy sometimes :3 )
+[I][B][COLOR=#99ffff][Mod][/COLOR] Removed 1000 items limit for Rope[/B][/I]
+
+[IMG]http://i.imgur.com/dGApcdu.png[/IMG]
+[IMG]http://i.imgur.com/VxMNmj4.png[/IMG]
+[IMG]http://i.imgur.com/QHR8kFQ.png[/IMG]
+[I][B][COLOR=#ff9999][Restore][/COLOR] Stone Axe, Stone Pickaxe and Stone Hoe can be crafted at Crafting Table[/B][/I]. Note that Stone Pickaxe cannot be repaired.
+[I][B][COLOR=#ff9999][Restore][/COLOR] [COLOR=#ccff99]Drills and pickaxes can be repaired with bars, ore and diamonds[/COLOR] [/B][/I]([COLOR=#ffff99][I][B]open your inventory, equip tool, select ore/bar/diamond and right-click on the tool icon[/B][/I][/COLOR])
+[I][B][COLOR=#ff9999][Restore][/COLOR] All pickaxes [/B][/I](except Stone Pickaxe)[I][B] and drills have EK's durability values[/B][/I] (which means they won't break so fast),[I][B] block radius, tile damage and material costs[/B][/I] (except pixel requirements):
+[LIST]
+[*]Copper Drill  (d: 1000 -> 3000, b: 2 -> 3, d: 1.5 -> 2.9)
+[*]Silver Drill  (d: 1000 -> 3000, b: 2 -> 3, d: 2.0 -> 3.1)
+[*]Golden Drill  (d: 1000 -> 3000, b: 2 -> 3, d: 2.5 -> 3.3)
+[*]Diamond Drill  (d: 1000 -> 3000, b: 2 -> 3, d: 3.5 -> 3.7)
+[*]Platinum Drill  (d: 1000 -> 3000, b: 2 -> 3, d: 3.0 -> 3.5)
+[*]Stone Pickaxe  (d: 5000, b: 3, d: 2.0, [COLOR=#ffff99][I][B]cannot be repaired[/B][/I][/COLOR])
+
+[*]Copper Pickaxe  (d:  200 -> 7500)
+[*]Silver Pickaxe  (d:  200 -> 7500)
+[*]Golden Pickaxe  (d:  200 -> 7500)
+[*]Diamond Pickaxe  (d:  350 -> 7500)
+[*]Platinum Pickaxe (d: 200 -> 10000)
+[/LIST]
+
+[IMG]http://i.imgur.com/zAqrJF8.png[/IMG]
+[I][B][COLOR=#ff9999][Restore][/COLOR] Chainsaw can be crafted via Metalwork Station for 6 Durasteel Bar and 12 Steel Bar[/B][/I]
+
+[I][B][COLOR=#ff9999][Restore][/COLOR] Butterfly Boost tech is available upon upgrading ship to Tier 4[/B][/I] (aka Sparrow Class. Requires quest data purge or playing as new character)
+[I][B][COLOR=#99ffff][Mod][/COLOR] Un-nerfed Morph Ball tech. Now it consumes 20 points of energy[/B][/I] (was 35 in EK and 65 in UG)
+
+[IMG]http://i.imgur.com/aLn9lHo.png[/IMG]
+[I][B][COLOR=#ff9999][Restore][/COLOR] Iron Beacon is available for crafting. As a result, the Penguin UFO boss can be summoned[/B][/I] (moved to its own quest location in UG)
+[I][B][COLOR=#ff9999][Restore][/COLOR] Quest "[COLOR=#ffff99]The First Contact[/COLOR]". Automatically assigned upon crafting or picking up the Iron Anvil[/B][/I]. Reward: 500 pixels
+[I][B][COLOR=#99ffff][Mod][/COLOR] Quest "[COLOR=#ffff99]Tutorial VIII: Ups, Downs and the Beacons[/COLOR]". Added mention of Distress Beacon
+[COLOR=#99ffff][Mod][/COLOR] Dreadwing Codex matches the old-new progression. Also, the boss will drop 5 Molten Core, 21 Core Fragment Ore and 1 Dreadwing Codex.
+[COLOR=#99ff99][New][/COLOR] Quest "[COLOR=#ffff99]Wreckage of the Dreadwing[/COLOR]". Automatically assigned upon picking up the Dreadwing's Wreckage.
+[COLOR=#99ffff][Mod][/COLOR] Upon completing the "[COLOR=#ffff99]Dreadwing[/COLOR]" quest, penguin will give 50 Matter Item, which can be used to craft Bonus Armour (otherwise the material for it is nowhere to be found)[/B][/I]
+
+[IMG]http://i.imgur.com/KvJrQBg.png[/IMG]
+[B][I][COLOR=#ff9999][Restore][/COLOR] Decoy Princess is available for crafting. As a result, the bone dragon boss can be summoned[/I][/B] (disabled in UG. Sadly, dragon acts like a bird and won't breathe any fire nor open its mouth. [COLOR=#ffff99][B]I'm unable to restore its original behaviour without scripting help![/B][/COLOR])
+[IMG]http://i.imgur.com/QQEtmKL.png[/IMG]
+[I][B][COLOR=#99ff99][New][/COLOR] Added decorative [COLOR=#ffcc99]Decoy Princess Scheme[/COLOR] object[/B][/I]. Given by "Mute" Glitch upon starting "Bad To The Bone" quest.
+[I][B][COLOR=#99ff99][New][/COLOR] Quest "[COLOR=#ffff99]Bad To The Bone[/COLOR]".[/B][/I] Given by "Mute" Glitch at Outpost for players with Tier 5 ship.
+
+[IMG]http://i.imgur.com/7o6nOLC.png[/IMG]
+[I][B][COLOR=#ff9999][Restore][/COLOR][COLOR=#ffff00][Incomplete][/COLOR] Brain extractor and all robot parts are available for crafting. As a result, you can summon the robot boss[/B][/I] (disabled in UG, no proper quest yet. In UG original robot was replaced by Penguin Bot and appears instead of the old one when summoned)
+
+[I][B][COLOR=#99ff99][New][/COLOR] Quest "The Brain Hunter". Automatically assigned upon picking up the Brain Extractor[/B][/I]. Reward: 100-500 pixels
+
+[IMG]http://i.imgur.com/JcLYzLF.png[/IMG]
+[I][B][COLOR=#99ff99][New][/COLOR] Cooking recipe "[COLOR=#cc99ff]Brain Stew[/COLOR][/B][/I]". Cooked from Wheat, Pearlpea, Corn and Inferior Brain
+
+[IMG]http://i.imgur.com/0AJWo5c.png[/IMG]
+[B][I][B][COLOR=#99ff99][New][/COLOR] Cooking recipe "[COLOR=#ffff99]Brain Hunter's Pie[/COLOR]"[/B][/I][/B]. Cooked from Mashed Potato, Inferior Brain and Superior Brain
+
+[IMG]http://i.imgur.com/wZrZqIO.png[/IMG]
+[I][B][COLOR=#99ff99][New][/COLOR] [COLOR=#cc99ff]Monster's Brain in a Jar[/COLOR] decorative item can be crafted from 1 Inferior Brain, 1 Glass Block and 1 Iron Bar at Crafting Table[/B][/I] (recipe learned upon picking up Inferior Brain)
+
+[IMG]http://i.imgur.com/f2jDB9s.png[/IMG]
+[I][B][COLOR=#99ff99][New][/COLOR] Cooking recipe "[COLOR=#ffff99]Popcorn[/COLOR]"[/B][/I]. Cooked from Corn. Can be crafted at both Kitchen Table and Campfire/Microwave.
+
+[IMG]http://i.imgur.com/Ge18IJB.png[/IMG]
+[I][B][COLOR=#99ff99][New][/COLOR] [COLOR=#ffcc99]Power Loom[/COLOR], a modern replacement for Spinning Wheel. [/B][/I]Can be crafted in Metalwork Station for 8 Steel Bars
+
+[IMG]http://i.imgur.com/oFwDqwq.png[/IMG]
+[I][B][COLOR=#ff9999][Restore][/COLOR] Re-added developer clothing sets[/B][/I] (can be crafted via Yarn Spinner):
+[LIST]
+[*]Ban's set
+[*]George's set
+[*]Bartwe's glasses
+[*]Kyren's set
+[*]Molly's set
+[*]Rhopunzel's set
+[*]Tiy's set
+[/LIST]
+
+[IMG]http://i.imgur.com/5FQSiDE.png[/IMG]
+[I][B][COLOR=#ff9999][Restore][/COLOR] Re-added armour sets[/B][/I]:
+[LIST]
+[*][I][B][COLOR=#9999ff][UG ONLY][/COLOR] [COLOR=#99ff99]Slime set[/COLOR][/B][/I] (requires 25 Slime Block per item and 10-15 Fabric, recipes learned upon Slime Block pickup)
+[*][I][B][COLOR=#ffcc99][SG ONLY][/COLOR] [COLOR=#99ff99]Slime set[/COLOR][/B][/I] (requires 25 Green Slimes per item and 10-15 Fabric, recipes learned upon Green Slime pickup)
+[*][COLOR=#ccff99][I][B]Lagoon set[/B][/I][/COLOR] (can be bought for 750 pixels, available from the start)
+[*][COLOR=#ffff99][I][B]Diamond set[/B][/I][/COLOR] (requires 19 Diamonds and 6 Durasteel Bars, crafted at Metalwork Station)
+[*][COLOR=#ffcc99][I][B]Copper set[/B][/I][/COLOR] (requires 5-15 Copper Bars, crafted at Metalwork Station, recipes learned upon Copper Bar pickup)
+[*][COLOR=#ffffff][I][B]Silver set[/B][/I][/COLOR] (recipes learned upon Silver Bar pickup)
+[*][COLOR=#ffff4d][I][B]Golden set[/B][/I][/COLOR] (recipes learned upon Gold Bar pickup)
+[*][COLOR=#bfbfbf][I][B]Platinum set[/B][/I][/COLOR] (recipes learned upon Platinum Bar pickup)
+[*][COLOR=#ff4da6][I][B]Matter set[/B][/I][/COLOR] (aka Bonus set) (recipes learned upon Matter Item pickup)
+[*][COLOR=#9999ff][I][B]Original Pioneer set[/B][/I][/COLOR] (recipes learned upon Titanium Bar pickup)
+[/LIST]
+
+[I][B][COLOR=#99ffff][Mod][/COLOR] Slime furniture recipes auto-learned upon Green Slime pickup[/B][/I]
+
+[I][B][COLOR=#99ffff][Mod][/COLOR] Removed protection from randomly generated dungeons[/B][/I]. [COLOR=#ffff99]Explanation: [B]they weren't designed to use shields[/B] in the first place, and [B]lots of players[/B] has already [B]experienced problems with being unable to even access their front entrances, "thanks" to randomly generated ground obstacles[/B], which also went under protection of the shield.[/COLOR]
+
+[I][B][COLOR=#99ffff][Mod][/COLOR] In order to compensate the protection removal, Tesla Spikes now have 20 points of "health" and much harder to harvest as a result[/B][/I]
+
+[IMG]http://i.imgur.com/1dKGTor.png[/IMG]  [IMG]http://i.imgur.com/e9SDeBC.png[/IMG]
+[I][B][COLOR=#99ff99][New][/COLOR] More zoom levels[/B][/I] (from 1.0 to 10, with 0.5 step) [I][B]and screen resolutions[/B][/I]:
+[LIST]
+[*]640 x 480
+[*]800 x 600
+[*]1024 x 576
+[*]1360 x 768
+[*]3200 x 1080
+[*]3200 x 1200
+[*]3200 x 1536
+[*]3840 x 1080
+[*]3840 x 1200
+[*]3840 x 1536
+[*]4096 x 2160
+[/LIST]
+
+[IMG]http://i.imgur.com/zMGGvRC.png[/IMG] [IMG]http://i.imgur.com/dyMSgt8.png[/IMG]
+[I][B][COLOR=#ff99cc][Fix][/COLOR] Performance patch: added optimized Hobo true-type font[/B][/I] (58 KiB and ~50000 joints versus 81 KiB and ~90000 joints) [I][B]with bugfixed cyrillic characters[/B][/I]
+
+[IMG]http://i.imgur.com/yG38FrT.png[/IMG]
+[I][B][COLOR=#99ffff][Mod][/COLOR] Replaced Chucklefish icon and logo animation with recoloured & shaded version[/B][/I] (also fixed "u" which strongly resembled "v")
+
+
+[COLOR=#ff99cc][B]CHEAT ADDON CHANGES[/B]
+[B]____________________[/B][/COLOR]
+
+[I][B][COLOR=#99ffff][Mod][/COLOR] Removed protection from all mission-generated (and Outpost) dungeons[/B][/I]
+
+[I][B][COLOR=#99ffff][Mod][/COLOR] Removed pixel and ore drops on "Casual" and "Normal"[/B][/I] in order to compensate the removal of auto-return to ship on "Save & Quit"
+
+[I][B][COLOR=#99ff99][New][/COLOR] Extra small zoom levels[/B][/I] (from 0.5 to 1, with 0.1 step)
+
+[I][B][COLOR=#99ffff][Mod][/COLOR] No slowdown when running backwards[/B][/I]
+
+
+[COLOR=#99ccff][B]TO-DO[/B][/COLOR]
+[B][COLOR=#99ccff]_____[/COLOR][/B]
+
+Seamlessly integrate the old quests and boss fights back into game:
+[LIST]
+[*]Restore Fatal Circuit (partially done, script crash prevents further integration)
+[*]Restore Bone Dragon (partially done, needs LUA/behavior changes)
+[*]Restore Jelly Monster (needs some quest scripting)
+[/LIST]
+Bring back biome variety:
+[LIST]
+[*]Restore all removed biomes and mini-biomes
+[*]The moons with more life and loot underneath, not just a stinky fuel
+[*]Barren worlds with realistic core, undercaves and stuff
+[/LIST]
+Bunch of other stuff I tend to forget...
+
+[B]STUFF I CAN'T FIX (yet)
+__________________[/B]
+[LIST]
+[*]Lack of hunger and temperature systems (hardcoded)
+[/LIST]
+
+[B][COLOR=#ffcc99]THIRD-PARTY MODS MERGED WITH CLeF
+________________________________[/COLOR][/B]
+
+CLeF is not a classic "modpack", as the merged mods are not simply copy-pasted, but rebalanced, rearranged and tightly integrated with the rest of the content, hence they will conflict with original mods.[B] Use these only if you're not planning to install CLeF.[/B]
+[LIST]
+[*][URL='http://community.playstarbound.com/?resources/2644/'][COLOR=#ffffff][B]Craftable Chainsaw[/B][/COLOR][/URL] (by XNicoX14) - does what it says :D
+[*][URL='http://community.playstarbound.com/?resources/2648/'][COLOR=#ffffff][B]Repair Tools[/B][/COLOR][/URL] (by XNicoX14) - it wouldn't be possible to implement repairable pickaxes and drills without it
+[*][URL='http://community.playstarbound.com/?resources/2498/'][COLOR=#ffffff][B]More Screen Resolutions[/B][/COLOR][/URL] (by eurosat7)
+[*][URL='http://community.playstarbound.com/?resources/2640/'][COLOR=#ffffff][B]Apex Grind Again[/B][/COLOR][/URL] (by eurosat7)
+[*][URL='http://community.playstarbound.com/?resources/2696/'][COLOR=#ffffff][B]Developer Clothing Sets[/B][/COLOR][/URL] (by Lucaine) - restores removed devs costumes
+
+[*][URL='http://community.playstarbound.com/?resources/2635/'][COLOR=#ffffff][B]Prepare for Glory![/B][/COLOR][/URL] (by LegendXCarisso) - restores battle music for intense moments. [B]CLeF[/B] includes toned down version
+[*][URL='http://community.playstarbound.com/?resources/2728/'][COLOR=#ffffff][B]Swamp & Lagoon Armor Returned[/B][/COLOR][/URL] (by Campaigner) - restores 2 armour sets
+[*][URL='http://community.playstarbound.com/?resources/2705/'][COLOR=#ffffff][B]Loom[/B][/COLOR][/URL] (by I Said No) - adds modern alternative to Spinning Wheel
+[*][URL='http://community.playstarbound.com/?resources/2811/'][COLOR=#ffffff][B]Original Pioneer Armor[/B][/COLOR][/URL] (by Snigery)
+[/LIST]
+
+[COLOR=#ffffff][B]LICENSE[/B][/COLOR]
+[B][COLOR=#ffffff]_______[/COLOR][/B]
+
+This modification has been released under [I][B]Creative Commons Attribution Share-Alike 4.0 International[/B][/I] license terms. [URL='http://creativecommons.org/licenses/by-sa/4.0/'][IMG]https://i.creativecommons.org/l/by-sa/4.0/80x15.png[/IMG][/URL]
+
+[I][B]You don't need my permission to modify or integrate this mod or any part of it into other modpacks[/B][/I], but please release the resulting material under the exact same license terms, so the other people would enjoy it. Thank you. ^_^
+
+
+[COLOR=#ccff99][B]RECOMMENDED AND COMPATIBLE MODS[/B]
+[B]_________________________________[/B][/COLOR]
+
+[COLOR=#cc99ff][B]Tools:[/B][/COLOR]
+[LIST]
+[*][URL='http://community.playstarbound.com/index.php?resources/creative-mode-complete-control-over-your-experience-upbeat-giraffe.614/'][COLOR=#ffffff][B]Creative Mode[/B][/COLOR][/URL] (by aMannus) - ultimate mod for all your testing purposes and munchkin gameplay experience ;)
+[*][URL='http://community.playstarbound.com/?resources/2450/'][COLOR=#ffffff][B]Enhanced Storage[/B][/COLOR][/URL] (by NeoVanAlemania) - movable containers with extended slot capacity
+[/LIST]
+[COLOR=#ff99cc][B]Core gameplay:[/B][/COLOR]
+[LIST]
+[*][URL='http://community.playstarbound.com/?resources/2475/'][COLOR=#ffffff][B]Temperature Returns[/B][/COLOR][/URL] (by xxswateliexx) - brings back the temperature mechanics from Enraged Koala and extends it
+
+[*][URL='http://community.playstarbound.com/?resources/2484/'][B][COLOR=#ffffff]More Caves[/COLOR][/B][/URL] (by Turtlicious) - makes underground travels way less dull :D
+[/LIST]
+[COLOR=#ffff99][B]New biomes and star systems:[/B][/COLOR]
+[LIST]
+[*][URL='http://community.playstarbound.com/?resources/2447/'][COLOR=#ffffff][B]Mysterious Stars[/B][/COLOR][/URL] (by Broconut) - adds new star type and restores all previously removed biomes, Tentacle Biome included! [B]Essential for the full CLeF experience![/B]
+[*][URL='http://community.playstarbound.com/?resources/2551/'][COLOR=#ffffff][B]Prismatic Stars[/B][/COLOR][/URL] (by ChocolateySyrup) - adds new star type and variety of mixed biome types.
+[/LIST]
+[COLOR=#ffcc99][B]Races:[/B][/COLOR]
+[LIST]
+[*][URL='http://community.playstarbound.com/?resources/68/'][COLOR=#ffffff][B]Felins[/B][/COLOR][/URL] (by Kawa) - catgirls in space. Must I say more? :3
+[*][URL='http://community.playstarbound.com/?resources/1655/'][COLOR=#ffffff][B]Munari[/B][/COLOR][/URL] (by Motionless) - fish people. More people than fish. :D
+[/LIST]
+[COLOR=#99ccff][B]Ships:[/B][/COLOR]
+[LIST]
+[*][URL='http://community.playstarbound.com/?resources/2645/'][COLOR=#ffffff][B]USS Polaris[/B][/COLOR][/URL] (by Velornar) - tiered USCM deep-space Frigate
+[/LIST]
