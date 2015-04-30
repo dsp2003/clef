@@ -4,9 +4,13 @@ Starbound content restoration and gameplay tweaking mod
 
 The development of this mod was stopped. Here's the reason (starbound-modding IRC channel at 2015/04/30):
 
+
 [16:47:06] metadept: you are no longer welcome to give feedback in this channel
+
 [16:47:16] metadept: i try to be nice and humor you
+
 [16:47:20] metadept: all you ever do is complain
+
 
 From my side, I no longer want to do anything with this game and its so-called developers. They don't want to hear about the real problems and prefer to live in their perfect world.
 
