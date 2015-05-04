@@ -1,0 +1,20 @@
+##starbound-modding IRC channel at 2015/04/30:
+
+[16:47:06] metadept: you are no longer welcome to give feedback in this channel
+[16:47:16] metadept: i try to be nice and humor you
+[16:47:20] metadept: all you ever do is complain
+
+From my side, I no longer want to do anything with this game's so-called developers. They don't want to hear about the real problems and prefer to live in their perfect world.
+
+Well done, Chucklefish. No wonder people literally call you the worst Early Access project ever.
+
+On another side, I’d really like to question metadept’s professionalism and sanity. Ever since he came to Chucklefish’s team, Starbound began getting worse and worse:
+
+* First, he removed repairable drills and pickaxes, then he deleted the code corresponding to Hunger and Temperature systems, basically cutting off the simulation and survival aspects of the game.
+* Then he “rewrote” the world search and starmap generation functions - this rewrite introduced horrendous slowdowns, and now instead of 2-5 seconds the starmap generation takes 1-2 minutes, while the world lookup function now takes 15 minutes(!!).
+* Next, he removed “wall hacks”, so you no longer could access the objects thru thin layer of wall bricks - this technique was widely used in building creation.
+* And of course, he added utterly annoying non-skipable 3 second teleport animation, original version of which contained epileptic effect and refused to remove or replace it with something less intrusive.
+
+To anyone whom it may concern: feel free to clone this repository and contribute to this project, if you feel like it.
+
+If you need my recipe illustrations and screenshots, here they are: http://imgur.com/a/pvYwh
