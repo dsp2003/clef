@@ -1,11 +1,11 @@
 {
-	"name" : "CLeF-SG-1-677-Stable",
+	"name" : "CLeF-SG-1-679-Stable",
 	"version" : "Beta v. Spirited Giraffe",
 	"path" : ".",
 	"requires" : [ "CLeF" ],
 	"includes" : [],
 	"metadata" : {
-	  "displayName" : "CLeF SG 1-667 Module",
+	  "displayName" : "CLeF SG 1-669 Module",
 		"author" : "dsp2003",
 		"description" : "",
 		"support_url" : "https://github/dsp2003/clf/",

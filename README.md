@@ -1,12 +1,12 @@
 # Choke Le Fish
 Starbound content restoration and gameplay tweaking mod
 
-Version 29 (2015/04/29)
+Version 30 (2015/05/05)
 ----------
 
 Known to work with:
 - [Stable] Upbeat Giraffe 2-666/2-668
-- [Stable] Spirited Giraffe 1-677 (April 21)
+- [Stable] Spirited Giraffe 1-679 (May 1)
 
 
 Installation
@@ -20,7 +20,7 @@ Copy the following directories into "starbound/giraffe_storage/mods/" directory:
 
 + "CLeF - UG 2-668 Stable", if you have Stable release between UG 2-666 and 2-668
 
-+ "CLeF - SG 1-677 Stable", if you have Stable release SG 1-677 from April 21 and up
++ "CLeF - SG 1-679 Stable", if you have Stable release SG 1-679 from May 1 and up
 
 + "CLeF - Cheats", if you hate the restrictions which were imposed on us by Chucklefish and want to loot everything in the scripted worlds ;)
 
@@ -251,6 +251,8 @@ Gameplay changes
 
 + [M] Slime furniture recipes auto-learned upon Green Slime pickup
 
++ [M] Mole and Frog merchant objects have proper icons and breakable. Also, both have Novakid lines, and the Mole has proper descriptions
+
 + [M] Removed protection from randomly generated dungeons. Explaination: they weren't designed to use shields in the first place, and lots of players has already experienced problems with being unable to even access their front entrances, "thanks" to randomly generated ground obstacles, which also went under protection of the shield
 
 + [M] In order to compensate the protection removal, Tesla Spikes now have 20 points of "health" and much harder to harvest as a result
@@ -334,6 +336,7 @@ Note: THIS IS NOT A MODPACK, as the merged mods are not simply copy-pasted, but 
 Version history
 ---------------
 
+- 2015/05/05 v30 - moved to SG 1-679 Stable support, Frog and Mole merchant objects now have proper icons, descriptions, and also breakable
 - 2015/04/29 v29 - added Fatal Circuit files (not used yet), fixed beacon scripts, restored Impervium Bars (no purpose yet)
 - 2015/04/25 v28 - added SG 1-677 Stable support, changed teleport delay timing a bit
 - 2015/04/21 v27 - fixed incorrect Erchius Crystal recipe (reported by crushinblue), added copper armour recipe, re-added slime and lagoon armour recipes, changed the way common metal armour recipes are learned, slime furniture recipe learning now attached to Green Slime pickup
