@@ -1,7 +1,7 @@
 # Choke Le Fish
 Starbound content restoration and gameplay tweaking mod
 
-Version 30 (2015/05/05)
+Version 31 (2015/05/07)
 ----------
 
 Known to work with:
@@ -336,6 +336,7 @@ Note: THIS IS NOT A MODPACK, as the merged mods are not simply copy-pasted, but 
 Version history
 ---------------
 
+- 2015/05/07 v31 - fixed generic metal armour recipes (reported by Hatsya Souji), moved copper armour recipes to Anvil instead of Metalwork Station
 - 2015/05/05 v30 - moved to SG 1-679 Stable support, Frog and Mole merchant objects now have proper icons, descriptions, and also breakable
 - 2015/04/29 v29 - added Fatal Circuit files (not used yet), fixed beacon scripts, restored Impervium Bars (no purpose yet)
 - 2015/04/25 v28 - added SG 1-677 Stable support, changed teleport delay timing a bit
