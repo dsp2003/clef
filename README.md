@@ -1,12 +1,12 @@
 # Choke Le Fish
 Starbound content restoration and gameplay tweaking mod
 
-Version 31 (2015/05/07)
+Version 32 (2015/05/09)
 ----------
 
 Known to work with:
-- [Stable] Upbeat Giraffe 2-666/2-668
-- [Stable] Spirited Giraffe 1-679 (May 1)
+- [Stable] Upbeat Giraffe 666-2/668-2
+- [Stable] Spirited Giraffe 679-4 (May 1)
 
 
 Installation
@@ -18,9 +18,9 @@ Copy the following directories into "starbound/giraffe_storage/mods/" directory:
 
 + "CLeF - Common", contains the core mod files common for all game versions
 
-+ "CLeF - UG 2-668 Stable", if you have Stable release between UG 2-666 and 2-668
++ "CLeF - 668-2 UG Stable", if you have Stable release between 666-2 UG and 668-2 UG
 
-+ "CLeF - SG 1-679 Stable", if you have Stable release SG 1-679 from May 1 and up
++ "CLeF - 679-4 SG Stable", if you have Stable release 679-4 SG from May 1 and up
 
 + "CLeF - Cheats", if you hate the restrictions which were imposed on us by Chucklefish and want to loot everything in the scripted worlds ;)
 
@@ -121,6 +121,33 @@ Gameplay changes
 
 + [M] Diamond can be crafted in Alloy Furnace from 2 diamond ores (recipe learned on picking up the diamond ore, was 4 diamond ores in EK and removed entirely in UG)
 
++ [R] Stone Axe, Stone Pickaxe and Stone Hoe can be crafted at Crafting Table. Note that Stone Pickaxe cannot be repaired.
+
++ [N] Emerald Ore will spawn in previously unvisited worlds with the same conditions as Diamond Ore, including the Rock Deposites and treasure chests
+
++ [N] Emerald can be crafted from 2 Emerald Ore in Alloy Furnace
+
++ [N] Emerald Drill and Emerald Pickaxe can be crafted from Emeralds in Metalwork Station and the Replicator (Sci-Fi Anvil)
+
++ [R] All pickaxes (except Stone Pickaxe) and drills have EK's durability values (which means they won't break so fast), block radius, tile damage and material costs (except pixel requirements):
+ - Copper Drill     (d: 1000 -> 3000, b: 2 -> 3, d: 1.5 -> 2.9)
+ - Silver Drill     (d: 1000 -> 3000, b: 2 -> 3, d: 2.0 -> 3.1)
+ - Golden Drill     (d: 1000 -> 3000, b: 2 -> 3, d: 2.5 -> 3.3)
+ - Diamond Drill    (d: 1000 -> 3000, b: 2 -> 3, d: 3.5 -> 3.7)
+ - Emerald Drill    (d: 3500, b: 3, d: 4.0)
+ - Platinum Drill   (d: 1000 -> 3000, b: 2 -> 3, d: 3.0 -> 3.5)
+ - Stone Pickaxe    (d: 5000, b: 3, d: 2.0, cannot be repaired)
+ - Copper Pickaxe   (d:  200 -> 7500)
+ - Silver Pickaxe   (d:  200 -> 7500)
+ - Golden Pickaxe   (d:  200 -> 7500)
+ - Diamond Pickaxe  (d:  350 -> 7500)
+ - Emerald Pickaxe  (d: 8000)
+ - Platinum Pickaxe (d: 200 -> 10000)
+
++ [R] Drills and pickaxes can be repaired with bars, ore and diamonds (open your inventory, equip tool, select ore/bar/diamond and right-click on the tool icon)
+
++ [N] Chainsaw can be crafted via Metalwork Station for 6 Durasteel Bar and 12 Steel Bar
+
 + [N] Core fragment ore can be crafted in Alloy Furnace from 10 Lava and 1 Oil (recipe learned on picking the Lava)
 
 + [N] Molten Core can be crafted from 2 iron bars and 10 core fragments (the recipe added to stone furnace upon pickup, originally was dropped by UFO boss in EK)
@@ -174,25 +201,6 @@ Gameplay changes
 + [N] Limit for items per cell changed to 9999 (was 1000 in EK/UG. Everybody wants to be super greedy sometimes :3 )
 
 + [N] Removed 1000 items limit for Rope
-
-+ [R] Stone Axe, Stone Pickaxe and Stone Hoe can be crafted at Crafting Table. Note that Stone Pickaxe cannot be repaired.
-
-+ [R] All pickaxes (except Stone Pickaxe) and drills have EK's durability values (which means they won't break so fast), block radius, tile damage and material costs (except pixel requirements):
- - Copper Drill     (d: 1000 -> 3000, b: 2 -> 3, d: 1.5 -> 2.9)
- - Silver Drill     (d: 1000 -> 3000, b: 2 -> 3, d: 2.0 -> 3.1)
- - Golden Drill     (d: 1000 -> 3000, b: 2 -> 3, d: 2.5 -> 3.3)
- - Diamond Drill    (d: 1000 -> 3000, b: 2 -> 3, d: 3.5 -> 3.7)
- - Platinum Drill   (d: 1000 -> 3000, b: 2 -> 3, d: 3.0 -> 3.5)
- - Stone Pickaxe    (d: 5000, b: 3, d: 2.0, cannot be repaired)
- - Copper Pickaxe   (d:  200 -> 7500)
- - Silver Pickaxe   (d:  200 -> 7500)
- - Golden Pickaxe   (d:  200 -> 7500)
- - Diamond Pickaxe  (d:  350 -> 7500)
- - Platinum Pickaxe (d: 200 -> 10000)
-
-+ [R] Drills and pickaxes can be repaired with bars, ore and diamonds (open your inventory, equip tool, select ore/bar/diamond and right-click on the tool icon)
-
-+ [N] Chainsaw can be crafted via Metalwork Station for 6 Durasteel Bar and 12 Steel Bar
 
 + [R] Butterfly Boost tech is available upon upgrading ship to Tier 4 (aka Sparrow Class. Requires quest data purge or playing as new character)
 
@@ -322,20 +330,22 @@ Third-party mods merged with CLeF
 
 Note: THIS IS NOT A MODPACK, as the merged mods are not simply copy-pasted, but rebalanced, rearranged and tightly integrated with the rest of the content, hence they WILL CONFLICT WITH ORIGINAL MODS.
 
-+ http://community.playstarbound.com/?resources/2644/ - Craftable Chainsaw (by XNicoX14)
-+ http://community.playstarbound.com/?resources/2648/ - Repair Tools (by XNicoX14)
-+ http://community.playstarbound.com/?resources/2498/ - More Screen Resolutions (by eurosat7)
-+ http://community.playstarbound.com/?resources/2640/ - Apex Grind Again (by eurosat7)
-+ http://community.playstarbound.com/?resources/2696/ - Developer Clothing Sets (by Lucaine)
-+ http://community.playstarbound.com/?resources/2635/ - Prepare for Glory! (by LegendXCarisso)
-+ http://community.playstarbound.com/?resources/2728/ - Swamp & Lagoon Armor Returned (by Campaigner)
-+ http://community.playstarbound.com/?resources/2705/ - Loom (by I Said No)
-+ http://community.playstarbound.com/?resources/2811/ - Original Pioneer Armor (by Snigery)
++ http://community.playstarbound.com/resources/2142/ - Emeralds! (by Serverator)
++ http://community.playstarbound.com/resources/2498/ - More Screen Resolutions (by eurosat7)
++ http://community.playstarbound.com/resources/2635/ - Prepare for Glory! (by LegendXCarisso)
++ http://community.playstarbound.com/resources/2640/ - Apex Grind Again (by eurosat7)
++ http://community.playstarbound.com/resources/2644/ - Craftable Chainsaw (by XNicoX14)
++ http://community.playstarbound.com/resources/2648/ - Repair Tools (by XNicoX14)
++ http://community.playstarbound.com/resources/2696/ - Developer Clothing Sets (by Lucaine)
++ http://community.playstarbound.com/resources/2705/ - Loom (by I Said No)
++ http://community.playstarbound.com/resources/2728/ - Swamp & Lagoon Armor Returned (by Campaigner)
++ http://community.playstarbound.com/resources/2811/ - Original Pioneer Armor (by Snigery)
 
 
 Version history
 ---------------
 
+- 2015/05/09 v32 - added whole bunch of Emerald-themed items, objects, tools and recipes (partially based on mod by Serverator), added Refinery recipe for Diamond Ore
 - 2015/05/07 v31 - fixed generic metal armour recipes (reported by Hatsya Souji), moved copper armour recipes to Anvil instead of Metalwork Station
 - 2015/05/05 v30 - moved to SG 1-679 Stable support, Frog and Mole merchant objects now have proper icons, descriptions, and also breakable
 - 2015/04/29 v29 - added Fatal Circuit files (not used yet), fixed beacon scripts, restored Impervium Bars (no purpose yet)
