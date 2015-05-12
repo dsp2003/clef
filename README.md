@@ -1,12 +1,12 @@
 # Choke Le Fish
 Starbound content restoration and gameplay tweaking mod
 
-Version 32 (2015/05/09)
+Version 33 (2015/05/12)
 ----------
 
 Known to work with:
 - [Stable] Upbeat Giraffe 666-2/668-2
-- [Stable] Spirited Giraffe 679-4 (May 1)
+- [Stable] Spirited Giraffe 679-5 (May 8)
 
 
 Installation
@@ -127,6 +127,10 @@ Gameplay changes
 
 + [N] Emerald can be crafted from 2 Emerald Ore in Alloy Furnace
 
++ [N] Emerald Glass can be crafted from 2 Fine Sand (or Sand) blocks and 1 Emerald Ore in Alloy Furnace
+
++ [N] Emerald Block can be crafted from 2 Emeralds (or 4 Emerald Ore) in Crafting Table
+
 + [N] Emerald Drill and Emerald Pickaxe can be crafted from Emeralds in Metalwork Station and the Replicator (Sci-Fi Anvil)
 
 + [R] All pickaxes (except Stone Pickaxe) and drills have EK's durability values (which means they won't break so fast), block radius, tile damage and material costs (except pixel requirements):
@@ -234,6 +238,8 @@ Gameplay changes
 
 + [N] Decorative "Monster's Brain in a Jar" item can be crafted from 1 Inferior Brain, 1 Glass Block and 1 Iron Bar at Crafting Table (recipe learned upon picking up Inferior Brain)
 
++ [M] Metal, Radioactive, Sewage and Toxic Waste barrels can be used as 12-slot storage containers
+
 + [N] Power Loom, a modern replacement for Spinning Wheel, can be crafted in Metalwork Station for 8 Steel Bars
 
 + [R] Re-added developer clothing sets (can be crafted via Yarn Spinner):
@@ -332,7 +338,7 @@ Note: THIS IS NOT A MODPACK, as the merged mods are not simply copy-pasted, but 
 
 + http://community.playstarbound.com/resources/2142/ - Emeralds! (by Serverator)
 + http://community.playstarbound.com/resources/2498/ - More Screen Resolutions (by eurosat7)
-+ http://community.playstarbound.com/resources/2635/ - Prepare for Glory! (by LegendXCarisso)
++ http://community.playstarbound.com/resources/2635/ - Prepare for Glory! (by LegendXCarisso) - Removed until further notice
 + http://community.playstarbound.com/resources/2640/ - Apex Grind Again (by eurosat7)
 + http://community.playstarbound.com/resources/2644/ - Craftable Chainsaw (by XNicoX14)
 + http://community.playstarbound.com/resources/2648/ - Repair Tools (by XNicoX14)
@@ -345,13 +351,14 @@ Note: THIS IS NOT A MODPACK, as the merged mods are not simply copy-pasted, but 
 Version history
 ---------------
 
+- 2015/05/12 v33 - removed battle music patch (for now), added Emerald Glass and Emerald Blocks, barrels converted into storage containers
 - 2015/05/09 v32 - added whole bunch of Emerald-themed items, objects, tools and recipes (partially based on mod by Serverator), added Refinery recipe for Diamond Ore
 - 2015/05/07 v31 - fixed generic metal armour recipes (reported by Hatsya Souji), moved copper armour recipes to Anvil instead of Metalwork Station
-- 2015/05/05 v30 - moved to SG 1-679 Stable support, Frog and Mole merchant objects now have proper icons, descriptions, and also breakable
+- 2015/05/05 v30 - moved to SG 679 Stable support, Frog and Mole merchant objects now have proper icons, descriptions, and also breakable
 - 2015/04/29 v29 - added Fatal Circuit files (not used yet), fixed beacon scripts, restored Impervium Bars (no purpose yet)
-- 2015/04/25 v28 - added SG 1-677 Stable support, changed teleport delay timing a bit
+- 2015/04/25 v28 - added SG 677 Stable support, changed teleport delay timing a bit
 - 2015/04/21 v27 - fixed incorrect Erchius Crystal recipe (reported by crushinblue), added copper armour recipe, re-added slime and lagoon armour recipes, changed the way common metal armour recipes are learned, slime furniture recipe learning now attached to Green Slime pickup
-- 2015/04/18 v26 - changed starter world lookup to "forest" biome and removed planet size restriction, speeded up first run universe generation and world lookup, removed support for 2-670 - 2-673 Nightly
+- 2015/04/18 v26 - changed starter world lookup to "forest" biome and removed planet size restriction, speeded up first run universe generation and world lookup, removed support for 670 - 673 Nightly
 - 2015/04/10 v25 - added support for Spirited Giraffe, more liquid interactions, removed fullscreen teleport animation
 - 2015/03/28 v24 - restored original Pioneer armour set (requested by Snigery), craftable teleporters and teleporter cores
 - 2015/03/24 v23 - added option to install on both Stable and Nightly, patched teleporter object to be craftable and transferable, added portable teleporter, added cheats
