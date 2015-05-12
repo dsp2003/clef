@@ -98,20 +98,20 @@ Gameplay changes
  - Alien Juice + Healing Water => Alien Juice
  - Alien Juice + Milk => Alien Juice
  - Alien Juice + Coffee => Alien Juice
- - [SG ONLY] Alien Juice + Swamp Water => Alien Juice
- - [SG ONLY] Alien Juice + Slime Liquid => Slime Liquid
+ - Alien Juice + Swamp Water => Alien Juice
+ - Alien Juice + Slime Liquid => Slime Liquid
  - Lava + Healing water => Magma rock
  - Lava + Coffee => Magma rock
  - Lava + Alien juice => Magma rock
  - Lava + Poison => Magma rock
  - Lava + Coffee => Magma rock
- - [SG ONLY] Lava + Swamp water => Magma rock
+ - Lava + Swamp water => Magma rock
  - Core Lava + Healing water => Magma rock
  - Core Lava + Coffee => Magma rock
  - Core Lava + Alien juice => Magma rock
  - Core Lava + Poison => Magma rock
  - Core Lava + Coffee => Magma rock
- - [SG ONLY] Core Lava + Swamp water => Magma rock
+ - Core Lava + Swamp water => Magma rock
 
 + [M] Renamed "Coffee Seed" into "Raw Coffee Beans". You can roast them in Microwave or Campfire and get consumable "Coffee Beans"
 
@@ -174,9 +174,9 @@ Gameplay changes
 
 + [R] Coal gives 2 points of fuel (same as in EK, 0 in UG)
 
-+ [N][SG ONLY] Teleporter Core can be crafted from 2 Iron Bars and 3 Diamonds
++ [N] Teleporter Core can be crafted from 2 Iron Bars and 3 Diamonds
 
-+ [M][SG ONLY] All vanilla teleporters from "2-Stop Teleshop" can be crafted via Iron Crafting Table. Each requires 1 Teleporter Core and 1 Circuit board to craft (also, all of them can be safely placed and removed without object's destruction. Also included proper descriptions for each teleporter type). Other requirements vary:
++ [M] All vanilla teleporters from "2-Stop Teleshop" can be crafted via Iron Crafting Table. Each requires 1 Teleporter Core and 1 Circuit board to craft (also, all of them can be safely placed and removed without object's destruction. Also included proper descriptions for each teleporter type). Other requirements vary:
 
  - Executive  : 3 Diamonds, 6 Durasteel Bars and 6 Glass Blocks
  - Brass      : 2 Diamonds, 10 Liquid Oil, 5 Copper Bars and 4 Glass Blocks
@@ -186,11 +186,13 @@ Gameplay changes
  - Tomb       : 10 Golden Bars, 4 Rubium Ore and 2 Glass Blocks
  - Wooden     : 1 Diamond, 50 Wood Planks, 3 Steel Bars and 2 Glass Blocks
 
-+ [N][SG ONLY] Orange Teleporter Core can be crafted from 2 Iron Bars, 4 Core Fragment Ores and 1 Diamond
++ [N] Orange Teleporter Core can be crafted from 2 Iron Bars, 4 Core Fragment Ores and 1 Diamond
 
-+ [N][SG ONLY] Added Portable Teleporter object. Can be crafted via Iron Crafting Table for 1 Orange Teleporter Core, 1 Circuit Board, 2 Durasteel Bars and 2 Glass Blocks
++ [N] Added Portable Teleporter object. Can be crafted via Iron Crafting Table for 1 Orange Teleporter Core, 1 Circuit Board, 2 Durasteel Bars and 2 Glass Blocks
 
-+ [M][SG ONLY] Instant teleportation! Removed fullscreen teleport animation (causes epilepsy and slows down the game. Chucklefish, what were you thinking?!)
++ [M] Instant teleportation! Removed fullscreen teleport animation (causes epilepsy and slows down the game. Chucklefish, what were you thinking?!)
+
++ [M] Replaced teleport effect sprites with blue versions based on original Rho's design
 
 + [R] The player will start from forest planet (same as in EK, was "Garden" in UG). This largely increases variety in comparison with bland "Lush / Garden" worlds
 
@@ -253,7 +255,7 @@ Gameplay changes
 
 + [R] Re-added armour sets:
  - [UG ONLY] Slime set (requires 25 Slime Block per item and 10-15 Fabric, recipes learned upon Slime Block pickup)
- - [SG ONLY] Slime set (requires 25 Green Slimes per item and 10-15 Fabric, recipes learned upon Green Slime pickup)
+ - Slime set (requires 25 Green Slimes per item and 10-15 Fabric, recipes learned upon Green Slime pickup)
  - Lagoon set (can be bought for 750 pixels, available from the start)
  - Diamond set (requires 19 Diamonds and 6 Durasteel Bars, crafted at Metalwork Station)
  - Copper set (requires 5-15 Copper Bars, crafted at Metalwork Station, recipes learned upon Copper Bar pickup)
@@ -351,7 +353,7 @@ Note: THIS IS NOT A MODPACK, as the merged mods are not simply copy-pasted, but 
 Version history
 ---------------
 
-- 2015/05/12 v33 - removed battle music patch (for now), added Emerald Glass and Emerald Blocks, barrels converted into storage containers
+- 2015/05/12 v33 - removed battle music patch (for now), added Emerald Glass and Emerald Blocks, barrels converted into storage containers, replaced teleport sprites with original blue Rho's concepts
 - 2015/05/09 v32 - added whole bunch of Emerald-themed items, objects, tools and recipes (partially based on mod by Serverator), added Refinery recipe for Diamond Ore
 - 2015/05/07 v31 - fixed generic metal armour recipes (reported by Hatsya Souji), moved copper armour recipes to Anvil instead of Metalwork Station
 - 2015/05/05 v30 - moved to SG 679 Stable support, Frog and Mole merchant objects now have proper icons, descriptions, and also breakable
