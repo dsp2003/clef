@@ -1,7 +1,7 @@
 # Choke Le Fish
 Starbound content restoration and gameplay tweaking mod
 
-Version 33 (2015/05/12)
+Version 34 (2015/05/13)
 ----------
 
 Known to work with:
@@ -18,6 +18,8 @@ Copy the following directories into "starbound/giraffe_storage/mods/" directory:
 
 + "CLeF - Common", contains the core mod files common for all game versions
 
++ "CLeF - Extra", contains additional core mod files incompatible/overlapping functionality with third-parties. Consult the "Gameplay changes" section for details
+
 + "CLeF - 668-2 UG Stable", if you have Stable release between 666-2 UG and 668-2 UG
 
 + "CLeF - 679-4 SG Stable", if you have Stable release 679-4 SG from May 1 and up
@@ -33,6 +35,8 @@ As you probably know, not all players are happy with the changes that were made 
 This mod is my attempt to address and revert these changes in Upbeat Giraffe to some degree, as well as introduce other balance tweaks, which are backported from the Enraged Koala I modded privately for my personal enjoyment. ;)
 
 Starting from Version 6, CLeF also incorporates work by other awesome people. See the full list of mods and their authors at the end of the description.
+
+Starting from Version 33, CLeF requires you to wipe your universe and shipworld files, otherwise you'll be met with invisible objects and eventual crashes.
 
 
 Frequently Asked Questions
@@ -240,8 +244,6 @@ Gameplay changes
 
 + [N] Decorative "Monster's Brain in a Jar" item can be crafted from 1 Inferior Brain, 1 Glass Block and 1 Iron Bar at Crafting Table (recipe learned upon picking up Inferior Brain)
 
-+ [M] Metal, Radioactive, Sewage and Toxic Waste barrels can be used as 12-slot storage containers
-
 + [N] Power Loom, a modern replacement for Spinning Wheel, can be crafted in Metalwork Station for 8 Steel Bars
 
 + [R] Re-added developer clothing sets (can be crafted via Yarn Spinner):
@@ -273,8 +275,6 @@ Gameplay changes
 
 + [M] In order to compensate the protection removal, Tesla Spikes now have 20 points of "health" and much harder to harvest as a result
 
-+ [M] Restored battle music (mixdown at lower levels in order to tone down the interference with mission dungeons)
-
 + [N] More zoom levels (from 1.0 to 10, with 0.5 step) and screen resolutions:
  - 640 x 480
  - 800 x 600
@@ -293,6 +293,14 @@ Gameplay changes
 + [M] Replaced Chucklefish icon and logo animation with recoloured & shaded version (also fixed "u" which strongly resembled "v")
 
 
+Extra addon changes
+-------------------
+
+Incompatible with "Enhanced Storage":
+
++ [M] Metal, Radioactive, Sewage and Toxic Waste barrels can be used as 12-slot storage containers
+
+
 Cheat addon changes
 -------------------
 
@@ -302,7 +310,9 @@ Cheat addon changes
 
 + [N] Extra zoom levels (from 0.5 to 1, with 0.1 step)
 
-+ [M] No slowdown when running backwards
++ [M] No slowdown when running backwards (just like in EK)
+
++ [R] Removed "nude" and re-added "invisible" status effect for tent objects (as a side-effect, they no longer show bugged lit sprite which sometimes was floating in the air when player got up. Same as in EK)
 
 
 To-do list
@@ -353,6 +363,7 @@ Note: THIS IS NOT A MODPACK, as the merged mods are not simply copy-pasted, but 
 Version history
 ---------------
 
+- 2015/05/13 v34 - restored UG 666 tent effects for Cheat addon, moved barrel containers to Extra addon (incompatible with Enhanced Storage)
 - 2015/05/12 v33 - removed battle music patch (for now), added Emerald Glass and Emerald Blocks, barrels converted into storage containers, replaced teleport sprites with original blue Rho's concepts
 - 2015/05/09 v32 - added whole bunch of Emerald-themed items, objects, tools and recipes (partially based on mod by Serverator), added Refinery recipe for Diamond Ore
 - 2015/05/07 v31 - fixed generic metal armour recipes (reported by Hatsya Souji), moved copper armour recipes to Anvil instead of Metalwork Station
