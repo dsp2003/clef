@@ -1,11 +1,10 @@
 # Choke Le Fish
 Starbound content restoration and gameplay tweaking mod
 
-Version 34 (2015/05/13)
+Version 35 (2015/05/14)
 ----------
 
 Known to work with:
-- [Stable] Upbeat Giraffe 666-2/668-2
 - [Stable] Spirited Giraffe 679-5 (May 8)
 
 
@@ -16,13 +15,9 @@ Warning! If you have previous version installed, please delete any directories o
 
 Copy the following directories into "starbound/giraffe_storage/mods/" directory:
 
-+ "CLeF - Common", contains the core mod files common for all game versions
++ "CLeF - Common", contains the core mod files common for all supported game versions
 
 + "CLeF - Extra", contains additional core mod files incompatible/overlapping functionality with third-parties. Consult the "Gameplay changes" section for details
-
-+ "CLeF - 668-2 UG Stable", if you have Stable release between 666-2 UG and 668-2 UG
-
-+ "CLeF - 679-4 SG Stable", if you have Stable release 679-4 SG from May 1 and up
 
 + "CLeF - Cheats", if you hate the restrictions which were imposed on us by Chucklefish and want to loot everything in the scripted worlds ;)
 
@@ -93,29 +88,41 @@ Glossary
 Gameplay changes
 ----------------
 
++ [N] Liquid Slime can be harvested and placed
+
++ [M] Green Slime can be crafted from 2 Liquid Slime in Crafting Table
+
 + [N] Implemented more liquid interactions (also added all interactions from Lava to Core lava. Yes, you can harvest it too):
 
- - Water + Healing Water => Healing Water
- - Poison + Healing Water => Water
+ - Healing Water + Water => Healing Water
+ - Healing Water + Poison => Water
+ - Healing Water + Erchius Fuel => Water
+ - Swamp Water + Water => Swamp Water
+ - Swamp Water + Poison => Poison
+ - Swamp Water + Healing Water => Water
  - Alien Juice + Water => Alien Juice
  - Alien Juice + Poison => Alien Juice
+ - Alien Juice + Tar => Alien Juice
  - Alien Juice + Healing Water => Alien Juice
  - Alien Juice + Milk => Alien Juice
  - Alien Juice + Coffee => Alien Juice
+ - Alien Juice + Erchius Fuel => Alien Juice
  - Alien Juice + Swamp Water => Alien Juice
- - Alien Juice + Slime Liquid => Slime Liquid
- - Lava + Healing water => Magma rock
- - Lava + Coffee => Magma rock
- - Lava + Alien juice => Magma rock
- - Lava + Poison => Magma rock
- - Lava + Coffee => Magma rock
- - Lava + Swamp water => Magma rock
- - Core Lava + Healing water => Magma rock
- - Core Lava + Coffee => Magma rock
- - Core Lava + Alien juice => Magma rock
- - Core Lava + Poison => Magma rock
- - Core Lava + Coffee => Magma rock
- - Core Lava + Swamp water => Magma rock
+ - Liquid Slime + Water => Liquid Slime
+ - Liquid Slime + Poison => Liquid Slime
+ - Liquid Slime + Tar => Liquid Slime
+ - Liquid Slime + Healing Water => Liquid Slime
+ - Liquid Slime + Alien Juice => Liquid Slime
+ - Liquid Slime + Milk => Liquid Slime
+ - Liquid Slime + Coffee => Liquid Slime
+ - Liquid Slime + Erchius Fuel = Liquid Slime
+ - Liquid Slime + Swamp Water => Liquid Slime
+ - (Core) Lava + Healing water => Magma rock
+ - (Core) Lava + Alien juice => Magma rock
+ - (Core) Lava + Poison => Magma rock
+ - (Core) Lava + Coffee => Magma rock
+ - (Core) Lava + Swamp water => Magma rock
+ - (Core) Lava + Liquid Slime => Magma rock
 
 + [M] Renamed "Coffee Seed" into "Raw Coffee Beans". You can roast them in Microwave or Campfire and get consumable "Coffee Beans"
 
@@ -256,7 +263,6 @@ Gameplay changes
  - Tiy's set
 
 + [R] Re-added armour sets:
- - [UG ONLY] Slime set (requires 25 Slime Block per item and 10-15 Fabric, recipes learned upon Slime Block pickup)
  - Slime set (requires 25 Green Slimes per item and 10-15 Fabric, recipes learned upon Green Slime pickup)
  - Lagoon set (can be bought for 750 pixels, available from the start)
  - Diamond set (requires 19 Diamonds and 6 Durasteel Bars, crafted at Metalwork Station)
@@ -363,6 +369,7 @@ Note: THIS IS NOT A MODPACK, as the merged mods are not simply copy-pasted, but 
 Version history
 ---------------
 
+- 2015/05/14 v35 - dropped support for 66x-2 Stable, rebuild and added more liquid interactions, added placeable liquid slime, added green slime blob recipe
 - 2015/05/13 v34 - restored UG 666 tent effects for Cheat addon, moved barrel containers to Extra addon (incompatible with Enhanced Storage)
 - 2015/05/12 v33 - removed battle music patch (for now), added Emerald Glass and Emerald Blocks, barrels converted into storage containers, replaced teleport sprites with original blue Rho's concepts
 - 2015/05/09 v32 - added whole bunch of Emerald-themed items, objects, tools and recipes (partially based on mod by Serverator), added Refinery recipe for Diamond Ore
