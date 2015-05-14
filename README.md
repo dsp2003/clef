@@ -88,7 +88,7 @@ Glossary
 Gameplay changes
 ----------------
 
-+ [N] Liquid Slime can be harvested and placed
++ [N] Liquid Slime can be harvested and placed. Also replaced Slime status effect icon to match the style of new liquid item
 
 + [M] Green Slime can be crafted from 2 Liquid Slime in Crafting Table
 
@@ -369,7 +369,7 @@ Note: THIS IS NOT A MODPACK, as the merged mods are not simply copy-pasted, but 
 Version history
 ---------------
 
-- 2015/05/14 v35 - dropped support for 66x-2 Stable, rebuild and added more liquid interactions, added placeable liquid slime, added green slime blob recipe
+- 2015/05/14 v35 - dropped support for 66x-2 Stable, rebuild and added more liquid interactions, added placeable liquid slime, added green slime blob recipe, replaced slime status effect icon
 - 2015/05/13 v34 - restored UG 666 tent effects for Cheat addon, moved barrel containers to Extra addon (incompatible with Enhanced Storage)
 - 2015/05/12 v33 - removed battle music patch (for now), added Emerald Glass and Emerald Blocks, barrels converted into storage containers, replaced teleport sprites with original blue Rho's concepts
 - 2015/05/09 v32 - added whole bunch of Emerald-themed items, objects, tools and recipes (partially based on mod by Serverator), added Refinery recipe for Diamond Ore
