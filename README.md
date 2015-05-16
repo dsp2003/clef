@@ -1,11 +1,12 @@
 # Choke Le Fish
 Starbound content restoration and gameplay tweaking mod
 
-Version 35 (2015/05/14)
+Version 36 (2015/05/16)
 ----------
 
 Known to work with:
-- [Stable] Spirited Giraffe 679-5 (May 8)
+- [Stable] Spirited Giraffe Update 5 (May 8)
+- [Nightly] Pleased Giraffe Update 0 (May 14)
 
 
 Installation
@@ -18,6 +19,10 @@ Copy the following directories into "starbound/giraffe_storage/mods/" directory:
 + "CLeF - Common", contains the core mod files common for all supported game versions
 
 + "CLeF - Extra", contains additional core mod files incompatible/overlapping functionality with third-parties. Consult the "Gameplay changes" section for details
+
++ "CLeF - SG Stable", contains files required ONLY for Stable Spirited Giraffe (May 8)
+
++ "CLeF - PG Nightly", contains files required ONLY for Nightly Pleased Giraffe (May 8)
 
 + "CLeF - Cheats", if you hate the restrictions which were imposed on us by Chucklefish and want to loot everything in the scripted worlds ;)
 
@@ -299,6 +304,12 @@ Gameplay changes
 + [M] Replaced Chucklefish icon and logo animation with recoloured & shaded version (also fixed "u" which strongly resembled "v")
 
 
+Nightly changes
+---------------
+
++ [R] Window borders are colourless again
+
+
 Extra addon changes
 -------------------
 
@@ -319,6 +330,8 @@ Cheat addon changes
 + [M] No slowdown when running backwards (just like in EK)
 
 + [R] Removed "nude" and re-added "invisible" status effect for tent objects (as a side-effect, they no longer show bugged lit sprite which sometimes was floating in the air when player got up. Same as in EK)
+
++ [N] Limit for items per cell changed to 99999 (won't show up properly the number of items after 9999, though)
 
 
 To-do list
@@ -369,6 +382,7 @@ Note: THIS IS NOT A MODPACK, as the merged mods are not simply copy-pasted, but 
 Version history
 ---------------
 
+- 2015/05/16 v36 - added support for PG-0 Nightly (it seems no resource version is supplied anymore), de-coloured UI, new dungeons unprotected in Cheats addon, 99999 item limit for Cheats addon
 - 2015/05/14 v35 - dropped support for 66x-2 Stable, rebuild and added more liquid interactions, added placeable liquid slime, added green slime blob recipe, replaced slime status effect icon
 - 2015/05/13 v34 - restored UG 666 tent effects for Cheat addon, moved barrel containers to Extra addon (incompatible with Enhanced Storage)
 - 2015/05/12 v33 - removed battle music patch (for now), added Emerald Glass and Emerald Blocks, barrels converted into storage containers, replaced teleport sprites with original blue Rho's concepts
