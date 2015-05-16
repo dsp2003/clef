@@ -20,9 +20,9 @@ Copy the following directories into "starbound/giraffe_storage/mods/" directory:
 
 + "CLeF - Extra", contains additional core mod files incompatible/overlapping functionality with third-parties. Consult the "Gameplay changes" section for details
 
-+ "CLeF - SG Stable", contains files required ONLY for Stable Spirited Giraffe (May 8)
++ "CLeF - SG Stable", contains files required ONLY for Stable Spirited Giraffe Update 5 (May 8)
 
-+ "CLeF - PG Nightly", contains files required ONLY for Nightly Pleased Giraffe (May 8)
++ "CLeF - PG Nightly", contains files required ONLY for Nightly Pleased Giraffe Update 0 (May 14)
 
 + "CLeF - Cheats", if you hate the restrictions which were imposed on us by Chucklefish and want to loot everything in the scripted worlds ;)
 
