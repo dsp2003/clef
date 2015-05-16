@@ -286,6 +286,8 @@ Gameplay changes
 
 + [M] In order to compensate the protection removal, Tesla Spikes now have 20 points of "health" and much harder to harvest as a result
 
++ [M] Navigation sub-window texture changed to blue (was light-blue in EK)
+
 + [N] More zoom levels (from 1.0 to 10, with 0.5 step) and screen resolutions:
  - 640 x 480
  - 800 x 600
