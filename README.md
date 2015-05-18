@@ -284,6 +284,8 @@ Gameplay changes
 
 + [R] Infinity Express, Penguin Bay, Sign Store, Sign Dispenser, Terramart and Treasured Trophies can be taken and printed for pixels
 
++ [R] Mining Drill Console, Mining Drill Machine, Water Drop Source, Acid Drop Source, Escape Radar Dish, Mining Power Sign, No Way Out Graffiti, Decorative Root Set, Secret Symbol Set, The Way Is blocked Graffiti and Turn Back Graffiti can be taken and printed for pixels
+
 + [M] Removed protection from randomly generated dungeons. Explaination: they weren't designed to use shields in the first place, and lots of players has already experienced problems with being unable to even access their front entrances, "thanks" to randomly generated ground obstacles, which also went under protection of the shield
 
 + [M] In order to compensate the protection removal, Tesla Spikes now have 20 points of "health" and much harder to harvest as a result
@@ -386,7 +388,7 @@ Note: THIS IS NOT A MODPACK, as the merged mods are not simply copy-pasted, but 
 Version history
 ---------------
 
-- 2015/05/19 v37 - outpost objects (Infinity Express, Penguin Bay, Sign Store, Sign Dispenser, Terramart, Treasured Trophies) can be taken and printed for pixels again, replaced blue.png with remix of version from 666 UG
+- 2015/05/18 v37 - outpost and mission objects can be taken and printed for pixels again, replaced blue.png with remix of version from 666 UG
 - 2015/05/16 v36 - added support for PG-0 Nightly (it seems no resource version is supplied anymore), de-coloured UI, new dungeons unprotected in Cheats addon, 99999 item limit for Cheats addon
 - 2015/05/14 v35 - dropped support for 66x-2 Stable, rebuild and added more liquid interactions, added placeable liquid slime, added green slime blob recipe, replaced slime status effect icon
 - 2015/05/13 v34 - restored UG 666 tent effects for Cheat addon, moved barrel containers to Extra addon (incompatible with Enhanced Storage)
