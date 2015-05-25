@@ -1,12 +1,12 @@
 # Choke Le Fish
 Starbound content restoration and gameplay tweaking mod
 
-Version 37 (2015/05/18)
+Version 38 (2015/05/25)
 ----------
 
 Known to work with:
 - [Stable] Spirited Giraffe Update 5 (May 8)
-- [Nightly] Pleased Giraffe Update 0 (May 14)
+- [Nightly] Pleased Giraffe Update 0 (May 20)
 
 
 Installation
@@ -278,6 +278,8 @@ Gameplay changes
  - Matter set (aka Bonus set) (recipes learned upon Matter Item pickup)
  - Original Pioneer set (recipes learned upon Titanium Bar pickup)
 
++ [F] Slime armour can be spawned in different colours
+
 + [M] Slime furniture recipes auto-learned upon Green Slime pickup
 
 + [M] Mole and Frog merchant objects have proper icons and breakable. Also, both have Novakid lines, and the Mole has proper descriptions
@@ -314,6 +316,10 @@ Nightly changes
 ---------------
 
 + [R] Window borders are colourless again
+
++ [R] Restored Alien Juice liquid definition (id:4) and liquid item
+
++ [R] Restored Liquid Nitrogen definitions (id:10)
 
 
 Extra addon changes
@@ -383,11 +389,13 @@ Note: THIS IS NOT A MODPACK, as the merged mods are not simply copy-pasted, but 
 + http://community.playstarbound.com/resources/2705/ - Loom (by I Said No)
 + http://community.playstarbound.com/resources/2728/ - Swamp & Lagoon Armor Returned (by Campaigner)
 + http://community.playstarbound.com/resources/2811/ - Original Pioneer Armor (by Snigery)
++ http://community.playstarbound.com/resources/2927/ - Slime Armour Colours Mod (by shadowd15)
 
 
 Version history
 ---------------
 
+- 2015/05/25 v38 - allow Slime Armour to spawn in different colours (based on mod by shadowd15), patched vanilla Nightly liquidslime item to match CLeF's original implementation, restored alien juice and liquid nitrogen in Nightly, re-compressed .png files with custom image converter
 - 2015/05/18 v37 - outpost and mission objects can be taken and printed for pixels again, replaced blue.png with remix of version from 666 UG
 - 2015/05/16 v36 - added support for PG-0 Nightly (it seems no resource version is supplied anymore), de-coloured UI, new dungeons unprotected in Cheats addon, 99999 item limit for Cheats addon
 - 2015/05/14 v35 - dropped support for 66x-2 Stable, rebuild and added more liquid interactions, added placeable liquid slime, added green slime blob recipe, replaced slime status effect icon
