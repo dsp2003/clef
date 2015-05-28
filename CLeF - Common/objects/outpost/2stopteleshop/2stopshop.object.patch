@@ -1,0 +1,4 @@
+[
+  // NoLag Patch
+  { "op" : "replace", "path" : "/orientations/animationCycle", "value" : 5.1 }
+]

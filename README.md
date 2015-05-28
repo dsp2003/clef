@@ -1,12 +1,12 @@
 # Choke Le Fish
 Starbound content restoration and gameplay tweaking mod
 
-Version 38 (2015/05/25)
+Version 39 (2015/05/28)
 ----------
 
 Known to work with:
 - [Stable] Spirited Giraffe Update 5 (May 8)
-- [Nightly] Pleased Giraffe Update 0 (May 20)
+- [Nightly] Pleased Giraffe Update 0 (May 27)
 
 
 Installation
@@ -16,15 +16,15 @@ Warning! If you have previous version installed, please delete any directories o
 
 Copy the following directories into "starbound/giraffe_storage/mods/" directory:
 
-+ "CLeF - Common", contains the core mod files common for all supported game versions
++ [REQUIRED] "CLeF - Common", contains the core mod files common for all supported game versions
 
-+ "CLeF - Extra", contains additional core mod files incompatible/overlapping functionality with third-parties. Consult the "Gameplay changes" section for details
++ [OPTIONAL] "CLeF - Sandbox", contains the core mod files which restore more sandbox gameplay, yet also remove certain restrictions some people might find "cheaty". Strongly recommended for installation. Consult the "Gameplay changes" section for details
 
-+ "CLeF - SG Stable", contains files required ONLY for Stable Spirited Giraffe Update 5 (May 8)
++ [OPTIONAL] "CLeF - Extra", contains additional core mod files incompatible/overlapping functionality with third-parties. Consult the "Gameplay changes" section for details
 
-+ "CLeF - PG Nightly", contains files required ONLY for Nightly Pleased Giraffe Update 0 (May 14)
++ [REQUIRED] "CLeF - SG Stable", ONLY for Stable Spirited Giraffe Update 5 (May 8)
 
-+ "CLeF - Cheats", if you hate the restrictions which were imposed on us by Chucklefish and want to loot everything in the scripted worlds ;)
++ [REQUIRED] "CLeF - PG Nightly", ONLY for Nightly Pleased Giraffe Update 0 (May 27)
 
 
 Overview
@@ -284,9 +284,19 @@ Gameplay changes
 
 + [M] Mole and Frog merchant objects have proper icons and breakable. Also, both have Novakid lines, and the Mole has proper descriptions
 
++ [M] The maximum number of possible dungeons per vanilla surface biome changed to 7 (was 1 in SG)
+
++ [F] Reduced lag at the Outpost by patching animation and script delta values of NPCs and objects to higher delay values
+
 + [R] Infinity Express, Penguin Bay, Sign Store, Sign Dispenser, Terramart and Treasured Trophies can be taken and printed for pixels
 
 + [R] Mining Drill Console, Mining Drill Machine, Water Drop Source, Acid Drop Source, Escape Radar Dish, Mining Power Sign, No Way Out Graffiti, Decorative Root Set, Secret Symbol Set, The Way Is blocked Graffiti and Turn Back Graffiti can be taken and printed for pixels
+
++ [R] Vending Machine can be used as 32-slot storage container (was 16-slot storage in EK)
+
++ [N] Water Cooler can be used as 16-slot storage container
+
++ [N] Outpost Water Cooler can be used as 9-slot storage container
 
 + [M] Removed protection from randomly generated dungeons. Explaination: they weren't designed to use shields in the first place, and lots of players has already experienced problems with being unable to even access their front entrances, "thanks" to randomly generated ground obstacles, which also went under protection of the shield
 
@@ -312,26 +322,8 @@ Gameplay changes
 + [M] Replaced Chucklefish icon and logo animation with recoloured & shaded version (also fixed "u" which strongly resembled "v")
 
 
-Nightly changes
----------------
-
-+ [R] Window borders are colourless again
-
-+ [R] Restored Alien Juice liquid definition (id:4) and liquid item
-
-+ [R] Restored Liquid Nitrogen definitions (id:10)
-
-
-Extra addon changes
--------------------
-
-Incompatible with "Enhanced Storage":
-
-+ [M] Metal, Radioactive, Sewage and Toxic Waste barrels can be used as 12-slot storage containers
-
-
-Cheat addon changes
--------------------
+Sandbox addon changes
+---------------------
 
 + [M] Removed protection from all mission-generated (and outpost) dungeons
 
@@ -344,6 +336,30 @@ Cheat addon changes
 + [R] Removed "nude" and re-added "invisible" status effect for tent objects (as a side-effect, they no longer show bugged lit sprite which sometimes was floating in the air when player got up. Same as in EK)
 
 + [N] Limit for items per cell changed to 99999 (won't show up properly the number of items after 9999, though)
+
+
+Extra addon changes
+-------------------
+
+Incompatible with "Enhanced Storage":
+
++ [M] Glitch Bucket can be used as 9-slot storage container
+
++ [M] Metal, Radioactive, Sewage and Toxic Waste barrels can be used as 12-slot storage containers
+
++ [M] Glitch Juice Keg can be used as 24-slot storage containers
+
++ [M] Apex Blood Bank, Sewer Tank and Outpost Tank can be used as 48-slot storage containers
+
+
+Nightly changes
+---------------
+
++ [R] Window borders are colourless again
+
++ [R] Restored Alien Juice liquid definition (id:4) and liquid item
+
++ [R] Restored Liquid Nitrogen definitions (id:10)
 
 
 To-do list
@@ -390,11 +406,14 @@ Note: THIS IS NOT A MODPACK, as the merged mods are not simply copy-pasted, but 
 + http://community.playstarbound.com/resources/2728/ - Swamp & Lagoon Armor Returned (by Campaigner)
 + http://community.playstarbound.com/resources/2811/ - Original Pioneer Armor (by Snigery)
 + http://community.playstarbound.com/resources/2927/ - Slime Armour Colours Mod (by shadowd15)
++ http://community.playstarbound.com/resources/2948/ - Moar Dungeons (by G4M5T3R)
++ http://community.playstarbound.com/resources/2949/ - Outpost Lag Reduction (by LoPhatKao)
 
 
 Version history
 ---------------
 
+- 2015/05/28 v39 - changed maximum possible dungeons per planet to 7 instead of 1 (based on mod by G4M5T3R), integrated lag fix for the Outpost NPCs and objects (thanks to mod by LoPhatKao), interface decolour for Nightly redone from scratch, more storage containers, restored container functionality for Vending Machine, Cheats renamed to Sandbox
 - 2015/05/25 v38 - allow Slime Armour to spawn in different colours (based on mod by shadowd15), patched vanilla Nightly liquidslime item to match CLeF's original implementation, restored alien juice and liquid nitrogen in Nightly, re-compressed .png files with custom image converter
 - 2015/05/18 v37 - outpost and mission objects can be taken and printed for pixels again, replaced blue.png with remix of version from 666 UG
 - 2015/05/16 v36 - added support for PG-0 Nightly (it seems no resource version is supplied anymore), de-coloured UI, new dungeons unprotected in Cheats addon, 99999 item limit for Cheats addon
