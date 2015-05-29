@@ -1,8 +1,8 @@
 [
   {
-    "op": "replace",
-    "path": "/zoomList",
-    "value": [
+    "op" : "replace", 
+    "path" : "/zoomList",
+    "value" : [
       0.5,
       0.6,
       0.7,
