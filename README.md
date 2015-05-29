@@ -413,7 +413,7 @@ Note: THIS IS NOT A MODPACK, as the merged mods are not simply copy-pasted, but 
 Version history
 ---------------
 
-- 2015/05/28 v39 - changed maximum possible dungeons per planet to 7 instead of 1 (based on mod by G4M5T3R), integrated lag fix for the Outpost NPCs and objects (thanks to mod by LoPhatKao), interface decolour for Nightly redone from scratch, more storage containers, restored container functionality for Vending Machine, Cheats renamed to Sandbox
+- 2015/05/28 v39 - changed maximum possible dungeons per planet to 7 instead of 1 (based on mod by G4M5T3R), integrated lag fix for the Outpost NPCs and objects (thanks to mod by LoPhatKao), interface decolour for Nightly redone from scratch, more storage containers, restored container functionality for Vending Machine, Cheats renamed to Sandbox, nerfed emerald distribution & fixed emerald glass tiles
 - 2015/05/25 v38 - allow Slime Armour to spawn in different colours (based on mod by shadowd15), patched vanilla Nightly liquidslime item to match CLeF's original implementation, restored alien juice and liquid nitrogen in Nightly, re-compressed .png files with custom image converter
 - 2015/05/18 v37 - outpost and mission objects can be taken and printed for pixels again, replaced blue.png with remix of version from 666 UG
 - 2015/05/16 v36 - added support for PG-0 Nightly (it seems no resource version is supplied anymore), de-coloured UI, new dungeons unprotected in Cheats addon, 99999 item limit for Cheats addon
