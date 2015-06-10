@@ -1,12 +1,12 @@
 # Choke Le Fish
 Starbound content restoration and gameplay tweaking mod
 
-Version 40 (2015/05/30)
+Version 41 (2015/06/10)
 ----------
 
 Known to work with:
 - [Stable] Spirited Giraffe Update 5 (May 8)
-- [Nightly] Pleased Giraffe Update 0 (May 27)
+- [Nightly] Pleased Giraffe Update 0 (June 9)
 
 
 Installation
@@ -16,27 +16,27 @@ Warning! If you have previous version installed, please delete any directories o
 
 Copy the following directories into "starbound/giraffe_storage/mods/" directory:
 
-+ [REQUIRED] "CLeF - Common", contains the core mod files common for all supported game versions
++ "CLeF - Common", required. Contains the core mod files common for all supported game versions
 
-+ [OPTIONAL] "CLeF - Sandbox", contains the core mod files which restore more sandbox gameplay, yet also remove certain restrictions some people might find "cheaty". Strongly recommended for installation. Consult the "Gameplay changes" section for details
++ "CLeF - Sandbox", recommended. Contains the core mod files which restore more sandbox gameplay, yet also remove certain restrictions some people might find "cheaty". Consult the "Gameplay changes" section for details
 
-+ [OPTIONAL] "CLeF - Extra", contains additional core mod files incompatible/overlapping functionality with third-parties. Consult the "Gameplay changes" section for details
++ "CLeF - Extra", optional. Contains additional core mod files incompatible/overlapping functionality with third-parties. Consult the "Gameplay changes" section for details
 
-+ [REQUIRED] "CLeF - SG Stable", ONLY for Stable Spirited Giraffe Update 5 (May 8)
++ "CLeF - SG Stable", required ONLY for Stable Spirited Giraffe Update 5 (May 8)
 
-+ [REQUIRED] "CLeF - PG Nightly", ONLY for Nightly Pleased Giraffe Update 0 (May 27)
++ "CLeF - PG Nightly", required ONLY for Nightly Pleased Giraffe Update 0 (June 9)
 
 
 Overview
 --------
 
-As you probably know, not all players are happy with the changes that were made to the game in comparison with Enraged Koala builds. Although many new things were added, a lot of the aspects were nerfed or removed altogether, which made the game less fun and far more boring.
+As you probably know, not all players are happy with the changes that were made to the game in comparison with Koala builds. Although many new things were added, a lot of the aspects were nerfed or removed altogether, which turned the game into dumb lifeless neverending grind.
 
-This mod is my attempt to address and revert these changes in Upbeat Giraffe to some degree, as well as introduce other balance tweaks, which are backported from the Enraged Koala I modded privately for my personal enjoyment. ;)
+This mod is my attempt to address and revert these changes in Giraffe builds to certain degree, as well as introduce other balance tweaks, enhancements and a good portion of entirely new content. ;)
 
 Starting from Version 6, CLeF also incorporates work by other awesome people. See the full list of mods and their authors at the end of the description.
 
-Starting from Version 33, CLeF requires you to wipe your universe and shipworld files, otherwise you'll be met with invisible objects and eventual crashes.
+Starting from Version 33, CLeF requires you to wipe your universe and shipworld files (only if you use Extra addon), otherwise you'll be met with invisible objects and possible crashes.
 
 
 Frequently Asked Questions
@@ -68,7 +68,9 @@ A: Short answer: no. Long answer: any mod which makes changes to .config files o
 Help wanted
 -----------
 
-As a beginner in Starbound modding, I have little to no knowledge in Lua, so this prevents me from re-implementing lots of things. I would really appreciate your help. If you've noticed another feature, object or armor that was removed by Chucklefish and want it back, please tell me immediately!
+I have little to no knowledge in Lua, so this prevents me from re-implementing lots of things. I would really appreciate your help.
+
+Also, if you've noticed another feature, object or armor that was removed by Chucklefish and want it back, please tell me immediately!
 
 
 Known bugs
@@ -279,6 +281,9 @@ Gameplay changes
  - Matter set (aka Bonus set) (recipes learned upon Matter Item pickup)
  - Original Pioneer set (recipes learned upon Titanium Bar pickup)
 
++ [R] Re-added misc clothing:
+ - Terrifying Wings (requires 16 Fabric, 4 Rubium Ore and 2 Iron Bars, available from the start)
+
 + [F] Slime armour can be spawned in different colours
 
 + [M] Slime furniture recipes auto-learned upon Green Slime pickup
@@ -298,6 +303,8 @@ Gameplay changes
 + [N] Water Cooler can be used as 16-slot storage container
 
 + [N] Outpost Water Cooler can be used as 9-slot storage container
+
++ [N] Water and Healing water will spawn in Water Cooler and Outpost Water cooler in previously unvisited worlds
 
 + [M] Removed protection from randomly generated dungeons. Explaination: they weren't designed to use shields in the first place, and lots of players has already experienced problems with being unable to even access their front entrances, "thanks" to randomly generated ground obstacles, which also went under protection of the shield
 
@@ -414,6 +421,7 @@ Note: THIS IS NOT A MODPACK, as the merged mods are not simply copy-pasted, but 
 Version history
 ---------------
 
+- 2015/06/10 v41 - updated NoLag code (by LoPhatKao), added recipe for Batwings backpack, added treasure pool for Water Coolers and patched dungeon files, added CM spawn recipe for Liquid Slime
 - 2015/05/30 v40 - nerfed emerald distribution & fixed emerald glass tiles, fixed 2Stop Teleshop NoLag patch bug, updated shipblock PNGs, removed protection from challenge rooms in Sandbox addon
 - 2015/05/28 v39 - changed maximum possible dungeons per planet to 7 instead of 1 (based on mod by G4M5T3R), integrated lag fix for the Outpost NPCs and objects (thanks to mod by LoPhatKao), interface decolour for Nightly redone from scratch, more storage containers, restored container functionality for Vending Machine, Cheats renamed to Sandbox
 - 2015/05/25 v38 - allow Slime Armour to spawn in different colours (based on mod by shadowd15), patched vanilla Nightly liquidslime item to match CLeF's original implementation, restored alien juice and liquid nitrogen in Nightly, re-compressed .png files with custom image converter
