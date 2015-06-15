@@ -1,4 +1,5 @@
 {
+  // Water cooler containers treasure pool
   "waterCoolerTreasure" : [
     [1, {
       "pool" : [
@@ -14,5 +15,19 @@
       ],
       "allowDuplication" : false
     }]
+  ],
+  // Peanut plant harvest pool
+  "peanutHarvest" : [
+    [0, {
+      "pool" : [
+        {"weight" : 0.6, "item" : "peanutbeans"},
+        {"weight" : 0.2, "item" : "peanutseed"},
+        {"weight" : 0.2, "item" : "plantfibre"}
+      ],
+      "poolRounds" : [
+        [0.7, 2],
+        [0.3, 3]
+      ]
+    } ]
   ]
 }

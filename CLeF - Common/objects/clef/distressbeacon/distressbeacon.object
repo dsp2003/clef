@@ -35,7 +35,7 @@
   },
   "animationPosition" : [-16, 0],
 
-  "scripts" : [ "/objects/clef/distressbeacon/distressbeacon.lua" ],
+  "scripts" : [ "/objects/wired/distressbeacon/distressbeacon.lua" ],
   "scriptDelta" : 5
 
 }

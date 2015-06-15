@@ -1,12 +1,12 @@
 # Choke Le Fish
 Starbound content restoration and gameplay tweaking mod
 
-Version 41 (2015/06/10)
+Version 42 (2015/06/15)
 ----------
 
 Known to work with:
 - [Stable] Spirited Giraffe Update 5 (May 8)
-- [Nightly] Pleased Giraffe Update 0 (June 9)
+- [Nightly] Pleased Giraffe Update 0 (June 13)
 
 
 Installation
@@ -22,15 +22,15 @@ Copy the following directories into "starbound/giraffe_storage/mods/" directory:
 
 + "CLeF - Extra", optional. Contains additional core mod files incompatible/overlapping functionality with third-parties. Consult the "Gameplay changes" section for details
 
-+ "CLeF - SG Stable", required ONLY for Stable Spirited Giraffe Update 5 (May 8)
++ "CLeF - SG Stable", required. ONLY for Stable Spirited Giraffe Update 5 (May 8)
 
-+ "CLeF - PG Nightly", required ONLY for Nightly Pleased Giraffe Update 0 (June 9)
++ "CLeF - PG Nightly", required. ONLY for Nightly Pleased Giraffe Update 0 (June 13)
 
 
 Overview
 --------
 
-As you probably know, not all players are happy with the changes that were made to the game in comparison with Koala builds. Although many new things were added, a lot of the aspects were nerfed or removed altogether, which turned the game into dumb lifeless neverending grind.
+As you probably know, not all players are happy with the changes that were made to the game in comparison with Koala builds. Although many new things were added, a lot of the aspects were nerfed or removed altogether, which turned the game into dumb lifeless punishing neverending grind.
 
 This mod is my attempt to address and revert these changes in Giraffe builds to certain degree, as well as introduce other balance tweaks, enhancements and a good portion of entirely new content. ;)
 
@@ -55,10 +55,11 @@ Also, you can fix it on your own - open <racename>t2blocks.png and copy fuel hat
 
 Q: Okay, I beat the UFO boss. Where's the rest of the quests?
 
-A: This mod is work-in-progress. Please be patient.
+A: Since the version 22 you can beat the Bone Dragon boss. It's integrated into Outpost Mute Glitch's quest line.
 
-Since the version 22 you can beat the Bone Dragon boss. It's integrated into Outpost Mute Glitch's quest line.
+Since the version 42 you can beat the Jelly boss. It's integrated into Outpost Apex Scientist's quest line.
 
+This mod is work-in-progress. Please be patient.
 
 Q: Will I be able to play on vanilla servers if I'll install this mod?
 
@@ -237,17 +238,33 @@ Gameplay changes
 
 + [M] Quest "Tutorial VIII: Ups, Downs and the Beacons". Added mention of Distress Beacon
 
-+ [M] Dreadwing Codex matches the old-new progression. Also, the boss will drop 5 Molten Core, 21 Core Fragment Ore and 1 Dreadwing Codex.
++ [M] Dreadwing Codex matches the old-new progression. Also, the boss will drop 5 Molten Core, 21 Core Fragment Ore and 1 Dreadwing Codex
 
-+ [N] Quest "Wreckage of the Dreadwing". Automatically assigned upon picking up the Dreadwing's Wreckage.
++ [N] Quest "Wreckage of the Dreadwing". Automatically assigned upon picking up the Dreadwing's Wreckage
 
 + [M] Upon completing the "Dreadwing" quest, penguin will give 50 Matter Item, which can be used to craft Bonus Armour (otherwise the material for it is nowhere to be found)
 
 + [R] Decoy Princess is available for crafting. As a result, the Bone Dragon boss can be summoned (disabled in UG. Sadly, dragon acts like a bird and won't breathe any fire nor open its mouth. I'm unable to restore its original behaviour without scripting help!)
 
-+ [N] Added decorative Decoy Princess Scheme object. Given by "Mute" Glitch upon starting "Bad To The Bone" quest.
++ [N] Added decorative Decoy Princess Scheme object. Given by "Mute" Glitch upon starting "Bad To The Bone" quest
 
-+ [N] Quest "Bad To The Bone". Given by "Mute" Glitch at Outpost for players with Tier 5 ship.
++ [N] Quest "Bad To The Bone". Given by "Mute" Glitch at Outpost for players with Tier 5 ship
+
++ [R] Peanut Butter Trap is available for crafting. As a result, the Jelly boss can be summoned (disabled in SG)
+
++ [N] Quest "Food For Thought". Given by Apex Scientist at Outpost for players with Tier 3 ship
+
++ [N] Farmable Peanut Seeds can be planted and will drop Peanut Seed or Peanuts
+
++ [N] Consumable Peanuts can be grown with farmable Peanut Seeds
+
++ [N] Butter can be crafted from Coconut Milk
+
++ [N] Peanut Butter can be crafted from Butter and Peanuts
+
++ [N] (Large) Cardboard Box can be crafted from (88) 42 Paper sheets
+
++ [N] Peanut Butter Trap can be crafted from 1 Peanut Butter, 1 Large Cardboard Box and 1 Wood
 
 + [R][Incomplete] Brain extractor and all robot parts are available for crafting. As a result, you can summon the robot boss (disabled in UG, no proper quest yet. In UG original robot was replaced by Penguin Bot and appears instead of the old one when summoned)
 
@@ -421,6 +438,7 @@ Note: THIS IS NOT A MODPACK, as the merged mods are not simply copy-pasted, but 
 Version history
 ---------------
 
+- 2015/06/15 v42 - added Peanut Plant, Peanut Seed, consumable Peanuts, treasure pool for Peanut Plant, craftable Peanut Butter consumable, recipe for butter from coconut milk, craftable Cardboard Box 16-slot container, craftable Large Cardboard box 42-slot container, Peanut Butter trap craftable from Peanut Butter and Large Cardboard Box, Food For Thought quest given by Apex Scientists at the Outpost, restored quests and beacon script functioning in Nightly, removed annoying humming from Vending Machine
 - 2015/06/10 v41 - updated NoLag code (by LoPhatKao), added recipe for Batwings backpack, added treasure pool for Water Coolers and patched dungeon files, added CM spawn recipe for Liquid Slime
 - 2015/05/30 v40 - nerfed emerald distribution & fixed emerald glass tiles, fixed 2Stop Teleshop NoLag patch bug, updated shipblock PNGs, removed protection from challenge rooms in Sandbox addon
 - 2015/05/28 v39 - changed maximum possible dungeons per planet to 7 instead of 1 (based on mod by G4M5T3R), integrated lag fix for the Outpost NPCs and objects (thanks to mod by LoPhatKao), interface decolour for Nightly redone from scratch, more storage containers, restored container functionality for Vending Machine, Cheats renamed to Sandbox

@@ -1,3 +1,7 @@
 [
+  // Jelly Boss Quest
+  { "op" : "add", "path" : "/scriptConfig/offeredQuests/-", "value" : "foodforthought.gearup" },
+  { "op" : "add", "path" : "/scriptConfig/turnInQuests/-", "value" : "foodforthought.gearup" },
+  // NoLag Patch
   { "op" : "replace", "path" : "/statusControllerSettings/primaryScriptDelta", "value" : 30 }
 ]
