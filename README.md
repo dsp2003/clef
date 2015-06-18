@@ -16,15 +16,19 @@ Warning! If you have previous version installed, please delete any directories o
 
 Copy the following directories into "starbound/giraffe_storage/mods/" directory:
 
-+ "CLeF - Common", required. Contains the core mod files common for all supported game versions
+Required (either Common + SG Stable or Common + PG Nightly. Any other combinations will result in a broken game):
 
-+ "CLeF - Sandbox", recommended. Contains the core mod files which restore more sandbox gameplay, yet also remove certain restrictions some people might find "cheaty". Consult the "Gameplay changes" section for details
++ CLeF - Common. Core mod files common for all game versions
 
-+ "CLeF - Extra", optional. Contains additional core mod files incompatible/overlapping functionality with third-parties. Consult the "Gameplay changes" section for details
++ CLeF - SG Stable. For Stable Spirited Giraffe Update 5 (May 8)
 
-+ "CLeF - SG Stable", required. ONLY for Stable Spirited Giraffe Update 5 (May 8)
++ CLeF - PG Nightly. For Nightly Pleased Giraffe Update 0 (June 13)
 
-+ "CLeF - PG Nightly", required. ONLY for Nightly Pleased Giraffe Update 0 (June 13)
+Optional (consult "Gameplay changes" section for details):
+
++ CLeF - Extra. Core mod files incompatible/overlapping functionality with third-parties
+
++ CLeF - Sandbox. Restores more sandbox gameplay, yet also removes certain restrictions (some people might find it "cheaty")
 
 
 Overview
@@ -32,7 +36,7 @@ Overview
 
 As you probably know, not all players are happy with the changes that were made to the game in comparison with Koala builds. Although many new things were added, a lot of the aspects were nerfed or removed altogether, which turned the game into dumb lifeless punishing neverending grind.
 
-This mod is my attempt to address and revert these changes in Giraffe builds to certain degree, as well as introduce other balance tweaks, enhancements and a good portion of entirely new content. ;)
+This mod is my attempt to address and revert these changes in Giraffe builds to certain degree, as well as introduce other balance tweaks, enhancements and a good portion of entirely new content. ;) It also addresses the poor game's performance on relatively slow hardware and attempts to improve it.
 
 Starting from Version 6, CLeF also incorporates work by other awesome people. See the full list of mods and their authors at the end of the description.
 
