@@ -297,7 +297,7 @@ Gameplay changes
 
 + [R] Re-added armour sets:
  - Slime set (requires 25 Green Slimes per item and 10-15 Fabric, recipes learned upon Green Slime pickup)
- - Lagoon set (can be bought for 750 pixels, available from the start)
+ - Lagoon set (can be bought for 7500 pixels, available from the start)
  - Diamond set (requires 19 Diamonds and 6 Durasteel Bars, crafted at Metalwork Station)
  - Copper set (requires 5-15 Copper Bars, crafted at Metalwork Station, recipes learned upon Copper Bar pickup)
  - Silver set (recipes learned upon Silver Bar pickup)
