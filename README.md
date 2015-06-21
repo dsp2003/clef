@@ -338,6 +338,24 @@ Gameplay changes
 
 + [M] In order to compensate the protection removal, Tesla Spikes now have 20 points of "health" and much harder to harvest as a result
 
++ [M] Changed monster_surprise sound effect for randomly generated monsters to:
+ - Small Biped - angstyhead_small_turnhostile.wav
+ - Small Quadruped - teethyhead_small_turnhostile.wav
+ - Large Biped - powlhead_turnhostile.wav
+ - Large Quadruped - angstyhead_turnhostile.wav
+ - Huge Biped - dragonboss_death.wav
+ - Miniboss Biped - arrowhead_turnhostile.wav
+ - Miniboss Quadruped - canine_turnhostile.wav
+
++ [M] Reworked initial S.A.I.L. dialogues to look more credible and humorous:
+ - Apex - Windows 8
+ - Avian - Zork
+ - Floran - DOS variation
+ - Glitch - parodies Linux
+ - Human - Windows NT 5.x
+ - Hylotl - Commodore 64
+ - Novakid - PFUDOR
+
 + [M] Navigation sub-window texture changed to blue (was light-blue in EK)
 
 + [N] More zoom levels (from 1.0 to 10, with 0.5 step) and screen resolutions:
@@ -356,24 +374,6 @@ Gameplay changes
 + [F] Performance patch: added optimized Hobo true-type font (58 KiB and ~50000 points versus 86 Kib and ~90000 points) with fixed cyrillic characters (officially part of the game since Spirited Giraffe builds)
 
 + [M] Replaced Chucklefish icon and logo animation with recoloured & shaded version (also fixed "u" which strongly resembled "v")
-
-+ [M] Changed monster_surprise sound effect for randomly generated monsters to:
- - Small Biped - angstyhead_small_turnhostile.wav
- - Small Quadruped - teethyhead_small_turnhostile.wav
- - Large Biped - powlhead_turnhostile.wav
- - Large Quadruped - angstyhead_turnhostile.wav
- - Huge Biped - dragonboss_death.wav
- - Miniboss Biped - arrowhead_turnhostile.wav
- - Miniboss Quadruped - canine_turnhostile.wav
-
-+ [M] Reworked initial S.A.I.L. dialogues to look more credible and humorous:
- - Apex - Windows 8
- - Avian - Zork
- - Floran - DOS variation
- - Glitch - parodies Linux
- - Human - Windows NT 5.x
- - Hylotl - Commodore 64
- - Novakid - PFUDOR
 
 
 Sandbox addon changes
