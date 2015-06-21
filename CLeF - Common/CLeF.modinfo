@@ -7,9 +7,9 @@
 	"metadata" : {
 	  "displayName" : "CLeF: Things to do in Starbound",
 		"author" : "dsp2003",
-		"description" : "Tweaks various aspects of the game and attempts to restore the most of old features.",
+		"description" : "Tweaks various aspects of the game, attempts to restore the most of old features and adds tons of new content.",
 		"support_url" : "https://github/dsp2003/clf/",
-		"version" : "0.42",
+		"version" : "0.43",
 		"thanks" : "Campaigner, crushinblue, eurosat7, G4M5T3R, GROVER CURES HOUSES, I Said No, LegendXCarisso, LoPhatKao, Lucaine, XNicoX14"
 	}
 }

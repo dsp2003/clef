@@ -18,7 +18,7 @@
   "twoHanded" : true,
   "strikeSounds" : [ "/sfx/tools/pickaxe_hit.wav" ],
   "breakSound" : "/sfx/tools/pickaxe_break.wav",
-  "durability" : 5000,
+  "durability" : 3500,
   "durabilityPerUse" : 1,
   // dsp2003: no you don't
   "canBeRepaired" : false,

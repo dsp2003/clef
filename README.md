@@ -1,12 +1,12 @@
 # Choke Le Fish
-Starbound content restoration and gameplay tweaking mod
+Starbound content restoration and gameplay overhaul project
 
-Version 42 (2015/06/15)
+Version 43 (2015/06/21)
 ----------
 
 Known to work with:
 - [Stable] Spirited Giraffe Update 5 (May 8)
-- [Nightly] Pleased Giraffe Update 0 (June 13)
+- [Nightly] Pleased Giraffe Update 0 (June 19)
 
 
 Installation
@@ -22,7 +22,7 @@ Required (either Common + SG Stable or Common + PG Nightly. Any other combinatio
 
 + CLeF - SG Stable. For Stable Spirited Giraffe Update 5 (May 8)
 
-+ CLeF - PG Nightly. For Nightly Pleased Giraffe Update 0 (June 13)
++ CLeF - PG Nightly. For Nightly Pleased Giraffe Update 0 (June 19)
 
 Optional (consult "Gameplay changes" section for details):
 
@@ -36,11 +36,11 @@ Overview
 
 As you probably know, not all players are happy with the changes that were made to the game in comparison with Koala builds. Although many new things were added, a lot of the aspects were nerfed or removed altogether, which turned the game into dumb lifeless punishing neverending grind.
 
-This mod is my attempt to address and revert these changes in Giraffe builds to certain degree, as well as introduce other balance tweaks, enhancements and a good portion of entirely new content. ;) It also addresses the poor game's performance on relatively slow hardware and attempts to improve it.
+This mod is my attempt to address and revert these changes in Giraffe builds to certain degree, as well as introduce other balance tweaks, enhancements and a good portion of entirely new content. ;) It also addresses the poor game's performance on relatively slow hardware and improves it.
 
 Starting from Version 6, CLeF also incorporates work by other awesome people. See the full list of mods and their authors at the end of the description.
 
-Starting from Version 33, CLeF requires you to wipe your universe and shipworld files (only if you use Extra addon), otherwise you'll be met with invisible objects and possible crashes.
+Starting from Version 33, CLeF requires you to wipe your universe and shipworld files, otherwise you'll be met with invisible objects and possible crashes.
 
 
 Frequently Asked Questions
@@ -57,6 +57,7 @@ A: It's impossible for me to fix custom races due to random mod load order and t
 
 Also, you can fix it on your own - open <racename>t2blocks.png and copy fuel hatch pixel (orange-red at the top of a blue block) from <racename>t3blocks.png. Note you'll have to delete your shipworld, otherwise the fix won't be applied (don't forget to take everything you don't want to lose with you).
 
+
 Q: Okay, I beat the UFO boss. Where's the rest of the quests?
 
 A: Since the version 22 you can beat the Bone Dragon boss. It's integrated into Outpost Mute Glitch's quest line.
@@ -64,6 +65,7 @@ A: Since the version 22 you can beat the Bone Dragon boss. It's integrated into 
 Since the version 42 you can beat the Jelly boss. It's integrated into Outpost Apex Scientist's quest line.
 
 This mod is work-in-progress. Please be patient.
+
 
 Q: Will I be able to play on vanilla servers if I'll install this mod?
 
@@ -159,18 +161,18 @@ Gameplay changes
 
 + [R] All pickaxes (except Stone Pickaxe) and drills have EK's durability values (which means they won't break so fast), block radius, tile damage and material costs (except pixel requirements):
  - Copper Drill     (d: 1000 -> 3000, b: 2 -> 3, d: 1.5 -> 2.9)
- - Silver Drill     (d: 1000 -> 3000, b: 2 -> 3, d: 2.0 -> 3.1)
- - Golden Drill     (d: 1000 -> 3000, b: 2 -> 3, d: 2.5 -> 3.3)
- - Diamond Drill    (d: 1000 -> 3000, b: 2 -> 3, d: 3.5 -> 3.7)
- - Emerald Drill    (d: 3500, b: 3, d: 4.0)
- - Platinum Drill   (d: 1000 -> 3000, b: 2 -> 3, d: 3.0 -> 3.5)
- - Stone Pickaxe    (d: 5000, b: 3, d: 2.0, cannot be repaired)
- - Copper Pickaxe   (d:  200 -> 7500)
- - Silver Pickaxe   (d:  200 -> 7500)
- - Golden Pickaxe   (d:  200 -> 7500)
- - Diamond Pickaxe  (d:  350 -> 7500)
- - Emerald Pickaxe  (d: 8000)
- - Platinum Pickaxe (d: 200 -> 10000)
+ - Silver Drill     (d: 1000 -> 3500, b: 2 -> 3, d: 2.0 -> 3.1)
+ - Golden Drill     (d: 1000 -> 4000, b: 2 -> 3, d: 2.5 -> 3.3)
+ - Diamond Drill    (d: 1000 -> 4500, b: 2 -> 3, d: 3.5 -> 3.7)
+ - Emerald Drill    (d: 5000, b: 3, d: 4.0)
+ - Platinum Drill   (d: 1000 -> 5500, b: 2 -> 3, d: 3.0 -> 4.3)
+ - Stone Pickaxe    (d: 3500, b: 3, d: 2.0, cannot be repaired)
+ - Copper Pickaxe   (d:  200 -> 4000)
+ - Silver Pickaxe   (d:  200 -> 4500)
+ - Golden Pickaxe   (d:  200 -> 5000)
+ - Diamond Pickaxe  (d:  350 -> 5500)
+ - Emerald Pickaxe  (d: 6000)
+ - Platinum Pickaxe (d: 200 -> 6500)
 
 + [R] Drills and pickaxes can be repaired with bars, ore and diamonds (open your inventory, equip tool, select ore/bar/diamond and right-click on the tool icon)
 
@@ -260,6 +262,8 @@ Gameplay changes
 
 + [N] Farmable Peanut Seeds can be planted and will drop Peanut Seed or Peanuts
 
++ [N] Wild Peanut Seeds will spawn in Garden and Forest biomes on the previously unvisited worlds
+
 + [N] Consumable Peanuts can be grown with farmable Peanut Seeds
 
 + [N] Butter can be crafted from Coconut Milk
@@ -313,7 +317,10 @@ Gameplay changes
 
 + [M] The maximum number of possible dungeons per vanilla surface biome changed to 7 (was 1 in SG)
 
-+ [F] Reduced lag at the Outpost by patching animation and script delta values of NPCs and objects to higher delay values
++ [F] Reduced lag at the Outpost:
+ - Patched animation and script delta values of NPCs and objects to higher delay values
+ - Removed extra light effects from hanging lights and arcade machine
+ - Forced monitors to be turned off by default
 
 + [R] Infinity Express, Penguin Bay, Sign Store, Sign Dispenser, Terramart and Treasured Trophies can be taken and printed for pixels
 
@@ -349,6 +356,24 @@ Gameplay changes
 + [F] Performance patch: added optimized Hobo true-type font (58 KiB and ~50000 points versus 86 Kib and ~90000 points) with fixed cyrillic characters (officially part of the game since Spirited Giraffe builds)
 
 + [M] Replaced Chucklefish icon and logo animation with recoloured & shaded version (also fixed "u" which strongly resembled "v")
+
++ [M] Changed monster_surprise sound effect for randomly generated monsters to:
+ - Small Biped - angstyhead_small_turnhostile.wav
+ - Small Quadruped - teethyhead_small_turnhostile.wav
+ - Large Biped - powlhead_turnhostile.wav
+ - Large Quadruped - angstyhead_turnhostile.wav
+ - Huge Biped - dragonboss_death.wav
+ - Miniboss Biped - arrowhead_turnhostile.wav
+ - Miniboss Quadruped - canine_turnhostile.wav
+
++ [M] Reworked initial S.A.I.L. dialogues to look more credible and humorous:
+ - Apex - Windows 8
+ - Avian - Zork
+ - Floran - DOS variation
+ - Glitch - parodies Linux
+ - Human - Windows NT 5.x
+ - Hylotl - Commodore 64
+ - Novakid - PFUDOR
 
 
 Sandbox addon changes
@@ -400,8 +425,6 @@ Seamlessly integrate the old quests and boss fights back into game:
 
 + Restore Bone Dragon (partially done, needs Lua/behavior changes)
 
-+ Restore Jelly Monster (needs some quest scripting)
-
 Bring back biome variety:
 
 + Restore all removed biomes and mini-biomes
@@ -437,11 +460,13 @@ Note: THIS IS NOT A MODPACK, as the merged mods are not simply copy-pasted, but 
 + http://community.playstarbound.com/resources/2927/ - Slime Armour Colours Mod (by shadowd15)
 + http://community.playstarbound.com/resources/2948/ - Moar Dungeons (by G4M5T3R)
 + http://community.playstarbound.com/resources/2949/ - Outpost Lag Reduction (by LoPhatKao)
++ http://community.playstarbound.com/resources/2978/ - Screams (by LoPhatKao)
 
 
 Version history
 ---------------
 
+- 2015/06/21 v43 - updated NoLag code (by LoPhatKao), merged in Screams code (by LoPhatKao), added proper stats to Copper Armour set, changed pixel price of Lagoon Armour set, rebalanced mining tools' durability, Wild Peanut Seed plant now spawns on Garden and Forest biomes, changed initial SAIL messages to resemble real operating systems
 - 2015/06/15 v42 - added Peanut Plant, Peanut Seed, consumable Peanuts, treasure pool for Peanut Plant, craftable Peanut Butter consumable, recipe for butter from coconut milk, craftable Cardboard Box 16-slot container, craftable Large Cardboard box 42-slot container, Peanut Butter trap craftable from Peanut Butter and Large Cardboard Box, Food For Thought quest given by Apex Scientists at the Outpost, restored quests and beacon script functioning in Nightly, removed annoying humming from Vending Machine
 - 2015/06/10 v41 - updated NoLag code (by LoPhatKao), added recipe for Batwings backpack, added treasure pool for Water Coolers and patched dungeon files, added CM spawn recipe for Liquid Slime
 - 2015/05/30 v40 - nerfed emerald distribution & fixed emerald glass tiles, fixed 2Stop Teleshop NoLag patch bug, updated shipblock PNGs, removed protection from challenge rooms in Sandbox addon
