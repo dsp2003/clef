@@ -1,7 +1,7 @@
 # Choke Le Fish
 Starbound content restoration and gameplay overhaul project
 
-Version 43 (2015/06/21)
+Version 44 (2015/06/27)
 ----------
 
 Known to work with:
@@ -238,11 +238,9 @@ Gameplay changes
 
 + [M] Un-nerfed Morph Ball tech. It consumes 20 points of energy (was 35 in EK and 65 in UG)
 
-+ [R] Iron Beacon is available for crafting. As a result, the Penguin UFO boss can be summoned (moved to its own quest location in UG)
++ [R] Iron Beacon is available for crafting. As a result, the Penguin UFO boss can be summoned in open space (moved to its own quest location in UG)
 
-+ [R] Quest "The First Contact". Automatically assigned upon crafting or picking up the Iron Anvil. Reward: 500 pixels
-
-+ [M] Quest "Tutorial VIII: Ups, Downs and the Beacons". Added mention of Distress Beacon
++ [R] Quest "CLeF Tutorial #9.1.1: The First Contact". Automatically assigned upon crafting or picking up the Old Distress Beacon. Reward: 11-900 pixels
 
 + [M] Dreadwing Codex matches the old-new progression. Also, the boss will drop 5 Molten Core, 21 Core Fragment Ore and 1 Dreadwing Codex
 
@@ -375,6 +373,8 @@ Gameplay changes
 
 + [M] Replaced Chucklefish icon and logo animation with recoloured & shaded version (also fixed "u" which strongly resembled "v")
 
++ [M] All tutorial quests replaced with new descriptive ones which better match the mod's progression and cover the most of its important changes. Old tutorial questline is no longer used nor called
+
 
 Sandbox addon changes
 ---------------------
@@ -466,6 +466,7 @@ Note: THIS IS NOT A MODPACK, as the merged mods are not simply copy-pasted, but 
 Version history
 ---------------
 
+- 2015/06/27 v44 - replaced all tutorial missions with new descriptive ones which better match the mod's progression
 - 2015/06/21 v43 - updated NoLag code (by LoPhatKao), merged in Screams code (by LoPhatKao), added proper stats to Copper Armour set, changed pixel price of Lagoon Armour set, rebalanced mining tools' durability, Wild Peanut Seed plant now spawns on Garden and Forest biomes, changed initial SAIL messages to resemble real operating systems
 - 2015/06/15 v42 - added Peanut Plant, Peanut Seed, consumable Peanuts, treasure pool for Peanut Plant, craftable Peanut Butter consumable, recipe for butter from coconut milk, craftable Cardboard Box 16-slot container, craftable Large Cardboard box 42-slot container, Peanut Butter trap craftable from Peanut Butter and Large Cardboard Box, Food For Thought quest given by Apex Scientists at the Outpost, restored quests and beacon script functioning in Nightly, removed annoying humming from Vending Machine
 - 2015/06/10 v41 - updated NoLag code (by LoPhatKao), added recipe for Batwings backpack, added treasure pool for Water Coolers and patched dungeon files, added CM spawn recipe for Liquid Slime

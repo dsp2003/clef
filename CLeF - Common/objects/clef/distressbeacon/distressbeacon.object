@@ -29,6 +29,8 @@
     }
   ],
 
+  "pickupQuestTemplates" : ["clefbeacon.gearup"],
+
   "animation" : "/objects/clef/distressbeacon/distressbeacon.animation",
   "animationParts" : {
     "beacon" : "distressbeacon.png"
