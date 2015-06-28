@@ -391,6 +391,8 @@ Sandbox addon changes
 
 + [N] Limit for items per cell changed to 99999 (won't show up properly the number of items after 9999, though)
 
++ [N] Block radius for placing changed to 4 (was 2 in EK/xG)
+
 
 Extra addon changes
 -------------------
