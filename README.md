@@ -385,7 +385,7 @@ Sandbox addon changes
 
 + [N] Extra zoom levels (from 0.5 to 1, with 0.1 step)
 
-+ [M] No slowdown when running backwards (just like in EK)
++ [R] No slowdown when running backwards (just like in EK)
 
 + [R] Removed "nude" and re-added "invisible" status effect for tent objects (as a side-effect, they no longer show bugged lit sprite which sometimes was floating in the air when player got up. Same as in EK)
 
@@ -463,6 +463,7 @@ Note: THIS IS NOT A MODPACK, as the merged mods are not simply copy-pasted, but 
 + http://community.playstarbound.com/resources/2948/ - Moar Dungeons (by G4M5T3R)
 + http://community.playstarbound.com/resources/2949/ - Outpost Lag Reduction (by LoPhatKao)
 + http://community.playstarbound.com/resources/2978/ - Screams (by LoPhatKao)
++ http://community.playstarbound.com/resources/2995/ - It's over 9000 (by SoulOfSorin)
 
 
 Version history
