@@ -1,12 +1,12 @@
 # Choke Le Fish
 Starbound content restoration and gameplay overhaul project
 
-Version 44 (2015/06/27)
+Version 45 (2015/07/07)
 ----------
 
 Known to work with:
 - [Stable] Spirited Giraffe Update 5 (May 8)
-- [Nightly] Pleased Giraffe Update 0 (June 19)
+- [Nightly] Pleased Giraffe Update 0 (July 1)
 
 
 Installation
@@ -22,13 +22,13 @@ Required (either Common + SG Stable or Common + PG Nightly. Any other combinatio
 
 + CLeF - SG Stable. For Stable Spirited Giraffe Update 5 (May 8)
 
-+ CLeF - PG Nightly. For Nightly Pleased Giraffe Update 0 (June 19)
++ CLeF - PG Nightly. For Nightly Pleased Giraffe Update 0 (July 1)
 
 Optional (consult "Gameplay changes" section for details):
 
 + CLeF - Extra. Core mod files incompatible/overlapping functionality with third-parties
 
-+ CLeF - Sandbox. Restores more sandbox gameplay, yet also removes certain restrictions (some people might find it "cheaty")
++ CLeF - Sandbox. Restores more sandbox gameplay, yet also removes certain restrictions (some people might find it "cheaty". Strongly recommended for people who likes Koala builds over Giraffe)
 
 
 Overview
@@ -143,6 +143,8 @@ Gameplay changes
 
 + [F] Blocks of Erchius Crystals will drop Erchius Crystals (instead of placeholder crystals)
 
++ [F] Toy (Lego) Blocks no longer fall when placed. Now it's possible to build colourful plastic castles
+
 + [R] Diamond ore will spawn instead of "perfectly cut" diamonds in unvisited worlds (diamonds will still spawn in treasure chests)
 
 + [M] Diamond can be crafted in Alloy Furnace from 2 diamond ores (recipe learned on picking up the diamond ore, was 4 diamond ores in EK and removed entirely in UG)
@@ -153,11 +155,15 @@ Gameplay changes
 
 + [N] Emerald can be crafted from 2 Emerald Ore in Alloy Furnace
 
-+ [N] Emerald Glass can be crafted from 2 Fine Sand (or Sand) blocks and 1 Emerald Ore in Alloy Furnace
++ [N] Emerald Glass can be crafted from 2 Fine Sand (or Sand) blocks and 1 Emerald Ore in Alloy Furnace (material id: 8764)
 
-+ [N] Emerald Block can be crafted from 2 Emeralds (or 4 Emerald Ore) in Crafting Table
++ [N] Emerald Block can be crafted from 2 Emeralds (or 4 Emerald Ore) in Crafting Table (material id: 8766)
 
 + [N] Emerald Drill and Emerald Pickaxe can be crafted from Emeralds in Metalwork Station and the Replicator (Sci-Fi Anvil)
+
++ [N] Dread Block can be crafted from 2 Dreadwing Wreckage (material id: 8767)
+
++ [N] Hi-tech Drill and Hi-tech Pickaxe can be crafted from Dreadful Blocks in Metalwork Station and the Replicator (Sci-Fi Anvil)
 
 + [R] All pickaxes (except Stone Pickaxe) and drills have EK's durability values (which means they won't break so fast), block radius, tile damage and material costs (except pixel requirements):
  - Copper Drill     (d: 1000 -> 3000, b: 2 -> 3, d: 1.5 -> 2.9)
@@ -166,6 +172,7 @@ Gameplay changes
  - Diamond Drill    (d: 1000 -> 4500, b: 2 -> 3, d: 3.5 -> 3.7)
  - Emerald Drill    (d: 5000, b: 3, d: 4.0)
  - Platinum Drill   (d: 1000 -> 5500, b: 2 -> 3, d: 3.0 -> 4.3)
+ - Hi-tech Drill    (d: 6000, b: 4, d: 5.0)
  - Stone Pickaxe    (d: 3500, b: 3, d: 2.0, cannot be repaired)
  - Copper Pickaxe   (d:  200 -> 4000)
  - Silver Pickaxe   (d:  200 -> 4500)
@@ -173,6 +180,7 @@ Gameplay changes
  - Diamond Pickaxe  (d:  350 -> 5500)
  - Emerald Pickaxe  (d: 6000)
  - Platinum Pickaxe (d: 200 -> 6500)
+ - Hi-tech Pickaxe  (d: 9001, b: 4, d: 4.2)
 
 + [R] Drills and pickaxes can be repaired with bars, ore and diamonds (open your inventory, equip tool, select ore/bar/diamond and right-click on the tool icon)
 
@@ -459,16 +467,19 @@ Note: THIS IS NOT A MODPACK, as the merged mods are not simply copy-pasted, but 
 + http://community.playstarbound.com/resources/2705/ - Loom (by I Said No)
 + http://community.playstarbound.com/resources/2728/ - Swamp & Lagoon Armor Returned (by Campaigner)
 + http://community.playstarbound.com/resources/2811/ - Original Pioneer Armor (by Snigery)
++ http://community.playstarbound.com/resources/2832/ - Dreadwing Block (by shardshunt)
 + http://community.playstarbound.com/resources/2927/ - Slime Armour Colours Mod (by shadowd15)
 + http://community.playstarbound.com/resources/2948/ - Moar Dungeons (by G4M5T3R)
 + http://community.playstarbound.com/resources/2949/ - Outpost Lag Reduction (by LoPhatKao)
 + http://community.playstarbound.com/resources/2978/ - Screams (by LoPhatKao)
 + http://community.playstarbound.com/resources/2995/ - It's over 9000 (by SoulOfSorin)
++ http://community.playstarbound.com/resources/2999/ - Static Toy Block (by IllidanS4)
 
 
 Version history
 ---------------
 
+- 2015/07/07 v45 - moved to July 1 Nightly support, patched toy (Lego) block to be static (thanks to IllidanS4), added craftable dreadwing blocks (thanks to shardshunt), added craftable hi-tech pickaxe and hi-tech drill
 - 2015/06/27 v44 - replaced all tutorial missions with new descriptive ones which better match the mod's progression
 - 2015/06/21 v43 - updated NoLag code (by LoPhatKao), merged in Screams code (by LoPhatKao), added proper stats to Copper Armour set, changed pixel price of Lagoon Armour set, rebalanced mining tools' durability, Wild Peanut Seed plant now spawns on Garden and Forest biomes, changed initial SAIL messages to resemble real operating systems
 - 2015/06/15 v42 - added Peanut Plant, Peanut Seed, consumable Peanuts, treasure pool for Peanut Plant, craftable Peanut Butter consumable, recipe for butter from coconut milk, craftable Cardboard Box 16-slot container, craftable Large Cardboard box 42-slot container, Peanut Butter trap craftable from Peanut Butter and Large Cardboard Box, Food For Thought quest given by Apex Scientists at the Outpost, restored quests and beacon script functioning in Nightly, removed annoying humming from Vending Machine
