@@ -46,6 +46,17 @@ Starting from Version 33, CLeF requires you to wipe your universe and shipworld 
 Frequently Asked Questions
 --------------------------
 
+Q: Will you add back Temperature and Hunger mechanics?
+
+A: There are two separate mods which do this:
+
+* http://community.playstarbound.com/resources/2953/ - Hunger & Thirst (by Image_Not_Available)
+
+* http://community.playstarbound.com/resources/2475/ - Temperature Returns (by xxswatelitexx)
+
+Sadly, I can't permanently add them to CLeF, because, once installed, they cannot be uninstalled without the entire savegame wipe. Also, the temperature mod have no means of displaying the required data, since the game's UI lacks of custom HUD indication support.
+
+
 Q: So, I've repaired my ship and decided to move to another planet in the local system. I'm clicking "GO" and nothing happens.
 
 A: You'll have to fuel your ship first (lava, coal, core fragment ore or even oil will do the trick). Please keep in mind the intraspace travel is no longer free. The fuel cost simply doesn't show up on Tier 2 ships (without repaired FTL drive) due to a bug.
@@ -56,6 +67,13 @@ Q: I can't access fuel hatch! My character has stuck at his starter planet! I wa
 A: It's impossible for me to fix custom races due to random mod load order and the fact .png definition files cannot be incrementally patched. Please ask the author of that race to move working fuel hatch from Tier 3 ship to Tier 2 (I've asked some of them, and you can find their races in "Recommended mods" section).
 
 Also, you can fix it on your own - open <racename>t2blocks.png and copy fuel hatch pixel (orange-red at the top of a blue block) from <racename>t3blocks.png. Note you'll have to delete your shipworld, otherwise the fix won't be applied (don't forget to take everything you don't want to lose with you).
+
+
+Q: Wait, you tell people to alter progression just for your mod's compatibility? Who the hell do you think you are?!
+
+A: First, don't be a hysterical brat. It's a single pixel change, which does not affect progression in any way. Even if player will have working fuel hatch, he won't be able to travel past the local solar system, because FTL drive is not working at Tier 2 ship regardless if fuel hatch is available or not.
+
+Besides, Chucklefish might change their mind regarding the fuel and you'll be forced to make that single pixel change anyway.
 
 
 Q: Okay, I beat the UFO boss. Where's the rest of the quests?
@@ -70,6 +88,11 @@ This mod is work-in-progress. Please be patient.
 Q: Will I be able to play on vanilla servers if I'll install this mod?
 
 A: Short answer: no. Long answer: any mod which makes changes to .config files or adds new objects will not be compatible with vanilla servers.
+
+
+Q: What's with the name? Are you telling us to choke the developers?
+
+A: It's both pun and an allegory. The fish is already dead.
 
 
 Help wanted
