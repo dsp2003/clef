@@ -22,7 +22,7 @@ Required (either Common + SG Stable or Common + PG Nightly. Any other combinatio
 
 + CLeF - SG Stable. For Stable Spirited Giraffe Update 5 (May 8)
 
-+ CLeF - PG Nightly. For Nightly Pleased Giraffe Update 0 (July 1)
++ CLeF - PG Nightly. For Nightly Pleased Giraffe Update 0 (July 10)
 
 Optional (consult "Gameplay changes" section for details):
 
