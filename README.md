@@ -168,6 +168,8 @@ Gameplay changes
 
 + [F] Toy (Lego) Blocks no longer fall when placed. Now it's possible to build colourful plastic castles
 
++ [M] Recoloured Titanium Ore and Titanium Bars to be more distinguishable from Silver and Iron
+
 + [R] Diamond ore will spawn instead of "perfectly cut" diamonds in unvisited worlds (diamonds will still spawn in treasure chests)
 
 + [M] Diamond can be crafted in Alloy Furnace from 2 diamond ores (recipe learned on picking up the diamond ore, was 4 diamond ores in EK and removed entirely in UG)
@@ -496,6 +498,7 @@ Note: THIS IS NOT A MODPACK, as the merged mods are not simply copy-pasted, but 
 + http://community.playstarbound.com/resources/2811/ - Original Pioneer Armor (by Snigery)
 + http://community.playstarbound.com/resources/2832/ - Dreadwing Block (by shardshunt)
 + http://community.playstarbound.com/resources/2927/ - Slime Armour Colours Mod (by shadowd15)
++ http://community.playstarbound.com/resources/2939/ - Discernible Titanium Ore (by MetalTxus)
 + http://community.playstarbound.com/resources/2948/ - Moar Dungeons (by G4M5T3R)
 + http://community.playstarbound.com/resources/2949/ - Outpost Lag Reduction (by LoPhatKao)
 + http://community.playstarbound.com/resources/2978/ - Screams (by LoPhatKao)
@@ -506,7 +509,7 @@ Note: THIS IS NOT A MODPACK, as the merged mods are not simply copy-pasted, but 
 Version history
 ---------------
 
-- 2015/07/12 v46 - moved to July 10 Nightly support, fixed emerald ore distribution values, restored learning of Ice Block recipe on Ice pickup, added learning of ice furniture recipes on Ice Block pickup, rewritten drill and pickaxe descriptions to reflect mod's mechanics
+- 2015/07/12 v46 - moved to July 10 Nightly support, fixed emerald ore distribution values, restored learning of Ice Block recipe on Ice pickup, added learning of ice furniture recipes on Ice Block pickup, rewritten drill and pickaxe descriptions to reflect mod's mechanics, merged in recolour for Titanium Ore and Titanium Bars (thanks to MetalTxus)
 - 2015/07/07 v45 - moved to July 1 Nightly support, patched toy (Lego) block to be static (thanks to IllidanS4), added craftable dreadwing blocks (thanks to shardshunt), added craftable hi-tech pickaxe and hi-tech drill
 - 2015/06/27 v44 - replaced all tutorial missions with new descriptive ones which better match the mod's progression
 - 2015/06/21 v43 - updated NoLag code (by LoPhatKao), merged in Screams code (by LoPhatKao), added proper stats to Copper Armour set, changed pixel price of Lagoon Armour set, rebalanced mining tools' durability, Wild Peanut Seed plant now spawns on Garden and Forest biomes, changed initial SAIL messages to resemble real operating systems
