@@ -5,7 +5,7 @@
   "maxStack" : 1,
   "rarity" : "common",
   "tooltipKind" : "tool",
-  "description" : "Pickaxes are so last millennium! This one is made of stone. Cannot be repaired.",
+  "description" : "Pickaxes are so last millennium! This one is made of stone. ^yellow;Cannot be repaired.",
   "shortdescription" : "Stone Pickaxe",
   "largeImage" : "stonepickaxebig.png",
   "image" : "stonepickaxe.png",

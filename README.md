@@ -1,12 +1,12 @@
 # Choke Le Fish
 Starbound content restoration and gameplay overhaul project
 
-Version 45 (2015/07/07)
+Version 46 (2015/07/12)
 ----------
 
 Known to work with:
 - [Stable] Spirited Giraffe Update 5 (May 8)
-- [Nightly] Pleased Giraffe Update 0 (July 1)
+- [Nightly] Pleased Giraffe Update 0 (July 10)
 
 
 Installation
@@ -342,6 +342,10 @@ Gameplay changes
 
 + [M] Slime furniture recipes auto-learned upon Green Slime pickup
 
++ [F] Fixed learning of recipe for Ice Block on Ice pickup
+
++ [M] Ice furniture recipes auto-learned on Ice Block pickup
+
 + [M] Mole and Frog merchant objects have proper icons and breakable. Also, both have Novakid lines, and the Mole has proper descriptions
 
 + [M] The maximum number of possible dungeons per vanilla surface biome changed to 7 (was 1 in SG)
@@ -502,6 +506,7 @@ Note: THIS IS NOT A MODPACK, as the merged mods are not simply copy-pasted, but 
 Version history
 ---------------
 
+- 2015/07/12 v46 - moved to July 10 Nightly support, fixed emerald ore distribution values, restored learning of Ice Block recipe on Ice pickup, added learning of ice furniture recipes on Ice Block pickup, rewritten drill and pickaxe descriptions to reflect mod's mechanics
 - 2015/07/07 v45 - moved to July 1 Nightly support, patched toy (Lego) block to be static (thanks to IllidanS4), added craftable dreadwing blocks (thanks to shardshunt), added craftable hi-tech pickaxe and hi-tech drill
 - 2015/06/27 v44 - replaced all tutorial missions with new descriptive ones which better match the mod's progression
 - 2015/06/21 v43 - updated NoLag code (by LoPhatKao), merged in Screams code (by LoPhatKao), added proper stats to Copper Armour set, changed pixel price of Lagoon Armour set, rebalanced mining tools' durability, Wild Peanut Seed plant now spawns on Garden and Forest biomes, changed initial SAIL messages to resemble real operating systems
