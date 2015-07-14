@@ -1,4 +1,4 @@
-# Choke Le Fish
+# CLeF - Things To Do In Starbound
 Starbound content restoration and gameplay overhaul project
 
 Version 46 (2015/07/12)
