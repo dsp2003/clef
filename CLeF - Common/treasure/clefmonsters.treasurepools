@@ -7,11 +7,10 @@
       "fill" : [ { "item" : [ "corefragmentore", 21 ] }, { "item" : [ "moltencore", 5 ] }, { "item" : "bossdreadwingCodex" } ]
     }]
   ],
-  // temporary placeholder before I'll re-add required files
   // Boss: Fatal Circuit (Yellow Robot)
   "clefFatalCircuit" : [
     [1, {
-      "fill" : [ { "item" : [ "corefragmentore", 21 ] }, { "item" : [ "moltencore", 5 ] }, { "item" : "bossdreadwingCodex" } ]
+      "fill" : [ { "item" : [ "processor", 5 ] }, { "item" : "bossfatalcircuitCodex" } ]
     }]
   ],
   // Boss: Bone Dragon
