@@ -19,13 +19,16 @@
   
   "partParameters" : {
     "fatalcircuitchest" : {
-      "specialSkills" : [ "stompAttack" ]
+//      "specialSkills" : [ "stompAttack" ]
+      "specialSkills" : [ ]
     },
     "fatalcircuitarms" : {
-      "specialSkills" : [ "slapAttack" ]
+//      "specialSkills" : [ "meleeAttack" ]
+      "specialSkills" : [ ]
     },
     "fatalcircuithead" : {
-      "specialSkills" : [ "blinkAttack" ]
+//      "specialSkills" : [ "blinkAttack" ]
+      "specialSkills" : [ ]
     },
     "fatalcircuittail" : {
       "specialSkills" : [ ]

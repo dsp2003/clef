@@ -638,6 +638,11 @@
       ]
     }
   },
+  
+  "sounds" : {
+  "turnHostile" : [  ],
+  "deathPuff" : [ "/sfx/npc/enemydeathpuff.wav" ]
+  },
 
   "effects" : {
     "blink" : {
