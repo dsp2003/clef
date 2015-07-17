@@ -640,8 +640,8 @@
   },
   
   "sounds" : {
-  "turnHostile" : [  ],
-  "deathPuff" : [ "/sfx/npc/enemydeathpuff.wav" ]
+    "turnHostile" : [ "/sfx/npc/unique/robotboss_turnhostile.wav", "/sfx/npc/unique/robotboss_idle1.wav", "/sfx/npc/unique/robotboss_idle2.wav", "/sfx/npc/unique/robotboss_attack1.wav", "/sfx/npc/unique/robotboss_attack2.wav" ],
+    "deathPuff" : [ "/sfx/npc/unique/robotboss_pain1.wav", "/sfx/npc/unique/robotboss_pain2.wav", "/sfx/npc/unique/robotboss_pain3.wav", "/sfx/npc/unique/robotboss_deathwithstatic.wav", "/sfx/npc/unique/robotboss_death.wav" ]
   },
 
   "effects" : {
