@@ -1,7 +1,7 @@
 # CLeF - Things To Do In Starbound
 Starbound content restoration and gameplay overhaul project
 
-Version 46 (2015/07/12)
+Version 47 (2015/07/17)
 ----------
 
 Known to work with:
@@ -509,7 +509,8 @@ Note: THIS IS NOT A MODPACK, as the merged mods are not simply copy-pasted, but 
 Version history
 ---------------
 
-- 2015/07/12 v46 - moved to July 10 Nightly support, fixed emerald ore distribution values, restored learning of Ice Block recipe on Ice pickup, added learning of ice furniture recipes on Ice Block pickup, rewritten drill and pickaxe descriptions to reflect mod's mechanics, merged in recolour for Titanium Ore and Titanium Bars (thanks to MetalTxus), fixed NoLag code for July 10 Nightly (some code splitted again), decoloured Frogg's Furnishing in Nightly
+- 2015/07/17 v47 - de-coloured Frogg's Furnishing in Nightly, fixed crash for 42-slot container (reported by Anonfox123), added proper description to Avian God Wings (no means to craft it yet)
+- 2015/07/12 v46 - moved to July 10 Nightly support, fixed emerald ore distribution values, restored learning of Ice Block recipe on Ice pickup, added learning of ice furniture recipes on Ice Block pickup, rewritten drill and pickaxe descriptions to reflect mod's mechanics, merged in recolour for Titanium Ore and Titanium Bars (thanks to MetalTxus), fixed NoLag code for July 10 Nightly (some code splitted again)
 - 2015/07/07 v45 - moved to July 1 Nightly support, patched toy (Lego) block to be static (thanks to IllidanS4), added craftable dreadwing blocks (thanks to shardshunt), added craftable hi-tech pickaxe and hi-tech drill
 - 2015/06/27 v44 - replaced all tutorial missions with new descriptive ones which better match the mod's progression
 - 2015/06/21 v43 - updated NoLag code (by LoPhatKao), merged in Screams code (by LoPhatKao), added proper stats to Copper Armour set, changed pixel price of Lagoon Armour set, rebalanced mining tools' durability, Wild Peanut Seed plant now spawns on Garden and Forest biomes, changed initial SAIL messages to resemble real operating systems
