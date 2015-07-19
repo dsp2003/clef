@@ -460,19 +460,23 @@ To-do list
 
 Seamlessly integrate the old quests and boss fights back into game:
 
-+ Restore Fatal Circuit (partially done, script crash prevents further integration)
++ Restore Fatal Circuit (needs Lua/behaviour changes/sound scripting/quest scripting)
 
-+ Restore Bone Dragon (partially done, needs Lua/behavior changes)
++ Restore Bone Dragon (needs Lua/behaviour changes/sound scripting)
+
++ Restore Tentacle Comet (needs quest scripting)
 
 Bring back biome variety:
 
 + Restore all removed biomes and mini-biomes
 
++ Restore removed microdungeons
+
 + The moons with more life and loot underneath, not just a stinky fuel
 
 + Barren worlds with realistic core, undercaves and stuff
 
-+ Bunch of other stuff I tend to forget...
+Bunch of other stuff I tend to forget...
 
 
 Stuff I can't fix (yet)
