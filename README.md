@@ -1,12 +1,12 @@
 # CLeF - Things To Do In Starbound
 Starbound content restoration and gameplay overhaul project
 
-Version 47 (2015/07/17)
+Version 48 (2015/08/0x) DEVELOPMENT EDITION
 ----------
 
 Known to work with:
 - [Stable] Spirited Giraffe Update 5 (May 8)
-- [Nightly] Pleased Giraffe Update 0 (July 10)
+- [Nightly] Pleased Giraffe Update 0 (July 31)
 
 
 Installation
@@ -22,13 +22,15 @@ Required (either Common + SG Stable or Common + PG Nightly. Any other combinatio
 
 + CLeF - SG Stable. For Stable Spirited Giraffe Update 5 (May 8)
 
-+ CLeF - PG Nightly. For Nightly Pleased Giraffe Update 0 (July 10)
++ CLeF - PG Nightly. For Nightly Pleased Giraffe Update 0 (July 31)
 
 Optional (consult "Gameplay changes" section for details):
 
 + CLeF - Extra. Core mod files incompatible/overlapping functionality with third-parties
 
-+ CLeF - Sandbox. Restores more sandbox gameplay, yet also removes certain restrictions (some people might find it "cheaty". Strongly recommended for people who likes Koala builds over Giraffe)
++ CLeF - SG Stable - Sandbox. Restores more sandbox gameplay, yet also removes certain restrictions (some people might find it "cheaty". Strongly recommended for people who likes Koala builds over Giraffe). For SG Stable.
+
++ CLeF - PG Nightly - Sandbox. Same as above, but for PG Nightly.
 
 
 Overview
@@ -513,6 +515,7 @@ Note: THIS IS NOT A MODPACK, as the merged mods are not simply copy-pasted, but 
 Version history
 ---------------
 
+- 2015/08/0x v48 - moved to July 31 Nightly support, temporarily splitted Sandbox plugin into Stable and Nightly versions
 - 2015/07/17 v47 - de-coloured Frogg's Furnishing in Nightly, fixed crash for 42-slot container (reported by Anonfox123), added proper description to Avian God Wings (no means to craft it yet)
 - 2015/07/12 v46 - moved to July 10 Nightly support, fixed emerald ore distribution values, restored learning of Ice Block recipe on Ice pickup, added learning of ice furniture recipes on Ice Block pickup, rewritten drill and pickaxe descriptions to reflect mod's mechanics, merged in recolour for Titanium Ore and Titanium Bars (thanks to MetalTxus), fixed NoLag code for July 10 Nightly (some code splitted again)
 - 2015/07/07 v45 - moved to July 1 Nightly support, patched toy (Lego) block to be static (thanks to IllidanS4), added craftable dreadwing blocks (thanks to shardshunt), added craftable hi-tech pickaxe and hi-tech drill
