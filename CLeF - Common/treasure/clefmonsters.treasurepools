@@ -10,7 +10,7 @@
   // Boss: Fatal Circuit (Yellow Robot)
   "clefFatalCircuit" : [
     [1, {
-      "fill" : [ { "item" : [ "processor", 5 ] }, { "item" : "bossfatalcircuitCodex" } ]
+      "fill" : [ { "item" : [ "processor", 5 ] }, { "item" : "bossfatalcircuitCodex" }, { "item" : "fatalclawbroken" } ]
     }]
   ],
   // Boss: Bone Dragon

@@ -1,7 +1,7 @@
 # CLeF - Things To Do In Starbound
 Starbound content restoration and gameplay overhaul project
 
-Version 48 (2015/08/0x) DEVELOPMENT EDITION
+Version 48 (2015/08/07)
 ----------
 
 Known to work with:
@@ -170,6 +170,8 @@ Gameplay changes
 
 + [F] Toy (Lego) Blocks no longer fall when placed. Now it's possible to build colourful plastic castles
 
++ [F] Book Blocks act like platforms and can be passed through
+
 + [M] Recoloured Titanium Ore and Titanium Bars to be more distinguishable from Silver and Iron
 
 + [R] Diamond ore will spawn instead of "perfectly cut" diamonds in unvisited worlds (diamonds will still spawn in treasure chests)
@@ -307,9 +309,11 @@ Gameplay changes
 
 + [N] Peanut Butter Trap can be crafted from 1 Peanut Butter, 1 Large Cardboard Box and 1 Wood
 
-+ [R][Incomplete] Brain extractor and all robot parts are available for crafting. As a result, you can summon the robot boss (disabled in UG, no proper quest yet. In UG original robot was replaced by Penguin Bot and appears instead of the old one when summoned)
++ [N] Questline "Fatal Circuit". Given by Mercenary Glitch and Penguin Promoter at Outpost for players with Tier 3 ship
 
-+ [N] Quest "The Brain Hunter". Automatically assigned upon crafting or picking up the Brain Extractor. Reward: 100-500 pixels
++ [R] Brain extractor and all robot parts are available for crafting. As a result, you can summon Fatal Circuit, the old robot boss (was removed in UG and replaced by Penguin Bot)
+
++ [N] Fatal Circuit drops quest item - shorted out Broken Fatal Claw dagger with weak stats
 
 + [N] Cooking recipe "Brain Stew". Cooked from Wheat, Pearlpea, Corn and Inferior Brain
 
@@ -510,12 +514,13 @@ Note: THIS IS NOT A MODPACK, as the merged mods are not simply copy-pasted, but 
 + http://community.playstarbound.com/resources/2978/ - Screams (by LoPhatKao)
 + http://community.playstarbound.com/resources/2995/ - It's over 9000 (by SoulOfSorin)
 + http://community.playstarbound.com/resources/2999/ - Static Toy Block (by IllidanS4)
++ http://community.playstarbound.com/resources/3049/ - Platform Books (by TanzNukeTerror)
 
 
 Version history
 ---------------
 
-- 2015/08/0x v48 - moved to July 31 Nightly support, temporarily splitted Sandbox plugin into Stable and Nightly versions
+- 2015/08/07 v48 - moved to July 31 Nightly support, temporarily splitted Sandbox plugin into Stable and Nightly versions, fixed Jelly Boss (thank you, Sayter!) and Fatal Circuit's behaviour, Book blocks turned into platform (thanks to TanzNukeTerror), moved learning of robot recipes to Brain Extractor pickup, moved learning of Artificial Brain to Superior Brain pickup, added 5-stage questline for Glitch Mercenary and Penguin Promoter ("The Brain Hunter" quest merged into it), added Broken Fatal Claw dagger (thanks to Kawa for giving me the idea ^w^)
 - 2015/07/17 v47 - de-coloured Frogg's Furnishing in Nightly, fixed crash for 42-slot container (reported by Anonfox123), added proper description to Avian God Wings (no means to craft it yet)
 - 2015/07/12 v46 - moved to July 10 Nightly support, fixed emerald ore distribution values, restored learning of Ice Block recipe on Ice pickup, added learning of ice furniture recipes on Ice Block pickup, rewritten drill and pickaxe descriptions to reflect mod's mechanics, merged in recolour for Titanium Ore and Titanium Bars (thanks to MetalTxus), fixed NoLag code for July 10 Nightly (some code splitted again)
 - 2015/07/07 v45 - moved to July 1 Nightly support, patched toy (Lego) block to be static (thanks to IllidanS4), added craftable dreadwing blocks (thanks to shardshunt), added craftable hi-tech pickaxe and hi-tech drill
