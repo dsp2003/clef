@@ -16,7 +16,7 @@
 
   "baseParameters" : {
     "scripts" : [
-      "/monsters/flying/flyingMonster.lua",
+      "/monsters/boss/dragonboss/flyingmonster.lua",
       "/scripts/util.lua",
       "/scripts/sensors.lua",
       "/scripts/stateMachine.lua",
@@ -82,12 +82,15 @@
           "baseValue" : 500
         },
         "protection" : {
-          "baseValue" : 1.0
+          "baseValue" : 30.0
         },
         "healthRegen" : {
           "baseValue" : 0.0
         },
         "fireImmumity" : {
+          "baseValue" : 1.0
+        },
+        "poisonImmunity" : {
           "baseValue" : 1.0
         }
       },
@@ -105,7 +108,13 @@
     "feetOffset" : [ 0, -8 ],
     "aggressive" : true,
     "alwaysAggressive" : true,
-    "alwaysDamageOnTouch" : true
+    "alwaysDamageOnTouch" : true,
+
+    "attackSound" : [ "attack1", "attack2" ],
+    "idleSound" : [ "idle1", "idle2" ],
+    "painSound" : [ "pain1", "pain2" ],
+    "soundTimeWait" : 1
+
   },
 
   "familyParameters" : [
@@ -145,8 +154,8 @@
         "glideSinkingSpeed" : 0.8,
         "glideSpiralDispersion" : 0.2,
 
-        "baseSkills" : [ "flyingSwoopAttack" ],
-        "specialSkills" : [ "dragonBreathAttack" ]
+        "baseSkills" : [ "dragonBreathAttack" ],
+        "specialSkills" : [ ]
       }
     ]
   ],
