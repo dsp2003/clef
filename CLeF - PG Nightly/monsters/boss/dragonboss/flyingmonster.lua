@@ -17,7 +17,7 @@ function init(args)
 
   self.sensors = sensors.create()
 
-  self.debug = true
+  self.debug = false --dsp2003: we no longer need debug
 
   local scripts = entity.configParameter("scripts")
 

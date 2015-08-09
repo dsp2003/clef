@@ -16,7 +16,7 @@
 
   "baseParameters" : {
     "scripts" : [
-      "/monsters/ground/groundMonster.lua",
+      "/monsters/clef/fatalcircuit/groundMonster.lua",
       "/scripts/pathing.lua",
       "/scripts/stateMachine.lua",
       "/scripts/util.lua",
@@ -24,7 +24,6 @@
 
       "/monsters/ground/aggroHopState.lua",
       "/monsters/ground/approachState.lua",
-      "/monsters/ground/aggressState.lua",
       "/monsters/ground/stunState.lua",
       "/monsters/ground/wanderState.lua",
 
@@ -73,7 +72,10 @@
     "wanderJumpProbability" : 0.1,
 
     "idleSoundTime" : [5.0, 10.0],
-    "painSoundTimer" : 2.0,
+    "painSoundTime" : 2.0,
+    "attackSound" : ["attack1","attack2"],
+    "idleSound" : ["idle1","idle2"],
+    "painSound" : ["pain1","pain2","pain3"],
 
     "jumpTargetDistance" : 4,
     "jumpTime" : [0.8, 1.4],
@@ -86,14 +88,13 @@
       "movement" : "knockout",
       "attack" : "idle"
     },
-    "deathParticles" : "deathPoof",
-    "deathNoise" : [ "/sfx/projectiles/bubble_pop.wav" ],
 
     "exhaustionTimer" : 3.0,
     "exhaustionTimeout" : 3.0,
     "exhaustionDistanceLimit" : 1.0,
 
     "alwaysAggressive" : true,
+    "aggressive" : true,
 	
     "blockedSensors" : [ [1.5, -4.5], [1.5, -3.5], [1.5, -2.5], [1.5, -1.5], [1.5, -0.5], [1.5, 0.5] ],
     "fallSensors" : [ [2, -3.5], [2, -5.5], [2, -6.5], [4, -4.5], [4, -5.5], [4, -6.5] ],
@@ -105,13 +106,6 @@
       "damageSourceKind" : "default",
       "statusEffects" : [ ]
     },
-
-    "inateStatusEffects" : [
-      {
-        "kind" : "Protection",
-        "amount" : 1.0
-      }
-    ],
 
     "statusSettings" : {
       "statusProperties" : {

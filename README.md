@@ -1,12 +1,12 @@
 # CLeF - Things To Do In Starbound
 Starbound content restoration and gameplay overhaul project
 
-Version 48 (2015/08/07)
+Version 48 (2015/08/09)
 ----------
 
 Known to work with:
 - [Stable] Spirited Giraffe Update 5 (May 8)
-- [Nightly] Pleased Giraffe Update 0 (July 31)
+- [Nightly] Pleased Giraffe Update 0 (August 8)
 
 
 Installation
@@ -22,7 +22,7 @@ Required (either Common + SG Stable or Common + PG Nightly. Any other combinatio
 
 + CLeF - SG Stable. For Stable Spirited Giraffe Update 5 (May 8)
 
-+ CLeF - PG Nightly. For Nightly Pleased Giraffe Update 0 (July 31)
++ CLeF - PG Nightly. For Nightly Pleased Giraffe Update 0 (August 8)
 
 Optional (consult "Gameplay changes" section for details):
 
@@ -491,6 +491,20 @@ Stuff I can't fix (yet)
 + Lack of hunger and temperature system (hardcoded)
 
 
+Contributors (they are awesome, all of them)
+--------------------------------------------
+
+These people has (in)directly contributed a huge amount of fixes and/or significant improvements. In alphabetical order:
+
+* Grover Cures Houses (repairable tools flag)
+* Kawa (JSON stuff, modding tips and tricks)
+* LoPhatKao (Lua coding and major fixes for bosses, restored monster sound effects! ^o^)
+* Rhyssia (initial Fatal Circuit fixes, which kickstarted more stuff)
+* Sayter (major fixes for Jelly Boss)
+* XNicoX14 (alternative repairs mechanism and inspiration ^u^)
+* xxswatelitexx (JSON stuff, modding tips and tricks)
+
+
 Third-party mods merged with CLeF
 ---------------------------------
 
@@ -520,7 +534,8 @@ Note: THIS IS NOT A MODPACK, as the merged mods are not simply copy-pasted, but 
 Version history
 ---------------
 
-- 2015/08/07 v48 - moved to July 31 Nightly support, temporarily splitted Sandbox plugin into Stable and Nightly versions, fixed Jelly Boss (thank you, Sayter!) and Fatal Circuit's behaviour, Book blocks turned into platform (thanks to TanzNukeTerror), moved learning of robot recipes to Brain Extractor pickup, moved learning of Artificial Brain to Superior Brain pickup, added 5-stage questline for Glitch Mercenary and Penguin Promoter ("The Brain Hunter" quest merged into it), added Broken Fatal Claw dagger (thanks to Kawa for giving me the idea ^w^), restored Bone Dragon's behaviour and attacks (thank you, LoPhatKao! ^o^)
+- 2015/08/09 v49 - moved to August 8 Nightly support, restored Bone Dragon's behaviour and attacks (thank you, LoPhatKao! ^o^), added back sounds for Fatal Circuit and Bone Dragon (Lua coding contributed by LoPhatKao, thank you! ^w^), updated decoloured inventory for Nightly
+- 2015/08/07 v48 - moved to July 31 Nightly support, temporarily splitted Sandbox plugin into Stable and Nightly versions, fixed Jelly Boss (thank you, Sayter!) and Fatal Circuit's behaviour, Book blocks turned into platform (thanks to TanzNukeTerror), moved learning of robot recipes to Brain Extractor pickup, moved learning of Artificial Brain to Superior Brain pickup, added 5-stage questline for Glitch Mercenary and Penguin Promoter ("The Brain Hunter" quest merged into it), added Broken Fatal Claw dagger (thanks to Kawa for giving me the idea ^w^)
 - 2015/07/17 v47 - de-coloured Frogg's Furnishing in Nightly, fixed crash for 42-slot container (reported by Anonfox123), added proper description to Avian God Wings (no means to craft it yet)
 - 2015/07/12 v46 - moved to July 10 Nightly support, fixed emerald ore distribution values, restored learning of Ice Block recipe on Ice pickup, added learning of ice furniture recipes on Ice Block pickup, rewritten drill and pickaxe descriptions to reflect mod's mechanics, merged in recolour for Titanium Ore and Titanium Bars (thanks to MetalTxus), fixed NoLag code for July 10 Nightly (some code splitted again)
 - 2015/07/07 v45 - moved to July 1 Nightly support, patched toy (Lego) block to be static (thanks to IllidanS4), added craftable dreadwing blocks (thanks to shardshunt), added craftable hi-tech pickaxe and hi-tech drill
