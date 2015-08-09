@@ -80,9 +80,13 @@ Besides, Chucklefish might change their mind regarding the fuel and you'll be fo
 
 Q: Okay, I beat the UFO boss. Where's the rest of the quests?
 
-A: Since the version 22 you can beat the Bone Dragon boss. It's integrated into Outpost Mute Glitch's quest line.
+A: The rest of the quests are integrated into Outpost NPC's questlines:
 
-Since the version 42 you can beat the Jelly boss. It's integrated into Outpost Apex Scientist's quest line.
+* [Added in v22] Bone Dragon boss is integrated into Outpost Mute Glitch's quest line.
+
+* [Added in v42] Jelly boss is integrated into Outpost Apex Scientist's quest line.
+
+* [Added in v48] Fatal Circuit robot boss is integrated into Outpost Glitch Mercenary's and Penguin Promoter's quest lines.
 
 This mod is work-in-progress. Please be patient.
 
@@ -466,11 +470,13 @@ To-do list
 
 Seamlessly integrate the old quests and boss fights back into game:
 
-+ Restore Fatal Circuit (needs Lua/behaviour changes/sound scripting/quest scripting)
++ Restore Jelly (DONE!)
 
-+ Restore Bone Dragon (needs Lua/behaviour changes/sound scripting)
++ Restore Fatal Circuit (DONE! Needs animation definition fixes)
 
-+ Restore Tentacle Comet (needs quest scripting)
++ Restore Bone Dragon (DONE! Needs some path/collision fixes)
+
++ Restore Tentacle Comet (needs quest scripting and possibly more things)
 
 Bring back biome variety:
 
@@ -499,7 +505,7 @@ These people has (in)directly contributed a huge amount of fixes and/or signific
 * Grover Cures Houses (repairable tools flag)
 * Kawa (JSON stuff, modding tips and tricks)
 * LoPhatKao (Lua coding and major fixes for bosses, restored monster sound effects! ^o^)
-* Rhyssia (initial Fatal Circuit fixes, which kickstarted more stuff)
+* Rhyssia (initial Fatal Circuit fixes, which kick-started more stuff)
 * Sayter (major fixes for Jelly Boss)
 * XNicoX14 (alternative repairs mechanism and inspiration ^u^)
 * xxswatelitexx (JSON stuff, modding tips and tricks)
