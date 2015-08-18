@@ -49,5 +49,7 @@
   { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "orangeteleportercore" } },
   { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "portableteleporter" } },
 
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "3dprinterplatform" } },
+
   { "op" : "replace", "path" : "/movementParameters/maximumCorrection", "value" : 10 }
 ]
