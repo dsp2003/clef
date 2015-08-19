@@ -225,6 +225,8 @@ Gameplay changes
 
 + [R] Metalwork station requires 1 Molten Core to craft (same as in EK)
 
++ [M] Portable 3D Printer can be crafted at Research Station for 2000 pixels, 10 durasteel bars and 2 diamonds (was removed in UG)
+
 + [M] Added Old Stone Furnace and Old Alloy Furnace (unlike the UG's workbench-based versions, these are container-based and significantly cheaper)
 
 + [R] Coal can be crafted from 10 Unrefined Wood in Stone Furnace (recipe learned on picking up the Wood)
@@ -436,7 +438,9 @@ Sandbox addon changes
 
 + [R] Removed "nude" and re-added "invisible" status effect for tent objects (as a side-effect, they no longer show bugged lit sprite which sometimes was floating in the air when player got up. Same as in EK)
 
-+ [N] Limit for items per cell changed to 99999 (won't show up properly the number of items after 9999, though)
++ [N] Limit for items per cell changed to 99999
+
++ [M] Modified Hobo Lesser font with more compact number glyphs, in order to properly display more than 9999 items per cell
 
 + [N] Block radius for placing changed to 4 (was 2 in EK/xG)
 
@@ -463,6 +467,8 @@ Nightly changes
 + [R] Restored Alien Juice liquid definition (id:4) and liquid item
 
 + [R] Restored Liquid Nitrogen definitions (id:10)
+
++ [R] Restored crafting for Cerulium, Ferozium and Impervium compounds
 
 
 To-do list

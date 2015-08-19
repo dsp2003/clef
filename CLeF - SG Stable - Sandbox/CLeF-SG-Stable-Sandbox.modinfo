@@ -1,8 +1,8 @@
 {
-	"name" : "CLeF-Sandbox",
+	"name" : "CLeF-SG-Stable-Sandbox",
 	"version" : "",
 	"path" : ".",
-	"requires" : [ "CLeF" ],
+	"requires" : [ "CLeF", "CLeF-SG-Stable" ],
 	"includes" : [],
 	"metadata" : {
 	  "displayName" : "CLeF Sandbox Addon Module",
