@@ -1,8 +1,4 @@
 [
-  { "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "feroziumcompound" } },
-  { "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "imperviumcompound" } },
-  { "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "ceruliumcompound" } },
-
   { "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "copperpickaxe" } },
   { "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "silverpickaxe" } },
   { "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "goldpickaxe" } },
