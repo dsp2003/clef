@@ -38,9 +38,9 @@ Overview
 
 Are you looking for sandbox gameplay? You've come to the right place.
 
-CF has severely crippled Starbound in Giraffe "updates" and removed as much that associated it with Terraria as they could. Hence, this unofficial community patch was born.
+CF has severely crippled Starbound in Giraffe "updates" and removed as much that associated it with Terraria as they could. Hence, this modification was born.
 
-CLeF is a community effort to address and revert most of these changes, as well as introduce balance tweaks, enhancements and a good portion of entirely new content. ;) It also addresses the poor game's performance on relatively slow hardware and improves it.
+CLeF is a community effort to address and revert most of unwanted changes, as well as introduce balance tweaks, enhancements and a good portion of entirely new content. ;) It also addresses the poor game's performance on relatively slow hardware and improves it.
 
 Please take a couple of minutes to read the list of changes this mod has to offer. Also, see the full list of authors and included mods at the end of the description.
 
