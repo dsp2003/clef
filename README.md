@@ -541,6 +541,7 @@ Note: THIS IS NOT A MODPACK, as the merged mods are not simply copy-pasted, but 
 
 + http://community.playstarbound.com/resources/2142/ - Emeralds! (by Serverator)
 + http://community.playstarbound.com/resources/2498/ - More Screen Resolutions (by eurosat7)
++ http://community.playstarbound.com/resources/2633/ - Lava Fuel Mod (by XNicoX14)
 + http://community.playstarbound.com/resources/2635/ - Prepare for Glory! (by LegendXCarisso) - Removed until further notice
 + http://community.playstarbound.com/resources/2640/ - Apex Grind Again (by eurosat7)
 + http://community.playstarbound.com/resources/2644/ - Craftable Chainsaw (by XNicoX14)
