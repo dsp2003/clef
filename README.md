@@ -36,13 +36,13 @@ Optional (consult "Gameplay changes" section for details):
 Overview
 --------
 
-As you probably know, not all players are happy with the changes that were made to the game in comparison with Koala builds. Although many new things were added, a lot of the aspects were nerfed or removed altogether, which turned the game into dumb lifeless punishing neverending grind.
+Are you looking for sandbox gameplay? You've come to the right place.
 
-This mod is my attempt to address and revert these changes in Giraffe builds to certain degree, as well as introduce other balance tweaks, enhancements and a good portion of entirely new content. ;) It also addresses the poor game's performance on relatively slow hardware and improves it.
+CF has severely crippled Starbound in Giraffe "updates" and removed as much that associated it with Terraria as they could. Hence, this unofficial community patch was born.
 
-Starting from Version 6, CLeF also incorporates work by other awesome people. See the full list of mods and their authors at the end of the description.
+CLeF is a community effort to address and revert most of these changes, as well as introduce balance tweaks, enhancements and a good portion of entirely new content. ;) It also addresses the poor game's performance on relatively slow hardware and improves it.
 
-Starting from Version 33, CLeF requires you to wipe your universe and shipworld files, otherwise you'll be met with invisible objects and possible crashes.
+Please take a couple of minutes to read the list of changes this mod has to offer. Also, see the full list of authors and included mods at the end of the description.
 
 
 Frequently Asked Questions
@@ -128,6 +128,7 @@ Glossary
 * [M] - modified restoration
 * [R] - restored feature
 * [F] - fix
+
 
 Gameplay changes
 ----------------
