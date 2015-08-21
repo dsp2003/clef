@@ -292,7 +292,7 @@ Gameplay changes
 
 + [M] Upon completing the "Dreadwing" quest, penguin will give 50 Matter Item, which can be used to craft Bonus Armour (otherwise the material for it is nowhere to be found)
 
-+ [R] Decoy Princess is available for crafting. As a result, the Bone Dragon boss can be summoned (disabled in UG. Sadly, dragon acts like a bird and won't breathe any fire nor open its mouth. I'm unable to restore its original behaviour without scripting help!)
++ [R] Decoy Princess is available for crafting. As a result, the Bone Dragon boss can be summoned (disabled in UG)
 
 + [N] Added decorative Decoy Princess Scheme object. Given by "Mute" Glitch upon starting "Bad To The Bone" quest
 
