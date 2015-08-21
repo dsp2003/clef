@@ -71,9 +71,9 @@ A: It's impossible for me to fix custom races due to random mod load order and t
 Also, you can fix it on your own - open <racename>t2blocks.png and copy fuel hatch pixel (orange-red at the top of a blue block) from <racename>t3blocks.png. Note you'll have to delete your shipworld, otherwise the fix won't be applied (don't forget to take everything you don't want to lose with you).
 
 
-Q: Wait, you tell people to alter progression just for your mod's compatibility? Who the hell do you think you are?!
+Q: Wait, a single pixel change? Wouldn't this affect vanilla progression?
 
-A: First, don't be a hysterical brat. It's a single pixel change, which does not affect progression in any way. Even if player will have working fuel hatch, he won't be able to travel past the local solar system, because FTL drive is not working at Tier 2 ship regardless if fuel hatch is available or not.
+A: Yes, it is a single pixel change, which does not affect progression in any way. Even if player will have working fuel hatch, he won't be able to travel past the local solar system, because FTL drive is not working at Tier 2 ship regardless if fuel hatch is available or not.
 
 Besides, Chucklefish might change their mind regarding the fuel and you'll be forced to make that single pixel change anyway.
 
