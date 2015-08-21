@@ -1,12 +1,12 @@
 # CLeF - Things To Do In Starbound
 Starbound content restoration and gameplay overhaul project
 
-Version 50 (2015/08/20)
+Version 51 (2015/08/21)
 ----------
 
 Known to work with:
 - [Stable] Spirited Giraffe Update 5 (May 8)
-- [Nightly] Pleased Giraffe Update 0 (August 8)
+- [Nightly/Unstable] Pleased Giraffe Update 0 (August 19)
 
 
 Installation
@@ -22,7 +22,7 @@ Required (either Common + SG Stable or Common + PG Nightly. Any other combinatio
 
 + CLeF - SG Stable. For Stable Spirited Giraffe Update 5 (May 8)
 
-+ CLeF - PG Nightly. For Nightly Pleased Giraffe Update 0 (August 8)
++ CLeF - PG Nightly. For Nightly/Unstable Pleased Giraffe Update 0 (August 19)
 
 Optional (consult "Gameplay changes" section for details):
 
