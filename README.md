@@ -474,8 +474,8 @@ Incompatible with "Enhanced Storage":
 + [M] Apex Blood Bank, Sewer Tank and Outpost Tank can be used as 48-slot storage containers
 
 
-Nightly changes
----------------
+Nightly/Unstable changes
+------------------------
 
 + [R] Window borders are colourless again
 
@@ -484,6 +484,10 @@ Nightly changes
 + [R] Restored Liquid Nitrogen definitions (id:10)
 
 + [R] Restored pickaxe crafting recipes
+
++ [M] Standing Turret can be safely placed and removed without object's destruction
+
++ [R] Restored unique look for Wire Tool and Paint Tool
 
 
 To-do list
@@ -558,11 +562,13 @@ Note: THIS IS NOT A MODPACK, as the merged mods are not simply copy-pasted, but 
 + http://community.playstarbound.com/resources/2999/ - Static Toy Block (by IllidanS4)
 + http://community.playstarbound.com/resources/3049/ - Platform Books (by TanzNukeTerror)
 + http://community.playstarbound.com/resources/3058/ - Portable 3D Printer (by TanzNukeTerror)
++ http://community.playstarbound.com/resources/3070/ - Paint and Wire Tool restoration (by TanzNukeTerror)
 
 
 Version history
 ---------------
 
+- 2015/08/21 v51 - moved to August 19 Nightly/Unstable support, restored classic Wire and Paint tool look (based on mod by TanzNukeTerror, thank you ^u^), updated outpost/mission hasObjectItem patch, updated breakable merchant object patch, added movable patch for Standing Turret
 - 2015/08/20 v50 - restored portable 3d printer object (thanks to TanzNukeTerror), added modified Hobo font for Sandbox plugins, removed maxStack limit for all craftable tools in Sandbox addons, restored pickaxe recipes in Nightly
 - 2015/08/09 v49 - moved to August 8 Nightly support, restored Bone Dragon's behaviour and attacks (thank you, LoPhatKao! ^o^), added back sounds for Fatal Circuit and Bone Dragon (Lua coding contributed by LoPhatKao, thank you! ^w^), updated decoloured inventory for Nightly
 - 2015/08/07 v48 - moved to July 31 Nightly support, temporarily splitted Sandbox plugin into Stable and Nightly versions, fixed Jelly Boss (thank you, Sayter!) and Fatal Circuit's behaviour, Book blocks turned into platform (thanks to TanzNukeTerror), moved learning of robot recipes to Brain Extractor pickup, moved learning of Artificial Brain to Superior Brain pickup, added 5-stage questline for Glitch Mercenary and Penguin Promoter ("The Brain Hunter" quest merged into it), added Broken Fatal Claw dagger (thanks to Kawa for giving me the idea ^w^)
