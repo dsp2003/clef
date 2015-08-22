@@ -1,7 +1,7 @@
 # CLeF - Things To Do In Starbound
 Starbound content restoration and gameplay overhaul project
 
-Version 51 (2015/08/21)
+Version 52 (2015/08/22) DEVELOPMENT EDITION
 ----------
 
 Known to work with:
@@ -386,6 +386,8 @@ Gameplay changes
 
 + [M] In order to compensate the protection removal, Tesla Spikes now have 20 points of "health" and much harder to harvest as a result
 
++ [M] Flare and Glowstick projectiles no longer disappear when hitting monsters or spikes
+
 + [M] Changed monster_surprise sound effect for randomly generated monsters to:
  - Small Biped - angstyhead_small_turnhostile.wav
  - Small Quadruped - teethyhead_small_turnhostile.wav
@@ -563,11 +565,13 @@ Note: THIS IS NOT A MODPACK, as the merged mods are not simply copy-pasted, but 
 + http://community.playstarbound.com/resources/3049/ - Platform Books (by TanzNukeTerror)
 + http://community.playstarbound.com/resources/3058/ - Portable 3D Printer (by TanzNukeTerror)
 + http://community.playstarbound.com/resources/3070/ - Paint and Wire Tool restoration (by TanzNukeTerror)
++ http://community.playstarbound.com/resources/3077/ - Reliable Flares (by Oberic)
 
 
 Version history
 ---------------
 
+- 2015/08/22 v52 - added "piercing" variable to flares and glowsticks (thanks to Oberic), updated dungeon count patch (bug report and patch by MikkelManDK, thank you!), restored sounds for Dragon Boss (in .ogg)
 - 2015/08/21 v51 - moved to August 19 Nightly/Unstable support, restored classic Wire and Paint tool look (based on mod by TanzNukeTerror, thank you ^u^), updated outpost/mission hasObjectItem patch, updated breakable merchant object patch, added movable patch for Standing Turret
 - 2015/08/20 v50 - restored portable 3d printer object (thanks to TanzNukeTerror), added modified Hobo font for Sandbox plugins, removed maxStack limit for all craftable tools in Sandbox addons, restored pickaxe recipes in Nightly
 - 2015/08/09 v49 - moved to August 8 Nightly support, restored Bone Dragon's behaviour and attacks (thank you, LoPhatKao! ^o^), added back sounds for Fatal Circuit and Bone Dragon (Lua coding contributed by LoPhatKao, thank you! ^w^), updated decoloured inventory for Nightly
