@@ -1,7 +1,6 @@
 [
   { "op" : "replace", "path" : "/printable", "value" : true },
   { "op" : "add", "path" : "/hasObjectItem", "value" : true },
-  { "op" : "remove", "path" : "/breakDropOptions" },
   { "op" : "add", "path" : "/price", "value" : 500 },
   // NoLag Patch
   { "op" : "replace", "path" : "/orientations/0/animationCycle", "value" : 4.9 },
