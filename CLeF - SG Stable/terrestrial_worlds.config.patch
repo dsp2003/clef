@@ -1,4 +1,5 @@
 [
+  // Surface dungeon count range patch
   { "op" : "replace", "path" : "/planetTypes/alien/layers/surface/dungeonCountRange", "value" : [0, 7] },
   { "op" : "replace", "path" : "/planetTypes/desert/layers/surface/dungeonCountRange", "value" : [0, 7] },
   { "op" : "replace", "path" : "/planetTypes/forest/layers/surface/dungeonCountRange", "value" : [0, 7] },
