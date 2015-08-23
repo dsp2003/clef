@@ -386,6 +386,15 @@ Gameplay changes
 
 + [M] In order to compensate the protection removal, Tesla Spikes now have 20 points of "health" and much harder to harvest as a result
 
++ [R] Restored and optimized Apex Sci-Fi Dungeon
+
++ [R] Restored Outpost microdungeons spawning
+
++ [N] Moon biome spawns:
+ - Outpost microdungeons
+ - USCM microdungeons
+ - Asteroid field microdungeons
+
 + [M] Flare and Glowstick projectiles no longer disappear when hitting monsters or spikes
 
 + [R] Unused vanilla weapons added to treasure pools:
@@ -541,6 +550,8 @@ These people has (in)directly contributed a huge amount of fixes and/or signific
 * LoPhatKao (Lua coding and major fixes for bosses, restored monster sound effects! ^o^)
 * Rhyssia (initial Fatal Circuit fixes, which kick-started more stuff)
 * Sayter (major fixes for Jelly Boss)
+* TanzNukeTerror (several improvements I was too lazy to do on my own)
+* Varixai (modding tips and tricks)
 * XNicoX14 (alternative repairs mechanism and inspiration ^u^)
 * xxswatelitexx (JSON stuff, modding tips and tricks)
 
