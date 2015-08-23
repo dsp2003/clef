@@ -534,12 +534,6 @@ Bring back biome variety:
 Bunch of other stuff I tend to forget...
 
 
-Stuff I can't fix (yet)
------------------------
-
-+ Lack of hunger and temperature system (hardcoded)
-
-
 Contributors (they are awesome, all of them)
 --------------------------------------------
 
