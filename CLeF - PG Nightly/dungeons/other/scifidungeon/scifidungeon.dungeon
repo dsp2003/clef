@@ -1243,8 +1243,8 @@
       "brush" : [ [ "npc",
           {
             "kind" : "npc",
-            "species" : "avian",
-            "typeName" : "pyramidguard"
+            "species" : "apex",
+            "typeName" : "villageguard"
           }
         ] ]
     },
