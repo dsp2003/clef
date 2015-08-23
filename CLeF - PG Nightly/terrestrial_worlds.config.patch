@@ -8,7 +8,7 @@
   // ...and adds it to Moon planet
   { "op" : "add", "path" : "/planetTypes/moon/layers/surface/dungeons", "value" : [ "scifidungeon" ] },
   // ...and make sure the Moon planet actually spawns it!
-  { "op" : "add", "path" : "/planetTypes/moon/layers/surface/dungeonCountRange", "value" : [1, 1] },
+  { "op" : "add", "path" : "/planetTypes/moon/layers/surface/dungeonCountRange", "value" : [0, 1] },
   // Surface dungeon count range patch
   { "op" : "replace", "path" : "/planetSizes/small/layerDefaults/dungeonCountRange", "value" : [0, 7] },
   { "op" : "replace", "path" : "/planetSizes/medium/layerDefaults/dungeonCountRange", "value" : [0, 7] },
