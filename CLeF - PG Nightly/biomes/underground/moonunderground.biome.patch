@@ -5,6 +5,6 @@
       "variants" : 1,
       "distribution" : "/biomes/distributions.config:randomEncounterUnderground",
       "type" : "microdungeon",
-      "microdungeons" : [ "outpostundergroundencounter", "asteroidencounter", "humanunderground" ]
+      "microdungeons" : [ "outpostundergroundencounter", "asteroidencounter", "humanundergroundencounter" ]
   } }
 ]
