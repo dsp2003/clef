@@ -5,7 +5,7 @@ Version 52 (2015/08/25) Codename "Action 52"
 ----------
 
 Known to work with:
-- [Stable] Pleased Giraffe (August 25)
+- [Stable] Pleased Giraffe (August 25) 
 
 
 Installation
@@ -130,6 +130,10 @@ Gameplay changes
 
 + [M] Green Slime can be crafted from 2 Liquid Slime in Crafting Table
 
++ [R] Restored Alien Juice liquid definition (id:4) and liquid item
+
++ [R] Restored Liquid Nitrogen definitions (id:10)
+
 + [N] Implemented more liquid interactions (also added all interactions from Lava to Core lava. Yes, you can harvest it too):
 
  - Healing Water + Water => Healing Water
@@ -192,6 +196,8 @@ Gameplay changes
 
 + [N] Hi-tech Drill and Hi-tech Pickaxe can be crafted from Dreadful Blocks in Metalwork Station and the Replicator (Sci-Fi Anvil)
 
++ [R] Restored pickaxe crafting recipes
+
 + [R] All pickaxes (except Stone Pickaxe) and drills have EK's durability values (which means they won't break so fast), block radius, tile damage and material costs (except pixel requirements):
  - Copper Drill     (d: 1000 -> 3000, b: 2 -> 3, d: 1.5 -> 2.9)
  - Silver Drill     (d: 1000 -> 3500, b: 2 -> 3, d: 2.0 -> 3.1)
@@ -210,6 +216,8 @@ Gameplay changes
  - Hi-tech Pickaxe  (d: 9001, b: 4, d: 4.2)
 
 + [R] Drills and pickaxes can be repaired with bars, ore and diamonds (open your inventory, equip tool, select ore/bar/diamond and right-click on the tool icon)
+
++ [R] Restored unique look for Wire Tool and Paint Tool
 
 + [N] Chainsaw can be crafted via Metalwork Station for 6 Durasteel Bar and 12 Steel Bar
 
@@ -379,12 +387,12 @@ Gameplay changes
 
 + [M] In order to compensate the protection removal, Tesla Spikes now have 20 points of "health" and much harder to harvest as a result
 
-+ [R] Restored Outpost microdungeons spawning
-
-+ [N] Expanded mini-outpost bunker will spawn on Moon biome's surface
++ [R] Restored Outpost microdungeons spawning on all planets
 
 + [N] Moon biome surface spawns:
+ - Expanded mini-outpost bunker
  - Restored and optimized Apex Sci-Fi Dungeon
+ - Unfinished Wreck dungeon
 
 + [N] Moon biome underground spawns:
  - Outpost microdungeons
@@ -392,6 +400,8 @@ Gameplay changes
  - Asteroid field microdungeons
 
 + [M] Flare and Glowstick projectiles no longer disappear when hitting monsters or spikes
+
++ [M] Standing Turret can be safely placed and removed without object's destruction
 
 + [R] Unused vanilla weapons added to treasure pools:
  - Burst Rifle
@@ -418,6 +428,8 @@ Gameplay changes
  - Hylotl - Commodore 64
  - Novakid - PFUDOR
 
++ [R] Window borders are colourless again
+
 + [M] Navigation sub-window texture changed to blue (was light-blue in EK)
 
 + [N] More zoom levels (from 1.0 to 10, with 0.5 step) and screen resolutions:
@@ -438,6 +450,20 @@ Gameplay changes
 + [M] Replaced Chucklefish icon and logo animation with recoloured & shaded version (also fixed "u" which strongly resembled "v")
 
 + [M] All tutorial quests replaced with new descriptive ones which better match the mod's progression and cover the most of its important changes. Old tutorial questline is no longer used nor called
+
+
+Extra addon changes
+-------------------
+
+Incompatible with "Enhanced Storage":
+
++ [M] Glitch Bucket can be used as 9-slot storage container
+
++ [M] Metal, Radioactive, Sewage and Toxic Waste barrels can be used as 12-slot storage containers
+
++ [M] Glitch Juice Keg can be used as 24-slot storage containers
+
++ [M] Apex Blood Bank, Sewer Tank and Outpost Tank can be used as 48-slot storage containers
 
 
 Sandbox addon changes
@@ -472,36 +498,6 @@ Sandbox addon changes
  - Swinging Vine
  - Chainsaw
  - Bug Net
-
-
-Extra addon changes
--------------------
-
-Incompatible with "Enhanced Storage":
-
-+ [M] Glitch Bucket can be used as 9-slot storage container
-
-+ [M] Metal, Radioactive, Sewage and Toxic Waste barrels can be used as 12-slot storage containers
-
-+ [M] Glitch Juice Keg can be used as 24-slot storage containers
-
-+ [M] Apex Blood Bank, Sewer Tank and Outpost Tank can be used as 48-slot storage containers
-
-
-Nightly/Unstable changes
-------------------------
-
-+ [R] Window borders are colourless again
-
-+ [R] Restored Alien Juice liquid definition (id:4) and liquid item
-
-+ [R] Restored Liquid Nitrogen definitions (id:10)
-
-+ [R] Restored pickaxe crafting recipes
-
-+ [M] Standing Turret can be safely placed and removed without object's destruction
-
-+ [R] Restored unique look for Wire Tool and Paint Tool
 
 
 To-do list
