@@ -1830,18 +1830,6 @@
       "name" : "bunker1",
       "rules" : [ ],
       "def" : [ "image", [ "bunker1.png", "bunker1-objects.png" ] ]
-    },
-
-    {
-      "name" : "greenhouse1",
-      "rules" : [ ],
-      "def" : [ "image", [ "greenhouse1.png", "greenhouse1-objects.png" ] ]
-    },
-
-    {
-      "name" : "shelter1",
-      "rules" : [ ],
-      "def" : [ "image", [ "shelter1.png", "shelter1-objects.png" ] ]
     }
   ]
 }
