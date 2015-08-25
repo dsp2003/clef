@@ -1,12 +1,11 @@
 # CLeF - Things To Do In Starbound
 Starbound content restoration and gameplay overhaul project
 
-Version 52 (2015/08/23) DEVELOPMENT EDITION
+Version 52 (2015/08/25) Codename "Action 52"
 ----------
 
 Known to work with:
-- [Stable] Spirited Giraffe Update 5 (May 8)
-- [Nightly/Unstable] Pleased Giraffe Update 0 (August 19)
+- [Stable] Pleased Giraffe (August 25)
 
 
 Installation
@@ -16,21 +15,15 @@ Warning! If you have previous version installed, please delete any directories o
 
 Copy the following directories into "starbound/giraffe_storage/mods/" directory:
 
-Required (either Common + SG Stable or Common + PG Nightly. Any other combinations will result in a broken game):
+Required:
 
-+ CLeF - Common. Core mod files common for all game versions
-
-+ CLeF - SG Stable. For Stable Spirited Giraffe Update 5 (May 8)
-
-+ CLeF - PG Nightly. For Nightly/Unstable Pleased Giraffe Update 0 (August 19)
++ CLeF - Common. Core mod files common for all supported game versions
 
 Optional (consult "Gameplay changes" section for details):
 
 + CLeF - Extra. Core mod files incompatible/overlapping functionality with third-parties
 
-+ CLeF - SG Stable - Sandbox. Restores more sandbox gameplay, yet also removes certain restrictions (some people might find it "cheaty". Strongly recommended for people who likes Koala builds over Giraffe). For SG Stable.
-
-+ CLeF - PG Nightly - Sandbox. Same as above, but for PG Nightly.
++ CLeF - Sandbox. Restores more sandbox gameplay, yet also removes certain restrictions (some people might find it "cheaty"). Strongly recommended for people who like Koala builds over Giraffe
 
 
 Overview
@@ -386,11 +379,14 @@ Gameplay changes
 
 + [M] In order to compensate the protection removal, Tesla Spikes now have 20 points of "health" and much harder to harvest as a result
 
-+ [R] Restored and optimized Apex Sci-Fi Dungeon
-
 + [R] Restored Outpost microdungeons spawning
 
-+ [N] Moon biome spawns:
++ [N] Expanded mini-outpost bunker will spawn on Moon biome's surface
+
++ [N] Moon biome surface spawns:
+ - Restored and optimized Apex Sci-Fi Dungeon
+
++ [N] Moon biome underground spawns:
  - Outpost microdungeons
  - USCM microdungeons
  - Asteroid field microdungeons
@@ -583,7 +579,7 @@ Note: THIS IS NOT A MODPACK, as the merged mods are not simply copy-pasted, but 
 Version history
 ---------------
 
-- 2015/08/23 v52 - added "piercing" variable to flares and glowsticks (thanks to Oberic), updated dungeon count patch (bug report and patch by MikkelManDK, thank you!), restored sounds for Dragon Boss and Fatal Circuit (in .ogg), unused vanilla weapons added to treasure pool (thanks to Oberic), restored Sci-Fi and Outpost microdungeons (also added to moon biome generation pool along with human microdungeons)
+- 2015/08/25 v52 - moved to August 25 Stable support, removed May 8 Stable support, added "piercing" variable to flares and glowsticks (thanks to Oberic), updated dungeon count patch (bug report and patch by MikkelManDK, thank you!), restored sounds for Dragon Boss and Fatal Circuit (in .ogg), unused vanilla weapons added to treasure pool (thanks to Oberic), restored Sci-Fi and Outpost microdungeons (also added to moon biome generation pool along with human microdungeons), added expanded Outpost mini-dungeon to Moon biome surface
 - 2015/08/21 v51 - moved to August 19 Nightly/Unstable support, restored classic Wire and Paint tool look (based on mod by TanzNukeTerror, thank you ^u^), updated outpost/mission hasObjectItem patch, updated breakable merchant object patch, added movable patch for Standing Turret
 - 2015/08/20 v50 - restored portable 3d printer object (thanks to TanzNukeTerror), added modified Hobo font for Sandbox plugins, removed maxStack limit for all craftable tools in Sandbox addons, restored pickaxe recipes in Nightly
 - 2015/08/09 v49 - moved to August 8 Nightly support, restored Bone Dragon's behaviour and attacks (thank you, LoPhatKao! ^o^), added back sounds for Fatal Circuit and Bone Dragon (Lua coding contributed by LoPhatKao, thank you! ^w^), updated decoloured inventory for Nightly

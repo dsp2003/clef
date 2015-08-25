@@ -1,7 +1,0 @@
-[
-  // NoLag patch
-  { "op" : "replace", "path" : "/statusControllerSettings/primaryScriptDelta", "value" : 30 },
-  // Fatal Circuit quest
-  { "op": "add", "path": "/scriptConfig/offeredQuests", "value": [ "fatalcircuit1.gearup" ] },
-  { "op": "add", "path": "/scriptConfig/turnInQuests", "value": [ "fatalcircuit1.gearup" ] }
-]
