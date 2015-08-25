@@ -5,7 +5,7 @@ Version 52 (2015/08/25) Codename "Action 52"
 ----------
 
 Known to work with:
-- [Stable] Pleased Giraffe (August 25) 
+- [Stable] Pleased Giraffe (August 25)
 
 
 Installation
