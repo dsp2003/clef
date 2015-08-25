@@ -511,7 +511,7 @@ Seamlessly integrate the old quests and boss fights back into game:
 
 + Restore Bone Dragon (DONE! Needs some path/collision fixes)
 
-+ Restore Tentacle Comet (needs quest scripting and possibly more things)
++ Restore Tentacle Comet (broken, needs Lua coding and quest scripting)
 
 Bring back biome variety:
 
