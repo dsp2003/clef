@@ -7,7 +7,7 @@
       "name" : "clefalienjuice",
       "tickDelta" : 1,
       "color" : [254, 240, 246, 254],
-      "itemDrop" : "liquidalienjuice",
+      "itemDrop" : "clefalienjuice",
       "texture" : "/liquids/alientex.png",
       "bottomLightMix" : [244, 170, 159],
       "textureMovementFactor" : 2.6,

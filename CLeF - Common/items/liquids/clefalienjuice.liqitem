@@ -1,10 +1,10 @@
 {
-  "itemName" : "liquidalienjuice",
+  "itemName" : "clefalienjuice",
   "rarity" : "Common",
-  "inventoryIcon" : "liquidalienjuiceicon.png",
+  "inventoryIcon" : "clefalienjuiceicon.png",
   "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
   "shortdescription" : "Alien Juice",
   "description" : "A measure of alien juice.",
 
-  "liquid" : "alienjuice"
+  "liquid" : "clefalienjuice"
 }
