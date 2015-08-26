@@ -4,7 +4,7 @@
   // Adding back alien juice
   {
     "op" : "add", "path" : "/liquids/4", "value" : {  
-      "name" : "alienjuice",
+      "name" : "clefalienjuice",
       "tickDelta" : 1,
       "color" : [254, 240, 246, 254],
       "itemDrop" : "liquidalienjuice",
@@ -22,7 +22,7 @@
   // Adding back liquid nitrogen
   {
     "op" : "add", "path" : "/liquids/10", "value" : {
-      "name" : "liquidnitrogen",
+      "name" : "clefliquidnitrogen",
       "tickDelta" : 1,
       "color" : [80, 221, 254, 128],
       "itemDrop" : "liquidwater",
