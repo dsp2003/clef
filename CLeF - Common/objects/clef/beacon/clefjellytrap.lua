@@ -1,4 +1,3 @@
-
 function goodReception()
   if world.underground(entity.position()) then
     return false
@@ -16,17 +15,19 @@ function goodReception()
   return not world.rectTileCollision(bounds, {"Null", "Block", "Dynamic"})
 end
 
-function init(args)
+function init()
   entity.setInteractive(true)
 end
 
 function onInteraction(args)
   if not goodReception() then
-    return { "ShowPopup", { message = "I should take it to the planet surface before powering it up." } }
+    return { "ShowPopup", { message = "Nope. Better place it on the surface." } }
   else
     entity.smash()
-    world.spawnProjectile("robotwake", entity.toAbsolutePosition({ 0.0, 1.0 }))
-    world.spawnMonster("fatalcircuit", entity.toAbsolutePosition({ 0.0, 5.0 }), { level = 2 })
+    world.spawnProjectile("regularexplosion2universal", entity.toAbsolutePosition({ 0.0, 1.0 }))
+    world.spawnMonster("jellyboss", entity.toAbsolutePosition({ 0.0, 40.0 }), { level = 4 })
+    world.spawnMonster("skeyejelly", entity.toAbsolutePosition({ 20.0, 40.0 }), { level = 4 })
+    world.spawnMonster("skeyejelly", entity.toAbsolutePosition({ -20.0, 40.0 }), { level = 4 })
   end
 end
 

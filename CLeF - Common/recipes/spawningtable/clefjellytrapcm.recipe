@@ -1,5 +1,5 @@
 {
 	"input" : [ ],
-	"output" : { "item" : "distressbeacon", "count" : 1 },
+	"output" : { "item" : "clefjellytrap", "count" : 1 },
 	"groups" : [ "spawningtable", "techy" ]
 }

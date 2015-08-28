@@ -1,6 +1,6 @@
 [
   // Restoring distress beacon
-  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "distressbeacon" } },
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "clefbeacon" } },
   // Restoring chainsaw
   { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "chainsaw" } },
   // Restoring stone tools
