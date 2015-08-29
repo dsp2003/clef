@@ -19,7 +19,7 @@
   { "op" : "add", "path" : "/planetTypes/scorched/layers/surface/dungeonCountRange", "value" : [0, 7] },
   { "op" : "add", "path" : "/planetTypes/snow/layers/surface/dungeonCountRange", "value" : [0, 7] },
   { "op" : "add", "path" : "/planetTypes/tundra/layers/surface/dungeonCountRange", "value" : [0, 7] },
-  { "op" : "add", "path" : "/planetTypes/volcanic/layers/surface/dungeonCountRange", "value" : [0, 7] }
+  { "op" : "add", "path" : "/planetTypes/volcanic/layers/surface/dungeonCountRange", "value" : [0, 7] },
   // Mwahaha~
   { "op" : "replace", "path" : "/planetSizes/small/layerDefaults/dungeonCountRange", "value" : [0, 7] },
   { "op" : "replace", "path" : "/planetSizes/medium/layerDefaults/dungeonCountRange", "value" : [0, 7] },
