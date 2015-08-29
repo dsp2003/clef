@@ -1,7 +1,7 @@
 # CLeF - Things To Do In Starbound
 Starbound content restoration and gameplay overhaul project
 
-Version 53 (2015/08/28) DEVELOPMENT BUILD
+Version 53 (2015/08/29) DEVELOPMENT BUILD
 ----------
 
 Known to work with:
@@ -384,6 +384,8 @@ Gameplay changes
 
 + [M] In order to compensate the protection removal, Tesla Spikes now have 20 points of "health" and much harder to harvest as a result
 
++ [R] Ancient objects (such as death traps and challenge doors) will no longer break nor disappear on picking up
+
 + [R] Restored Outpost microdungeons spawning on all planets
 
 + [N] Moon biome surface spawns:
@@ -572,7 +574,7 @@ Note: THIS IS NOT A MODPACK, as the merged mods are not simply copy-pasted, but 
 Version history
 ---------------
 
-- 2015/08/28 v53 - refactored and cloned CLeF-specific boss quest items & recipes (also they talk! :D)
+- 2015/08/29 v53 - refactored and cloned CLeF-specific boss quest items & recipes (also they talk! :D), disabled breaking and vanishing for Challenge Door and several other decorative objects
 - 2015/08/26 v52 - moved to August 25 Stable support, removed May 8 Stable support, confirmed August 26 Nightly support, added "piercing" variable to flares and glowsticks (thanks to Oberic), updated dungeon count patch (bug report and patch by MikkelManDK, thank you!), restored sounds for Dragon Boss and Fatal Circuit (in .ogg), unused vanilla weapons added to treasure pool (thanks to Oberic), restored Sci-Fi and Outpost microdungeons (also added to moon biome generation pool along with human microdungeons), added expanded Outpost mini-dungeon to Moon biome surface, resolved liquids collision with Frackin' Universe, updated NoLag code (by LoPhatKao, thank you! ^u^)
 - 2015/08/21 v51 - moved to August 19 Nightly/Unstable support, restored classic Wire and Paint tool look (based on mod by TanzNukeTerror, thank you ^u^), updated outpost/mission hasObjectItem patch, updated breakable merchant object patch, added movable patch for Standing Turret
 - 2015/08/20 v50 - restored portable 3d printer object (thanks to TanzNukeTerror), added modified Hobo font for Sandbox plugins, removed maxStack limit for all craftable tools in Sandbox addons, restored pickaxe recipes in Nightly
