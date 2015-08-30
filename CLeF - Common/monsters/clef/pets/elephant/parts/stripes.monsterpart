@@ -1,0 +1,9 @@
+{
+  "name" : "stripes",
+  "category" : "elephant",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "stripes.png"
+  }
+}

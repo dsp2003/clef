@@ -1,0 +1,9 @@
+{
+  "name" : "pink",
+  "category" : "elephant",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "pink.png"
+  }
+}

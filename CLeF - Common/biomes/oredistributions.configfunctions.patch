@@ -45,7 +45,5 @@
   { "op" : "add", "path" : "/core/5/1/-", "value" : [ "solarium", 1.40 ] },
 
   { "op" : "add", "path" : "/moondeepores/0/1/-", "value" : [ "uranium", 0.95 ] },
-  { "op" : "add", "path" : "/moondeepores/0/1/-", "value" : [ "solarium", 0.85 ] },
-  { "op" : "add", "path" : "/mooncoreores/0/1/-", "value" : [ "uranium", 1.05 ] },
-  { "op" : "add", "path" : "/mooncoreores/0/1/-", "value" : [ "solarium", 0.95 ] }
+  { "op" : "add", "path" : "/moondeepores/0/1/-", "value" : [ "solarium", 0.85 ] }
 ]
