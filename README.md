@@ -22,11 +22,11 @@ Required:
 
 Optional (consult "Gameplay changes" section for details):
 
-+ CLeF - Custom Race Patch. Changes single pixel in Tier 2 ships of various custom races in order to give player access to working fuel hatch.
-
 + CLeF - Extra. Core mod files incompatible/overlapping functionality with third-parties
 
 + CLeF - Sandbox. Restores more sandbox gameplay, yet also removes certain restrictions (some people might find it "cheaty"). Strongly recommended for people who like Koala builds over Giraffe
+
++ CLeF - Custom Race Patch. Changes single pixel in Tier 2 ships of various custom races in order to give player access to working fuel hatch.
 
 
 Overview
@@ -389,6 +389,10 @@ Gameplay changes
 + [N] Outpost Water Cooler can be used as 9-slot storage container
 
 + [N] Water and Healing water will spawn in Water Cooler and Outpost Water cooler in previously unvisited worlds
+
++ [R] Poop can be scanned and printed
+
++ [N] Poop and Sewage can be crafted barehanded for 1 pixel
 
 + [M] Removed protection from randomly generated dungeons. Explaination: they weren't designed to use shields in the first place, and lots of players has already experienced problems with being unable to even access their front entrances, "thanks" to randomly generated ground obstacles, which also went under protection of the shield
 

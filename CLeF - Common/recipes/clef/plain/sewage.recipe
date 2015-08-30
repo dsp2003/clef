@@ -3,5 +3,5 @@
     { "item" : "money", "count" : 1 }
   ],
   "output" : { "item" : "sewage", "count" : 1 },
-  "groups" : [ "plain" ]
+  "groups" : [ "plain", "materials", "all" ]
 }
