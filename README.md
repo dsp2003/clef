@@ -1,7 +1,7 @@
 # CLeF - Things To Do In Starbound
 Starbound content restoration and gameplay overhaul project
 
-Version 53 (2015/08/29) DEVELOPMENT BUILD
+Version 53 (2015/08/30) DEVELOPMENT BUILD
 ----------
 
 Known to work with:
@@ -21,6 +21,8 @@ Required:
 + CLeF - Common. Core mod files common for all supported game versions
 
 Optional (consult "Gameplay changes" section for details):
+
++ CLeF - Custom Race Patch. Changes single pixel in Tier 2 ships of various custom races in order to give player access to working fuel hatch.
 
 + CLeF - Extra. Core mod files incompatible/overlapping functionality with third-parties
 
@@ -170,6 +172,14 @@ Gameplay changes
 + [F] Toy (Lego) Blocks no longer fall when placed. Now it's possible to build colourful plastic castles
 
 + [F] Book Blocks act like platforms and can be passed through
+
++ [R] Uranium and Solarium ore will spawn in previously unvisited worlds (same as in UG)
+
++ [N] Uranium will spawn on the previously unvisited Moon planets along with Solarium and Plutonium
+
++ [R] Uranium rod can be crafted in Alloy Furnace for 2 Uranium Ore
+
++ [R] Solarium Star can be crafted in Sci-Fi Furnace for 2 Solarium Ore
 
 + [M] Recoloured Titanium Ore and Titanium Bars to be more distinguishable from Silver and Iron
 
@@ -499,6 +509,29 @@ Sandbox addon changes
  - Bug Net
 
 
+Custom race patch
+-----------------
+
+Most of these were patched due to high userbase demand. The following races are currently supported:
+
+ - Avali*
+ - Avikan
+ - Familiar*
+ - Kemono
+ - Kineptic
+ - Ningen
+ - (The Pony Modpack) Ponex
+ - (The Pony Modpack) Earth Pony
+ - (The Pony Modpack) Pegasus
+ - (The Pony Modpack) Unicorn
+ - (The Pony Modpack) Alicorn
+ - (The Pony Modpack) Changelling
+
+If you want to use another race together with CLeF, please let me know. Though, it might be a better idea to ask them to integrate this single-pixel fix into their race mods rather than forcing me to add new races to this patch, because it is a tedious task to keep it up-to-date and not to break custom race ships as a result.
+
+* - their authors/maintainers either refused to collaborate with me or were hostile towards CLeF up to eleven. So please be careful when stating that you are using this mod together with theirs.
+
+
 To-do list
 ----------
 
@@ -516,9 +549,9 @@ Bring back biome variety:
 
 + Restore all removed biomes and mini-biomes
 
-+ Restore removed microdungeons
++ Restore removed microdungeons (in progress)
 
-+ The moons with more life and loot underneath, not just a stinky fuel
++ The moons with more life and loot underneath, not just a stinky fuel (in progress)
 
 + Barren worlds with realistic core, undercaves and stuff
 
@@ -571,10 +604,11 @@ Note: THIS IS NOT A MODPACK, as the merged mods are not simply copy-pasted, but 
 + http://community.playstarbound.com/resources/3077/ - Reliable Flares (by Oberic)
 + http://community.playstarbound.com/resources/3079/ - Vanilla Gun Activator (by Oberic)
 
+
 Version history
 ---------------
 
-- 2015/08/29 v53 - refactored and cloned CLeF-specific boss quest items & recipes (also they talk! :D), disabled breaking and vanishing for Challenge Door and several other decorative objects
+- 2015/08/30 v53 - refactored and cloned CLeF-specific boss quest items & recipes (also they talk! :D), disabled breaking and vanishing for Challenge Door and several other decorative objects, restored spawning and recipes for uranium and solarium (also uranium will spawn on the moon), added initial pack of Tier 2 ship patches for several custom races
 - 2015/08/26 v52 - moved to August 25 Stable support, removed May 8 Stable support, confirmed August 26 Nightly support, added "piercing" variable to flares and glowsticks (thanks to Oberic), updated dungeon count patch (bug report and patch by MikkelManDK, thank you!), restored sounds for Dragon Boss and Fatal Circuit (in .ogg), unused vanilla weapons added to treasure pool (thanks to Oberic), restored Sci-Fi and Outpost microdungeons (also added to moon biome generation pool along with human microdungeons), added expanded Outpost mini-dungeon to Moon biome surface, resolved liquids collision with Frackin' Universe, updated NoLag code (by LoPhatKao, thank you! ^u^)
 - 2015/08/21 v51 - moved to August 19 Nightly/Unstable support, restored classic Wire and Paint tool look (based on mod by TanzNukeTerror, thank you ^u^), updated outpost/mission hasObjectItem patch, updated breakable merchant object patch, added movable patch for Standing Turret
 - 2015/08/20 v50 - restored portable 3d printer object (thanks to TanzNukeTerror), added modified Hobo font for Sandbox plugins, removed maxStack limit for all craftable tools in Sandbox addons, restored pickaxe recipes in Nightly
