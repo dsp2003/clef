@@ -62,7 +62,7 @@ A: You'll have to fuel your ship first (lava, coal, core fragment ore or even oi
 
 Q: I can't access fuel hatch! My character has stuck at his starter planet! I was playing as custom race.
 
-A: It's impossible for me to fix custom races due to random mod load order and the fact .png definition files cannot be incrementally patched. Please ask the author of that race to move working fuel hatch from Tier 3 ship to Tier 2 (I've asked some of them, and you can find their races in "Recommended mods" section).
+A: You'll need to use Custom Race Patch provided in the distribution, although it won't magically work for all races. If you want a permanent solution, please ask the author of that race to move working fuel hatch from Tier 3 ship to Tier 2 (I've asked some of them, and you can find their races in "Recommended mods" section).
 
 Also, you can fix it on your own - open <racename>t2blocks.png and copy fuel hatch pixel (orange-red at the top of a blue block) from <racename>t3blocks.png. Note you'll have to delete your shipworld, otherwise the fix won't be applied (don't forget to take everything you don't want to lose with you).
 
