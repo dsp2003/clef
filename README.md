@@ -527,7 +527,7 @@ Most of these were patched due to high userbase demand. The following races are 
  - (The Pony Modpack) Alicorn
  - (The Pony Modpack) Changelling
 
-If you want to use another race together with CLeF, please let me know. Though, it might be a better idea to ask them to integrate this single-pixel fix into their race mods rather than forcing me to add new races to this patch, because it is a tedious task to keep it up-to-date and not to break custom race ships as a result.
+If you want to use another race together with CLeF, please let me know. Though, it might be a better idea to ask their authors to integrate this single-pixel fix into their race mods rather than forcing me to add new races to this patch, because it is a tedious task to keep it up-to-date and not to break custom race ships as a result.
 
 * - their authors/maintainers either refused to collaborate with me or were hostile towards CLeF up to eleven. So please be careful when stating that you are using this mod together with theirs.
 
