@@ -371,6 +371,8 @@ Gameplay changes
 
 + [M] Mole and Frog merchant objects have proper icons and breakable. Also, both have Novakid lines, and the Mole has proper descriptions
 
++ [M] Converting pixels to voxels and back no longer results in 40% of value loss
+
 + [M] The maximum number of possible dungeons per vanilla surface biome changed to 7 (was 1 in SG)
 
 + [F] Reduced lag at the Outpost:
