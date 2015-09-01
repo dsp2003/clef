@@ -1,3 +1,0 @@
-[
-  { "op" : "replace", "path" : "/statusControllerSettings/primaryScriptDelta", "value" : 30 }
-]

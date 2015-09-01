@@ -1,3 +1,0 @@
-[
-  { "op" : "replace", "path" : "/scripts", "value" : [ "/objects/wired/distressbeacon/princessbeacon.lua" ] }
-]

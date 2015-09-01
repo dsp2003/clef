@@ -1,16 +1,23 @@
 [
-  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "distressbeacon" } },
-
+  // Restoring distress beacon
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "clefbeacon" } },
+  // Restoring chainsaw
   { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "chainsaw" } },
-
+  // Restoring stone tools
   { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "stoneaxe" } },
   { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "stonepickaxe" } },
   { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "stonehoe" } },
-
+  // Restoring pickaxe recipes
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "copperpickaxe" } },
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "silverpickaxe" } },
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "goldpickaxe" } },
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "platinumpickaxe" } },
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "diamondpickaxe" } },
+  // Adding old furnaces and Power Loom
   { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "oldstonefurnace" } },
   { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "oldalloyfurnace" } },
   { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "powerloom" } },
-
+  // Restoring developers' clothing sets
   { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "banhead" } },
   { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "banchest" } },
   { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "banlegs" } },
@@ -30,13 +37,13 @@
   { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "tiyhead" } },
   { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "tiychest" } },
   { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "tiylegs" } },
-
+  // Restoring lagoon set
   { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "lagoonchest" } },
   { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "lagoonhead" } },
   { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "lagoonpants" } },
-  
+  // Restoring wings
   { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "batwingsback" } },
-
+  // Adding craftable teleporters
   { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "teleportercore" } },
   { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "blackteleporter" } },
   { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "brassteleporter" } },
@@ -45,11 +52,15 @@
   { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "stoneteleporter" } },
   { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "tombteleporter" } },
   { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "woodenteleporter" } },
-
+  // Adding cheap custom teleporter
   { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "orangeteleportercore" } },
   { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "portableteleporter" } },
-
+  // Adding craftable 3D printer
   { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "3dprinterplatform" } },
-
-  { "op" : "replace", "path" : "/movementParameters/maximumCorrection", "value" : 10 }
+  // Craftable poop and sewage :D
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "poop" } },
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "sewage" } },
+  // Restoring old wall behaviour
+  { "op" : "replace", "path" : "/movementParameters/maximumCorrection", "value" : 10 },
+  { "op" : "replace", "path" : "/movementParameters/maxMovementPerStep", "value" : 5.0 }
 ]

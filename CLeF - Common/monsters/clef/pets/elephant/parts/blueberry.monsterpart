@@ -1,0 +1,9 @@
+{
+  "name" : "blueberry",
+  "category" : "elephant",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "blueberry.png"
+  }
+}

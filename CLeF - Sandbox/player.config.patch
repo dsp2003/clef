@@ -1,0 +1,6 @@
+[
+  // No drops
+  { "op" : "replace", "path" : "/normalModeDeathDrops", "value" : [ ] },
+  // No pixel cost
+  { "op" : "replace", "path" : "/reviveCost/percentile", "value" : 0.0 }
+]

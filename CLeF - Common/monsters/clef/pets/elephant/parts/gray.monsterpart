@@ -1,0 +1,9 @@
+{
+  "name" : "gray",
+  "category" : "elephant",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "gray.png"
+  }
+}

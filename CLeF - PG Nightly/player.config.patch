@@ -1,5 +1,0 @@
-[
-  { "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item": "feroziumcompound" } },
-  { "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item": "imperviumcompound" } },
-  { "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item": "ceruliumcompound" } }
-]

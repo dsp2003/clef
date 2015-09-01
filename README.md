@@ -1,12 +1,12 @@
 # CLeF - Things To Do In Starbound
 Starbound content restoration and gameplay overhaul project
 
-Version 50 (2015/08/18)
+Version 54 (2015/09/01) DEVELOPMENT EDITION
 ----------
 
 Known to work with:
-- [Stable] Spirited Giraffe Update 5 (May 8)
-- [Nightly] Pleased Giraffe Update 0 (August 8)
+- [Stable] Pleased Giraffe (August 27)
+- [Nightly] Glad Giraffe (September 1)
 
 
 Installation
@@ -16,33 +16,29 @@ Warning! If you have previous version installed, please delete any directories o
 
 Copy the following directories into "starbound/giraffe_storage/mods/" directory:
 
-Required (either Common + SG Stable or Common + PG Nightly. Any other combinations will result in a broken game):
+Required:
 
-+ CLeF - Common. Core mod files common for all game versions
-
-+ CLeF - SG Stable. For Stable Spirited Giraffe Update 5 (May 8)
-
-+ CLeF - PG Nightly. For Nightly Pleased Giraffe Update 0 (August 8)
++ CLeF - Common. Core mod files common for all supported game versions
 
 Optional (consult "Gameplay changes" section for details):
 
 + CLeF - Extra. Core mod files incompatible/overlapping functionality with third-parties
 
-+ CLeF - SG Stable - Sandbox. Restores more sandbox gameplay, yet also removes certain restrictions (some people might find it "cheaty". Strongly recommended for people who likes Koala builds over Giraffe). For SG Stable.
++ CLeF - Sandbox. Restores more sandbox gameplay, yet also removes certain restrictions (some people might find it "cheaty"). Strongly recommended for people who like Koala builds over Giraffe
 
-+ CLeF - PG Nightly - Sandbox. Same as above, but for PG Nightly.
++ CLeF - Custom Race Patch. Changes single pixel in Tier 2 ships of various custom races in order to give player access to working fuel hatch.
 
 
 Overview
 --------
 
-As you probably know, not all players are happy with the changes that were made to the game in comparison with Koala builds. Although many new things were added, a lot of the aspects were nerfed or removed altogether, which turned the game into dumb lifeless punishing neverending grind.
+Are you looking for sandbox gameplay? You've come to the right place.
 
-This mod is my attempt to address and revert these changes in Giraffe builds to certain degree, as well as introduce other balance tweaks, enhancements and a good portion of entirely new content. ;) It also addresses the poor game's performance on relatively slow hardware and improves it.
+CF has severely crippled Starbound in Giraffe "updates" and removed as much that associated it with Terraria as they could. Hence, this modification was born.
 
-Starting from Version 6, CLeF also incorporates work by other awesome people. See the full list of mods and their authors at the end of the description.
+CLeF is a community effort to address and revert most of unwanted changes, as well as introduce balance tweaks, enhancements and a good portion of entirely new content. ;) It also addresses the poor game's performance on relatively slow hardware and improves it.
 
-Starting from Version 33, CLeF requires you to wipe your universe and shipworld files, otherwise you'll be met with invisible objects and possible crashes.
+Please take a couple of minutes to read the list of changes this mod has to offer. Also, see the full list of authors and included mods at the end of the description.
 
 
 Frequently Asked Questions
@@ -66,14 +62,14 @@ A: You'll have to fuel your ship first (lava, coal, core fragment ore or even oi
 
 Q: I can't access fuel hatch! My character has stuck at his starter planet! I was playing as custom race.
 
-A: It's impossible for me to fix custom races due to random mod load order and the fact .png definition files cannot be incrementally patched. Please ask the author of that race to move working fuel hatch from Tier 3 ship to Tier 2 (I've asked some of them, and you can find their races in "Recommended mods" section).
+A: You'll need to use Custom Race Patch provided in the distribution, although it won't magically work for all races. If you want a permanent solution, please ask the author of that race to move working fuel hatch from Tier 3 ship to Tier 2 (I've asked some of them, and you can find their races in "Recommended mods" section).
 
 Also, you can fix it on your own - open <racename>t2blocks.png and copy fuel hatch pixel (orange-red at the top of a blue block) from <racename>t3blocks.png. Note you'll have to delete your shipworld, otherwise the fix won't be applied (don't forget to take everything you don't want to lose with you).
 
 
-Q: Wait, you tell people to alter progression just for your mod's compatibility? Who the hell do you think you are?!
+Q: Wait, a single pixel change? Wouldn't this affect vanilla progression?
 
-A: First, don't be a hysterical brat. It's a single pixel change, which does not affect progression in any way. Even if player will have working fuel hatch, he won't be able to travel past the local solar system, because FTL drive is not working at Tier 2 ship regardless if fuel hatch is available or not.
+A: Yes, it is a single pixel change, which does not affect progression in any way. Even if player will have working fuel hatch, he won't be able to travel past the local solar system, because FTL drive is not working at Tier 2 ship regardless if fuel hatch is available or not.
 
 Besides, Chucklefish might change their mind regarding the fuel and you'll be forced to make that single pixel change anyway.
 
@@ -120,14 +116,11 @@ Known bugs
 Glossary
 --------
 
-* EK - Enraged Koala
-* UG - Upbeat Giraffe
-* SG - Spirited Giraffe
-* PG - Pleased Giraffe
 * [N] - new feature / addon
 * [M] - modified restoration
 * [R] - restored feature
 * [F] - fix
+
 
 Gameplay changes
 ----------------
@@ -135,6 +128,10 @@ Gameplay changes
 + [N] Liquid Slime can be harvested and placed. Also replaced Slime status effect icon to match the style of new liquid item
 
 + [M] Green Slime can be crafted from 2 Liquid Slime in Crafting Table
+
++ [R] Restored Alien Juice liquid definition (id:4) and liquid item
+
++ [R] Restored Liquid Nitrogen definitions (id:10)
 
 + [N] Implemented more liquid interactions (also added all interactions from Lava to Core lava. Yes, you can harvest it too):
 
@@ -170,11 +167,31 @@ Gameplay changes
 
 + [M] Renamed "Coffee Seed" into "Raw Coffee Beans". You can roast them in Microwave or Campfire and get consumable "Coffee Beans"
 
-+ [F] Blocks of Erchius Crystals will drop Erchius Crystals (instead of placeholder crystals)
-
 + [F] Toy (Lego) Blocks no longer fall when placed. Now it's possible to build colourful plastic castles
 
 + [F] Book Blocks act like platforms and can be passed through
+
++ [R] Heart Forge can be crafted via Crafting Table with 1 Campfire, 15 Golden Bars and 150 Pixels
+
++ [R] Holiday Crafting Table can be crafted for 35 Wood
+
++ [R] Steel Bar can be crafted in Alloy Furnace from 1 Iron Bar and 1 Coal (same as in EK)
+
++ [M] Durasteel Bar can be crafted in Sci-Fi Furnace from 2 Titanium Bars and 5 Coal (was 1 Titanium and 5 Coal in EK)
+
++ [M] Cerulium Compound can be crafted in Sci-Fi Furnace from 2 Refined Rubium
+
++ [M] Ferozium Compound can be crafted in Sci-Fi Furnace from 2 Refined Aegisalt
+
++ [M] Impervium Compound can be crafted in Sci-Fi Furnace from 2 Refined Violium
+
++ [R] Uranium and Solarium ore will spawn in previously unvisited worlds (same as in UG)
+
++ [N] Uranium will spawn on the previously unvisited Moon planets along with Solarium and Plutonium
+
++ [R] Uranium rod can be crafted in Alloy Furnace for 2 Uranium Ore
+
++ [R] Solarium Star can be crafted in Sci-Fi Furnace for 2 Solarium Ore
 
 + [M] Recoloured Titanium Ore and Titanium Bars to be more distinguishable from Silver and Iron
 
@@ -194,9 +211,13 @@ Gameplay changes
 
 + [N] Emerald Drill and Emerald Pickaxe can be crafted from Emeralds in Metalwork Station and the Replicator (Sci-Fi Anvil)
 
++ [R] Glass Block can be crafted from 3 Sand Blocks (was removed in PG)
+
 + [N] Dread Block can be crafted from 2 Dreadwing Wreckage (material id: 8767)
 
 + [N] Hi-tech Drill and Hi-tech Pickaxe can be crafted from Dreadful Blocks in Metalwork Station and the Replicator (Sci-Fi Anvil)
+
++ [R] Restored pickaxe crafting recipes
 
 + [R] All pickaxes (except Stone Pickaxe) and drills have EK's durability values (which means they won't break so fast), block radius, tile damage and material costs (except pixel requirements):
  - Copper Drill     (d: 1000 -> 3000, b: 2 -> 3, d: 1.5 -> 2.9)
@@ -217,6 +238,8 @@ Gameplay changes
 
 + [R] Drills and pickaxes can be repaired with bars, ore and diamonds (open your inventory, equip tool, select ore/bar/diamond and right-click on the tool icon)
 
++ [R] Restored unique look for Wire Tool and Paint Tool
+
 + [N] Chainsaw can be crafted via Metalwork Station for 6 Durasteel Bar and 12 Steel Bar
 
 + [N] Core fragment ore can be crafted in Alloy Furnace from 10 Lava and 1 Oil (recipe learned on picking the Lava)
@@ -224,6 +247,8 @@ Gameplay changes
 + [N] Molten Core can be crafted from 2 iron bars and 10 core fragments (the recipe added to stone furnace upon pickup, originally was dropped by UFO boss in EK)
 
 + [R] Metalwork station requires 1 Molten Core to craft (same as in EK)
+
++ [M] Portable 3D Printer can be crafted at Research Station for 2000 pixels, 10 durasteel bars and 2 diamonds (was removed in UG)
 
 + [M] Added Old Stone Furnace and Old Alloy Furnace (unlike the UG's workbench-based versions, these are container-based and significantly cheaper)
 
@@ -289,7 +314,7 @@ Gameplay changes
 
 + [M] Upon completing the "Dreadwing" quest, penguin will give 50 Matter Item, which can be used to craft Bonus Armour (otherwise the material for it is nowhere to be found)
 
-+ [R] Decoy Princess is available for crafting. As a result, the Bone Dragon boss can be summoned (disabled in UG. Sadly, dragon acts like a bird and won't breathe any fire nor open its mouth. I'm unable to restore its original behaviour without scripting help!)
++ [R] Decoy Princess is available for crafting. As a result, the Bone Dragon boss can be summoned (disabled in UG)
 
 + [N] Added decorative Decoy Princess Scheme object. Given by "Mute" Glitch upon starting "Bad To The Bone" quest
 
@@ -360,6 +385,8 @@ Gameplay changes
 
 + [M] Mole and Frog merchant objects have proper icons and breakable. Also, both have Novakid lines, and the Mole has proper descriptions
 
++ [M] Converting pixels to voxels and back no longer results in 40% of value loss
+
 + [M] The maximum number of possible dungeons per vanilla surface biome changed to 7 (was 1 in SG)
 
 + [F] Reduced lag at the Outpost:
@@ -379,9 +406,38 @@ Gameplay changes
 
 + [N] Water and Healing water will spawn in Water Cooler and Outpost Water cooler in previously unvisited worlds
 
++ [R] Poop can be scanned and printed
+
++ [N] Poop and Sewage can be crafted barehanded for 1 pixel
+
 + [M] Removed protection from randomly generated dungeons. Explaination: they weren't designed to use shields in the first place, and lots of players has already experienced problems with being unable to even access their front entrances, "thanks" to randomly generated ground obstacles, which also went under protection of the shield
 
 + [M] In order to compensate the protection removal, Tesla Spikes now have 20 points of "health" and much harder to harvest as a result
+
++ [R] Ancient objects (such as death traps and challenge doors) will no longer break nor disappear on picking up
+
++ [R] Restored Outpost microdungeons spawning on all planets
+
++ [N] Moon biome surface spawns:
+ - Expanded mini-outpost bunker
+ - Restored and optimized Apex Sci-Fi Dungeon
+ - Unfinished Wreck dungeon
+
++ [N] Moon biome underground spawns:
+ - Outpost microdungeons
+ - USCM microdungeons
+ - Asteroid field microdungeons
+
++ [M] Flare and Glowstick projectiles no longer disappear when hitting monsters or spikes
+
++ [M] Standing Turret can be safely placed and removed without object's destruction
+
++ [R] Unused vanilla weapons added to treasure pools:
+ - Burst Rifle
+ - Cellzapper
+ - Globe Launcher
+ - Shattergun
+ - Stinger Gun
 
 + [M] Changed monster_surprise sound effect for randomly generated monsters to:
  - Small Biped - angstyhead_small_turnhostile.wav
@@ -400,6 +456,8 @@ Gameplay changes
  - Human - Windows NT 5.x
  - Hylotl - Commodore 64
  - Novakid - PFUDOR
+
++ [R] Window borders are colourless again
 
 + [M] Navigation sub-window texture changed to blue (was light-blue in EK)
 
@@ -423,24 +481,6 @@ Gameplay changes
 + [M] All tutorial quests replaced with new descriptive ones which better match the mod's progression and cover the most of its important changes. Old tutorial questline is no longer used nor called
 
 
-Sandbox addon changes
----------------------
-
-+ [M] Removed protection from all mission-generated (and outpost) dungeons
-
-+ [M] Removed pixel and ore drops on "Casual" and "Normal" in order to compensate the removal of auto-return to ship on "Save & Quit"
-
-+ [N] Extra zoom levels (from 0.5 to 1, with 0.1 step)
-
-+ [R] No slowdown when running backwards (just like in EK)
-
-+ [R] Removed "nude" and re-added "invisible" status effect for tent objects (as a side-effect, they no longer show bugged lit sprite which sometimes was floating in the air when player got up. Same as in EK)
-
-+ [N] Limit for items per cell changed to 99999 (won't show up properly the number of items after 9999, though)
-
-+ [N] Block radius for placing changed to 4 (was 2 in EK/xG)
-
-
 Extra addon changes
 -------------------
 
@@ -455,14 +495,61 @@ Incompatible with "Enhanced Storage":
 + [M] Apex Blood Bank, Sewer Tank and Outpost Tank can be used as 48-slot storage containers
 
 
-Nightly changes
----------------
+Sandbox addon changes
+---------------------
 
-+ [R] Window borders are colourless again
++ [M] Removed protection from all mission-generated (and outpost) dungeons
 
-+ [R] Restored Alien Juice liquid definition (id:4) and liquid item
++ [M] Removed pixel and ore drops on "Casual" and "Normal" in order to compensate the removal of auto-return to ship on "Save & Quit"
 
-+ [R] Restored Liquid Nitrogen definitions (id:10)
++ [N] Extra zoom levels (from 0.5 to 1, with 0.1 step)
+
++ [R] No slowdown when running backwards (just like in EK)
+
++ [R] Removed "nude" and re-added "invisible" status effect for tent objects (as a side-effect, they no longer show bugged lit sprite which sometimes was floating in the air when player got up. Same as in EK)
+
++ [N] Limit for items per cell changed to 99999
+
++ [M] Modified Hobo Lesser font with more compact number glyphs, in order to properly display more than 9999 items per cell
+
++ [N] Block radius for placing changed to 4 (was 2 in EK/xG)
+
++ [M] Removed 1 maxStack limit for:
+
+ - Axes (Stone, Ice)
+ - Hoes (Copper, Stone)
+ - Pickaxes (Stone, Copper, Silver, Golden, Diamond, Emerald, Platinum, Hi-Tech)
+ - Drills (Stone, Copper, Silver, Golden, Diamond, Emerald, Platinum, Hi-Tech)
+ - Flashlight (Normal, Green, Red, Yellow)
+ - Mining Lantern
+ - Slime Hand Grapple
+ - Grappling Hook
+ - Swinging Vine
+ - Chainsaw
+ - Bug Net
+
+
+Custom race patch
+-----------------
+
+Most of these were patched due to high userbase demand. The following races are currently supported:
+
+ - Avali*
+ - Avikan
+ - Familiar*
+ - Kemono
+ - Kineptic
+ - Ningen
+ - (The Pony Modpack) Ponex
+ - (The Pony Modpack) Earth Pony
+ - (The Pony Modpack) Pegasus
+ - (The Pony Modpack) Unicorn
+ - (The Pony Modpack) Alicorn
+ - (The Pony Modpack) Changelling
+
+If you want to use another race together with CLeF, please let me know. Though, it might be a better idea to ask their authors to integrate this single-pixel fix into their race mods rather than forcing me to add new races to this patch, because it is a tedious task to keep it up-to-date and not to break custom race ships as a result.
+
+* - their authors/maintainers either refused to collaborate with me or were hostile towards CLeF up to eleven. So please be careful when stating that you are using this mod together with theirs.
 
 
 To-do list
@@ -476,25 +563,19 @@ Seamlessly integrate the old quests and boss fights back into game:
 
 + Restore Bone Dragon (DONE! Needs some path/collision fixes)
 
-+ Restore Tentacle Comet (needs quest scripting and possibly more things)
++ Restore Tentacle Comet (broken, needs Lua coding and quest scripting)
 
 Bring back biome variety:
 
 + Restore all removed biomes and mini-biomes
 
-+ Restore removed microdungeons
++ Restore removed microdungeons (in progress)
 
-+ The moons with more life and loot underneath, not just a stinky fuel
++ The moons with more life and loot underneath, not just a stinky fuel (in progress)
 
 + Barren worlds with realistic core, undercaves and stuff
 
 Bunch of other stuff I tend to forget...
-
-
-Stuff I can't fix (yet)
------------------------
-
-+ Lack of hunger and temperature system (hardcoded)
 
 
 Contributors (they are awesome, all of them)
@@ -507,6 +588,8 @@ These people has (in)directly contributed a huge amount of fixes and/or signific
 * LoPhatKao (Lua coding and major fixes for bosses, restored monster sound effects! ^o^)
 * Rhyssia (initial Fatal Circuit fixes, which kick-started more stuff)
 * Sayter (major fixes for Jelly Boss)
+* TanzNukeTerror (several improvements I was too lazy to do on my own)
+* Varixai (modding tips and tricks)
 * XNicoX14 (alternative repairs mechanism and inspiration ^u^)
 * xxswatelitexx (JSON stuff, modding tips and tricks)
 
@@ -518,6 +601,7 @@ Note: THIS IS NOT A MODPACK, as the merged mods are not simply copy-pasted, but 
 
 + http://community.playstarbound.com/resources/2142/ - Emeralds! (by Serverator)
 + http://community.playstarbound.com/resources/2498/ - More Screen Resolutions (by eurosat7)
++ http://community.playstarbound.com/resources/2633/ - Lava Fuel Mod (by XNicoX14)
 + http://community.playstarbound.com/resources/2635/ - Prepare for Glory! (by LegendXCarisso) - Removed until further notice
 + http://community.playstarbound.com/resources/2640/ - Apex Grind Again (by eurosat7)
 + http://community.playstarbound.com/resources/2644/ - Craftable Chainsaw (by XNicoX14)
@@ -535,14 +619,23 @@ Note: THIS IS NOT A MODPACK, as the merged mods are not simply copy-pasted, but 
 + http://community.playstarbound.com/resources/2995/ - It's over 9000 (by SoulOfSorin)
 + http://community.playstarbound.com/resources/2999/ - Static Toy Block (by IllidanS4)
 + http://community.playstarbound.com/resources/3049/ - Platform Books (by TanzNukeTerror)
-+ http://community.playstarbound.com/resources/3055/ - Compounds for Nightly (by TanzNukeTerror)
 + http://community.playstarbound.com/resources/3058/ - Portable 3D Printer (by TanzNukeTerror)
++ http://community.playstarbound.com/resources/3070/ - Paint and Wire Tool restoration (by TanzNukeTerror)
++ http://community.playstarbound.com/resources/3077/ - Reliable Flares (by Oberic)
++ http://community.playstarbound.com/resources/3079/ - Vanilla Gun Activator (by Oberic)
++ http://community.playstarbound.com/resources/3104/ - Poop's Revenge (by Surn_Thing)
++ http://community.playstarbound.com/resources/3107/ - ezGlass (by Lefl)
++ http://community.playstarbound.com/resources/3112/ - Lossless Voxels! (by TanzNukeTerror)
 
 
 Version history
 ---------------
 
-- 2015/08/18 v50 - restored compounds crafting for Nightly (thanks to TanzNukeTerror), restored portable 3d printer object (thanks to TanzNukeTerror), added modified Hobo font for Sandbox plugins
+- 2015/09/01 v54 - restored crafting recipe for Heart Forge and Holiday Crafting Table, inspired by suggestions at 4chan's /sbg/: cerulium & ferozium & impervium no longer require gold in their recipes, steel bar and durasteel bar recipes now require coal and iron bars with titanium bars respectively, added CreativeMode into mod load chain
+- 2015/08/31 v53 - refactored and cloned CLeF-specific boss quest items & recipes (also they talk! :D), disabled breaking and vanishing for Challenge Door and several other decorative objects, restored spawning and recipes for uranium and solarium (also uranium will spawn on the moon), added initial pack of Tier 2 ship patches for several custom races, poop is printable again and can be crafted barehanded along with sewage (based on mod by Surn_Thing, thanks! :D), removed obsolete fix for Erchius Crystal tiles item drop (supermatter) and fixed recipe for it, Glass Block can be crafted from non-Fine Sand again (thanks to Lefl), removed pixel loss on converting to and from voxels (based on mod by TanzNukeTerror, thank you! ^u^)
+- 2015/08/26 v52 - moved to August 25 Stable support, removed May 8 Stable support, confirmed August 26 Nightly support, added "piercing" variable to flares and glowsticks (thanks to Oberic), updated dungeon count patch (bug report and patch by MikkelManDK, thank you!), restored sounds for Dragon Boss and Fatal Circuit (in .ogg), unused vanilla weapons added to treasure pool (thanks to Oberic), restored Sci-Fi and Outpost microdungeons (also added to moon biome generation pool along with human microdungeons), added expanded Outpost mini-dungeon to Moon biome surface, resolved liquids collision with Frackin' Universe, updated NoLag code (by LoPhatKao, thank you! ^u^)
+- 2015/08/21 v51 - moved to August 19 Nightly/Unstable support, restored classic Wire and Paint tool look (based on mod by TanzNukeTerror, thank you ^u^), updated outpost/mission hasObjectItem patch, updated breakable merchant object patch, added movable patch for Standing Turret
+- 2015/08/20 v50 - restored portable 3d printer object (thanks to TanzNukeTerror), added modified Hobo font for Sandbox plugins, removed maxStack limit for all craftable tools in Sandbox addons, restored pickaxe recipes in Nightly
 - 2015/08/09 v49 - moved to August 8 Nightly support, restored Bone Dragon's behaviour and attacks (thank you, LoPhatKao! ^o^), added back sounds for Fatal Circuit and Bone Dragon (Lua coding contributed by LoPhatKao, thank you! ^w^), updated decoloured inventory for Nightly
 - 2015/08/07 v48 - moved to July 31 Nightly support, temporarily splitted Sandbox plugin into Stable and Nightly versions, fixed Jelly Boss (thank you, Sayter!) and Fatal Circuit's behaviour, Book blocks turned into platform (thanks to TanzNukeTerror), moved learning of robot recipes to Brain Extractor pickup, moved learning of Artificial Brain to Superior Brain pickup, added 5-stage questline for Glitch Mercenary and Penguin Promoter ("The Brain Hunter" quest merged into it), added Broken Fatal Claw dagger (thanks to Kawa for giving me the idea ^w^)
 - 2015/07/17 v47 - de-coloured Frogg's Furnishing in Nightly, fixed crash for 42-slot container (reported by Anonfox123), added proper description to Avian God Wings (no means to craft it yet)

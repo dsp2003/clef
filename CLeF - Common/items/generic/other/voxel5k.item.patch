@@ -1,0 +1,3 @@
+[
+  { "op" : "replace", "path" : "/description", "value" : "5000 pixels compressed into a voxel. No pixels are lost during the compression process. Can be refined into 5000 pixels." }
+]

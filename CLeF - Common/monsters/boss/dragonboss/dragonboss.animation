@@ -448,14 +448,14 @@
   },
 
   "sounds" : {
-    "turnHostile" : [ "/sfx/npc/unique/dragonboss_turnhostile.wav" ],
-    "attack1" : [ "/sfx/npc/unique/dragonboss_attack1.wav" ],
-    "attack2" : [ "/sfx/npc/unique/dragonboss_attack2.wav" ],
-    "idle1" : [ "/sfx/npc/unique/dragonboss_idle1.wav" ],
-    "idle2" : [ "/sfx/npc/unique/dragonboss_idle2.wav" ],
-    "pain1" : [ "/sfx/npc/unique/dragonboss_pain1.wav" ],
-    "pain2" : [ "/sfx/npc/unique/dragonboss_pain2.wav" ],
-    "deathPuff" : [ "/sfx/npc/unique/dragonboss_death.wav" ]
+    "turnHostile" : [ "/sfx/npc/clef/dragonboss_turnhostile.ogg" ],
+    "attack1" : [ "/sfx/npc/clef/dragonboss_attack1.ogg" ],
+    "attack2" : [ "/sfx/npc/clef/dragonboss_attack2.ogg" ],
+    "idle1" : [ "/sfx/npc/clef/dragonboss_idle1.ogg" ],
+    "idle2" : [ "/sfx/npc/clef/dragonboss_idle2.ogg" ],
+    "pain1" : [ "/sfx/npc/clef/dragonboss_pain1.ogg" ],
+    "pain2" : [ "/sfx/npc/clef/dragonboss_pain2.ogg" ],
+    "deathPuff" : [ "/sfx/npc/clef/dragonboss_death.ogg" ]
   },
   
   "effects" : {
