@@ -1,7 +1,7 @@
 # CLeF - Things To Do In Starbound
 Starbound content restoration and gameplay overhaul project
 
-Version 54 (2015/09/01) DEVELOPMENT EDITION
+Version 54 (2015/09/02) DEVELOPMENT EDITION
 ----------
 
 Known to work with:
@@ -192,6 +192,8 @@ Gameplay changes
 + [R] Uranium rod can be crafted in Alloy Furnace for 2 Uranium Ore
 
 + [R] Solarium Star can be crafted in Sci-Fi Furnace for 2 Solarium Ore
+
++ [R] Silver, Golden and Titanium ore will spawn at the planets with any difficulty
 
 + [M] Recoloured Titanium Ore and Titanium Bars to be more distinguishable from Silver and Iron
 
@@ -631,7 +633,7 @@ Note: THIS IS NOT A MODPACK, as the merged mods are not simply copy-pasted, but 
 Version history
 ---------------
 
-- 2015/09/01 v54 - restored crafting recipe for Heart Forge and Holiday Crafting Table, inspired by suggestions at 4chan's /sbg/: cerulium & ferozium & impervium no longer require gold in their recipes, steel bar and durasteel bar recipes now require coal and iron bars with titanium bars respectively, added CreativeMode into mod load chain
+- 2015/09/02 v54 - restored crafting recipe for Heart Forge and Holiday Crafting Table, inspired by suggestions at 4chan's /sbg/: cerulium & ferozium & impervium no longer require gold in their recipes, steel bar and durasteel bar recipes now require coal and iron bars with titanium bars respectively, added CreativeMode into mod load chain, restored silver, golden and titanium ore spawning for low-tier worlds
 - 2015/08/31 v53 - refactored and cloned CLeF-specific boss quest items & recipes (also they talk! :D), disabled breaking and vanishing for Challenge Door and several other decorative objects, restored spawning and recipes for uranium and solarium (also uranium will spawn on the moon), added initial pack of Tier 2 ship patches for several custom races, poop is printable again and can be crafted barehanded along with sewage (based on mod by Surn_Thing, thanks! :D), removed obsolete fix for Erchius Crystal tiles item drop (supermatter) and fixed recipe for it, Glass Block can be crafted from non-Fine Sand again (thanks to Lefl), removed pixel loss on converting to and from voxels (based on mod by TanzNukeTerror, thank you! ^u^)
 - 2015/08/26 v52 - moved to August 25 Stable support, removed May 8 Stable support, confirmed August 26 Nightly support, added "piercing" variable to flares and glowsticks (thanks to Oberic), updated dungeon count patch (bug report and patch by MikkelManDK, thank you!), restored sounds for Dragon Boss and Fatal Circuit (in .ogg), unused vanilla weapons added to treasure pool (thanks to Oberic), restored Sci-Fi and Outpost microdungeons (also added to moon biome generation pool along with human microdungeons), added expanded Outpost mini-dungeon to Moon biome surface, resolved liquids collision with Frackin' Universe, updated NoLag code (by LoPhatKao, thank you! ^u^)
 - 2015/08/21 v51 - moved to August 19 Nightly/Unstable support, restored classic Wire and Paint tool look (based on mod by TanzNukeTerror, thank you ^u^), updated outpost/mission hasObjectItem patch, updated breakable merchant object patch, added movable patch for Standing Turret
