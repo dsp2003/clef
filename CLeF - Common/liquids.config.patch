@@ -19,6 +19,19 @@
       ]
     }
   },
+  // Adding back coffee
+  {
+    "op" : "add", "path" : "/liquids/9", "value" : {
+      "name" : "clefcoffee",
+      "tickDelta" : 1,
+      "color" : [99, 55, 45, 240],
+      "itemDrop" : "clefliquidcoffee",
+
+      "texture" : "/liquids/coffeetex.png",
+      "bottomLightMix" : [255, 255, 255],
+      "textureMovementFactor" : 2.6
+    }
+  },
   // Adding back liquid nitrogen
   {
     "op" : "add", "path" : "/liquids/10", "value" : {

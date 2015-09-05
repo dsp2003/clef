@@ -1,12 +1,12 @@
 # CLeF - Things To Do In Starbound
 Starbound content restoration and gameplay overhaul project
 
-Version 54 (2015/09/02) DEVELOPMENT EDITION
+Version 54 (2015/09/05)
 ----------
 
 Known to work with:
-- [Stable] Pleased Giraffe (August 27)
-- [Nightly] Glad Giraffe (September 1)
+- [Stable] Pleased Giraffe Update 4 (September 2)
+- [Nightly] Glad Giraffe Update 0 (September 4)
 
 
 Installation
@@ -131,6 +131,8 @@ Gameplay changes
 
 + [R] Restored Alien Juice liquid definition (id:4) and liquid item
 
++ [R] Restored Coffee liquid definition (id:9) and liquid item
+
 + [R] Restored Liquid Nitrogen definitions (id:10)
 
 + [N] Implemented more liquid interactions (also added all interactions from Lava to Core lava. Yes, you can harvest it too):
@@ -166,6 +168,14 @@ Gameplay changes
  - (Core) Lava + Liquid Slime => Magma rock
 
 + [M] Renamed "Coffee Seed" into "Raw Coffee Beans". You can roast them in Microwave or Campfire and get consumable "Coffee Beans"
+
++ [R] Glass Coffee Mug can be crafted via Crafting Table for 2 Glass Blocks
+
++ [R] Steel Spoon can be crafted via Metalwork Station for 1 Steel Bar
+
++ [R] Liquid Coffee can be crafted via Coffee Machine for 1 Coffee Beans
+
++ [R] Coffee-related questline will be given by Human Survivor at the Outpost after completion of his "Rent Well Spent" quest (no progress requirements)
 
 + [F] Toy (Lego) Blocks no longer fall when placed. Now it's possible to build colourful plastic castles
 
@@ -500,6 +510,24 @@ Incompatible with "Enhanced Storage":
 Sandbox addon changes
 ---------------------
 
++ [R] Restored auto-learning for the following materials:
+
+ - Silver Bar
+ - Golden Bar
+ - Platinum Bar
+ - Titanium Bar
+ - Plutonium Rod
+ - Refined Rubium
+ - Refined Aegisalt
+ - Refined Violium
+ - Ferozium Compound
+ - Impervium Compound
+ - Cerulium Compound
+
++ [R] Restored auto-learning for the following items:
+
+ - Flare
+
 + [M] Removed protection from all mission-generated (and outpost) dungeons
 
 + [M] Removed pixel and ore drops on "Casual" and "Normal" in order to compensate the removal of auto-return to ship on "Save & Quit"
@@ -633,7 +661,7 @@ Note: THIS IS NOT A MODPACK, as the merged mods are not simply copy-pasted, but 
 Version history
 ---------------
 
-- 2015/09/02 v54 - restored crafting recipe for Heart Forge and Holiday Crafting Table, inspired by suggestions at 4chan's /sbg/: cerulium & ferozium & impervium no longer require gold in their recipes, steel bar and durasteel bar recipes now require coal and iron bars with titanium bars respectively, added CreativeMode into mod load chain, restored silver, golden and titanium ore spawning for low-tier worlds, fixed broken durasteel recipe and ore distribution table (thanks to Yev for noticing), proper names for tools in cinematics
+- 2015/09/05 v54 - restored crafting recipe for Heart Forge and Holiday Crafting Table, inspired by suggestions at 4chan's /sbg/: cerulium & ferozium & impervium no longer require gold in their recipes, steel bar and durasteel bar recipes now require coal and iron bars with titanium bars respectively, added CreativeMode into mod load chain, restored silver, golden and titanium ore spawning for low-tier worlds, fixed broken durasteel recipe and ore distribution table (thanks to Yev for noticing), proper names for tools in cinematics, restored learning of compound recipes (and all of previously known basic materials and items, Sandbox only), restored Outpost Human Survivor's Coffee questline along with all items, restored liquid coffee with new custom texture
 - 2015/08/31 v53 - refactored and cloned CLeF-specific boss quest items & recipes (also they talk! :D), disabled breaking and vanishing for Challenge Door and several other decorative objects, restored spawning and recipes for uranium and solarium (also uranium will spawn on the moon), added initial pack of Tier 2 ship patches for several custom races, poop is printable again and can be crafted barehanded along with sewage (based on mod by Surn_Thing, thanks! :D), removed obsolete fix for Erchius Crystal tiles item drop (supermatter) and fixed recipe for it, Glass Block can be crafted from non-Fine Sand again (thanks to Lefl), removed pixel loss on converting to and from voxels (based on mod by TanzNukeTerror, thank you! ^u^)
 - 2015/08/26 v52 - moved to August 25 Stable support, removed May 8 Stable support, confirmed August 26 Nightly support, added "piercing" variable to flares and glowsticks (thanks to Oberic), updated dungeon count patch (bug report and patch by MikkelManDK, thank you!), restored sounds for Dragon Boss and Fatal Circuit (in .ogg), unused vanilla weapons added to treasure pool (thanks to Oberic), restored Sci-Fi and Outpost microdungeons (also added to moon biome generation pool along with human microdungeons), added expanded Outpost mini-dungeon to Moon biome surface, resolved liquids collision with Frackin' Universe, updated NoLag code (by LoPhatKao, thank you! ^u^)
 - 2015/08/21 v51 - moved to August 19 Nightly/Unstable support, restored classic Wire and Paint tool look (based on mod by TanzNukeTerror, thank you ^u^), updated outpost/mission hasObjectItem patch, updated breakable merchant object patch, added movable patch for Standing Turret
