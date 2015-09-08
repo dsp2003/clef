@@ -1,7 +1,7 @@
 {
-  "itemName" : "popcorn",
+  "itemName" : "clefpopcorn",
   "rarity" : "Common",
-  "inventoryIcon" : "popcorn.png",
+  "inventoryIcon" : "clefpopcorn.png",
   "description" : "Freshly popped corn.",
   "shortdescription" : "Popcorn",
   "handPosition" : [8, 4],
