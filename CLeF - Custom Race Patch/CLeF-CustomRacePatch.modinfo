@@ -3,7 +3,7 @@
 	"version" : "",
 	"path" : ".",
 	"requires" : [ "CLeF" ],
-	"includes" : [ "Avali", "Avikan Race Mod", "Familiar", "KemonoRaceMod", "Kineptic", "NingenRaceMod", "The Pony Modpack" ],
+	"includes" : [ "Avali", "Avikan Race Mod", "Familiar", "KemonoRaceMod", "NingenRaceMod", "The Pony Modpack" ],
 	"metadata" : {
 	  "displayName" : "CLeF - Single-pixel compatibility patch for various custom races",
 		"author" : "dsp2003",
