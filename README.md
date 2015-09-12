@@ -408,7 +408,25 @@ Gameplay changes
 
 + [M] Merchant buy/sell ratios changed to 90%/110% (was 20%/100% in PG)
 
-+ [M] The maximum number of possible dungeons per vanilla surface biome changed to 7 (was 1 in SG)
++ [M] Changed dungeon spawn rates. Now the chances are the following:
+ - Moon (0 - 3)*
+ - Garden (0 - 3)*
+ - Alien (0 - 6)
+ - Desert (0 - 6)
+ - Forest (0 - 6)
+ - Jungle (0 - 6)
+ - Savannah (0 - 6)
+ - Scorched (0 - 6)
+ - Snow (0 - 6)
+ - Tundra (0 - 6)
+ - Volcanic (0 - 6)
+
+* - not affected by "planet type" additional values
+
+Values for world size (added on top of the previous):
+ - Small (0 - 1)
+ - Medium (0 - 3)
+ - Large (0 - 8)
 
 + [F] Reduced lag at the Outpost:
  - Patched animation and script delta values of NPCs and objects to higher delay values
