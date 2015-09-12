@@ -1,5 +1,6 @@
 {
   "itemName" : "clefpopcorn",
+  "price" : 90,
   "rarity" : "Common",
   "inventoryIcon" : "clefpopcorn.png",
   "description" : "Freshly popped corn.",

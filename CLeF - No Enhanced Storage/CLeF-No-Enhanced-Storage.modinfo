@@ -1,11 +1,11 @@
 {
-	"name" : "CLeF-Extra",
+	"name" : "CLeF-No-Enhanced-Storage",
 	"version" : "",
 	"path" : ".",
 	"requires" : [ "CLeF" ],
 	"includes" : [],
 	"metadata" : {
-	  "displayName" : "CLeF Extras Module",
+	  "displayName" : "CLeF No Enhanced Storage",
 		"author" : "dsp2003",
 		"description" : "",
 		"support_url" : "https://github/dsp2003/clf/",

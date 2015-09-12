@@ -20,13 +20,17 @@ Required:
 
 + CLeF - Common. Core mod files common for all supported game versions
 
-Optional (consult "Gameplay changes" section for details):
+Required (with conditions):
 
-+ CLeF - Extra. Core mod files incompatible/overlapping functionality with third-parties
++ CLeF - Custom Race Patch. Changes single pixel in Tier 2 ships of various custom races in order to give player access to working fuel hatch.
+
++ CLeF - No Enhanced Storage. Extra features that are incompatible with Enhanced Storage mod.
+
+Optional (consult "Gameplay changes" section for details):
 
 + CLeF - Sandbox. Restores more sandbox gameplay, yet also removes certain restrictions (some people might find it "cheaty"). Strongly recommended for people who like Koala builds over Giraffe
 
-+ CLeF - Custom Race Patch. Changes single pixel in Tier 2 ships of various custom races in order to give player access to working fuel hatch.
+
 
 
 Overview
@@ -498,10 +502,10 @@ Gameplay changes
 + [M] All tutorial quests replaced with new descriptive ones which better match the mod's progression and cover the most of its important changes. Old tutorial questline is no longer used nor called
 
 
-Extra addon changes
+No Enhanced Storage
 -------------------
 
-Incompatible with "Enhanced Storage":
+Incompatible with "Enhanced Storage". Changes the following things:
 
 + [M] Glitch Bucket can be used as 9-slot storage container
 
@@ -684,7 +688,7 @@ Note: THIS IS NOT A MODPACK, as the merged mods are not simply copy-pasted, but 
 Version history
 ---------------
 
-- 2015/09/12 v55 - merchant buy/sell ratio changed to 0.9/1.1 instead of unbalanced 0.2/1.0, rice now grows underwater (based on mod by LoPhatKao, thank you! ^u^), nerfed recipe costs for hi-tech tools, removed race patch for Kineptic (redundant), disabled Apex Sci-Fi Dungeon, added CLeF Minipost dungeon, added restored and fixed Small Bunker dungeon, restored Wanderer (Human Tier 7) armour set
+- 2015/09/12 v55 - merchant buy/sell ratio changed to 0.9/1.1 instead of unbalanced 0.2/1.0, rice now grows underwater (based on mod by LoPhatKao, thank you! ^u^), nerfed recipe costs for hi-tech tools, removed race patch for Kineptic (redundant), disabled Apex Sci-Fi Dungeon, added CLeF Minipost dungeon, added restored and fixed Small Bunker dungeon, restored Wanderer (Human Tier 7) armour set, added proper prices for most of custom items
 - 2015/09/06 v54 - restored crafting recipe for Heart Forge and Holiday Crafting Table, inspired by suggestions at 4chan's /sbg/: cerulium & ferozium & impervium no longer require gold in their recipes, steel bar and durasteel bar recipes now require coal and iron bars with titanium bars respectively, added CreativeMode into mod load chain, restored silver, golden and titanium ore spawning for low-tier worlds, fixed broken durasteel recipe and ore distribution table (thanks to Yev for noticing), proper names for tools in cinematics, restored learning of compound recipes (and all of previously known basic materials and items, Sandbox only), restored Outpost Human Survivor's Coffee questline along with all items, restored liquid coffee with new custom texture, potential crash fix, balanced recipes for emerald tools
 - 2015/08/31 v53 - refactored and cloned CLeF-specific boss quest items & recipes (also they talk! :D), disabled breaking and vanishing for Challenge Door and several other decorative objects, restored spawning and recipes for uranium and solarium (also uranium will spawn on the moon), added initial pack of Tier 2 ship patches for several custom races, poop is printable again and can be crafted barehanded along with sewage (based on mod by Surn_Thing, thanks! :D), removed obsolete fix for Erchius Crystal tiles item drop (supermatter) and fixed recipe for it, Glass Block can be crafted from non-Fine Sand again (thanks to Lefl), removed pixel loss on converting to and from voxels (based on mod by TanzNukeTerror, thank you! ^u^)
 - 2015/08/26 v52 - moved to August 25 Stable support, removed May 8 Stable support, confirmed August 26 Nightly support, added "piercing" variable to flares and glowsticks (thanks to Oberic), updated dungeon count patch (bug report and patch by MikkelManDK, thank you!), restored sounds for Dragon Boss and Fatal Circuit (in .ogg), unused vanilla weapons added to treasure pool (thanks to Oberic), restored Sci-Fi and Outpost microdungeons (also added to moon biome generation pool along with human microdungeons), added expanded Outpost mini-dungeon to Moon biome surface, resolved liquids collision with Frackin' Universe, updated NoLag code (by LoPhatKao, thank you! ^u^)
