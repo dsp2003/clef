@@ -1,7 +1,7 @@
 # CLeF - Things To Do In Starbound
 Starbound content restoration and gameplay overhaul project
 
-Version 56 (2015/09/13) WORK-IN-PROGRESS DEVELOPMENT BUILD
+Version 56 (2015/09/15) WORK-IN-PROGRESS DEVELOPMENT BUILD
 ----------
 
 Known to work with:
@@ -22,15 +22,17 @@ Required:
 
 Required (with conditions):
 
++ CLeF - Common - GG Nightly. For Nightly Glad Giraffe Update 0 (September 11)
+
 + CLeF - Custom Race Patch. Changes single pixel in Tier 2 ships of various custom races in order to give player access to working fuel hatch.
 
-+ CLeF - No Enhanced Storage. Extra features that are incompatible with Enhanced Storage mod.
++ CLeF - Extra (For ES). Adds Enhanced Storage mod functionality for CLeF storage objects.
+
++ CLeF - Extra (No ES). Extra features that are incompatible with Enhanced Storage mod.
 
 Optional (consult "Gameplay changes" section for details):
 
-+ CLeF - Sandbox. Restores more sandbox gameplay, yet also removes certain restrictions (some people might find it "cheaty"). Strongly recommended for people who like Koala builds over Giraffe
-
-
++ CLeF - Sandbox. Restores more sandbox gameplay, yet also removes certain restrictions (some people might find it "cheaty"). Strongly recommended for people who prefer Koala builds over Giraffe
 
 
 Overview
@@ -406,16 +408,19 @@ Gameplay changes
 
 + [M] Merchant buy/sell ratios changed to 90%/110% (was 20%/100% in PG)
 
-+ [M] Changed dungeon spawn rates. Now the chances are the following:
++ [M] Changed dungeon spawn rates. Now the chances are following:
  - Moon (0 - 3)*
  - Garden (0 - 3)*
  - Alien (0 - 6)
+ - Arctic (0 - 6)
  - Desert (0 - 6)
  - Forest (0 - 6)
  - Jungle (0 - 6)
+ - Magma (0 - 6)
  - Savannah (0 - 6)
  - Scorched (0 - 6)
  - Snow (0 - 6)
+ - Toxic (0 - 6)
  - Tundra (0 - 6)
  - Volcanic (0 - 6)
 
@@ -425,6 +430,11 @@ Values for world size (added on top of the previous):
  - Small (0 - 1)
  - Medium (0 - 3)
  - Large (0 - 8)
+ 
++ [M] Changed planet gravity spawn rates. Now the chances are following:
+ - Small (40 - 60)
+ - Medium (60 - 80)
+ - Large (80 - 100)
 
 + [F] Reduced lag at the Outpost:
  - Patched animation and script delta values of NPCs and objects to higher delay values
@@ -524,8 +534,31 @@ Values for world size (added on top of the previous):
 + [M] All tutorial quests replaced with new descriptive ones which better match the mod's progression and cover the most of its important changes. Old tutorial questline is no longer used nor called
 
 
-No Enhanced Storage
--------------------
+Nightly addon
+-------------
+
++ [M] Changed dungeon spawn rates of the newly introduced biomes:
+ - Midnight (0 - 6)
+
+
+Extra (For Enhanced Storage) addon
+----------------------------------
+
+Compatible with "Enhanced Storage". Changes the following things:
+
++ [N] Added "Enhanced Storage" functionality for:
+ - Cardboard Box
+ - Large Cardboard Box
+ - Human Vending Machine
+ - Human Water Cooler
+ - Outpost Water Cooler
+ - Outpost Tank
+
++ [M] De-coloured interface of extra-sized storage containers
+
+
+Extra (No Enhanced Storage) addon
+---------------------------------
 
 Incompatible with "Enhanced Storage". Changes the following things:
 
@@ -538,8 +571,8 @@ Incompatible with "Enhanced Storage". Changes the following things:
 + [M] Apex Blood Bank, Sewer Tank and Outpost Tank can be used as 48-slot storage containers
 
 
-Sandbox addon changes
----------------------
+Sandbox addon
+-------------
 
 + [R] Wet tilled dirt no longer gets dry (dry dirt still needs to be watered at least once to turn into wet dirt)
 
@@ -578,7 +611,6 @@ Sandbox addon changes
 + [N] Block radius for placing changed to 4 (was 2 in EK/xG)
 
 + [M] Removed 1 maxStack limit for:
-
  - Axes (Stone, Ice)
  - Hoes (Copper, Stone)
  - Pickaxes (Stone, Copper, Silver, Golden, Diamond, Emerald, Platinum, Hi-Tech)
@@ -596,7 +628,6 @@ Custom race patch
 -----------------
 
 Most of these were patched due to high userbase demand. The following races are currently supported:
-
  - Avali*
  - Avikan
  - Familiar*
@@ -610,7 +641,6 @@ Most of these were patched due to high userbase demand. The following races are 
  - (The Pony Modpack) Unicorn
  
 Races that DON'T need patching (this might have changed, please let me know if so):
-
  - Felins
  - Kineptic
  - Kirhos
@@ -712,7 +742,7 @@ Note: THIS IS NOT A MODPACK, as the merged mods are not simply copy-pasted, but 
 Version history
 ---------------
 
-- 2015/09/13 v56 - plants can be watered with healing and swamp water, disabled soild drying out (Sandbox only)
+- 2015/09/15 v56 - plants can be watered with healing and swamp water, disabled soild drying out (Sandbox only), more planet gravity ranges, enhanced storage compat layer, Common -> Common-Stable + Common-Nightly (again)
 - 2015/09/12 v55 - merchant buy/sell ratio changed to 0.9/1.1 instead of unbalanced 0.2/1.0, rice now grows underwater (based on mod by LoPhatKao, thank you! ^u^), nerfed recipe costs for hi-tech tools, removed race patch for Kineptic (redundant), disabled Apex Sci-Fi Dungeon, added CLeF Minipost dungeon, added restored and fixed Small Bunker dungeon, restored Wanderer (Human Tier 7) armour set, added proper prices for most of custom items
 - 2015/09/06 v54 - restored crafting recipe for Heart Forge and Holiday Crafting Table, inspired by suggestions at 4chan's /sbg/: cerulium & ferozium & impervium no longer require gold in their recipes, steel bar and durasteel bar recipes now require coal and iron bars with titanium bars respectively, added CreativeMode into mod load chain, restored silver, golden and titanium ore spawning for low-tier worlds, fixed broken durasteel recipe and ore distribution table (thanks to Yev for noticing), proper names for tools in cinematics, restored learning of compound recipes (and all of previously known basic materials and items, Sandbox only), restored Outpost Human Survivor's Coffee questline along with all items, restored liquid coffee with new custom texture, potential crash fix, balanced recipes for emerald tools
 - 2015/08/31 v53 - refactored and cloned CLeF-specific boss quest items & recipes (also they talk! :D), disabled breaking and vanishing for Challenge Door and several other decorative objects, restored spawning and recipes for uranium and solarium (also uranium will spawn on the moon), added initial pack of Tier 2 ship patches for several custom races, poop is printable again and can be crafted barehanded along with sewage (based on mod by Surn_Thing, thanks! :D), removed obsolete fix for Erchius Crystal tiles item drop (supermatter) and fixed recipe for it, Glass Block can be crafted from non-Fine Sand again (thanks to Lefl), removed pixel loss on converting to and from voxels (based on mod by TanzNukeTerror, thank you! ^u^)
