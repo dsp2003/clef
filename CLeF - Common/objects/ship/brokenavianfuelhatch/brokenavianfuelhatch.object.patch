@@ -11,6 +11,6 @@
 //  { "op" : "remove", "path" : "/animation" },
   { "op" : "remove", "path" : "/soundEffect" },
   { "op" : "remove", "path" : "/soundEffectRadius" },
-  { "op" : "remove", "path" : "/scripts" },
+//  { "op" : "remove", "path" : "/scripts" },
   { "op" : "remove", "path" : "/sounds" }
 ]
