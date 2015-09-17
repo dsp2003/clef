@@ -8,7 +8,7 @@
   { "op" : "add", "path" : "/autoCloseCooldown", "value" : 3600 },
   { "op" : "add", "path" : "/frameCooldown", "value" : 5 },
   { "op" : "add", "path" : "/questTags", "value" : [ "newfuelhatch" ] },
-  { "op" : "remove", "path" : "/animation" },
+//  { "op" : "remove", "path" : "/animation" },
   { "op" : "remove", "path" : "/soundEffect" },
   { "op" : "remove", "path" : "/soundEffectRadius" },
   { "op" : "remove", "path" : "/scripts" },
