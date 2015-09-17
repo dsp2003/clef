@@ -1,7 +1,7 @@
 {
-  "objectName" : "3dprinter",
+  "objectName" : "glitch3dprinter",
   "rarity" : "Legendary",
-  "tags" : [ "apex" ],
+  "tags" : [ "glitch" ],
   "interactAction" : "OpenCraftingInterface",
   "interactData" : {
     "config" : "/interface/windowconfig/3dprinter.config",
@@ -10,9 +10,9 @@
   "printable" : true,
   "price" : 5000,
 
-  "description" : "This machine can reorganize pixels into almost any shape. Apex design.",
+  "description" : "This machine can reorganize pixels into almost any shape. Glitch design.",
   "shortdescription" : "^orange;Portable 3D Printer^white;",
-  "race" : "apex",
+  "race" : "glitch",
   "category" : "crafting",
 
   "apexDescription" : "A pixel printer... so few people have access to these.",
@@ -23,10 +23,10 @@
   "hylotlDescription" : "Pixel printing, the power of the pixel at my fingertips... the 'god particle'.",
   "novakidDescription" : "This thing prints stuff. Cool stuff.",
 
-  "inventoryIcon" : "3dprintericon.png",
+  "inventoryIcon" : "glitch3dprintericon.png",
   "orientations" : [
     {
-      "dualImage" : "3dprinter.png:<color>.0",
+      "dualImage" : "glitch3dprinter.png:<color>.0",
       "imagePosition" : [-16, -8],
 
       "spaceScan" : 0.1,

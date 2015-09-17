@@ -60,7 +60,13 @@
   { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "orangeteleportercore" } },
   { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "portableteleporter" } },
   // Adding craftable 3D printer
-  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "3dprinterplatform" } },
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "3dprinter" } },
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "avian3dprinter" } },
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "floran3dprinter" } },
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "glitch3dprinter" } },
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "human3dprinter" } },
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "hylotl3dprinter" } },
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "novakid3dprinter" } },
   // Spoon and glass mug required for coffee quest
   { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "steelspoon" } },
   { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "glasscoffeemug" } },

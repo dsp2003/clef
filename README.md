@@ -1,7 +1,7 @@
 # CLeF - Things To Do In Starbound
 Starbound content restoration and gameplay overhaul project
 
-Version 56 (2015/09/15) WORK-IN-PROGRESS DEVELOPMENT BUILD
+Version 56 (2015/09/17)
 ----------
 
 Known to work with:
@@ -24,7 +24,7 @@ Required (with conditions):
 
 + CLeF - Common - GG Nightly. For Nightly Glad Giraffe Update 0 (September 11)
 
-+ CLeF - Custom Race Patch. Changes single pixel in Tier 2 ships of various custom races in order to give player access to working fuel hatch.
++ CLeF - Custom Race Patch. Patches single object in Tier 2 ships of various custom races in order to give player access to working fuel hatch interface.
 
 + CLeF - Extra (For ES). Adds Enhanced Storage mod functionality for CLeF storage objects.
 
@@ -68,9 +68,14 @@ A: You'll have to fuel your ship first (lava, coal, core fragment ore or even oi
 
 Q: I can't access fuel hatch! My character has stuck at his starter planet! I was playing as custom race.
 
-A: You'll need to use Custom Race Patch provided in the distribution, although it won't magically work for all races. If you want a permanent solution, please ask the author of that race to move working fuel hatch from Tier 3 ship to Tier 2 (I've asked some of them, and you can find their races in "Recommended mods" section).
+A: You'll need to use Custom Race Patch provided in the distribution, although it won't magically work for all races. If you want a permanent solution, please ask the author of that race to make working fuel hatch object in Tier 2 ship (I've asked some of them, and you can find their races in "Recommended mods" section).
 
-Also, you can fix it on your own - open <racename>t2blocks.png and copy fuel hatch pixel (orange-red at the top of a blue block) from <racename>t3blocks.png. Note you'll have to delete your shipworld, otherwise the fix won't be applied (don't forget to take everything you don't want to lose with you).
+Also, you can fix it on your own. There are two options:
+* Open <racename>t2blocks.png and copy fuel hatch pixel (orange-red at the top of a blue block) from <racename>t3blocks.png. Note you'll have to delete your shipworld, otherwise the fix won't be applied (don't forget to take everything you don't want to lose with you).
+
+OR
+
+* Patch broken<racename>fuelhatch.object into working fuel hatch. See example of such patch in CLeF - Custom Race Patch/objects/ship/ directory.
 
 
 Q: Wait, a single pixel change? Wouldn't this affect vanilla progression?
@@ -266,7 +271,7 @@ Gameplay changes
 
 + [R] Metalwork station requires 1 Molten Core to craft (same as in EK)
 
-+ [M] Portable 3D Printer can be crafted at Research Station for 2000 pixels, 10 durasteel bars and 2 diamonds (was removed in UG)
++ [N] Portable 3D Printer can be crafted at Research Station for 2000 pixels, 10 durasteel bars and 2 diamonds in 7 racial designs (was removed in UG)
 
 + [M] Added Old Stone Furnace and Old Alloy Furnace (unlike the UG's workbench-based versions, these are container-based and significantly cheaper)
 
@@ -435,6 +440,8 @@ Values for world size (added on top of the previous):
  - Small (40 - 60)
  - Medium (60 - 80)
  - Large (80 - 100)
+ 
++ [M] Changed planet daytime length range to 500-2000 (was 700-1000 in PG)
 
 + [F] Reduced lag at the Outpost:
  - Patched animation and script delta values of NPCs and objects to higher delay values
@@ -630,6 +637,9 @@ Custom race patch
 Most of these were patched due to high userbase demand. The following races are currently supported:
  - Avali*
  - Avikan
+
+Races that DON'T need patching (they use vanilla fuel hatch objects. This may change if their authors decide to make unique objects. If this will happen, please let me know so I could patch them as well):
+ - Celestar
  - Familiar*
  - Kemono
  - Ningen
@@ -639,8 +649,9 @@ Most of these were patched due to high userbase demand. The following races are 
  - (The Pony Modpack) Pegasus
  - (The Pony Modpack) Ponex
  - (The Pony Modpack) Unicorn
- 
-Races that DON'T need patching (this might have changed, please let me know if so):
+ - Viera
+
+Races that DON'T need patching (because either removed broken fuel hatch from Tier 2 ship or never had it in the first place. Either way, kudos to their authors! ^u^):
  - Felins
  - Kineptic
  - Kirhos
@@ -742,7 +753,7 @@ Note: THIS IS NOT A MODPACK, as the merged mods are not simply copy-pasted, but 
 Version history
 ---------------
 
-- 2015/09/15 v56 - plants can be watered with healing and swamp water, disabled soild drying out (Sandbox only), more planet gravity ranges, enhanced storage compat layer, Common -> Common-Stable + Common-Nightly (again)
+- 2015/09/17 v56 - plants can be watered with healing and swamp water, disabled soild drying out (Sandbox only), more planet gravity ranges, enhanced storage compat layer, Common -> Common-Stable + Common-Nightly (again), new (vanilla-friendly) fuel hatch patching, racial portable 3D Printers, varied day length range
 - 2015/09/12 v55 - merchant buy/sell ratio changed to 0.9/1.1 instead of unbalanced 0.2/1.0, rice now grows underwater (based on mod by LoPhatKao, thank you! ^u^), nerfed recipe costs for hi-tech tools, removed race patch for Kineptic (redundant), disabled Apex Sci-Fi Dungeon, added CLeF Minipost dungeon, added restored and fixed Small Bunker dungeon, restored Wanderer (Human Tier 7) armour set, added proper prices for most of custom items
 - 2015/09/06 v54 - restored crafting recipe for Heart Forge and Holiday Crafting Table, inspired by suggestions at 4chan's /sbg/: cerulium & ferozium & impervium no longer require gold in their recipes, steel bar and durasteel bar recipes now require coal and iron bars with titanium bars respectively, added CreativeMode into mod load chain, restored silver, golden and titanium ore spawning for low-tier worlds, fixed broken durasteel recipe and ore distribution table (thanks to Yev for noticing), proper names for tools in cinematics, restored learning of compound recipes (and all of previously known basic materials and items, Sandbox only), restored Outpost Human Survivor's Coffee questline along with all items, restored liquid coffee with new custom texture, potential crash fix, balanced recipes for emerald tools
 - 2015/08/31 v53 - refactored and cloned CLeF-specific boss quest items & recipes (also they talk! :D), disabled breaking and vanishing for Challenge Door and several other decorative objects, restored spawning and recipes for uranium and solarium (also uranium will spawn on the moon), added initial pack of Tier 2 ship patches for several custom races, poop is printable again and can be crafted barehanded along with sewage (based on mod by Surn_Thing, thanks! :D), removed obsolete fix for Erchius Crystal tiles item drop (supermatter) and fixed recipe for it, Glass Block can be crafted from non-Fine Sand again (thanks to Lefl), removed pixel loss on converting to and from voxels (based on mod by TanzNukeTerror, thank you! ^u^)
