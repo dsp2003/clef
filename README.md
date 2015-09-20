@@ -1,12 +1,12 @@
 # CLeF - Things To Do In Starbound
 Starbound content restoration and gameplay overhaul project
 
-Version 56 (2015/09/17)
+Version 57 (2015/09/21) WORK-IN-PROGRESS DEVELOPMENT EDITION
 ----------
 
 Known to work with:
 - [Stable] Pleased Giraffe Update 5 (September 11)
-- [Nightly] Glad Giraffe Update 0 (September 11)
+- [Nightly] Glad Giraffe Update 0 (September 17)
 
 
 Installation
@@ -637,6 +637,7 @@ Custom race patch
 Most of these were patched due to high userbase demand. The following races are currently supported:
  - Avali*
  - Avikan
+ - Mousqutaire
 
 Races that DON'T need patching (they use vanilla fuel hatch objects. This may change if their authors decide to make unique objects. If this will happen, please let me know so I could patch them as well):
  - Celestar
@@ -753,6 +754,7 @@ Note: THIS IS NOT A MODPACK, as the merged mods are not simply copy-pasted, but 
 Version history
 ---------------
 
+- 2015/09/21 v57 - fuel hatch patch for Mousqutaire (requested by Coralus)
 - 2015/09/17 v56 - plants can be watered with healing and swamp water, disabled soild drying out (Sandbox only), more planet gravity ranges, enhanced storage compat layer, Common -> Common-Stable + Common-Nightly (again), new (vanilla-friendly) fuel hatch patching, racial portable 3D Printers, varied day length range
 - 2015/09/12 v55 - merchant buy/sell ratio changed to 0.9/1.1 instead of unbalanced 0.2/1.0, rice now grows underwater (based on mod by LoPhatKao, thank you! ^u^), nerfed recipe costs for hi-tech tools, removed race patch for Kineptic (redundant), disabled Apex Sci-Fi Dungeon, added CLeF Minipost dungeon, added restored and fixed Small Bunker dungeon, restored Wanderer (Human Tier 7) armour set, added proper prices for most of custom items
 - 2015/09/06 v54 - restored crafting recipe for Heart Forge and Holiday Crafting Table, inspired by suggestions at 4chan's /sbg/: cerulium & ferozium & impervium no longer require gold in their recipes, steel bar and durasteel bar recipes now require coal and iron bars with titanium bars respectively, added CreativeMode into mod load chain, restored silver, golden and titanium ore spawning for low-tier worlds, fixed broken durasteel recipe and ore distribution table (thanks to Yev for noticing), proper names for tools in cinematics, restored learning of compound recipes (and all of previously known basic materials and items, Sandbox only), restored Outpost Human Survivor's Coffee questline along with all items, restored liquid coffee with new custom texture, potential crash fix, balanced recipes for emerald tools
