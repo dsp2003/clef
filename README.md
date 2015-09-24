@@ -1,12 +1,12 @@
 # CLeF - Things To Do In Starbound
 Starbound content restoration and gameplay overhaul project
 
-Version 57 (2015/09/21) WORK-IN-PROGRESS DEVELOPMENT EDITION
+Version 57 (2015/09/25) WORK-IN-PROGRESS DEVELOPMENT EDITION
 ----------
 
 Known to work with:
-- [Stable] Pleased Giraffe Update 5 (September 11)
-- [Nightly] Glad Giraffe Update 0 (September 17)
+- [Stable] Pleased Giraffe Update 5 (September 10)
+- [Nightly] Glad Giraffe Update 0 (September 21)
 
 
 Installation
@@ -22,7 +22,9 @@ Required:
 
 Required (with conditions):
 
-+ CLeF - Common - GG Nightly. For Nightly Glad Giraffe Update 0 (September 11)
++ CLeF - Common - PG Stable. For Stable Pleased Giraffe Update 5 (September 10)
+
++ CLeF - Common - GG Nightly. For Nightly Glad Giraffe Update 0 (September 21)
 
 + CLeF - Custom Race Patch. Patches single object in Tier 2 ships of various custom races in order to give player access to working fuel hatch interface.
 
@@ -405,7 +407,16 @@ Gameplay changes
 
 + [F] Fixed learning of recipe for Ice Block on Ice pickup
 
-+ [M] Ice furniture recipes auto-learned on Ice Block pickup
++ [N] Ice furniture recipes auto-learned on Ice Block pickup
+
++ [R] Sandstone Bricks and furniture can be crafted via Iron Crafting Table (recipes auto-learned on Sandstone Block pickup) (removed from PG):
+ - Sandstone Bricks
+ - Sandstone Bed
+ - Sandstone Chair
+ - Sandstone Chest
+ - Sandstone Door
+ - Sandstone Table
+ - Sandstone Torch (x4)
 
 + [M] Mole and Frog merchant objects have proper icons and breakable. Also, both have Novakid lines, and the Mole has proper descriptions
 
@@ -719,7 +730,7 @@ These people has (in)directly contributed a huge amount of fixes and/or signific
 Third-party mods merged with CLeF
 ---------------------------------
 
-Note: THIS IS NOT A MODPACK, as the merged mods are not simply copy-pasted, but rebalanced, rearranged and tightly integrated with the rest of the content, hence they WILL CONFLICT WITH ORIGINAL MODS.
+CLeF is not a classic "modpack", as the merged mods are not simply copy-pasted, but rebalanced, rearranged and tightly integrated with the rest of the content, hence they will conflict with original mods. Use these only if you're not planning to install CLeF.
 
 + http://community.playstarbound.com/resources/2142/ - Emeralds! (by Serverator)
 + http://community.playstarbound.com/resources/2498/ - More Screen Resolutions (by eurosat7)
@@ -754,7 +765,7 @@ Note: THIS IS NOT A MODPACK, as the merged mods are not simply copy-pasted, but 
 Version history
 ---------------
 
-- 2015/09/21 v57 - fuel hatch patch for Mousqutaire (requested by Coralus)
+- 2015/09/25 v57 - moved to September 21 Nightly support (Stable and Nightly-specific runtime plugins exist yet again), fuel hatch patch for Mousqutaire (requested by Coralus), added sandstone furniture recipes (requested at 4chan's /sbg/, pointed out they existed in Upbeat Giraffe), re-arranged CLeF-specific recipes in order to differ them from vanilla replacements
 - 2015/09/17 v56 - plants can be watered with healing and swamp water, disabled soild drying out (Sandbox only), more planet gravity ranges, enhanced storage compat layer, Common -> Common-Stable + Common-Nightly (again), new (vanilla-friendly) fuel hatch patching, racial portable 3D Printers, varied day length range
 - 2015/09/12 v55 - merchant buy/sell ratio changed to 0.9/1.1 instead of unbalanced 0.2/1.0, rice now grows underwater (based on mod by LoPhatKao, thank you! ^u^), nerfed recipe costs for hi-tech tools, removed race patch for Kineptic (redundant), disabled Apex Sci-Fi Dungeon, added CLeF Minipost dungeon, added restored and fixed Small Bunker dungeon, restored Wanderer (Human Tier 7) armour set, added proper prices for most of custom items
 - 2015/09/06 v54 - restored crafting recipe for Heart Forge and Holiday Crafting Table, inspired by suggestions at 4chan's /sbg/: cerulium & ferozium & impervium no longer require gold in their recipes, steel bar and durasteel bar recipes now require coal and iron bars with titanium bars respectively, added CreativeMode into mod load chain, restored silver, golden and titanium ore spawning for low-tier worlds, fixed broken durasteel recipe and ore distribution table (thanks to Yev for noticing), proper names for tools in cinematics, restored learning of compound recipes (and all of previously known basic materials and items, Sandbox only), restored Outpost Human Survivor's Coffee questline along with all items, restored liquid coffee with new custom texture, potential crash fix, balanced recipes for emerald tools
@@ -791,8 +802,7 @@ Version history
 - 2015/03/24 v23 - added option to install on both Stable and Nightly, patched teleporter object to be craftable and transferable, added portable teleporter, added cheats
 - 2015/03/22 v22 - added Wreckage of Dreadwing quest, patched Dreadwing quest to obtain matteritem and Bonus Armour, added Bad To The Bone quest and Decoy Princess Schematics decorative object. Bone Dragon boss is now integrated into quest line
 - 2015/03/21 v21 - added Power Loom object (based on mod by I Said No), added reworked Chucklefish icon and logo animation
-- 2015/03/17 v20 - erchius crystal from liquid fuel and diamonds, erchius crystal as fuel, does not deserve a separate version number
-- 2015/03/16 v20 - balanced pixel prices for old furnaces, blocks of Erchius Crystals drop Erchius Crystals
+- 2015/03/17 v20 - balanced pixel prices for old furnaces, blocks of Erchius Crystals drop Erchius Crystals, erchius crystal from liquid fuel and diamonds, erchius crystal as fuel
 - 2015/03/15 v19 - added Old Stone Furnace, Old Alloy Furnace and Monster's Brain in a Jar, renamed Distress Beacon and fixed quest descriptions
 - 2015/03/04 v18 - added Creative Mode spawn recipes for every restored/implemented item, re-added stone tools (axe, pickaxe and hoe), added recipe for vanilla diamond armor, fixed links to restored vanilla armour sets (silver, golden, platinum, matter)
 - 2015/03/03 v17 - removed "wellfed" effect from CLeF consumables, added plain Popcorn consumable and recipe for cooking and kitchen categories, cloned and repainted distress beacon object in order to remove possible collisions with other mods, removed recipe for vanilla distress beacon
