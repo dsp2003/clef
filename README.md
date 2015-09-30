@@ -627,17 +627,17 @@ Requires "Frackin' Universe" mod. Includes the following things:
  - Alien juice + Coffee => Alien juice
  - Alien juice + Erchius fuel => Alien juice
  - Alien juice + Swamp Water => Alien juice
- - Liquid nitrogen + Frostygen = Liquid Nitrogen
+ - Liquid nitrogen + Frostygen => Liquid nitrogen
  - Liquid nitrogen + Poison => Ice block
- - Liquid nitrogen + Peach Juice = Ice block
- - Liquid nitrogen + Healing water = Ice block
- - Liquid nitrogen + Coconut milk = Ice block
- - Liquid nitrogen + Coffee = Ice block
- - Liquid nitrogen + Slime = Ice block
- - Liquid nitrogen + Swamp water = Ice block
- - Liquid nitrogen + Alien juice = Ice block
- - (Core) Lava + Liquid nitrogen = Magma rock
- - (Core) Lava + Alien juice = Magma rock
+ - Liquid nitrogen + Peach juice => Ice block
+ - Liquid nitrogen + Healing water => Ice block
+ - Liquid nitrogen + Coconut milk => Ice block
+ - Liquid nitrogen + Coffee => Ice block
+ - Liquid nitrogen + Slime => Ice block
+ - Liquid nitrogen + Swamp water => Ice block
+ - Liquid nitrogen + Alien juice => Ice block
+ - (Core) Lava + Liquid nitrogen => Magma rock
+ - (Core) Lava + Alien juice => Magma rock
  - Slime + Alien juice = Slime
 
 + [N] Liquid guns:
