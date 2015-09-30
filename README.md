@@ -1,12 +1,12 @@
 # CLeF - Things To Do In Starbound
 Starbound content restoration and gameplay overhaul project
 
-Version 57 (2015/09/25) WORK-IN-PROGRESS DEVELOPMENT EDITION
+Version 58 (2015/09/30) WORK-IN-PROGRESS DEVELOPMENT EDITION
 ----------
 
 Known to work with:
 - [Stable] Pleased Giraffe Update 5 (September 10)
-- [Nightly] Glad Giraffe Update 0 (September 21)
+- [Nightly] Glad Giraffe Update 0 (September 24)
 
 
 Installation
@@ -26,9 +26,13 @@ Required (with conditions):
 
 + CLeF - Common - GG Nightly. For Nightly Glad Giraffe Update 0 (September 21)
 
+Optional (with conditions):
+
 + CLeF - Custom Race Patch. Patches single object in Tier 2 ships of various custom races in order to give player access to working fuel hatch interface.
 
-+ CLeF - Extra (For ES). Adds Enhanced Storage mod functionality for CLeF storage objects.
++ CLeF - Extra (FU). Compatibility bridge and features from Frackin' Universe mod.
+
++ CLeF - Extra (ES). Compatibility bridge and features from Enhanced Storage mod.
 
 + CLeF - Extra (No ES). Extra features that are incompatible with Enhanced Storage mod.
 
@@ -142,43 +146,58 @@ Gameplay changes
 
 + [M] Green Slime can be crafted from 2 Liquid Slime in Crafting Table
 
-+ [R] Restored Alien Juice liquid definition (id:4) and liquid item
++ [N] Peach Juice liquid definition (id:4) and liquid item
 
-+ [R] Restored Coffee liquid definition (id:9) and liquid item
++ [R] Coffee liquid definition (id:9) and liquid item
 
-+ [R] Restored Liquid Nitrogen definitions (id:10)
++ [N] Frostygen liquid definitions (id:10) and liquid item
 
 + [N] Implemented more liquid interactions (also added all interactions from Lava to Core lava. Yes, you can harvest it too):
-
- - Healing Water + Water => Healing Water
- - Healing Water + Poison => Water
- - Healing Water + Erchius Fuel => Water
- - Swamp Water + Water => Swamp Water
- - Swamp Water + Poison => Poison
- - Swamp Water + Healing Water => Water
- - Alien Juice + Water => Alien Juice
- - Alien Juice + Poison => Alien Juice
- - Alien Juice + Tar => Alien Juice
- - Alien Juice + Healing Water => Alien Juice
- - Alien Juice + Milk => Alien Juice
- - Alien Juice + Coffee => Alien Juice
- - Alien Juice + Erchius Fuel => Alien Juice
- - Alien Juice + Swamp Water => Alien Juice
- - Liquid Slime + Water => Liquid Slime
- - Liquid Slime + Poison => Liquid Slime
- - Liquid Slime + Tar => Liquid Slime
- - Liquid Slime + Healing Water => Liquid Slime
- - Liquid Slime + Alien Juice => Liquid Slime
- - Liquid Slime + Milk => Liquid Slime
- - Liquid Slime + Coffee => Liquid Slime
- - Liquid Slime + Erchius Fuel = Liquid Slime
- - Liquid Slime + Swamp Water => Liquid Slime
+ - Healing water + Water => Healing water
+ - Healing water + Poison => Water
+ - Healing water + Erchius Fuel => Water
+ - Peach juice + Water => Water
+ - Peach juice + Poison => Poison
+ - Peach juice + Healing water => Healing water
+ - Peach juice + Coffee => Coffee
+ - Swamp water + Water => Swamp water
+ - Swamp water + Poison => Poison
+ - Swamp water + Healing water => water
+ - Slime + Water => Slime
+ - Slime + Poison => Slime
+ - Slime + Tar => Slime
+ - Slime + Healing water => Slime
+ - Slime + Milk => Slime
+ - Slime + Coffee => Slime
+ - Slime + Erchius fuel = Slime
+ - Slime + Swamp water => Slime
+ - Frostygen + Water => Ice block
+ - Frostygen + Poison => Ice block
+ - Frostygen + Peach juice => Ice block
+ - Frostygen + Healing water => Ice block
+ - Frostygen + Coconut milk => Ice block
+ - Frostygen + coffee => Ice block
+ - Frostygen + Swamp water => Ice block
+ - Frostygen + Slime => Ice block
  - (Core) Lava + Healing water => Magma rock
  - (Core) Lava + Alien juice => Magma rock
  - (Core) Lava + Poison => Magma rock
  - (Core) Lava + Coffee => Magma rock
  - (Core) Lava + Swamp water => Magma rock
- - (Core) Lava + Liquid Slime => Magma rock
+ - (Core) Lava + Slime => Magma rock
+
++ [N] Liquid guns:
+ - Coffee gun
+ - Core lava gun
+ - Frostygen gun
+ - Erchius fuel gun
+ - Healing water gun
+ - Lava gun
+ - Oil gun
+ - Peach juice gun
+ - Poison gun
+ - Slime gun
+ - Swamp water gun
 
 + [M] Renamed "Coffee Seed" into "Raw Coffee Beans". You can roast them in Microwave or Campfire and get consumable "Coffee Beans"
 
@@ -424,6 +443,34 @@ Gameplay changes
 
 + [M] Merchant buy/sell ratios changed to 90%/110% (was 20%/100% in PG)
 
++ [R] Planets now spawn in six sizes (partially restored from EK):
+ - Tiny (2000 x 1500)
+ - Small (3000 x 2000)
+ - Medium (4000 x 3000)
+ - Large (6000 x 4000)
+ - Massive (8000 x 6000)
+ - Giant (16000 x 8000)
+
++ [M] Changed biome type spawning for planets:
+ - Tier 1 : Desert, Forest, Garden, Moon
+ - Tier 2 : Desert, Forest, Moon, Ocean, Savannah, Snow
+ - Tier 3 : Alien, Jungle, Moon, Ocean, Toxic, Savanna, Snow
+ - Tier 4 : Alien, Arctic, Midnight*, Jingle, Moon, Toxic, Tundra
+ - Tier 5 : Arctic, Magma, Midnight*, Moon, Scorched, Tundra, Volcanic
+ - Tier 6 : Magma, Moon, Scorched, Volcanic
+ - Bog Moon : Desert, Forest, Moon, Savannah, Snow
+
+* - Nightly only
+
++ [M] The following satellite levels will spawn moon biome:
+ - Tier 2
+ - Tier 4
+ - Tier 6
+
++ [M] The following planet types will spawn up to 2 moons:
+ - Barren
+ - Moon
+
 + [M] Changed dungeon spawn rates. Now the chances are following:
  - Moon (0 - 3)*
  - Garden (0 - 3)*
@@ -443,14 +490,20 @@ Gameplay changes
 * - not affected by "planet type" additional values
 
 Values for world size (added on top of the previous):
+ - Tiny (0 - 1)
  - Small (0 - 1)
  - Medium (0 - 3)
  - Large (0 - 8)
+ - Massive (0 - 9)
+ - Giant (0 - 18)
  
 + [M] Changed planet gravity spawn rates. Now the chances are following:
+ - Tiny (30 - 40)
  - Small (40 - 60)
  - Medium (60 - 80)
  - Large (80 - 100)
+ - Massive (100 - 110)
+ - Giant (110 - 160)
  
 + [M] Changed planet daytime length range to 500-2000 (was 700-1000 in PG)
 
@@ -559,8 +612,58 @@ Nightly addon
  - Midnight (0 - 6)
 
 
-Extra (For Enhanced Storage) addon
-----------------------------------
+Extra (Frackin' Universe) addon
+-------------------------------
+
+Requires "Frackin' Universe" mod. Includes the following things:
+
++ [N] More liquid interactions:
+ - Alien juice + Water => Alien juice
+ - Alien juice + Peach Juice => Alien juice
+ - Alien juice + Poison => Alien juice
+ - Alien juice + Tar => Alien juice
+ - Alien juice + Healing Water => Alien juice
+ - Alien juice + Milk => Alien juice
+ - Alien juice + Coffee => Alien juice
+ - Alien juice + Erchius fuel => Alien juice
+ - Alien juice + Swamp Water => Alien juice
+ - Liquid nitrogen + Frostygen = Liquid Nitrogen
+ - Liquid nitrogen + Poison => Ice block
+ - Liquid nitrogen + Peach Juice = Ice block
+ - Liquid nitrogen + Healing water = Ice block
+ - Liquid nitrogen + Coconut milk = Ice block
+ - Liquid nitrogen + Coffee = Ice block
+ - Liquid nitrogen + Slime = Ice block
+ - Liquid nitrogen + Swamp water = Ice block
+ - Liquid nitrogen + Alien juice = Ice block
+ - (Core) Lava + Liquid nitrogen = Magma rock
+ - (Core) Lava + Alien juice = Magma rock
+ - Slime + Alien juice = Slime
+
++ [N] Liquid guns:
+ - Alien juice gun
+ - Blood gun
+ - Dark water gun
+ - Elder liquid gun
+ - Liquid iron gun
+ - Liquid nitrogen gun
+ - Gravrain gun
+ - Helium gun
+ - Honey gun
+ - Irradium gun
+ - Mercury gun
+ - Bio-ooze gun
+ - Protocite gun
+ - Pus gun
+ - Red honey gun
+ - Shadow gas gun
+ - Organic soup gun
+ - Sulphuric acid gun
+ - Tar gun
+
+
+Extra (Enhanced Storage) addon
+------------------------------
 
 Compatible with "Enhanced Storage". Changes the following things:
 
@@ -760,12 +863,14 @@ CLeF is not a classic "modpack", as the merged mods are not simply copy-pasted, 
 + http://community.playstarbound.com/resources/3107/ - ezGlass (by Lefl)
 + http://community.playstarbound.com/resources/3112/ - Lossless Voxels! (by TanzNukeTerror)
 + http://community.playstarbound.com/resources/3134/ - Aquatic Rice (by LoPhatKao)
++ http://community.playstarbound.com/resources/3170/ - Liquid Guns (by KingJigglypuff)
 
 
 Version history
 ---------------
 
-- 2015/09/25 v57 - moved to September 21 Nightly support (Stable and Nightly-specific runtime plugins exist yet again), fuel hatch patch for Mousqutaire (requested by Coralus), added sandstone furniture recipes (requested at 4chan's /sbg/, pointed out they existed in Upbeat Giraffe), re-arranged CLeF-specific recipes in order to differ them from vanilla replacements, renamed 3dprinter override to apex3dprinter, added recipe for coconut milk and bottled coconut milk consumable, fish don't talk
+- 2015/09/30 v58 - moved to September 24 Nightly support, added liquid guns (based on mod by KingJigglypuff, thank you! ^u^), added Frostygen and Peach Juice liquids (instead of removed Liquid Nitrogen and Alien Juice), added old-new planet sizes (Tiny (2000x1500), Massive (8000x5000) and Giant (16000x8000)), added biomes from TierN+1 planets to TierN (where N is 1..5), Moon biome can be found on planet or satellite with any threat level, Moon and Barren planets can have up to 2 satellites
+- 2015/09/26 v57 - moved to September 21 Nightly support (Stable and Nightly-specific runtime plugins exist yet again), fuel hatch patch for Mousqutaire (requested by Coralus), added sandstone furniture recipes (requested at 4chan's /sbg/, pointed out they existed in Upbeat Giraffe), re-arranged CLeF-specific recipes in order to differ them from vanilla replacements, renamed 3dprinter override to apex3dprinter, added recipe for coconut milk and bottled coconut milk consumable, fish don't talk
 - 2015/09/17 v56 - plants can be watered with healing and swamp water, disabled soild drying out (Sandbox only), more planet gravity ranges, enhanced storage compat layer, Common -> Common-Stable + Common-Nightly (again), new (vanilla-friendly) fuel hatch patching, racial portable 3D Printers, varied day length range
 - 2015/09/12 v55 - merchant buy/sell ratio changed to 0.9/1.1 instead of unbalanced 0.2/1.0, rice now grows underwater (based on mod by LoPhatKao, thank you! ^u^), nerfed recipe costs for hi-tech tools, removed race patch for Kineptic (redundant), disabled Apex Sci-Fi Dungeon, added CLeF Minipost dungeon, added restored and fixed Small Bunker dungeon, restored Wanderer (Human Tier 7) armour set, added proper prices for most of custom items
 - 2015/09/06 v54 - restored crafting recipe for Heart Forge and Holiday Crafting Table, inspired by suggestions at 4chan's /sbg/: cerulium & ferozium & impervium no longer require gold in their recipes, steel bar and durasteel bar recipes now require coal and iron bars with titanium bars respectively, added CreativeMode into mod load chain, restored silver, golden and titanium ore spawning for low-tier worlds, fixed broken durasteel recipe and ore distribution table (thanks to Yev for noticing), proper names for tools in cinematics, restored learning of compound recipes (and all of previously known basic materials and items, Sandbox only), restored Outpost Human Survivor's Coffee questline along with all items, restored liquid coffee with new custom texture, potential crash fix, balanced recipes for emerald tools

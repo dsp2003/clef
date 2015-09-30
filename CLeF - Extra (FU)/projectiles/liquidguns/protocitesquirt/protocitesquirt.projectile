@@ -1,0 +1,19 @@
+{
+  "projectileName" : "protocitesquirt",
+  "frames" : "protocitesquirt.png",
+  "physics" : "squirt",
+  "animationCycle" : 1,
+  "frameNumber" : 10,
+  "power" : 50,
+  "speed" : 50,
+  "bounces" : 0,
+  "piercing" : false,
+  "damagePoly" : [ [-9, 0], [-6, -6], [0, -9], [6, -6], [9, 0], [6, 6], [0, 9], [-6, 6] ],
+  "damageKind" : "default",
+  "statusEffects" : [
+    "energyregenfu20"
+  ],
+  "actionOnReap" : [ { "action" : "liquid", "liquid" : "protociteliquid", "quantity" : 1 } ],
+  "emitters" : [ "protocitesquirt" ],
+  "hydrophobic" : true
+}
