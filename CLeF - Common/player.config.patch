@@ -60,7 +60,7 @@
   { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "orangeteleportercore" } },
   { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "portableteleporter" } },
   // Adding craftable 3D printer
-  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "3dprinter" } },
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "apex3dprinter" } },
   { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "avian3dprinter" } },
   { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "floran3dprinter" } },
   { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "glitch3dprinter" } },
