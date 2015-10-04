@@ -1,12 +1,12 @@
 # CLeF - Things To Do In Starbound
 Starbound content restoration and gameplay overhaul project
 
-Version 58 (2015/10/03) WORK-IN-PROGRESS DEVELOPMENT EDITION
+Version 58 (2015/10/04)
 ----------
 
 Known to work with:
 - [Stable] Pleased Giraffe Update 5 (September 10)
-- [Nightly] Glad Giraffe Update 0 (September 24)
+- [Nightly] Glad Giraffe Update 0 (September 30)
 
 
 Installation
@@ -526,6 +526,8 @@ Values for world size (added on top of the previous):
 
 + [M] Rice requires to be submerged in water for at least 0.5 of block (2.0 max) to grow properly and no longer consumes wetness from soil
 
++ [M] All types of trees will drop at least two saplings
+
 + [R] Removed water consumption directional restrictions for tilled dirt (all hail hydroponics!)
 
 + [N] Dry tilled dirt can be watered with Alien Juice, Healing Water and Swamp Water
@@ -751,6 +753,7 @@ Custom race patch
 Most of these were patched due to high userbase demand. The following races are currently supported:
  - Avali*
  - Avikan
+ - Kineptic
  - Mousqutaire
 
 Races that DON'T need patching (they use vanilla fuel hatch objects. This may change if their authors decide to make unique objects. If this will happen, please let me know so I could patch them as well):
@@ -768,7 +771,6 @@ Races that DON'T need patching (they use vanilla fuel hatch objects. This may ch
 
 Races that DON'T need patching (because either removed broken fuel hatch from Tier 2 ship or never had it in the first place. Either way, kudos to their authors! ^u^):
  - Felins
- - Kineptic
  - Kirhos
  - Munari
  - Neko
@@ -837,6 +839,7 @@ CLeF is not a classic "modpack", as the merged mods are not simply copy-pasted, 
 
 + http://community.playstarbound.com/resources/2142/ - Emeralds! (by Serverator)
 + http://community.playstarbound.com/resources/2498/ - More Screen Resolutions (by eurosat7)
++ http://community.playstarbound.com/resources/2502/ - More Saplings (by KateisLost)
 + http://community.playstarbound.com/resources/2633/ - Lava Fuel Mod (by XNicoX14)
 + http://community.playstarbound.com/resources/2635/ - Prepare for Glory! (by LegendXCarisso) - Removed until further notice
 + http://community.playstarbound.com/resources/2640/ - Apex Grind Again (by eurosat7)
@@ -864,12 +867,13 @@ CLeF is not a classic "modpack", as the merged mods are not simply copy-pasted, 
 + http://community.playstarbound.com/resources/3112/ - Lossless Voxels! (by TanzNukeTerror)
 + http://community.playstarbound.com/resources/3134/ - Aquatic Rice (by LoPhatKao)
 + http://community.playstarbound.com/resources/3170/ - Liquid Guns (by KingJigglypuff)
++ http://community.playstarbound.com/resources/3183/ - Biome Treasure Pool Cleanup (by Surn_Thing)
 
 
 Version history
 ---------------
 
-- 2015/10/03 v58 - moved to September 24 Nightly support, added liquid guns (based on mod by KingJigglypuff, thank you! ^u^), added Frostygen and Peach Juice liquids (instead of removed Liquid Nitrogen and Alien Juice), added old-new planet sizes (Tiny (2000x1500), Massive (8000x5000) and Giant (16000x8000)), added biomes from TierN+1 planets to TierN (where N is 1..5), Moon biome can be found on planet or satellite with any threat level, Moon and Barren planets can have up to 2 satellites, updated Paint & Wire tool restoration code (thank you, TanzNukeTerror ^u^), fixed leftover code popcorn bug (thanks to Luthor614), reworked surface layer for Giant worlds (thanks to TempTemp for suggestion)
+- 2015/10/04 v58 - moved to September 30 Nightly support, added liquid guns (based on mod by KingJigglypuff, thank you! ^u^), added Frostygen and Peach Juice liquids (instead of removed Liquid Nitrogen and Alien Juice), added old-new planet sizes (Tiny (2000x1500), Massive (8000x5000) and Giant (16000x8000)), added biomes from TierN+1 planets to TierN (where N is 1..5), Moon biome can be found on planet or satellite with any threat level, Moon and Barren planets can have up to 2 satellites, updated Paint & Wire tool restoration code (thank you, TanzNukeTerror ^u^), fixed leftover code popcorn bug (thanks to Luthor614), reworked surface layer for Giant worlds (thanks to TempTemp for suggestion), all trees will drop at least two saplings (based on mod by KateisLost, thank you! ^u^), reworked biome chest treasure pools (based on mod by Surn_Thing, thank you! :3 ), race patch for updated Kineptic
 - 2015/09/26 v57 - moved to September 21 Nightly support (Stable and Nightly-specific runtime plugins exist yet again), fuel hatch patch for Mousqutaire (requested by Coralus), added sandstone furniture recipes (requested at 4chan's /sbg/, pointed out they existed in Upbeat Giraffe), re-arranged CLeF-specific recipes in order to differ them from vanilla replacements, renamed 3dprinter override to apex3dprinter, added recipe for coconut milk and bottled coconut milk consumable, fish don't talk
 - 2015/09/17 v56 - plants can be watered with healing and swamp water, disabled soild drying out (Sandbox only), more planet gravity ranges, enhanced storage compat layer, Common -> Common-Stable + Common-Nightly (again), new (vanilla-friendly) fuel hatch patching, racial portable 3D Printers, varied day length range
 - 2015/09/12 v55 - merchant buy/sell ratio changed to 0.9/1.1 instead of unbalanced 0.2/1.0, rice now grows underwater (based on mod by LoPhatKao, thank you! ^u^), nerfed recipe costs for hi-tech tools, removed race patch for Kineptic (redundant), disabled Apex Sci-Fi Dungeon, added CLeF Minipost dungeon, added restored and fixed Small Bunker dungeon, restored Wanderer (Human Tier 7) armour set, added proper prices for most of custom items

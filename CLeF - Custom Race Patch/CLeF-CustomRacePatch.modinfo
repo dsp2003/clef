@@ -3,7 +3,7 @@
 	"version" : "",
 	"path" : ".",
 	"requires" : [ "CLeF" ],
-	"includes" : [ "Avali", "Avikan Race Mod", "Mousqutaire" ],
+	"includes" : [ "Avali", "Avikan Race Mod", "Kineptic", "Mousqutaire" ],
 	"metadata" : {
 	  "displayName" : "CLeF - Compatibility patch for various custom races",
 		"author" : "dsp2003",
