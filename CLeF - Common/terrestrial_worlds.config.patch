@@ -105,7 +105,7 @@
   { "op" : "add", "path" : "/planetSizes/giant",
     "value" : {
       "size" : [16000, 8000],
-      "gravityRange" : [110, 160],
+      "gravityRange" : [110, 130],
       "dayLengthRange" : [1500, 4000],
       "layerDefaults" : {
         "secondaryRegionPeriod" : [10000, 10000],
