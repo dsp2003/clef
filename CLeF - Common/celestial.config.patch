@@ -9,7 +9,7 @@
   // Tier1
   { "op" : "add", "path" : "/planetaryTypes/Tier1/baseParameters/terrestrialType/-", "value" : "forest" },
   { "op" : "add", "path" : "/planetaryTypes/Tier1/baseParameters/terrestrialType/-", "value" : "desert" },
-  { "op" : "add", "path" : "/planetaryTypes/Tier1/baseParameters/terrestrialType/-", "value" : "moon" },
+//{ "op" : "add", "path" : "/planetaryTypes/Tier1/baseParameters/terrestrialType/-", "value" : "moon" },
   // Tier2
   { "op" : "add", "path" : "/planetaryTypes/Tier2/baseParameters/terrestrialType/-", "value" : "moon" },
   { "op" : "add", "path" : "/planetaryTypes/Tier2/baseParameters/terrestrialType/-", "value" : "ocean" },
@@ -18,7 +18,7 @@
   // Tier3
   { "op" : "add", "path" : "/planetaryTypes/Tier3/baseParameters/terrestrialType/-", "value" : "alien" },
   { "op" : "add", "path" : "/planetaryTypes/Tier3/baseParameters/terrestrialType/-", "value" : "jungle" },
-  { "op" : "add", "path" : "/planetaryTypes/Tier3/baseParameters/terrestrialType/-", "value" : "moon" },
+//{ "op" : "add", "path" : "/planetaryTypes/Tier3/baseParameters/terrestrialType/-", "value" : "moon" },
   { "op" : "add", "path" : "/planetaryTypes/Tier3/baseParameters/terrestrialType/-", "value" : "toxic" },
   // Tier4
   { "op" : "add", "path" : "/planetaryTypes/Tier4/baseParameters/terrestrialType/-", "value" : "arctic" },
@@ -27,7 +27,7 @@
   { "op" : "add", "path" : "/planetaryTypes/Tier4/baseParameters/terrestrialType/-", "value" : "tundra" },
   // Tier5
   { "op" : "add", "path" : "/planetaryTypes/Tier5/baseParameters/terrestrialType/-", "value" : "magma" },
-  { "op" : "add", "path" : "/planetaryTypes/Tier5/baseParameters/terrestrialType/-", "value" : "moon" },
+//{ "op" : "add", "path" : "/planetaryTypes/Tier5/baseParameters/terrestrialType/-", "value" : "moon" },
   { "op" : "add", "path" : "/planetaryTypes/Tier5/baseParameters/terrestrialType/-", "value" : "scorched" },
   { "op" : "add", "path" : "/planetaryTypes/Tier5/baseParameters/terrestrialType/-", "value" : "volcanic" },
   // Tier6
