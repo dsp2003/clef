@@ -1,7 +1,7 @@
 # CLeF - Things To Do In Starbound
 Starbound content restoration and gameplay overhaul project
 
-Version 59 (2015/10/10) WORK-IN-PROGRESS DEVELOPMENT BUILD
+Version 59 (2015/10/10) ** DISCONTINUED **
 ----------
 
 Known to work with:
