@@ -1368,5 +1368,19 @@
         {"weight" : 0.3, "item" : "geometrictable-recipe"}
       ]
     }]
+  ],
+
+  // ==============================================================================================
+  //                                old things that weren't restored
+  // ==============================================================================================
+
+  "hiveTreasure" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.04, "item" : [ "hivebomb", 1]},
+        {"weight" : 0.04, "item" : [ "generatedgun", 1, { "definition" : "stingergun" } ]}
+      ],
+      "allowDuplication" : false
+    }]
   ]
 }
