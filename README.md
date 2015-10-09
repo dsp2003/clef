@@ -452,11 +452,11 @@ Gameplay changes
  - Giant (16000 x 8000)
 
 + [M] Changed biome type spawning for planets:
- - Tier 1 : Desert, Forest, Garden, Moon
+ - Tier 1 : Desert, Forest, Garden
  - Tier 2 : Desert, Forest, Moon, Ocean, Savannah, Snow
- - Tier 3 : Alien, Jungle, Moon, Ocean, Toxic, Savanna, Snow
+ - Tier 3 : Alien, Jungle, Ocean, Toxic, Savanna, Snow
  - Tier 4 : Alien, Arctic, Midnight*, Jingle, Moon, Toxic, Tundra
- - Tier 5 : Arctic, Magma, Midnight*, Moon, Scorched, Tundra, Volcanic
+ - Tier 5 : Arctic, Magma, Midnight*, Scorched, Tundra, Volcanic
  - Tier 6 : Magma, Moon, Scorched, Volcanic
  - Bog Moon : Desert, Forest, Moon, Savannah, Snow
 
@@ -873,7 +873,7 @@ CLeF is not a classic "modpack", as the merged mods are not simply copy-pasted, 
 Version history
 ---------------
 
-- 2015/10/10 v59 - October 6 Nightly support, lowered gravity ranges for Giant worlds (160 aka x2.0 was barely playable), updated treasure pool cleanup code (thanks to Surn_Thing), reduced spawning of moon biome
+- 2015/10/10 v59 - October 6 Nightly support, lowered gravity ranges for Giant worlds (160 aka x2.0 was barely playable), updated treasure pool cleanup code (thanks to Surn_Thing), reduced spawning of moon biome, rebuild More Saplings mod code from scratch (added proper icons for all saplings, saplings now spawn from harvested branches)
 - 2015/10/06 v58 - September 30 Nightly support, added liquid guns (based on mod by KingJigglypuff, thank you! ^u^), added Frostygen and Peach Juice liquids (instead of removed Liquid Nitrogen and Alien Juice), added old-new planet sizes (Tiny (2000x1500), Massive (8000x5000) and Giant (16000x8000)), added biomes from TierN+1 planets to TierN (where N is 1..5), Moon biome can be found on planet or satellite with any threat level, Moon and Barren planets can have up to 2 satellites, updated Paint & Wire tool restoration code (thank you, TanzNukeTerror ^u^), fixed leftover code popcorn bug (thanks to Luthor614), reworked surface layer for Giant worlds (thanks to TempTemp for suggestion), all trees will drop at least two saplings (based on mod by KateisLost, thank you! ^u^), reworked biome chest treasure pools (based on mod by Surn_Thing, thank you! :3 ), race patch for updated Kineptic
 - 2015/09/26 v57 - September 21 Nightly support (Stable and Nightly-specific runtime plugins exist yet again), fuel hatch patch for Mousqutaire (requested by Coralus), added sandstone furniture recipes (requested at 4chan's /sbg/, pointed out they existed in Upbeat Giraffe), re-arranged CLeF-specific recipes in order to differ them from vanilla replacements, renamed 3dprinter override to apex3dprinter, added recipe for coconut milk and bottled coconut milk consumable, fish don't talk
 - 2015/09/17 v56 - plants can be watered with healing and swamp water, disabled soild drying out (Sandbox only), more planet gravity ranges, enhanced storage compat layer, Common -> Common-Stable + Common-Nightly (again), new (vanilla-friendly) fuel hatch patching, racial portable 3D Printers, varied day length range
