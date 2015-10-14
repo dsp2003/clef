@@ -1,0 +1,22 @@
+[
+  { "op" : "add", "path" : "/spawnProfiles/0/extraSpawns/-", "value" : "plantsnakecritter" },
+  { "op" : "add", "path" : "/spawnProfiles/1/extraSpawns/-", "value" : "plantsnakecritter" },
+  { "op" : "add", "path" : "/spawnProfiles/0/extraSpawns/-", "value" : "largepanthercritter" },
+  { "op" : "add", "path" : "/spawnProfiles/1/extraSpawns/-", "value" : "largepanthercritter" },
+  { "op" : "add", "path" : "/spawnProfiles/0/extraSpawns/-", "value" : "panthercritter" },
+  { "op" : "add", "path" : "/spawnProfiles/1/extraSpawns/-", "value" : "panthercritter" },
+  { "op" : "add", "path" : "/spawnProfiles/0/extraSpawns/-", "value" : "ocelotcritter" },
+  { "op" : "add", "path" : "/spawnProfiles/0/extraSpawns/-", "value" : "greenquibblecritter" },
+  { "op" : "add", "path" : "/spawnProfiles/0/extraSpawns/-", "value" : "greenchickcritter" },
+  { "op" : "add", "path" : "/spawnProfiles/0/extraSpawns/-", "value" : "TEMPtoucritter" },
+  { "op" : "add", "path" : "/spawnProfiles/0/extraSpawns/-", "value" : "ibiscritter" },
+  { "op" : "add", "path" : "/spawnProfiles/0/extraSpawns/-", "value" : "toad" },
+  { "op" : "add", "path" : "/spawnProfiles/0/extraSpawns/-", "value" : "goldtoad" },
+  { "op" : "add", "path" : "/spawnProfiles/1/extraSpawns/-", "value" : "goldtoad" },
+  { "op" : "add", "path" : "/spawnProfiles/1/extraSpawns/-", "value" : "ocelotcritter" },
+  { "op" : "add", "path" : "/spawnProfiles/1/extraSpawns/-", "value" : "greenquibblecritter" },
+  { "op" : "add", "path" : "/spawnProfiles/1/extraSpawns/-", "value" : "greenchickcritter" },
+  { "op" : "add", "path" : "/spawnProfiles/1/extraSpawns/-", "value" : "TEMPtoucritter" },
+  { "op" : "add", "path" : "/spawnProfiles/1/extraSpawns/-", "value" : "ibiscritter" },
+  { "op" : "add", "path" : "/spawnProfiles/1/extraSpawns/-", "value" : "toad" }
+]

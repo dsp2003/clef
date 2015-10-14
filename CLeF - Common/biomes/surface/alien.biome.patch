@@ -1,0 +1,8 @@
+[
+  { "op" : "add", "path" : "/spawnProfiles/0/extraSpawns/-", "value" : "goldsnooglecritter" },
+  { "op" : "add", "path" : "/spawnProfiles/1/extraSpawns/-", "value" : "goldsnooglecritter" },
+  { "op" : "add", "path" : "/spawnProfiles/0/extraSpawns/-", "value" : "TEMPquibblecritter" },
+  { "op" : "add", "path" : "/spawnProfiles/0/extraSpawns/-", "value" : "blueblipcritter" },
+  { "op" : "add", "path" : "/spawnProfiles/1/extraSpawns/-", "value" : "TEMPquibblecritter" },
+  { "op" : "add", "path" : "/spawnProfiles/1/extraSpawns/-", "value" : "blueblipcritter" }
+]

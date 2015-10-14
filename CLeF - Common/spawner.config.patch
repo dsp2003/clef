@@ -1,0 +1,1035 @@
+[
+{"op":"add",
+"path":"/spawns/TEMPgloopcritter",
+"value":{
+  "spawnParameters":{
+  "area":"surface",
+  "region":"all",
+  "time":"all"},
+  "targetDensity":0.02,
+  "monsterType":"TEMPgloopcritter",
+  "monsterParameters":{"aggressive":false}
+  }
+},
+{"op":"add",
+"path":"/spawns/TEMPquibblecritter",
+"value":{
+  "spawnParameters":{
+  "area":"surface",
+  "region":"exposed",
+  "time":"all"},
+  "targetDensity":0.02,
+  "monsterType":"TEMPquibblecritter",
+  "monsterParameters":{"aggressive":false}
+  }
+},
+{"op":"add",
+"path":"/spawns/TEMPtoucritter",
+"value":{
+  "spawnParameters":{
+  "area":"surface",
+  "region":"exposed",
+  "time":"day"},
+  "targetDensity":0.02,
+  "monsterType":"TEMPtoucritter",
+  "monsterParameters":{"aggressive":false}
+  }
+},
+{"op":"add",
+"path":"/spawns/wolfhoundcritter",
+"value":{
+  "spawnParameters":{
+  "area":"surface",
+  "region":"all",
+  "time":"night"},
+  "targetDensity":0.02,
+  "monsterType":"wolfhoundcritter",
+  "monsterParameters":{"aggressive":false}
+  }
+},
+{"op":"add",
+"path":"/spawns/shadowhoundcritter",
+"value":{
+  "spawnParameters":{
+  "area":"surface",
+  "region":"all",
+  "time":"night"},
+  "targetDensity":0.02,
+  "monsterType":"shadowhoundcritter",
+  "monsterParameters":{"aggressive":false}
+  }
+},
+{"op":"add",
+"path":"/spawns/toxichoundcritter",
+"value":{
+  "spawnParameters":{
+  "area":"surface",
+  "region":"all",
+  "time":"night"},
+  "targetDensity":0.02,
+  "monsterType":"toxichoundcritter",
+  "monsterParameters":{"aggressive":false}
+  }
+},
+{"op":"add",
+"path":"/spawns/heckhoundcritter",
+"value":{
+  "spawnParameters":{
+  "area":"surface",
+  "region":"all",
+  "time":"night"},
+  "targetDensity":0.02,
+  "monsterType":"heckhoundcritter",
+  "monsterParameters":{"aggressive":false}
+  }
+},
+{"op":"add",
+"path":"/spawns/bloodbunny",
+"value":{
+  "spawnParameters":{
+  "area":"surface",
+  "region":"all",
+  "time":"all"},
+  "targetDensity":0.02,
+  "monsterType":"bloodbunny",
+  "monsterParameters":{"aggressive":false}
+  }
+},
+{"op":"add",
+"path":"/spawns/spottedbunny",
+"value":{
+  "spawnParameters":{
+  "area":"surface",
+  "region":"all",
+  "time":"all"},
+  "targetDensity":0.02,
+  "monsterType":"spottedbunny",
+  "monsterParameters":{"aggressive":false}
+  }
+},
+{"op":"add",
+"path":"/spawns/blackbunny",
+"value":{
+  "spawnParameters":{
+  "area":"surface",
+  "region":"all",
+  "time":"all"},
+  "targetDensity":0.02,
+  "monsterType":"blackbunny",
+  "monsterParameters":{"aggressive":false}
+  }
+},
+{"op":"add",
+"path":"/spawns/goldbunny",
+"value":{
+  "spawnParameters":{
+  "area":"surface",
+  "region":"all",
+  "time":"all"},
+  "targetDensity":0.0005,
+  "monsterType":"goldbunny",
+  "monsterParameters":{"aggressive":false}
+  }
+},
+{"op":"add",
+"path":"/spawns/goldsealcritter",
+"value":{
+  "spawnParameters":{
+  "area":"surface",
+  "region":"exposed",
+  "time":"all"},
+  "targetDensity":0.0005,
+  "monsterType":"goldsealcritter",
+  "monsterParameters":{"aggressive":false}
+  }
+},
+{"op":"add",
+"path":"/spawns/goldgloopcritter",
+"value":{
+  "spawnParameters":{
+  "area":"surface",
+  "region":"exposed",
+  "time":"all"},
+  "targetDensity":0.0005,
+  "monsterType":"goldgloopcritter",
+  "monsterParameters":{"aggressive":false}
+  }
+},
+{"op":"add",
+"path":"/spawns/goldcrabcritter",
+"value":{
+  "spawnParameters":{
+  "area":"surface",
+  "region":"exposed",
+  "time":"all"},
+  "targetDensity":0.0005,
+  "monsterType":"goldcrabcritter",
+  "monsterParameters":{"aggressive":false}
+  }
+},
+{"op":"add",
+"path":"/spawns/goldsnooglecritter",
+"value":{
+  "spawnParameters":{
+  "area":"surface",
+  "region":"all",
+  "time":"all"},
+  "targetDensity":0.0005,
+  "monsterType":"goldsnooglecritter",
+  "monsterParameters":{"aggressive":false}
+  }
+},
+{"op":"add",
+"path":"/spawns/goldarmadillo",
+"value":{
+  "spawnParameters":{
+  "area":"surface",
+  "region":"all",
+  "time":"all"},
+  "targetDensity":0.0005,
+  "monsterType":"goldarmadillo",
+  "monsterParameters":{"aggressive":false}
+  }
+},
+{"op":"add",
+"path":"/spawns/caveredsporelingcritter",
+"value":{
+  "spawnParameters":{
+  "area":"surface",
+  "region":"all",
+  "time":"all"},
+  "targetDensity":0.02,
+  "monsterType":"redsporelingcritter",
+  "monsterParameters":{"aggressive":false}
+  }
+},
+{"op":"add",
+"path":"/spawns/cavebrownsporelingcritter",
+"value":{
+  "spawnParameters":{
+  "area":"surface",
+  "region":"all",
+  "time":"all"},
+  "targetDensity":0.02,
+  "monsterType":"brownsporelingcritter",
+  "monsterParameters":{"aggressive":false}
+  }
+},
+{"op":"add",
+"path":"/spawns/cavegreensporelingcritter",
+"value":{
+  "spawnParameters":{
+  "area":"surface",
+  "region":"all",
+  "time":"all"},
+  "targetDensity":0.02,
+  "monsterType":"greensporelingcritter",
+  "monsterParameters":{"aggressive":false}
+  }
+},
+{"op":"add",
+"path":"/spawns/cavesporelingcritter",
+"value":{
+  "spawnParameters":{
+  "area":"surface",
+  "region":"all",
+  "time":"all"},
+  "targetDensity":0.02,
+  "monsterType":"sporelingcritter",
+  "monsterParameters":{"aggressive":false}
+  }
+},
+{"op":"add",
+"path":"/spawns/redsporelingcritter",
+"value":{
+  "spawnParameters":{
+  "area":"surface",
+  "region":"exposed",
+  "time":"all"},
+  "targetDensity":0.02,
+  "monsterType":"redsporelingcritter",
+  "monsterParameters":{"aggressive":false}
+  }
+},
+{"op":"add",
+"path":"/spawns/brownsporelingcritter",
+"value":{
+  "spawnParameters":{
+  "area":"surface",
+  "region":"exposed",
+  "time":"all"},
+  "targetDensity":0.02,
+  "monsterType":"brownsporelingcritter",
+  "monsterParameters":{"aggressive":false}
+  }
+},
+{"op":"add",
+"path":"/spawns/greensporelingcritter",
+"value":{
+  "spawnParameters":{
+  "area":"surface",
+  "region":"exposed",
+  "time":"all"},
+  "targetDensity":0.02,
+  "monsterType":"greensporelingcritter",
+  "monsterParameters":{"aggressive":false}
+  }
+},
+{"op":"add",
+"path":"/spawns/blackheadgullcritter",
+"value":{
+  "spawnParameters":{
+  "area":"surface",
+  "region":"exposed",
+  "time":"day"},
+  "targetDensity":0.15,
+  "monsterType":"blackheadgullcritter",
+  "monsterParameters":{"aggressive":false}
+  }
+},
+{"op":"add",
+"path":"/spawns/firebirdcritter",
+"value":{
+  "spawnParameters":{
+  "area":"surface",
+  "region":"exposed",
+  "time":"day"},
+  "targetDensity":0.02,
+  "monsterType":"firebirdcritter",
+  "monsterParameters":{"aggressive":false}
+  }
+},
+{"op":"add",
+"path":"/spawns/seaturtlecritter",
+"value":{
+  "spawnParameters":{
+  "area":"liquid",
+  "region":"all",
+  "time":"all"},
+  "targetDensity":0.02,
+  "monsterType":"seaturtlecritter",
+  "monsterParameters":{"aggressive":false}
+  }
+},
+{"op":"add",
+"path":"/spawns/seahorsecritter",
+"value":{
+  "spawnParameters":{
+  "area":"liquid",
+  "region":"all",
+  "time":"all"},
+  "targetDensity":0.02,
+  "monsterType":"seahorsecritter",
+  "monsterParameters":{"aggressive":false}
+  }
+},
+{"op":"add",
+"path":"/spawns/icejellycritter",
+"value":{
+  "spawnParameters":{
+  "area":"liquid",
+  "region":"all",
+  "time":"all"},
+  "targetDensity":0.02,
+  "monsterType":"icejellycritter",
+  "monsterParameters":{"aggressive":false}
+  }
+},
+{"op":"add",
+"path":"/spawns/lavajellycritter",
+"value":{
+  "spawnParameters":{
+  "area":"liquid",
+  "region":"all",
+  "time":"all"},
+  "targetDensity":0.02,
+  "monsterType":"lavajellycritter",
+  "monsterParameters":{"aggressive":false}
+  }
+},
+{"op":"add",
+"path":"/spawns/arcticterncritter",
+"value":{
+  "spawnParameters":{
+  "area":"surface",
+  "region":"exposed",
+  "time":"day"},
+  "targetDensity":0.02,
+  "monsterType":"arcticterncritter",
+  "monsterParameters":{"aggressive":false}
+  }
+},
+{"op":"add",
+"path":"/spawns/lavacrabcritter",
+"value":{
+  "spawnParameters":{
+  "area":"surface",
+  "region":"exposed",
+  "time":"all"},
+  "targetDensity":0.02,
+  "monsterType":"lavacrabcritter",
+  "monsterParameters":{"aggressive":false}
+  }
+},
+{"op":"add",
+"path":"/spawns/greenquibblecritter",
+"value":{
+  "spawnParameters":{
+  "area":"surface",
+  "region":"exposed",
+  "time":"all"},
+  "targetDensity":0.02,
+  "monsterType":"greenquibblecritter",
+  "monsterParameters":{"aggressive":false}
+  }
+},
+{"op":"add",
+"path":"/spawns/snowtritrotscritter",
+"value":{
+  "spawnParameters":{
+  "area":"surface",
+  "region":"exposed",
+  "time":"all"},
+  "targetDensity":0.02,
+  "monsterType":"snowtritrotscritter",
+  "monsterParameters":{"aggressive":false}
+  }
+},
+{"op":"add",
+"path":"/spawns/browncrabcritter",
+"value":{
+  "spawnParameters":{
+  "area":"surface",
+  "region":"exposed",
+  "time":"all"},
+  "targetDensity":0.02,
+  "monsterType":"browncrabcritter",
+  "monsterParameters":{"aggressive":false}
+  }
+},
+{"op":"add",
+"path":"/spawns/firesnakecritter",
+"value":{
+  "spawnParameters":{
+  "area":"surface",
+  "region":"exposed",
+  "time":"all"},
+  "targetDensity":0.02,
+  "monsterType":"firesnakecritter",
+  "monsterParameters":{"aggressive":false}
+  }
+},
+{"op":"add",
+"path":"/spawns/brownsnakecritter",
+"value":{
+  "spawnParameters":{
+  "area":"surface",
+  "region":"exposed",
+  "time":"all"},
+  "targetDensity":0.02,
+  "monsterType":"brownsnakecritter",
+  "monsterParameters":{"aggressive":false}
+  }
+},
+{"op":"add",
+"path":"/spawns/rustscabcritter",
+"value":{
+  "spawnParameters":{
+  "area":"surface",
+  "region":"exposed",
+  "time":"all"},
+  "targetDensity":0.02,
+  "monsterType":"rustscabcritter",
+  "monsterParameters":{"aggressive":false}
+  }
+},
+{"op":"add",
+"path":"/spawns/lavaslugcritter",
+"value":{
+  "spawnParameters":{
+  "area":"surface",
+  "region":"exposed",
+  "time":"all"},
+  "targetDensity":0.02,
+  "monsterType":"lavaslugcritter",
+  "monsterParameters":{"aggressive":false}
+  }
+},
+{"op":"add",
+"path":"/spawns/bloodslugcritter",
+"value":{
+  "spawnParameters":{
+  "area":"surface",
+  "region":"exposed",
+  "time":"all"},
+  "targetDensity":0.02,
+  "monsterType":"bloodslugcritter",
+  "monsterParameters":{"aggressive":false}
+  }
+},
+{"op":"add",
+"path":"/spawns/cavebloodslugcritter",
+"value":{
+  "spawnParameters":{
+  "area":"surface",
+  "region":"all",
+  "time":"all"},
+  "targetDensity":0.02,
+  "monsterType":"bloodslugcritter",
+  "monsterParameters":{"aggressive":false}
+  }
+},
+{"op":"add",
+"path":"/spawns/mercuryslugcritter",
+"value":{
+  "spawnParameters":{
+  "area":"surface",
+  "region":"exposed",
+  "time":"all"},
+  "targetDensity":0.02,
+  "monsterType":"mercuryslugcritter",
+  "monsterParameters":{"aggressive":false}
+  }
+},
+{"op":"add",
+"path":"/spawns/tarslugcritter",
+"value":{
+  "spawnParameters":{
+  "area":"surface",
+  "region":"all",
+  "time":"all"},
+  "targetDensity":0.02,
+  "monsterType":"tarslugcritter",
+  "monsterParameters":{"aggressive":false}
+  }
+},
+{"op":"add",
+"path":"/spawns/lavagloopcritter",
+"value":{
+  "spawnParameters":{
+  "area":"surface",
+  "region":"exposed",
+  "time":"all"},
+  "targetDensity":0.02,
+  "monsterType":"lavagloopcritter",
+  "monsterParameters":{"aggressive":false}
+  }
+},
+{"op":"add",
+"path":"/spawns/oilgloopcritter",
+"value":{
+  "spawnParameters":{
+  "area":"surface",
+  "region":"all",
+  "time":"all"},
+  "targetDensity":0.02,
+  "monsterType":"oilgloopcritter",
+  "monsterParameters":{"aggressive":false}
+  }
+},
+{"op":"add",
+"path":"/spawns/yellowpetalcritter",
+"value":{
+  "spawnParameters":{
+  "area":"surface",
+  "region":"exposed",
+  "time":"all"},
+  "targetDensity":0.02,
+  "monsterType":"yellowpetalcritter",
+  "monsterParameters":{"aggressive":false}
+  }
+},
+{"op":"add",
+"path":"/spawns/toxicwurmcritter",
+"value":{
+  "spawnParameters":{
+  "area":"surface",
+  "region":"exposed",
+  "time":"all"},
+  "targetDensity":0.02,
+  "monsterType":"toxicwurmcritter",
+  "monsterParameters":{"aggressive":false}
+  }
+},
+{"op":"add",
+"path":"/spawns/crystalchickcritter",
+"value":{
+  "spawnParameters":{
+  "area":"surface",
+  "region":"exposed",
+  "time":"all"},
+  "targetDensity":0.02,
+  "monsterType":"crystalchickcritter",
+  "monsterParameters":{"aggressive":false}
+  }
+},
+{"op":"add",
+"path":"/spawns/cavecrystalchickcritter",
+"value":{
+  "spawnParameters":{
+  "area":"surface",
+  "region":"all",
+  "time":"all"},
+  "targetDensity":0.02,
+  "monsterType":"crystalchickcritter",
+  "monsterParameters":{"aggressive":false}
+  }
+},
+{"op":"add",
+"path":"/spawns/greenchickcritter",
+"value":{
+  "spawnParameters":{
+  "area":"surface",
+  "region":"exposed",
+  "time":"all"},
+  "targetDensity":0.02,
+  "monsterType":"greenchickcritter",
+  "monsterParameters":{"aggressive":false}
+  }
+},
+{"op":"add",
+"path":"/spawns/cavegreenchickcritter",
+"value":{
+  "spawnParameters":{
+  "area":"surface",
+  "region":"all",
+  "time":"all"},
+  "targetDensity":0.02,
+  "monsterType":"greenchickcritter",
+  "monsterParameters":{"aggressive":false}
+  }
+},
+{"op":"add",
+"path":"/spawns/ocelotcritter",
+"value":{
+  "spawnParameters":{
+  "area":"surface",
+  "region":"exposed",
+  "time":"all"},
+  "targetDensity":0.02,
+  "monsterType":"ocelotcritter",
+  "monsterParameters":{"aggressive":false}
+  }
+},
+{"op":"add",
+"path":"/spawns/brownsealcritter",
+"value":{
+  "spawnParameters":{
+  "area":"surface",
+  "region":"exposed",
+  "time":"all"},
+  "targetDensity":0.02,
+  "monsterType":"brownsealcritter",
+  "monsterParameters":{"aggressive":false}
+  }
+},
+{"op":"add",
+"path":"/spawns/sealcritter",
+"value":{
+  "spawnParameters":{
+  "area":"surface",
+  "region":"exposed",
+  "time":"all"},
+  "targetDensity":0.02,
+  "monsterType":"sealcritter",
+  "monsterParameters":{"aggressive":false}
+  }
+},
+{"op":"add",
+"path":"/spawns/penguincritter",
+"value":{
+  "spawnParameters":{
+  "area":"surface",
+  "region":"exposed",
+  "time":"all"},
+  "targetDensity":0.02,
+  "monsterType":"penguincritter",
+  "monsterParameters":{"aggressive":false}
+  }
+},
+{"op":"add",
+"path":"/spawns/snowowlcritter",
+"value":{
+  "spawnParameters":{
+  "area":"surface",
+  "region":"exposed",
+  "time":"all"},
+  "targetDensity":0.02,
+  "monsterType":"snowowlcritter",
+  "monsterParameters":{"aggressive":false}
+  }
+},
+{"op":"add",
+"path":"/spawns/bluebirdcritter",
+"value":{
+  "spawnParameters":{
+  "area":"surface",
+  "region":"exposed",
+  "time":"day"},
+  "targetDensity":0.02,
+  "monsterType":"bluebirdcritter",
+  "monsterParameters":{"aggressive":false}
+  }
+},
+{"op":"add",
+"path":"/spawns/redbirdcritter",
+"value":{
+  "spawnParameters":{
+  "area":"surface",
+  "region":"exposed",
+  "time":"day"},
+  "targetDensity":0.02,
+  "monsterType":"redbirdcritter",
+  "monsterParameters":{"aggressive":false}
+  }
+},
+{"op":"add",
+"path":"/spawns/yellowbirdcritter",
+"value":{
+  "spawnParameters":{
+  "area":"surface",
+  "region":"exposed",
+  "time":"day"},
+  "targetDensity":0.02,
+  "monsterType":"yellowbirdcritter",
+  "monsterParameters":{"aggressive":false}
+  }
+},
+{"op":"add",
+"path":"/spawns/greenbirdcritter",
+"value":{
+  "spawnParameters":{
+  "area":"surface",
+  "region":"exposed",
+  "time":"day"},
+  "targetDensity":0.02,
+  "monsterType":"greenbirdcritter",
+  "monsterParameters":{"aggressive":false}
+  }
+},
+{"op":"add",
+"path":"/spawns/bluejaycritter",
+"value":{
+  "spawnParameters":{
+  "area":"surface",
+  "region":"exposed",
+  "time":"day"},
+  "targetDensity":0.02,
+  "monsterType":"bluejaycritter",
+  "monsterParameters":{"aggressive":false}
+  }
+},
+{"op":"add",
+"path":"/spawns/ibiscritter",
+"value":{
+  "spawnParameters":{
+  "area":"surface",
+  "region":"exposed",
+  "time":"day"},
+  "targetDensity":0.02,
+  "monsterType":"ibiscritter",
+  "monsterParameters":{"aggressive":false}
+  }
+},
+{"op":"add",
+"path":"/spawns/weaselcritter",
+"value":{
+  "spawnParameters":{
+  "area":"surface",
+  "region":"all",
+  "time":"all"},
+  "targetDensity":0.02,
+  "monsterType":"weaselcritter",
+  "monsterParameters":{"aggressive":false}
+  }
+},
+{"op":"add",
+"path":"/spawns/greenweaselcritter",
+"value":{
+  "spawnParameters":{
+  "area":"surface",
+  "region":"all",
+  "time":"all"},
+  "targetDensity":0.02,
+  "monsterType":"greenweaselcritter",
+  "monsterParameters":{"aggressive":false}
+  }
+},
+{"op":"add",
+"path":"/spawns/plantsnakecritter",
+"value":{
+  "spawnParameters":{
+  "area":"surface",
+  "region":"exposed",
+  "time":"all"},
+  "targetDensity":0.02,
+  "monsterType":"plantsnakecritter",
+  "monsterParameters":{"aggressive":false}
+  }
+},
+{"op":"add",
+"path":"/spawns/largepanthercritter",
+"value":{
+  "spawnParameters":{
+  "area":"surface",
+  "region":"exposed",
+  "time":"night"},
+  "targetDensity":0.02,
+  "monsterType":"largepanthercritter",
+  "monsterParameters":{"aggressive":false}
+  }
+},
+{"op":"add",
+"path":"/spawns/panthercritter",
+"value":{
+  "spawnParameters":{
+  "area":"surface",
+  "region":"all",
+  "time":"all"},
+  "targetDensity":0.02,
+  "monsterType":"panthercritter",
+  "monsterParameters":{"aggressive":false}
+  }
+},
+{"op":"add",
+"path":"/spawns/brownsquirrelcritter",
+"value":{
+  "spawnParameters":{
+  "area":"surface",
+  "region":"all",
+  "time":"all"},
+  "targetDensity":0.015,
+  "monsterType":"brownsquirrelcritter",
+  "monsterParameters":{"aggressive":false}
+  }
+},
+{"op":"add",
+"path":"/spawns/crystalsquirrelcritter",
+"value":{
+  "spawnParameters":{
+  "area":"surface",
+  "region":"all",
+  "time":"all"},
+  "targetDensity":0.015,
+  "monsterType":"crystalsquirrelcritter",
+  "monsterParameters":{"aggressive":false}
+  }
+},
+{"op":"add",
+"path":"/spawns/blacksquirrelcritter",
+"value":{
+  "spawnParameters":{
+  "area":"surface",
+  "region":"all",
+  "time":"all"},
+  "targetDensity":0.015,
+  "monsterType":"blacksquirrelcritter",
+  "monsterParameters":{"aggressive":false}
+  }
+},
+{"op":"add",
+"path":"/spawns/greysquirrelcritter",
+"value":{
+  "spawnParameters":{
+  "area":"surface",
+  "region":"all",
+  "time":"all"},
+  "targetDensity":0.015,
+  "monsterType":"greysquirrelcritter",
+  "monsterParameters":{"aggressive":false}
+  }
+},
+{"op":"add",
+"path":"/spawns/goldsquirrelcritter",
+"value":{
+  "spawnParameters":{
+  "area":"surface",
+  "region":"all",
+  "time":"all"},
+  "targetDensity":0.005,
+  "monsterType":"goldsquirrelcritter",
+  "monsterParameters":{"aggressive":false}
+  }
+},
+{"op":"add",
+"path":"/spawns/brownsnail",
+"value":{
+  "spawnParameters":{
+  "area":"surface",
+  "region":"enclosed",
+  "time":"all"},
+  "targetDensity":0.01,
+  "monsterType":"brownsnail",
+  "monsterParameters":{"aggressive":false}
+  }
+},
+{"op":"add",
+"path":"/spawns/brownblipcritter",
+"value":{
+  "spawnParameters":{
+  "area":"surface",
+  "region":"exposed",
+  "time":"all"},
+  "targetDensity":0.02,
+  "monsterType":"brownblipcritter",
+  "monsterParameters":{"aggressive":false}
+  }
+},
+{"op":"add",
+"path":"/spawns/blueblipcritter",
+"value":{
+  "spawnParameters":{
+  "area":"surface",
+  "region":"exposed",
+  "time":"all"},
+  "targetDensity":0.02,
+  "monsterType":"blueblipcritter",
+  "monsterParameters":{"aggressive":false}
+  }
+},
+{"op":"add",
+"path":"/spawns/greentortoise",
+"value":{
+  "spawnParameters":{
+  "area":"surface",
+  "region":"all",
+  "time":"all"},
+  "targetDensity":0.02,
+  "monsterType":"greentortoise",
+  "monsterParameters":{"aggressive":false}
+  }
+},
+{"op":"add",
+"path":"/spawns/tinybrowncrocodilecritter",
+"value":{
+  "spawnParameters":{
+  "area":"surface",
+  "region":"exposed",
+  "time":"all"},
+  "targetDensity":0.02,
+  "monsterType":"tinybrowncrocodilecritter",
+  "monsterParameters":{"aggressive":false}
+  }
+},
+{"op":"add",
+"path":"/spawns/tinysandcrocodilecritter",
+"value":{
+  "spawnParameters":{
+  "area":"surface",
+  "region":"exposed",
+  "time":"all"},
+  "targetDensity":0.02,
+  "monsterType":"tinysandcrocodilecritter",
+  "monsterParameters":{"aggressive":false}
+  }
+},
+{"op":"add",
+"path":"/spawns/sandquibblecritter",
+"value":{
+  "spawnParameters":{
+  "area":"surface",
+  "region":"exposed",
+  "time":"all"},
+  "targetDensity":0.02,
+  "monsterType":"sandquibblecritter",
+  "monsterParameters":{"aggressive":false}
+  }
+},
+{"op":"add",
+"path":"/spawns/asteroidsymbiotecritter",
+"value":{
+  "spawnParameters":{
+  "area":"all",
+  "region":"all",
+  "time":"all"},
+  "targetDensity":0.02,
+  "monsterType":"symbiotecritter",
+  "monsterParameters":{"aggressive":false}
+  }
+},
+{"op":"add",
+"path":"/spawns/asteroidgloopcritter",
+"value":{
+  "spawnParameters":{
+  "area":"all",
+  "region":"all",
+  "time":"all"},
+  "targetDensity":0.02,
+  "monsterType":"TEMPgloopcritter",
+  "monsterParameters":{"aggressive":false}
+  }
+},
+{"op":"add",
+"path":"/spawns/greencellcritter",
+"value":{
+  "spawnParameters":{
+  "area":"surface",
+  "region":"all",
+  "time":"all"},
+  "targetDensity":0.02,
+  "monsterType":"greencellcritter",
+  "monsterParameters":{"aggressive":false}
+  }
+},
+{"op":"add",
+"path":"/spawns/asteroidgreencellcritter",
+"value":{
+  "spawnParameters":{
+  "area":"all",
+  "region":"all",
+  "time":"all"},
+  "targetDensity":0.02,
+  "monsterType":"greencellcritter",
+  "monsterParameters":{"aggressive":false}
+  }
+},
+{"op":"add",
+"path":"/spawns/warthogcritter",
+"value":{
+  "spawnParameters":{
+  "area":"surface",
+  "region":"exposed",
+  "time":"all"},
+  "targetDensity":0.02,
+  "monsterType":"warthogcritter",
+  "monsterParameters":{"aggressive":false}
+  }
+},
+{"op":"add",
+"path":"/spawns/elephantcritter",
+"value":{
+  "spawnParameters":{
+  "area":"surface",
+  "region":"exposed",
+  "time":"all"},
+  "targetDensity":0.02,
+  "monsterType":"elephantcritter",
+  "monsterParameters":{"aggressive":false}
+  }
+},
+{"op":"add",
+"path":"/spawns/goldtoad",
+"value":{
+  "spawnParameters":{
+  "area":"surface",
+  "region":"enclosed",
+  "time":"all"},
+  "targetDensity":0.005,
+  "monsterType":"goldtoad",
+  "monsterParameters":{"aggressive":false}
+  }
+},
+{"op":"add",
+"path":"/spawns/toad",
+"value":{
+  "spawnParameters":{
+  "area":"surface",
+  "region":"enclosed",
+  "time":"all"},
+  "targetDensity":0.02,
+  "monsterType":"toad",
+  "monsterParameters":{"aggressive":false}
+  }
+}
+
+]

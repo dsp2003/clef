@@ -1,0 +1,9 @@
+{
+  "name" : "goldarmadillo",
+  "category" : "goldarmadillo",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "body.png"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "goldCritterTreasure" : [
+    [ 1, {
+      "pool" : [
+        { "weight" : 1.0, "pool" : "money" },
+        { "weight" : 1.0, "item" : "goldore" }
+      ],
+      "poolRounds" : [
+        [ 0.99, 1 ],
+        [ 0.50, 2 ]
+      ],
+      "allowDuplication" : true
+    } ]
+  ]
+}

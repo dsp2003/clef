@@ -1,0 +1,9 @@
+{
+  "name" : "TEMPtoucritter",
+  "category" : "TEMPtoucritter",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "body.png"
+  }
+}

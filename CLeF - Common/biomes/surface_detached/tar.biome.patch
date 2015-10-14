@@ -1,0 +1,10 @@
+[
+  { "op" : "add", "path" : "/spawnProfiles/0/extraSpawns/-", "value" : "shadowhoundcritter" },
+  { "op" : "add", "path" : "/spawnProfiles/1/extraSpawns/-", "value" : "shadowhoundcritter" },
+  { "op" : "add", "path" : "/spawnProfiles/0/extraSpawns/-", "value" : "tarslugcritter" },
+  { "op" : "add", "path" : "/spawnProfiles/1/extraSpawns/-", "value" : "tarslugcritter" },
+  { "op" : "add", "path" : "/spawnProfiles/0/extraSpawns/-", "value" : "goldgloopcritter" },
+  { "op" : "add", "path" : "/spawnProfiles/1/extraSpawns/-", "value" : "goldgloopcritter" },
+  { "op" : "add", "path" : "/spawnProfiles/0/extraSpawns/-", "value" : "oilgloopcritter" },
+  { "op" : "add", "path" : "/spawnProfiles/1/extraSpawns/-", "value" : "oilgloopcritter" }
+]

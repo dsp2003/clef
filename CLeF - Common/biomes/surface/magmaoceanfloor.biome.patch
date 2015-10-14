@@ -1,0 +1,3 @@
+[
+  { "op" : "add", "path" : "/spawnProfiles/0/extraSpawns/-", "value" : "lavajellycritter" }
+]

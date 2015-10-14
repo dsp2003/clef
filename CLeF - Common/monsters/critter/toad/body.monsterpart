@@ -1,0 +1,9 @@
+{
+  "name" : "toad",
+  "category" : "toad",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "body.png"
+  }
+}

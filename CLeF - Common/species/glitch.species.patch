@@ -1,5 +1,10 @@
 [
-  // Male
+  // Lissar's male hair
+  { "op" : "add", "path" : "/genders/0/hair/-", "value" : "ex1" },
+  { "op" : "add", "path" : "/genders/0/hair/-", "value" : "ex2" },
+  { "op" : "add", "path" : "/genders/0/hair/-", "value" : "ex3" },
+  { "op" : "add", "path" : "/genders/0/hair/-", "value" : "ex4" },
+  // Classic male hair
   { "op" : "add", "path" : "/genders/0/hair/-", "value" : "c01" },
   { "op" : "add", "path" : "/genders/0/hair/-", "value" : "c02" },
   { "op" : "add", "path" : "/genders/0/hair/-", "value" : "c03" },
@@ -50,7 +55,12 @@
   { "op" : "add", "path" : "/genders/0/hair/-", "value" : "c48" },
   { "op" : "add", "path" : "/genders/0/hair/-", "value" : "c49" },
   { "op" : "add", "path" : "/genders/0/hair/-", "value" : "c50" },
-  // Female
+  // Lissar's female hair
+  { "op" : "add", "path" : "/genders/0/hair/-", "value" : "ex1" },
+  { "op" : "add", "path" : "/genders/0/hair/-", "value" : "ex2" },
+  { "op" : "add", "path" : "/genders/0/hair/-", "value" : "ex3" },
+  { "op" : "add", "path" : "/genders/0/hair/-", "value" : "ex4" },
+  // Classic female hair
   { "op" : "add", "path" : "/genders/1/hair/-", "value" : "c01" },
   { "op" : "add", "path" : "/genders/1/hair/-", "value" : "c02" },
   { "op" : "add", "path" : "/genders/1/hair/-", "value" : "c03" },

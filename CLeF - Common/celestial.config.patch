@@ -1,4 +1,8 @@
 [
+  // Planetary probability patch -------------------------------------------------
+//{ "op" : "replace", "path" : "/systemTypes/White/orbitRegions/0/bodyProbability", "value" : 0.8 },
+//{ "op" : "replace", "path" : "/systemTypes/White/orbitRegions/1/bodyProbability", "value" : 0.2 },
+
   // Satellite probability patch -------------------------------------------------
   { "op" : "replace", "path" : "/planetaryTypes/Moon/satelliteProbability",   "value" : 0.15 },
   { "op" : "replace", "path" : "/planetaryTypes/Barren/satelliteProbability", "value" : 0.15 },

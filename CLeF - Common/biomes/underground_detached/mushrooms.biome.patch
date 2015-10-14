@@ -1,0 +1,10 @@
+[
+  { "op" : "add", "path" : "/spawnProfiles/0/extraSpawns/-", "value" : "cavesporelingcritter" },
+  { "op" : "add", "path" : "/spawnProfiles/1/extraSpawns/-", "value" : "cavesporelingcritter" },
+  { "op" : "add", "path" : "/spawnProfiles/0/extraSpawns/-", "value" : "cavebrownsporelingcritter" },
+  { "op" : "add", "path" : "/spawnProfiles/1/extraSpawns/-", "value" : "cavebrownsporelingcritter" },
+  { "op" : "add", "path" : "/spawnProfiles/0/extraSpawns/-", "value" : "caveredsporelingcritter" },
+  { "op" : "add", "path" : "/spawnProfiles/1/extraSpawns/-", "value" : "caveredsporelingcritter" },
+  { "op" : "add", "path" : "/spawnProfiles/0/extraSpawns/-", "value" : "cavegreensporelingcritter" },
+  { "op" : "add", "path" : "/spawnProfiles/1/extraSpawns/-", "value" : "cavegreensporelingcritter" }
+]
