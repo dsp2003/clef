@@ -1,5 +1,5 @@
 // dsp2003:
-// Note to self: replace this patch with full oredistributions.configfunctions in case the size will grow larger that the actual file
+// Note to self: replace this patch with full oredistributions.configfunctions in case the size will grow larger than the actual file
 [
   // Restoring silver spawning
   { "op" : "replace", "path" : "/surfaceOres/0/1/2", "value" : [ "silverore", 0.20 ] },
