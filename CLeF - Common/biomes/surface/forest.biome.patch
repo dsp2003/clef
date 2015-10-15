@@ -3,7 +3,6 @@
   { "op" : "add", "path" : "/spawnProfiles/0/extraSpawns/-", "value" : "wolfhoundcritter" },
   { "op" : "add", "path" : "/spawnProfiles/1/extraSpawns/-", "value" : "wolfhoundcritter" },
   { "op" : "add", "path" : "/spawnProfiles/0/extraSpawns/-", "value" : "blackbunny" },
-  { "op" : "add", "path" : "/spawnProfiles/0/extraSpawns/-", "value" : "weaselcritter" },
   { "op" : "add", "path" : "/spawnProfiles/0/extraSpawns/-", "value" : "bluebirdcritter" },
   { "op" : "add", "path" : "/spawnProfiles/0/extraSpawns/-", "value" : "goldsquirrelcritter" },
   { "op" : "add", "path" : "/spawnProfiles/0/extraSpawns/-", "value" : "greysquirrelcritter" },
@@ -16,9 +15,7 @@
   { "op" : "add", "path" : "/spawnProfiles/0/extraSpawns/-", "value" : "brownblipcritter" },
   { "op" : "add", "path" : "/spawnProfiles/0/extraSpawns/-", "value" : "greentortoise" },
   { "op" : "add", "path" : "/spawnProfiles/0/extraSpawns/-", "value" : "brownsnail" },
-  { "op" : "add", "path" : "/spawnProfiles/0/extraSpawns/-", "value" : "redsporelingcritter" },
   { "op" : "add", "path" : "/spawnProfiles/1/extraSpawns/-", "value" : "blackbunny" },
-  { "op" : "add", "path" : "/spawnProfiles/1/extraSpawns/-", "value" : "weaselcritter" },
   { "op" : "add", "path" : "/spawnProfiles/1/extraSpawns/-", "value" : "bluebirdcritter" },
   { "op" : "add", "path" : "/spawnProfiles/1/extraSpawns/-", "value" : "goldsquirrelcritter" },
   { "op" : "add", "path" : "/spawnProfiles/1/extraSpawns/-", "value" : "greysquirrelcritter" },
@@ -31,7 +28,6 @@
   { "op" : "add", "path" : "/spawnProfiles/1/extraSpawns/-", "value" : "brownblipcritter" },
   { "op" : "add", "path" : "/spawnProfiles/1/extraSpawns/-", "value" : "greentortoise" },
   { "op" : "add", "path" : "/spawnProfiles/1/extraSpawns/-", "value" : "brownsnail" },
-  { "op" : "add", "path" : "/spawnProfiles/1/extraSpawns/-", "value" : "redsporelingcritter" },
 
   // Peanut plant patch ---------------------------------------------------------------------
   { "op" : "add", "path" : "/surfacePlaceables/items/-", "value" : {

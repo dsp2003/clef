@@ -1,4 +1,0 @@
-[
-  { "op" : "add", "path" : "/spawnProfiles/0/extraSpawns/-", "value" : "cavecrystalchickcritter" },
-  { "op" : "add", "path" : "/spawnProfiles/1/extraSpawns/-", "value" : "cavecrystalchickcritter" }
-]

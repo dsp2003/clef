@@ -1,8 +1,8 @@
 [
-  { "op" : "add", "path" : "/spawnProfiles/0/extraSpawns/-", "value" : "goldsquirrelcritter" },
-  { "op" : "add", "path" : "/spawnProfiles/1/extraSpawns/-", "value" : "goldsquirrelcritter" },
-  { "op" : "add", "path" : "/spawnProfiles/0/extraSpawns/-", "value" : "crystalsquirrelcritter" },
-  { "op" : "add", "path" : "/spawnProfiles/1/extraSpawns/-", "value" : "crystalsquirrelcritter" },
-  { "op" : "add", "path" : "/spawnProfiles/0/extraSpawns/-", "value" : "crystalchickcritter" },
-  { "op" : "add", "path" : "/spawnProfiles/1/extraSpawns/-", "value" : "crystalchickcritter" }
+  { "op" : "add", "path" : "/spawnProfiles/0/extraSpawns/-", "value" : "redsnuggetcritter" },
+  { "op" : "add", "path" : "/spawnProfiles/1/extraSpawns/-", "value" : "redsnuggetcritter" },
+  { "op" : "add", "path" : "/spawnProfiles/0/extraSpawns/-", "value" : "orangesnuggetcritter" },
+  { "op" : "add", "path" : "/spawnProfiles/1/extraSpawns/-", "value" : "orangesnuggetcritter" },
+  { "op" : "add", "path" : "/spawnProfiles/0/extraSpawns/-", "value" : "yellowsnuggetcritter" },
+  { "op" : "add", "path" : "/spawnProfiles/1/extraSpawns/-", "value" : "yellowsnuggetcritter" }
 ]

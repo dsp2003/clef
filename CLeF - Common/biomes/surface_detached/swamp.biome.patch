@@ -1,4 +1,8 @@
 [
+  { "op" : "add", "path" : "/spawnProfiles/0/extraSpawns/-", "value" : "duckcritter" },
+  { "op" : "add", "path" : "/spawnProfiles/1/extraSpawns/-", "value" : "duckcritter" },
+  { "op" : "add", "path" : "/spawnProfiles/0/extraSpawns/-", "value" : "dragonflycritter" },
+  { "op" : "add", "path" : "/spawnProfiles/1/extraSpawns/-", "value" : "dragonflycritter" },
   { "op" : "add", "path" : "/spawnProfiles/0/extraSpawns/-", "value" : "warthogcritter" },
   { "op" : "add", "path" : "/spawnProfiles/1/extraSpawns/-", "value" : "warthogcritter" },
   { "op" : "add", "path" : "/spawnProfiles/0/extraSpawns/-", "value" : "toad" },

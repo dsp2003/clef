@@ -5,8 +5,8 @@
   { "op" : "add", "path" : "/spawnProfiles/1/extraSpawns/-", "value" : "vulturecritter" },
   { "op" : "add", "path" : "/spawnProfiles/0/extraSpawns/-", "value" : "brownsnakecritter" },
   { "op" : "add", "path" : "/spawnProfiles/1/extraSpawns/-", "value" : "brownsnakecritter" },
-  { "op" : "add", "path" : "/spawnProfiles/0/extraSpawns/-", "value" : "goldarmadillocritter" },
-  { "op" : "add", "path" : "/spawnProfiles/1/extraSpawns/-", "value" : "goldarmadillocritter" },
+  { "op" : "add", "path" : "/spawnProfiles/0/extraSpawns/-", "value" : "goldarmadillo" },
+  { "op" : "add", "path" : "/spawnProfiles/1/extraSpawns/-", "value" : "goldarmadillo" },
   { "op" : "add", "path" : "/spawnProfiles/0/extraSpawns/-", "value" : "sandquibblecritter" },
   { "op" : "add", "path" : "/spawnProfiles/1/extraSpawns/-", "value" : "sandquibblecritter" }
 ]

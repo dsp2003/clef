@@ -1,8 +1,0 @@
-[
-  { "op" : "add", "path" : "/spawnProfiles/0/extraSpawns/-", "value" : "asteroidgloopcritter" },
-  { "op" : "add", "path" : "/spawnProfiles/1/extraSpawns/-", "value" : "asteroidgloopcritter" },
-  { "op" : "add", "path" : "/spawnProfiles/0/extraSpawns/-", "value" : "asteroidgreencellcritter" },
-  { "op" : "add", "path" : "/spawnProfiles/1/extraSpawns/-", "value" : "asteroidgreencellcritter" },
-  { "op" : "add", "path" : "/spawnProfiles/0/extraSpawns/-", "value" : "asteroidsymbiotecritter" },
-  { "op" : "add", "path" : "/spawnProfiles/1/extraSpawns/-", "value" : "asteroidsymbiotecritter" }
-]
