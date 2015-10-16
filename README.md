@@ -142,6 +142,93 @@ Glossary
 Gameplay changes
 ----------------
 
++ [N] Added 84 new and recoloured critters to every biome:
+
+ - Armadillo (Golden)
+ - Bird (Blue)
+ - Bird (Green)
+ - Bird (Red)
+ - Bird (Yellow)
+ - Blip (Blue)
+ - Blip (Brown)
+ - Blue jay
+ - Bunny (Black)
+ - Bunny (Blood)
+ - Bunny (Golden)
+ - Bunny (Spotted)
+ - Cell (Green)
+ - Chick (Crystal)
+ - Chick (Green)
+ - Crab (Brown)
+ - Crab (Golden)
+ - Crab (Lava)
+ - Crab (Rust)
+ - Dragonfly
+ - Duck
+ - Elephant
+ - Firebird
+ - Gloop (Golden)
+ - Gloop (Lava)
+ - Gloop (Oil)
+ - Gloop (Temp)
+ - Gull (Blackhead)
+ - Hound (Heck)
+ - Hound (Shadow)
+ - Hound (Toxic)
+ - Hound (Wolf)
+ - Ibis
+ - Jelly (Ice)
+ - Jelly (Lava)
+ - Ocelot
+ - Owl (Snow)
+ - Panther (Ocelot recolour)
+ - Panther (Cat recolour)
+ - Penguin
+ - Petal (Yellow)
+ - Plant Snake
+ - Quibble (Green)
+ - Quibble (Sand)
+ - Quibble (Temp)
+ - Sea Horse
+ - Sea Turtle
+ - Seal (Brown)
+ - Seal (Golden)
+ - Seal (White)
+ - Slug (Blood)
+ - Slug (Lava)
+ - Slug (Mercury)
+ - Slug (Tar)
+ - Snail (Brown)
+ - Snake (Brown)
+ - Snake (Fire)
+ - Snow Leopard (Ocelot recolour)
+ - Snoogle (Golden)
+ - Snugget (Blue)
+ - Snugget (Orange)
+ - Snugget (Red)
+ - Snugget (Snow)
+ - Snugget (Yellow)
+ - Sporeling (Brown)
+ - Sporeling (Green)
+ - Sporeling (Red)
+ - Squirrel (Black)
+ - Squirrel (Brown)
+ - Squirrel (Crystal)
+ - Squirrel (Golden)
+ - Squirrel (Grey)
+ - Tern (Arctic)
+ - Tiny Crocodile (Brown)
+ - Tiny Crocodile (Sand)
+ - Toad (Golden)
+ - Toad (Green)
+ - Tortoise (Green)
+ - Toucan (Temp)
+ - Tritrots (Snow)
+ - Wart Hog (Pig recolour)
+ - Weasel (Brown)
+ - Weasel (Green)
+ - Wurm (Toxic)
+
 + [N] Liquid Slime can be harvested and placed. Also replaced Slime status effect icon to match the style of new liquid item
 
 + [M] Green Slime can be crafted from 2 Liquid Slime in Crafting Table
@@ -747,6 +834,8 @@ Sandbox addon
  - Swinging Vine
  - Chainsaw
  - Bug Net
+
++ [R] Removed fine sand spawning for sandstorm weather particles
 
 
 Custom race patch
