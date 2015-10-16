@@ -91,6 +91,11 @@ A: Yes, it is a single pixel change, which does not affect progression in any wa
 Besides, Chucklefish might change their mind regarding the fuel and you'll be forced to make that single pixel change anyway.
 
 
+Q: Is it compatible with custom ship mods?
+
+A: As long as they don't include non-vanilla broken fuel hatch objects, yes.
+
+
 Q: Okay, I beat the UFO boss. Where's the rest of the quests?
 
 A: The rest of the quests are integrated into Outpost NPC's questlines:
