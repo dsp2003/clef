@@ -1,0 +1,35 @@
+{
+  "objectName" : "greentortoisetank",
+  "tags" : ["critters","crittercages","misc"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 60,
+  "printable" : false,
+
+  "description" : "A critter tank. How cute!",
+  "shortdescription" : "Green Tortoise Critter Tank",
+  "race" : "generic",
+  "apexDescription" : "This critter longs for freedom.",
+  "avianDescription" : "A critter is trapped in this tank.",
+  "floranDescription" : "Mmm, crittersss!",
+  "glitchDescription" : "Curious. A critter inside a tank.",
+  "humanDescription" : "An animal is inside this tank.",
+  "hylotlDescription" : "A majestic animal is imprisoned within.",
+  "novakidDescription" : "There's a pesky varmint inside this here tank.",
+
+  "inventoryIcon" : "greentortoisetankicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "greentortoisetank.png:<color>.<frame>",
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ]
+
+}

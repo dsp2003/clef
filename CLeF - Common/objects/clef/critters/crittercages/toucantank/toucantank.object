@@ -1,0 +1,35 @@
+{
+  "objectName" : "toucantank",
+  "tags" : ["critters","crittercages","misc"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 60,
+  "printable" : false,
+
+  "description" : "A critter tank. How cute!",
+  "shortdescription" : "Toucan Critter Tank",
+  "race" : "generic",
+  "apexDescription" : "This bird has a colorful beak.",
+  "avianDescription" : "Some heretics say toucans carry souls in their beaks to the afterlife.",
+  "floranDescription" : "Floran love toucan beak!",
+  "glitchDescription" : "Curious. This bird has an unusual beak.",
+  "humanDescription" : "This toucan is probably looking for fruity cereal.",
+  "hylotlDescription" : "A pet toucan adds a lot of character to any room.",
+  "novakidDescription" : "Wooowee! Look at that there beak!",
+
+  "inventoryIcon" : "toucantankicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "toucantank.png:<color>.<frame>",
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ]
+
+}

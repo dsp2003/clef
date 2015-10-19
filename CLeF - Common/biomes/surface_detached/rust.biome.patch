@@ -1,4 +1,6 @@
 [
+  { "op" : "add", "path" : "/spawnProfiles/0/extraSpawns/-", "value" : "kefkacritter" },
+  { "op" : "add", "path" : "/spawnProfiles/1/extraSpawns/-", "value" : "kefkacritter" },
   { "op" : "add", "path" : "/spawnProfiles/0/extraSpawns/-", "value" : "rustscabcritter" },
   { "op" : "add", "path" : "/spawnProfiles/1/extraSpawns/-", "value" : "rustscabcritter" },
   { "op" : "add", "path" : "/spawnProfiles/0/extraSpawns/-", "value" : "mercuryslugcritter" },

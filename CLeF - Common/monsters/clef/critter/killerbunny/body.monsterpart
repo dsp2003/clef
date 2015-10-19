@@ -1,0 +1,9 @@
+{
+  "name" : "killerbunny",
+  "category" : "killerbunny",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "body.png"
+  }
+}

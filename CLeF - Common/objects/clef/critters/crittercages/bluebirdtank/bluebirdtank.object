@@ -1,0 +1,35 @@
+{
+  "objectName" : "bluebirdtank",
+  "tags" : ["critters","crittercages","misc"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 60,
+  "printable" : false,
+
+  "description" : "A critter tank. How cute!",
+  "shortdescription" : "Bluebird Critter Tank",
+  "race" : "generic",
+  "apexDescription" : "This bluebird sings despite being trapped.",
+  "avianDescription" : "Kluex is said to have created the bluebird after a flood.",
+  "floranDescription" : "Mmm, doesss bluebird have blue eggsss?",
+  "glitchDescription" : "Pitiful. Bioscanners indicate bluebird wants to exit tank.",
+  "humanDescription" : "A bluebird of happiness!",
+  "hylotlDescription" : "A blue hued bird of marvelous color.",
+  "novakidDescription" : "I used to see them bluebirds all the time at grandma's garden.",
+
+  "inventoryIcon" : "bluebirdtankicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "bluebirdtank.png:<color>.<frame>",
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ]
+
+}

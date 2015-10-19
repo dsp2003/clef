@@ -1,0 +1,35 @@
+{
+  "objectName" : "gulltank",
+  "tags" : ["critters","crittercages","misc"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 60,
+  "printable" : false,
+
+  "description" : "A critter tank. How cute!",
+  "shortdescription" : "Gull Critter Tank",
+  "race" : "generic",
+  "apexDescription" : "A gregarious seagull.",
+  "avianDescription" : "The seagull is blessed with long wings, and can easily glide.",
+  "floranDescription" : "MINE! MINE!",
+  "glitchDescription" : "Annoyed. Seagulls make a mess where ever they go.",
+  "humanDescription" : "Seagulls are always trying to steal my food.",
+  "hylotlDescription" : "These creatures soar gracefully over oceanic planets.",
+  "novakidDescription" : "Hey! Keep away from my lunch, ya feathery varmint!",
+
+  "inventoryIcon" : "gulltankicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "gulltank.png:<color>.<frame>",
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ]
+
+}

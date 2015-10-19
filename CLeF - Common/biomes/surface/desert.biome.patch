@@ -1,4 +1,12 @@
 [
+  { "op" : "add", "path" : "/spawnProfiles/0/extraSpawns/-", "value" : "kefkacritter" },
+  { "op" : "add", "path" : "/spawnProfiles/1/extraSpawns/-", "value" : "kefkacritter" },
+  { "op" : "add", "path" : "/spawnProfiles/0/extraSpawns/-", "value" : "batcritter" },
+  { "op" : "add", "path" : "/spawnProfiles/1/extraSpawns/-", "value" : "batcritter" },
+  { "op" : "add", "path" : "/spawnProfiles/0/extraSpawns/-", "value" : "hedgehogcritter" },
+  { "op" : "add", "path" : "/spawnProfiles/1/extraSpawns/-", "value" : "hedgehogcritter" },
+  { "op" : "add", "path" : "/spawnProfiles/0/extraSpawns/-", "value" : "scorpioncritter" },
+  { "op" : "add", "path" : "/spawnProfiles/1/extraSpawns/-", "value" : "scorpioncritter" },
   { "op" : "add", "path" : "/spawnProfiles/0/extraSpawns/-", "value" : "wolfhoundcritter" },
   { "op" : "add", "path" : "/spawnProfiles/1/extraSpawns/-", "value" : "wolfhoundcritter" },
   { "op" : "add", "path" : "/spawnProfiles/0/extraSpawns/-", "value" : "goldarmadillo" },

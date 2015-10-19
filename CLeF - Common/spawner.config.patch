@@ -1,5 +1,17 @@
 [
 {"op":"add",
+"path":"/spawns/kefkacritter",
+"value":{
+  "spawnParameters":{
+  "area":"surface",
+  "region":"all",
+  "time":"all"},
+  "targetDensity":0.00001,
+  "monsterType":"kefkacritter",
+  "monsterParameters":{"aggressive":false}
+  }
+},
+{"op":"add",
 "path":"/spawns/TEMPgloopcritter",
 "value":{
   "spawnParameters":{
@@ -32,6 +44,18 @@
   "time":"day"},
   "targetDensity":0.02,
   "monsterType":"TEMPtoucritter",
+  "monsterParameters":{"aggressive":false}
+  }
+},
+{"op":"add",
+"path":"/spawns/foxcritter",
+"value":{
+  "spawnParameters":{
+  "area":"surface",
+  "region":"all",
+  "time":"all"},
+  "targetDensity":0.02,
+  "monsterType":"foxcritter",
   "monsterParameters":{"aggressive":false}
   }
 },
@@ -84,6 +108,30 @@
   }
 },
 {"op":"add",
+"path":"/spawns/frosthoundcritter",
+"value":{
+  "spawnParameters":{
+  "area":"surface",
+  "region":"all",
+  "time":"night"},
+  "targetDensity":0.01,
+  "monsterType":"frosthoundcritter",
+  "monsterParameters":{"aggressive":false}
+  }
+},
+{"op":"add",
+"path":"/spawns/killerbunny",
+"value":{
+  "spawnParameters":{
+  "area":"surface",
+  "region":"enclosed",
+  "time":"all"},
+  "targetDensity":0.0001,
+  "monsterType":"killerbunny",
+  "monsterParameters":{"aggressive":true}
+  }
+},
+{"op":"add",
 "path":"/spawns/bloodbunny",
 "value":{
   "spawnParameters":{
@@ -126,7 +174,7 @@
   "area":"surface",
   "region":"all",
   "time":"all"},
-  "targetDensity":0.0005,
+  "targetDensity":0.0001,
   "monsterType":"goldbunny",
   "monsterParameters":{"aggressive":false}
   }
@@ -138,7 +186,7 @@
   "area":"surface",
   "region":"exposed",
   "time":"all"},
-  "targetDensity":0.0005,
+  "targetDensity":0.0001,
   "monsterType":"goldsealcritter",
   "monsterParameters":{"aggressive":false}
   }
@@ -150,7 +198,7 @@
   "area":"surface",
   "region":"exposed",
   "time":"all"},
-  "targetDensity":0.0005,
+  "targetDensity":0.0001,
   "monsterType":"goldgloopcritter",
   "monsterParameters":{"aggressive":false}
   }
@@ -162,7 +210,7 @@
   "area":"surface",
   "region":"exposed",
   "time":"all"},
-  "targetDensity":0.0005,
+  "targetDensity":0.0001,
   "monsterType":"goldcrabcritter",
   "monsterParameters":{"aggressive":false}
   }
@@ -174,7 +222,7 @@
   "area":"surface",
   "region":"all",
   "time":"all"},
-  "targetDensity":0.0005,
+  "targetDensity":0.0001,
   "monsterType":"goldsnooglecritter",
   "monsterParameters":{"aggressive":false}
   }
@@ -186,7 +234,7 @@
   "area":"surface",
   "region":"all",
   "time":"all"},
-  "targetDensity":0.0005,
+  "targetDensity":0.0001,
   "monsterType":"goldarmadillo",
   "monsterParameters":{"aggressive":false}
   }
@@ -248,6 +296,30 @@
   "time":"day"},
   "targetDensity":0.02,
   "monsterType":"firebirdcritter",
+  "monsterParameters":{"aggressive":false}
+  }
+},
+{"op":"add",
+"path":"/spawns/icebirdcritter",
+"value":{
+  "spawnParameters":{
+  "area":"surface",
+  "region":"exposed",
+  "time":"day"},
+  "targetDensity":0.02,
+  "monsterType":"icebirdcritter",
+  "monsterParameters":{"aggressive":false}
+  }
+},
+{"op":"add",
+"path":"/spawns/pterosaurcritter",
+"value":{
+  "spawnParameters":{
+  "area":"surface",
+  "region":"exposed",
+  "time":"day"},
+  "targetDensity":0.02,
+  "monsterType":"pterosaurcritter",
   "monsterParameters":{"aggressive":false}
   }
 },
@@ -336,6 +408,30 @@
   }
 },
 {"op":"add",
+"path":"/spawns/fawncritter",
+"value":{
+  "spawnParameters":{
+  "area":"surface",
+  "region":"exposed",
+  "time":"all"},
+  "targetDensity":0.01,
+  "monsterType":"fawncritter",
+  "monsterParameters":{"aggressive":false}
+  }
+},
+{"op":"add",
+"path":"/spawns/pikacritter",
+"value":{
+  "spawnParameters":{
+  "area":"surface",
+  "region":"exposed",
+  "time":"all"},
+  "targetDensity":0.01,
+  "monsterType":"pikacritter",
+  "monsterParameters":{"aggressive":false}
+  }
+},
+{"op":"add",
 "path":"/spawns/snowtritrotscritter",
 "value":{
   "spawnParameters":{
@@ -344,6 +440,42 @@
   "time":"all"},
   "targetDensity":0.02,
   "monsterType":"snowtritrotscritter",
+  "monsterParameters":{"aggressive":false}
+  }
+},
+{"op":"add",
+"path":"/spawns/crystalscabcritter",
+"value":{
+  "spawnParameters":{
+  "area":"surface",
+  "region":"exposed",
+  "time":"all"},
+  "targetDensity":0.01,
+  "monsterType":"crystalscabcritter",
+  "monsterParameters":{"aggressive":false}
+  }
+},
+{"op":"add",
+"path":"/spawns/icescabcritter",
+"value":{
+  "spawnParameters":{
+  "area":"surface",
+  "region":"exposed",
+  "time":"all"},
+  "targetDensity":0.01,
+  "monsterType":"icescabcritter",
+  "monsterParameters":{"aggressive":false}
+  }
+},
+{"op":"add",
+"path":"/spawns/scorpioncritter",
+"value":{
+  "spawnParameters":{
+  "area":"surface",
+  "region":"all",
+  "time":"all"},
+  "targetDensity":0.01,
+  "monsterType":"scorpioncritter",
   "monsterParameters":{"aggressive":false}
   }
 },
@@ -510,7 +642,7 @@
   "area":"surface",
   "region":"enclosed",
   "time":"all"},
-  "targetDensity":0.01,
+  "targetDensity":0.02,
   "monsterType":"greenchickcritter",
   "monsterParameters":{"aggressive":false}
   }
@@ -696,6 +828,18 @@
   }
 },
 {"op":"add",
+"path":"/spawns/largealienpanthercritter",
+"value":{
+  "spawnParameters":{
+  "area":"surface",
+  "region":"exposed",
+  "time":"night"},
+  "targetDensity":0.01,
+  "monsterType":"largealienpanthercritter",
+  "monsterParameters":{"aggressive":false}
+  }
+},
+{"op":"add",
 "path":"/spawns/panthercritter",
 "value":{
   "spawnParameters":{
@@ -834,7 +978,7 @@
   "area":"surface",
   "region":"all",
   "time":"all"},
-  "targetDensity":0.0005,
+  "targetDensity":0.0001,
   "monsterType":"goldsquirrelcritter",
   "monsterParameters":{"aggressive":false}
   }
@@ -872,6 +1016,18 @@
   "time":"all"},
   "targetDensity":0.01,
   "monsterType":"blueblipcritter",
+  "monsterParameters":{"aggressive":false}
+  }
+},
+{"op":"add",
+"path":"/spawns/mountainblipcritter",
+"value":{
+  "spawnParameters":{
+  "area":"surface",
+  "region":"exposed",
+  "time":"all"},
+  "targetDensity":0.01,
+  "monsterType":"mountainblipcritter",
   "monsterParameters":{"aggressive":false}
   }
 },
@@ -936,14 +1092,62 @@
   }
 },
 {"op":"add",
+"path":"/spawns/frostbatcritter",
+"value":{
+  "spawnParameters":{
+  "area":"air",
+  "region":"all",
+  "time":"night"},
+  "targetDensity":0.02,
+  "monsterType":"frostbatcritter",
+  "monsterParameters":{"aggressive":false}
+  }
+},
+{"op":"add",
+"path":"/spawns/firebatcritter",
+"value":{
+  "spawnParameters":{
+  "area":"air",
+  "region":"all",
+  "time":"night"},
+  "targetDensity":0.02,
+  "monsterType":"firebatcritter",
+  "monsterParameters":{"aggressive":false}
+  }
+},
+{"op":"add",
+"path":"/spawns/batcritter",
+"value":{
+  "spawnParameters":{
+  "area":"air",
+  "region":"all",
+  "time":"night"},
+  "targetDensity":0.02,
+  "monsterType":"batcritter",
+  "monsterParameters":{"aggressive":false}
+  }
+},
+{"op":"add",
 "path":"/spawns/dragonflycritter",
 "value":{
   "spawnParameters":{
-  "area":"surface",
+  "area":"air",
   "region":"exposed",
   "time":"all"},
-  "targetDensity":0.01,
+  "targetDensity":0.02,
   "monsterType":"dragonflycritter",
+  "monsterParameters":{"aggressive":false}
+  }
+},
+{"op":"add",
+"path":"/spawns/hummingbirdcritter",
+"value":{
+  "spawnParameters":{
+  "area":"air",
+  "region":"exposed",
+  "time":"day"},
+  "targetDensity":0.02,
+  "monsterType":"hummingbirdcritter",
   "monsterParameters":{"aggressive":false}
   }
 },
@@ -990,7 +1194,7 @@
   "area":"surface",
   "region":"enclosed",
   "time":"all"},
-  "targetDensity":0.0005,
+  "targetDensity":0.0001,
   "monsterType":"goldtoad",
   "monsterParameters":{"aggressive":false}
   }

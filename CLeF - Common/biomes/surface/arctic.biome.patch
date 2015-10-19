@@ -1,4 +1,10 @@
 [
+  { "op" : "add", "path" : "/spawnProfiles/0/extraSpawns/-", "value" : "kefkacritter" },
+  { "op" : "add", "path" : "/spawnProfiles/1/extraSpawns/-", "value" : "kefkacritter" },
+  { "op" : "add", "path" : "/spawnProfiles/0/extraSpawns/-", "value" : "frostbatcritter" },
+  { "op" : "add", "path" : "/spawnProfiles/1/extraSpawns/-", "value" : "frostbatcritter" },
+  { "op" : "add", "path" : "/spawnProfiles/0/extraSpawns/-", "value" : "frosthoundcritter" },
+  { "op" : "add", "path" : "/spawnProfiles/1/extraSpawns/-", "value" : "frosthoundcritter" },
   { "op" : "add", "path" : "/spawnProfiles/0/extraSpawns/-", "value" : "penguincritter" },
   { "op" : "add", "path" : "/spawnProfiles/1/extraSpawns/-", "value" : "penguincritter" },
   { "op" : "add", "path" : "/spawnProfiles/0/extraSpawns/-", "value" : "goldsealcritter" },

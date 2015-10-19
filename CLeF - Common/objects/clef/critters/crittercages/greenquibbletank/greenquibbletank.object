@@ -1,0 +1,35 @@
+{
+  "objectName" : "greenquibbletank",
+  "tags" : ["critters","crittercages","misc"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 60,
+  "printable" : false,
+
+  "description" : "A critter tank. How cute!",
+  "shortdescription" : "Green Quibble Critter Tank",
+  "race" : "generic",
+  "apexDescription" : "This lizard longs for freedom.",
+  "avianDescription" : "A lizard is trapped in this tank.",
+  "floranDescription" : "Mmm, lizardsss!",
+  "glitchDescription" : "Curious. An odd reptile inside a tank.",
+  "humanDescription" : "A weird reptile is inside this tank.",
+  "hylotlDescription" : "A majestic reptile is imprisoned within.",
+  "novakidDescription" : "There's a funny lizard inside this here tank.",
+
+  "inventoryIcon" : "greenquibbletankicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "greenquibbletank.png:<color>.<frame>",
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ]
+
+}

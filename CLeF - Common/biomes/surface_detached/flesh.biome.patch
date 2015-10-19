@@ -1,4 +1,6 @@
 [
+  { "op" : "add", "path" : "/spawnProfiles/0/extraSpawns/-", "value" : "kefkacritter" },
+  { "op" : "add", "path" : "/spawnProfiles/1/extraSpawns/-", "value" : "kefkacritter" },
   { "op" : "add", "path" : "/spawnProfiles/0/extraSpawns/-", "value" : "goldbunny" },
   { "op" : "add", "path" : "/spawnProfiles/1/extraSpawns/-", "value" : "goldbunny" },
   { "op" : "add", "path" : "/spawnProfiles/0/extraSpawns/-", "value" : "bloodbunny" },
