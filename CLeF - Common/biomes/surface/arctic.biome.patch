@@ -12,9 +12,9 @@
   { "op" : "add", "path" : "/spawnProfiles/0/extraSpawns/-", "value" : "snowtritrotscritter" },
   { "op" : "add", "path" : "/spawnProfiles/1/extraSpawns/-", "value" : "snowtritrotscritter" },
   { "op" : "add", "path" : "/spawnProfiles/0/extraSpawns/-", "value" : "arcticterncritter" },
-  { "op" : "add", "path" : "/spawnProfiles/0/extraSpawns/-", "value" : "sealcritter" },
+  { "op" : "add", "path" : "/spawnProfiles/0/extraSpawns/-", "value" : "TEMP_sealcritter" },
   { "op" : "add", "path" : "/spawnProfiles/0/extraSpawns/-", "value" : "icejellycritter" },
   { "op" : "add", "path" : "/spawnProfiles/1/extraSpawns/-", "value" : "arcticterncritter" },
-  { "op" : "add", "path" : "/spawnProfiles/1/extraSpawns/-", "value" : "sealcritter" },
+  { "op" : "add", "path" : "/spawnProfiles/1/extraSpawns/-", "value" : "TEMP_sealcritter" },
   { "op" : "add", "path" : "/spawnProfiles/1/extraSpawns/-", "value" : "icejellycritter" }
 ]

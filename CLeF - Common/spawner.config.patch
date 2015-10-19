@@ -456,14 +456,14 @@
   }
 },
 {"op":"add",
-"path":"/spawns/icescabcritter",
+"path":"/spawns/TEMP_icescabcritter",
 "value":{
   "spawnParameters":{
   "area":"surface",
   "region":"exposed",
   "time":"all"},
   "targetDensity":0.01,
-  "monsterType":"icescabcritter",
+  "monsterType":"TEMP_icescabcritter",
   "monsterParameters":{"aggressive":false}
   }
 },
@@ -672,14 +672,14 @@
   }
 },
 {"op":"add",
-"path":"/spawns/sealcritter",
+"path":"/spawns/TEMP_sealcritter",
 "value":{
   "spawnParameters":{
   "area":"surface",
   "region":"exposed",
   "time":"all"},
   "targetDensity":0.02,
-  "monsterType":"sealcritter",
+  "monsterType":"TEMP_sealcritter",
   "monsterParameters":{"aggressive":false}
   }
 },
