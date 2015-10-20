@@ -1,12 +1,12 @@
 # CLeF - Things To Do In Starbound
 Starbound content restoration and gameplay overhaul project
 
-Version 60 (2015/10/15) WORK-IN-PROGRESS
+Version 60 (2015/10/20) WORK-IN-PROGRESS
 ----------
 
 Known to work with:
 - [Stable] Pleased Giraffe Update 5 (September 10)
-- [Nightly] Glad Giraffe Update 0 (October 11)
+- [Nightly] Glad Giraffe Update 0 (October 18)
 
 
 Installation
@@ -24,7 +24,7 @@ Required (with conditions):
 
 + CLeF - Common - PG Stable. For Stable Pleased Giraffe Update 5 (September 10)
 
-+ CLeF - Common - GG Nightly. For Nightly Glad Giraffe Update 0 (September 30)
++ CLeF - Common - GG Nightly. For Nightly Glad Giraffe Update 0 (October 18)
 
 Optional (with conditions):
 
@@ -147,7 +147,7 @@ Glossary
 Gameplay changes
 ----------------
 
-+ [N] Added 84 new and recoloured critters to every biome:
++ [N] Added 100+ new and recoloured critters to every biome:
 
  - Armadillo (Golden)
  - Bird (Blue)
@@ -974,7 +974,7 @@ CLeF is not a classic "modpack", as the merged mods are not simply copy-pasted, 
 Version history
 ---------------
 
-- 2015/10/17 v60 - partial October 11 Nightly support, updated more critters mod data (thanks to ThunderBird123), moved No Sand patch to Sandbox plug-in
+- 2015/10/20 v60 - October 18 Nightly support, updated more critters mod data (thanks to ThunderBird123), moved No Sand patch to Sandbox plug-in, updated quests for new Nightly format (more code splitting)
 - 2015/10/14 v59 - September 30 Nightly support, lowered gravity ranges for Giant worlds (160 aka x2.0 was barely playable), updated treasure pool cleanup code (thanks to Surn_Thing), reduced spawning of moon biome, rebuild More Saplings mod code from scratch (added proper icons for all saplings, saplings now spawn from harvested branches), added 50 classic glitch heads (based on mod by Darkness Wizard & Pazius), merged in "No Sand Sandstorms" patch (by lazarus78), added over 70 new and rehashed critters to all biomes and natural colour scheme to (not yet enabled) elephant pet (thanks to More Critters mod by ThunderBird123), added Leather and Traditional Kimono clothes (based on mod by Lissar), added 35 hair/beard/beak options for chargen (based on mod by Lissar), fixed transparency of Power Loom icon
 - 2015/10/06 v58 - September 30 Nightly support, added liquid guns (based on mod by KingJigglypuff), added Frostygen and Peach Juice liquids (instead of removed Liquid Nitrogen and Alien Juice), added old-new planet sizes (Tiny (2000x1500), Massive (8000x5000) and Giant (16000x8000)), added biomes from TierN+1 planets to TierN (where N is 1..5), Moon biome can be found on planet or satellite with any threat level, Moon and Barren planets can have up to 2 satellites, updated Paint & Wire tool restoration code (thanks to TanzNukeTerror), fixed leftover code popcorn bug (thanks to Luthor614), reworked surface layer for Giant worlds (thanks to TempTemp for suggestion), all trees will drop at least two saplings (based on mod by KateisLost), reworked biome chest treasure pools (based on mod by Surn_Thing), race patch for updated Kineptic
 - 2015/09/26 v57 - September 21 Nightly support (Stable and Nightly-specific runtime plugins exist yet again), fuel hatch patch for Mousqutaire (requested by Coralus), added sandstone furniture recipes (requested at 4chan's /sbg/, pointed out they existed in Upbeat Giraffe), re-arranged CLeF-specific recipes in order to differ them from vanilla replacements, renamed 3dprinter override to apex3dprinter, added recipe for coconut milk and bottled coconut milk consumable, fish don't talk
