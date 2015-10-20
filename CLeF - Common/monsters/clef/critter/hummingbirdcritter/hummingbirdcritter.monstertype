@@ -16,7 +16,7 @@
 
   "baseParameters" : {
     "scripts" : [
-      "/monsters/critter/hummingbirdcritter/flyingmonster.lua",
+      "/monsters/clef/critter/hummingbirdcritter/flyingmonster.lua",
       "/scripts/util.lua",
       "/scripts/sensors.lua",
       "/scripts/stateMachine.lua",
