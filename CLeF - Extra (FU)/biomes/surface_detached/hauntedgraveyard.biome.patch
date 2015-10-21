@@ -18,7 +18,7 @@
   { "op" : "add", "path" : "/spawnProfiles/0/extraSpawns/-", "value" : "brownsquirrelcritter" },
   { "op" : "add", "path" : "/spawnProfiles/0/extraSpawns/-", "value" : "redbirdcritter" },
   { "op" : "add", "path" : "/spawnProfiles/0/extraSpawns/-", "value" : "yellowbirdcritter" },
-  { "op" : "add", "path" : "/spawnProfiles/0/extraSpawns/-", "value" : "bluejaycritter" },,
+  { "op" : "add", "path" : "/spawnProfiles/0/extraSpawns/-", "value" : "bluejaycritter" },
   { "op" : "add", "path" : "/spawnProfiles/0/extraSpawns/-", "value" : "brownblipcritter" },
   { "op" : "add", "path" : "/spawnProfiles/0/extraSpawns/-", "value" : "brownsnail" },
   { "op" : "add", "path" : "/spawnProfiles/1/extraSpawns/-", "value" : "bluebirdcritter" },
