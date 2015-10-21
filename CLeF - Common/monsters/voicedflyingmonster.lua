@@ -1,3 +1,7 @@
+-- Original by CF
+-- Additional code snippets by LoPhatKao
+-- Please do not remove this notice from any derivatives of this file
+
 require "/scripts/util.lua"
 
 function init()
