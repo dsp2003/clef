@@ -3,6 +3,6 @@
   { "op" : "add", "path" : "/spawnProfiles/1/extraSpawns/-", "value" : "pterosaurcritter" },
   { "op" : "add", "path" : "/spawnProfiles/0/extraSpawns/-", "value" : "greenquibblecritter" },
   { "op" : "add", "path" : "/spawnProfiles/1/extraSpawns/-", "value" : "greenquibblecritter" },
-  { "op" : "add", "path" : "/spawnProfiles/0/extraSpawns/-", "value" : "TEMP_quibblecritter" },
-  { "op" : "add", "path" : "/spawnProfiles/1/extraSpawns/-", "value" : "TEMP_quibblecritter" }
+  { "op" : "add", "path" : "/spawnProfiles/0/extraSpawns/-", "value" : "TEMPquibblecritter" },
+  { "op" : "add", "path" : "/spawnProfiles/1/extraSpawns/-", "value" : "TEMPquibblecritter" }
 ]

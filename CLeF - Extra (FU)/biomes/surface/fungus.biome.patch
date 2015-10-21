@@ -1,6 +1,6 @@
 [
-  { "op" : "add", "path" : "/spawnProfiles/0/extraSpawns/-", "value" : "brownsnailcritter" },
-  { "op" : "add", "path" : "/spawnProfiles/1/extraSpawns/-", "value" : "brownsnailcritter" },
+  { "op" : "add", "path" : "/spawnProfiles/0/extraSpawns/-", "value" : "brownsnail" },
+  { "op" : "add", "path" : "/spawnProfiles/1/extraSpawns/-", "value" : "brownsnail" },
   { "op" : "add", "path" : "/spawnProfiles/0/extraSpawns/-", "value" : "batcritter" },
   { "op" : "add", "path" : "/spawnProfiles/1/extraSpawns/-", "value" : "batcritter" },
   { "op" : "add", "path" : "/spawnProfiles/0/extraSpawns/-", "value" : "goldbunny" },
