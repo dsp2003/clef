@@ -1,7 +1,7 @@
 # CLeF - Things To Do In Starbound
 Starbound content restoration and gameplay overhaul project
 
-Version 60 (2015/10/21) WORK-IN-PROGRESS
+Version 60 (2015/10/22) WORK-IN-PROGRESS
 ----------
 
 Known to work with:
@@ -146,93 +146,6 @@ Glossary
 
 Gameplay changes
 ----------------
-
-+ [N] Added 100+ new and recoloured critters to every biome:
-
- - Armadillo (Golden)
- - Bird (Blue)
- - Bird (Green)
- - Bird (Red)
- - Bird (Yellow)
- - Blip (Blue)
- - Blip (Brown)
- - Blue jay
- - Bunny (Black)
- - Bunny (Blood)
- - Bunny (Golden)
- - Bunny (Spotted)
- - Cell (Green)
- - Chick (Crystal)
- - Chick (Green)
- - Crab (Brown)
- - Crab (Golden)
- - Crab (Lava)
- - Crab (Rust)
- - Dragonfly
- - Duck
- - Elephant
- - Firebird
- - Gloop (Golden)
- - Gloop (Lava)
- - Gloop (Oil)
- - Gloop (Temp)
- - Gull (Blackhead)
- - Hound (Heck)
- - Hound (Shadow)
- - Hound (Toxic)
- - Hound (Wolf)
- - Ibis
- - Jelly (Ice)
- - Jelly (Lava)
- - Ocelot
- - Owl (Snow)
- - Panther (Ocelot recolour)
- - Panther (Cat recolour)
- - Penguin
- - Petal (Yellow)
- - Plant Snake
- - Quibble (Green)
- - Quibble (Sand)
- - Quibble (Temp)
- - Sea Horse
- - Sea Turtle
- - Seal (Brown)
- - Seal (Golden)
- - Seal (White)
- - Slug (Blood)
- - Slug (Lava)
- - Slug (Mercury)
- - Slug (Tar)
- - Snail (Brown)
- - Snake (Brown)
- - Snake (Fire)
- - Snow Leopard (Ocelot recolour)
- - Snoogle (Golden)
- - Snugget (Blue)
- - Snugget (Orange)
- - Snugget (Red)
- - Snugget (Snow)
- - Snugget (Yellow)
- - Sporeling (Brown)
- - Sporeling (Green)
- - Sporeling (Red)
- - Squirrel (Black)
- - Squirrel (Brown)
- - Squirrel (Crystal)
- - Squirrel (Golden)
- - Squirrel (Grey)
- - Tern (Arctic)
- - Tiny Crocodile (Brown)
- - Tiny Crocodile (Sand)
- - Toad (Golden)
- - Toad (Green)
- - Tortoise (Green)
- - Toucan (Temp)
- - Tritrots (Snow)
- - Wart Hog (Pig recolour)
- - Weasel (Brown)
- - Weasel (Green)
- - Wurm (Toxic)
 
 + [N] Liquid Slime can be harvested and placed. Also replaced Slime status effect icon to match the style of new liquid item
 
@@ -967,14 +880,13 @@ CLeF is not a classic "modpack", as the merged mods are not simply copy-pasted, 
 + http://community.playstarbound.com/resources/3134/ - Aquatic Rice (by LoPhatKao)
 + http://community.playstarbound.com/resources/3170/ - Liquid Guns (by KingJigglypuff)
 + http://community.playstarbound.com/resources/3183/ - Biome Treasure Pool Cleanup (by Surn_Thing)
-+ http://community.playstarbound.com/resources/3203/ - More Critters (by ThunderBird123)
 + http://community.playstarbound.com/resources/3210/ - No Sand Sandstorms (by lazarus78)
 
 
 Version history
 ---------------
 
-- 2015/10/21 v60 - October 18 Nightly support, updated more critters mod data (thanks to ThunderBird123), moved No Sand patch to Sandbox plug-in, updated quests for new Nightly format (more code splitting)
+- 2015/10/22 v60 - October 18 Nightly support, moved No Sand patch to Sandbox plug-in, updated quests for new Nightly format (more code splitting), removed More Critters code
 - 2015/10/14 v59 - September 30 Nightly support, lowered gravity ranges for Giant worlds (160 aka x2.0 was barely playable), updated treasure pool cleanup code (thanks to Surn_Thing), reduced spawning of moon biome, rebuild More Saplings mod code from scratch (added proper icons for all saplings, saplings now spawn from harvested branches), added 50 classic glitch heads (based on mod by Darkness Wizard & Pazius), merged in "No Sand Sandstorms" patch (by lazarus78), added over 70 new and rehashed critters to all biomes and natural colour scheme to (not yet enabled) elephant pet (thanks to More Critters mod by ThunderBird123), added Leather and Traditional Kimono clothes (based on mod by Lissar), added 35 hair/beard/beak options for chargen (based on mod by Lissar), fixed transparency of Power Loom icon
 - 2015/10/06 v58 - September 30 Nightly support, added liquid guns (based on mod by KingJigglypuff), added Frostygen and Peach Juice liquids (instead of removed Liquid Nitrogen and Alien Juice), added old-new planet sizes (Tiny (2000x1500), Massive (8000x5000) and Giant (16000x8000)), added biomes from TierN+1 planets to TierN (where N is 1..5), Moon biome can be found on planet or satellite with any threat level, Moon and Barren planets can have up to 2 satellites, updated Paint & Wire tool restoration code (thanks to TanzNukeTerror), fixed leftover code popcorn bug (thanks to Luthor614), reworked surface layer for Giant worlds (thanks to TempTemp for suggestion), all trees will drop at least two saplings (based on mod by KateisLost), reworked biome chest treasure pools (based on mod by Surn_Thing), race patch for updated Kineptic
 - 2015/09/26 v57 - September 21 Nightly support (Stable and Nightly-specific runtime plugins exist yet again), fuel hatch patch for Mousqutaire (requested by Coralus), added sandstone furniture recipes (requested at 4chan's /sbg/, pointed out they existed in Upbeat Giraffe), re-arranged CLeF-specific recipes in order to differ them from vanilla replacements, renamed 3dprinter override to apex3dprinter, added recipe for coconut milk and bottled coconut milk consumable, fish don't talk

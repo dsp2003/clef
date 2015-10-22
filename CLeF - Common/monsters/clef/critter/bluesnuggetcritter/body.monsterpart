@@ -1,9 +1,0 @@
-{
-  "name" : "bluesnuggetcritter",
-  "category" : "bluesnuggetcritter",
-  "type" : "body",
-
-  "frames" : {
-    "body" : "body.png"
-  }
-}

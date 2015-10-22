@@ -1,9 +1,0 @@
-{
-  "name" : "oilgloopcritter",
-  "category" : "oilgloopcritter",
-  "type" : "body",
-
-  "frames" : {
-    "body" : "body.png"
-  }
-}

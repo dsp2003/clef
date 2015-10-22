@@ -1,9 +1,0 @@
-{
-  "name" : "brownsnail",
-  "category" : "brownsnail",
-  "type" : "body",
-
-  "frames" : {
-    "body" : "body.png"
-  }
-}

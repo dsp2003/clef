@@ -1,8 +1,0 @@
-[
-  { "op" : "add", "path" : "/spawnProfiles/0/extraSpawns/-", "value" : "goldbunny" },
-  { "op" : "add", "path" : "/spawnProfiles/1/extraSpawns/-", "value" : "goldbunny" },
-  { "op" : "add", "path" : "/spawnProfiles/0/extraSpawns/-", "value" : "bloodbunny" },
-  { "op" : "add", "path" : "/spawnProfiles/1/extraSpawns/-", "value" : "bloodbunny" },
-  { "op" : "add", "path" : "/spawnProfiles/0/extraSpawns/-", "value" : "bloodslugcritter" },
-  { "op" : "add", "path" : "/spawnProfiles/1/extraSpawns/-", "value" : "bloodslugcritter" }
-]

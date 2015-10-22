@@ -1,9 +1,0 @@
-{
-  "name" : "blackbunny",
-  "category" : "blackbunny",
-  "type" : "body",
-
-  "frames" : {
-    "body" : "body.png"
-  }
-}

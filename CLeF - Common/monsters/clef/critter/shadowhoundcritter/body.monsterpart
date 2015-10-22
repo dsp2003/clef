@@ -1,9 +1,0 @@
-{
-  "name" : "shadowhoundcritter",
-  "category" : "shadowhoundcritter",
-  "type" : "body",
-
-  "frames" : {
-    "body" : "body.png"
-  }
-}

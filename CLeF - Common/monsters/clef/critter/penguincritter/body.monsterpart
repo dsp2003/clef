@@ -1,9 +1,0 @@
-{
-  "name" : "penguincritter",
-  "category" : "penguincritter",
-  "type" : "body",
-
-  "frames" : {
-    "body" : "body.png"
-  }
-}

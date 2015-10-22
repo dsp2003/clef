@@ -1,9 +1,0 @@
-{
-  "name" : "toxichoundcritter",
-  "category" : "toxichoundcritter",
-  "type" : "body",
-
-  "frames" : {
-    "body" : "body.png"
-  }
-}

@@ -1,9 +1,0 @@
-{
-  "name" : "TEMPquibblecritter",
-  "category" : "TEMPquibblecritter",
-  "type" : "body",
-
-  "frames" : {
-    "body" : "body.png"
-  }
-}

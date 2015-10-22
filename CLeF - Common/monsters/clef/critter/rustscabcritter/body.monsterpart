@@ -1,9 +1,0 @@
-{
-  "name" : "rustscabcritter",
-  "category" : "rustscabcritter",
-  "type" : "body",
-
-  "frames" : {
-    "body" : "body.png"
-  }
-}

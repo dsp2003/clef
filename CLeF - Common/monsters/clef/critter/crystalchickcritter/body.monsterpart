@@ -1,9 +1,0 @@
-{
-  "name" : "crystalchickcritter",
-  "category" : "crystalchickcritter",
-  "type" : "body",
-
-  "frames" : {
-    "body" : "body.png"
-  }
-}

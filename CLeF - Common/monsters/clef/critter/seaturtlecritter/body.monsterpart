@@ -1,9 +1,0 @@
-{
-  "name" : "seaturtlecritter",
-  "category" : "seaturtlecritter",
-  "type" : "body",
-
-  "frames" : {
-    "body" : "body.png"
-  }
-}

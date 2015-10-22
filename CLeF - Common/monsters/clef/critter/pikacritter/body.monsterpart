@@ -1,9 +1,0 @@
-{
-  "name" : "pikacritter",
-  "category" : "pikacritter",
-  "type" : "body",
-
-  "frames" : {
-    "body" : "body.png"
-  }
-}

@@ -1,9 +1,0 @@
-{
-  "name" : "snowtritrotscritter",
-  "category" : "snowtritrotscritter",
-  "type" : "body",
-
-  "frames" : {
-    "body" : "body.png"
-  }
-}

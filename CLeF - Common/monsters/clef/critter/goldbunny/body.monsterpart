@@ -1,9 +1,0 @@
-{
-  "name" : "goldbunny",
-  "category" : "goldbunny",
-  "type" : "body",
-
-  "frames" : {
-    "body" : "body.png"
-  }
-}

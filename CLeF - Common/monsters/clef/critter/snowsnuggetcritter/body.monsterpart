@@ -1,9 +1,0 @@
-{
-  "name" : "snowsnuggetcritter",
-  "category" : "snowsnuggetcritter",
-  "type" : "body",
-
-  "frames" : {
-    "body" : "body.png"
-  }
-}

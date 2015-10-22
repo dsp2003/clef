@@ -1,9 +1,0 @@
-{
-  "name" : "crystalscabcritter",
-  "category" : "crystalscabcritter",
-  "type" : "body",
-
-  "frames" : {
-    "body" : "body.png"
-  }
-}

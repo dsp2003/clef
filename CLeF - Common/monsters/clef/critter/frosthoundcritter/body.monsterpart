@@ -1,9 +1,0 @@
-{
-  "name" : "frosthoundcritter",
-  "category" : "frosthoundcritter",
-  "type" : "body",
-
-  "frames" : {
-    "body" : "body.png"
-  }
-}

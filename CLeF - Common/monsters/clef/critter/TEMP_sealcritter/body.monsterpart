@@ -1,9 +1,0 @@
-{
-  "name" : "TEMP_sealcritter",
-  "category" : "TEMP_sealcritter",
-  "type" : "body",
-
-  "frames" : {
-    "body" : "body.png"
-  }
-}

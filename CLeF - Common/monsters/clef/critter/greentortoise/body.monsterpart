@@ -1,9 +1,0 @@
-{
-  "name" : "greentortoise",
-  "category" : "greentortoise",
-  "type" : "body",
-
-  "frames" : {
-    "body" : "body.png"
-  }
-}

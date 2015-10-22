@@ -1,9 +1,0 @@
-{
-  "name" : "arcticterncritter",
-  "category" : "arcticterncritter",
-  "type" : "body",
-
-  "frames" : {
-    "body" : "body.png"
-  }
-}

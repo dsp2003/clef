@@ -1,9 +1,0 @@
-{
-  "name" : "brownsporelingcritter",
-  "category" : "brownsporelingcritter",
-  "type" : "body",
-
-  "frames" : {
-    "body" : "body.png"
-  }
-}

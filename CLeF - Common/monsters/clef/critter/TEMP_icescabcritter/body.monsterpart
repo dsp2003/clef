@@ -1,9 +1,0 @@
-{
-  "name" : "TEMP_icescabcritter",
-  "category" : "TEMP_icescabcritter",
-  "type" : "body",
-
-  "frames" : {
-    "body" : "body.png"
-  }
-}

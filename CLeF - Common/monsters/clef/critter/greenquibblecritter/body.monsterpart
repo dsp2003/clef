@@ -1,9 +1,0 @@
-{
-  "name" : "greenquibblecritter",
-  "category" : "greenquibblecritter",
-  "type" : "body",
-
-  "frames" : {
-    "body" : "body.png"
-  }
-}

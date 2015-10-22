@@ -1,9 +1,0 @@
-{
-  "name" : "goldtoad",
-  "category" : "goldtoad",
-  "type" : "body",
-
-  "frames" : {
-    "body" : "body.png"
-  }
-}

@@ -1,9 +1,0 @@
-{
-  "name" : "TEMPgloopcritter",
-  "category" : "TEMPgloopcritter",
-  "type" : "body",
-
-  "frames" : {
-    "body" : "body.png"
-  }
-}

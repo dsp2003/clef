@@ -1,9 +1,0 @@
-{
-  "name" : "lavajellycritter",
-  "category" : "lavajellycritter",
-  "type" : "body",
-
-  "frames" : {
-    "body" : "body.png"
-  }
-}

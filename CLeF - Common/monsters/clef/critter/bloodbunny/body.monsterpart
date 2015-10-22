@@ -1,9 +1,0 @@
-{
-  "name" : "bloodbunny",
-  "category" : "bloodbunny",
-  "type" : "body",
-
-  "frames" : {
-    "body" : "body.png"
-  }
-}

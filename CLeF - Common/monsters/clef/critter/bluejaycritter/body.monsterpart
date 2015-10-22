@@ -1,9 +1,0 @@
-{
-  "name" : "bluejaycritter",
-  "category" : "bluejaycritter",
-  "type" : "body",
-
-  "frames" : {
-    "body" : "body.png"
-  }
-}

@@ -1,9 +1,0 @@
-{
-  "name" : "seahorsecritter",
-  "category" : "seahorsecritter",
-  "type" : "body",
-
-  "frames" : {
-    "body" : "body.png"
-  }
-}

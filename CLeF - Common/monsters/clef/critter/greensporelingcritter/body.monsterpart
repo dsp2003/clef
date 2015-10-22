@@ -1,9 +1,0 @@
-{
-  "name" : "greensporelingcritter",
-  "category" : "greensporelingcritter",
-  "type" : "body",
-
-  "frames" : {
-    "body" : "body.png"
-  }
-}
