@@ -11,19 +11,9 @@
             "mode" : "loop"
           },
           "walk" : {
-            "frames" : 5,
-            "cycle" : 0.5,
+            "frames" : 8,
+            "cycle" : 0.8,
             "mode" : "loop"
-          }
-        }
-      },
-
-      "portrait" : {
-        "priority" : -1,
-        "default" : "portrait",
-        "states" : {
-          "portrait" : {
-            "frames" : 1
           }
         }
       }
@@ -44,13 +34,6 @@
             "walk" : {
               "properties" : {
                 "image" : "<partImage>:walk.<frame>"
-              }
-            }
-          },
-          "portrait" : {
-            "portrait" : {
-              "properties" : {
-                "image" : "<partImage>:idle.1"
               }
             }
           }
@@ -79,6 +62,6 @@
 
   "sounds" : {
     "turnHostile" : [ ],
-    "deathPuff" : [ "/sfx/npc/enemydeathpuff.wav" ]
+    "deathPuff" : [ "/sfx/npc/enemydeathpuff.ogg" ]
   }
 }

@@ -456,14 +456,14 @@
   }
 },
 {"op":"add",
-"path":"/spawns/TEMP_icescabcritter",
+"path":"/spawns/MC_crystalicescabcritter",
 "value":{
   "spawnParameters":{
   "area":"surface",
   "region":"exposed",
   "time":"all"},
   "targetDensity":0.01,
-  "monsterType":"TEMP_icescabcritter",
+  "monsterType":"MC_crystalicescabcritter",
   "monsterParameters":{"aggressive":false}
   }
 },

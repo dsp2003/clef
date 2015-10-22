@@ -1,4 +1,301 @@
 {
+  "swarmcritter" : [
+    [0, {
+      "pool" : [
+        {"weight" : 1, "item" : [ "swarmtank", 1]}
+      ],
+      "poolRounds" : [
+        [1, 1]
+      ],
+      "allowDuplication" : true
+    }]
+  ],
+  "snowymolecritter" : [
+    [0, {
+      "pool" : [
+        {"weight" : 1, "item" : [ "snowymoletank", 1]}
+      ],
+      "poolRounds" : [
+        [1, 1]
+      ],
+      "allowDuplication" : true
+    }]
+  ],
+  "snowflakescritter" : [
+    [0, {
+      "pool" : [
+        {"weight" : 1, "item" : [ "snowflakestank", 1]}
+      ],
+      "poolRounds" : [
+        [1, 1]
+      ],
+      "allowDuplication" : true
+    }]
+  ],
+  "snorecritter" : [
+    [0, {
+      "pool" : [
+        {"weight" : 1, "item" : [ "snoretank", 1]}
+      ],
+      "poolRounds" : [
+        [1, 1]
+      ],
+      "allowDuplication" : true
+    }]
+  ],
+  "skywurmcritter" : [
+    [0, {
+      "pool" : [
+        {"weight" : 1, "item" : [ "skywurmtank", 1]}
+      ],
+      "poolRounds" : [
+        [1, 1]
+      ],
+      "allowDuplication" : true
+    }]
+  ],
+  "rolypolycritter" : [
+    [0, {
+      "pool" : [
+        {"weight" : 1, "item" : [ "rolypolytank", 1]}
+      ],
+      "poolRounds" : [
+        [1, 1]
+      ],
+      "allowDuplication" : true
+    }]
+  ],
+  "prismscabcritter" : [
+    [0, {
+      "pool" : [
+        {"weight" : 1, "item" : [ "prismscabtank", 1]}
+      ],
+      "poolRounds" : [
+        [1, 1]
+      ],
+      "allowDuplication" : true
+    }]
+  ],
+  "prismelementalcritter" : [
+    [0, {
+      "pool" : [
+        {"weight" : 1, "item" : [ "prismelementaltank", 1]}
+      ],
+      "poolRounds" : [
+        [1, 1]
+      ],
+      "allowDuplication" : true
+    }]
+  ],
+  "poofincritter" : [
+    [0, {
+      "pool" : [
+        {"weight" : 1, "item" : [ "poofintank", 1]}
+      ],
+      "poolRounds" : [
+        [1, 1]
+      ],
+      "allowDuplication" : true
+    }]
+  ],
+  "narfishcritter" : [
+    [0, {
+      "pool" : [
+        {"weight" : 1, "item" : [ "narfishtank", 1]}
+      ],
+      "poolRounds" : [
+        [1, 1]
+      ],
+      "allowDuplication" : true
+    }]
+  ],
+  "krawlcritter" : [
+    [0, {
+      "pool" : [
+        {"weight" : 1, "item" : [ "krawltank", 1]}
+      ],
+      "poolRounds" : [
+        [1, 1]
+      ],
+      "allowDuplication" : true
+    }]
+  ],
+  "hollowcritter" : [
+    [0, {
+      "pool" : [
+        {"weight" : 1, "item" : [ "hollowtank", 1]}
+      ],
+      "poolRounds" : [
+        [1, 1]
+      ],
+      "allowDuplication" : true
+    }]
+  ],
+  "frozenowlcritter" : [
+    [0, {
+      "pool" : [
+        {"weight" : 1, "item" : [ "frozenowltank", 1]}
+      ],
+      "poolRounds" : [
+        [1, 1]
+      ],
+      "allowDuplication" : true
+    }]
+  ],
+  "dartcritter" : [
+    [0, {
+      "pool" : [
+        {"weight" : 1, "item" : [ "darttank", 1]}
+      ],
+      "poolRounds" : [
+        [1, 1]
+      ],
+      "allowDuplication" : true
+    }]
+  ],
+  "darkwormcritter" : [
+    [0, {
+      "pool" : [
+        {"weight" : 1, "item" : [ "darkwormtank", 1]}
+      ],
+      "poolRounds" : [
+        [1, 1]
+      ],
+      "allowDuplication" : true
+    }]
+  ],
+  "darkthreeeyescritter" : [
+    [0, {
+      "pool" : [
+        {"weight" : 1, "item" : [ "darkthreeeyestank", 1]}
+      ],
+      "poolRounds" : [
+        [1, 1]
+      ],
+      "allowDuplication" : true
+    }]
+  ],
+  "darkoneeyecritter" : [
+    [0, {
+      "pool" : [
+        {"weight" : 1, "item" : [ "darkoneeyetank", 1]}
+      ],
+      "poolRounds" : [
+        [1, 1]
+      ],
+      "allowDuplication" : true
+    }]
+  ],
+  "darknessscabcritter" : [
+    [0, {
+      "pool" : [
+        {"weight" : 1, "item" : [ "darknessscabtank", 1]}
+      ],
+      "poolRounds" : [
+        [1, 1]
+      ],
+      "allowDuplication" : true
+    }]
+  ],
+  "darkballcritter" : [
+    [0, {
+      "pool" : [
+        {"weight" : 1, "item" : [ "darkballtank", 1]}
+      ],
+      "poolRounds" : [
+        [1, 1]
+      ],
+      "allowDuplication" : true
+    }]
+  ],
+  "dancercritter" : [
+    [0, {
+      "pool" : [
+        {"weight" : 1, "item" : [ "dancertank", 1]}
+      ],
+      "poolRounds" : [
+        [1, 1]
+      ],
+      "allowDuplication" : true
+    }]
+  ],
+  "crystaltortoisecritter" : [
+    [0, {
+      "pool" : [
+        {"weight" : 1, "item" : [ "crystaltortoisetank", 1]}
+      ],
+      "poolRounds" : [
+        [1, 1]
+      ],
+      "allowDuplication" : true
+    }]
+  ],
+  "crystalbirdcritter" : [
+    [0, {
+      "pool" : [
+        {"weight" : 1, "item" : [ "crystalbirdtank", 1]}
+      ],
+      "poolRounds" : [
+        [1, 1]
+      ],
+      "allowDuplication" : true
+    }]
+  ],
+  "ciclesnailcritter" : [
+    [0, {
+      "pool" : [
+        {"weight" : 1, "item" : [ "ciclesnailtank", 1]}
+      ],
+      "poolRounds" : [
+        [1, 1]
+      ],
+      "allowDuplication" : true
+    }]
+  ],
+  "charfishcritter" : [
+    [0, {
+      "pool" : [
+        {"weight" : 1, "item" : [ "charfishtank", 1]}
+      ],
+      "poolRounds" : [
+        [1, 1]
+      ],
+      "allowDuplication" : true
+    }]
+  ],
+  "bluebutterflycritter" : [
+    [0, {
+      "pool" : [
+        {"weight" : 1, "item" : [ "bluebutterflytank", 1]}
+      ],
+      "poolRounds" : [
+        [1, 1]
+      ],
+      "allowDuplication" : true
+    }]
+  ],
+  "bigwormcritter" : [
+    [0, {
+      "pool" : [
+        {"weight" : 1, "item" : [ "bigwormtank", 1]}
+      ],
+      "poolRounds" : [
+        [1, 1]
+      ],
+      "allowDuplication" : true
+    }]
+  ],
+  "arcticfishcritter" : [
+    [0, {
+      "pool" : [
+        {"weight" : 1, "item" : [ "arcticfishtank", 1]}
+      ],
+      "poolRounds" : [
+        [1, 1]
+      ],
+      "allowDuplication" : true
+    }]
+  ],
   "cliffcritter" : [
     [0, {
       "pool" : [
@@ -164,6 +461,39 @@
       "allowDuplication" : true
     }]
   ],
+  "steambirdcritter" : [
+    [0, {
+      "pool" : [
+        {"weight" : 1, "item" : [ "steambirdtank", 1]}
+      ],
+      "poolRounds" : [
+        [1, 1]
+      ],
+      "allowDuplication" : true
+    }]
+  ],
+  "steamfishcritter" : [
+    [0, {
+      "pool" : [
+        {"weight" : 1, "item" : [ "steamfishtank", 1]}
+      ],
+      "poolRounds" : [
+        [1, 1]
+      ],
+      "allowDuplication" : true
+    }]
+  ],
+  "steamspidercritter" : [
+    [0, {
+      "pool" : [
+        {"weight" : 1, "item" : [ "steamspidertank", 1]}
+      ],
+      "poolRounds" : [
+        [1, 1]
+      ],
+      "allowDuplication" : true
+    }]
+  ],
   
   "bowbirdcritter" : [
     [0, {
@@ -286,7 +616,7 @@
   "fishcritter" : [
     [0, {
       "pool" : [
-        {"weight" : 1, "item" : [ "defaultfishaquarium", 1]}
+        {"weight" : 1, "item" : [ "fishtank", 1]}
       ],
       "poolRounds" : [
         [1, 1]

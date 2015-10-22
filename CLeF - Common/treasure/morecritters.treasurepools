@@ -252,10 +252,10 @@
       "allowDuplication" : true
     }]
   ],
-  "icescabcritter" : [
+  "crystalicescabcritter" : [
     [0, {
       "pool" : [
-        {"weight" : 1, "item" : [ "icescabtank", 1]}
+        {"weight" : 1, "item" : [ "crystalicescabtank", 1]}
       ],
       "poolRounds" : [
         [1, 1]
