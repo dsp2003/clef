@@ -30,8 +30,6 @@ Optional (with conditions):
 
 + CLeF - Custom Race Patch. Patches single object in Tier 2 ships of various custom races in order to give player access to working fuel hatch interface.
 
-+ CLeF - Extra (FU). Compatibility bridge and features from Frackin' Universe mod.
-
 + CLeF - Extra (ES). Compatibility bridge and features from Enhanced Storage mod.
 
 + CLeF - Extra (No ES). Extra features that are incompatible with Enhanced Storage mod.
@@ -619,56 +617,6 @@ Nightly addon
 
 + [M] Changed dungeon spawn rates of the newly introduced biomes:
  - Midnight (0 - 6)
-
-
-Extra (Frackin' Universe) addon
--------------------------------
-
-Requires "Frackin' Universe" mod. Includes the following things:
-
-+ [N] More liquid interactions:
- - Alien juice + Water => Alien juice
- - Alien juice + Peach Juice => Alien juice
- - Alien juice + Poison => Alien juice
- - Alien juice + Tar => Alien juice
- - Alien juice + Healing Water => Alien juice
- - Alien juice + Milk => Alien juice
- - Alien juice + Coffee => Alien juice
- - Alien juice + Erchius fuel => Alien juice
- - Alien juice + Swamp Water => Alien juice
- - Liquid nitrogen + Frostygen => Liquid nitrogen
- - Liquid nitrogen + Poison => Ice block
- - Liquid nitrogen + Peach juice => Ice block
- - Liquid nitrogen + Healing water => Ice block
- - Liquid nitrogen + Coconut milk => Ice block
- - Liquid nitrogen + Coffee => Ice block
- - Liquid nitrogen + Slime => Ice block
- - Liquid nitrogen + Swamp water => Ice block
- - Liquid nitrogen + Alien juice => Ice block
- - (Core) Lava + Liquid nitrogen => Magma rock
- - (Core) Lava + Alien juice => Magma rock
- - Slime + Alien juice = Slime
-
-+ [N] Liquid guns:
- - Alien juice gun
- - Blood gun
- - Dark water gun
- - Elder liquid gun
- - Liquid iron gun
- - Liquid nitrogen gun
- - Gravrain gun
- - Helium gun
- - Honey gun
- - Irradium gun
- - Mercury gun
- - Bio-ooze gun
- - Protocite gun
- - Pus gun
- - Red honey gun
- - Shadow gas gun
- - Organic soup gun
- - Sulphuric acid gun
- - Tar gun
 
 
 Extra (Enhanced Storage) addon
