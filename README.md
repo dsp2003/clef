@@ -899,6 +899,6 @@ Version history
 License
 -------
 
-This modification has been released under Creative Commons Attribution Share-Alike 4.0 International license terms.
+This modification has been released under Creative Commons Attribution Non-Commercial Share-Alike 4.0 International license terms.
 
-You don't need to ask my permission to modify or integrate this mod or any part of it into other modpacks, but please release the resulting material under the exact same license terms, so the other people would enjoy it. Thank you. ^_^
+It means you cannot use it if you accept donations or getting paid for your site. However, you don't need to ask my permission to integrate this mod or any part of it into modpacks, as long as you release the resulting material under the exact same license terms for non-profit.
