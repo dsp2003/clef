@@ -1,0 +1,11 @@
+{
+  "input" : [
+	{ "item" : "watergun", "count" : 1 },
+	{ "item" : "helium3gasliquid", "count" : 50 }
+  ],
+  "output" : {
+    "item" : "heliumgun",
+    "count" : 1
+  },
+  "groups" : [ "craftingtable", "tools", "all" ]
+}

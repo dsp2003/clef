@@ -30,6 +30,8 @@ Optional (with conditions):
 
 + CLeF - Custom Race Patch. Patches single object in Tier 2 ships of various custom races in order to give player access to working fuel hatch interface.
 
++ CLeF - Extra (FU). Compatibility bridge and features from Frackin' Universe mod.
+
 + CLeF - Extra (ES). Compatibility bridge and features from Enhanced Storage mod.
 
 + CLeF - Extra (No ES). Extra features that are incompatible with Enhanced Storage mod.
@@ -619,6 +621,56 @@ Nightly addon
  - Midnight (0 - 6)
 
 
+Extra (Frackin' Universe) addon
+-------------------------------
+
+Requires "Frackin' Universe" mod. Includes the following things:
+
++ [N] More liquid interactions:
+ - Alien juice + Water => Alien juice
+ - Alien juice + Peach Juice => Alien juice
+ - Alien juice + Poison => Alien juice
+ - Alien juice + Tar => Alien juice
+ - Alien juice + Healing Water => Alien juice
+ - Alien juice + Milk => Alien juice
+ - Alien juice + Coffee => Alien juice
+ - Alien juice + Erchius fuel => Alien juice
+ - Alien juice + Swamp Water => Alien juice
+ - Liquid nitrogen + Frostygen => Liquid nitrogen
+ - Liquid nitrogen + Poison => Ice block
+ - Liquid nitrogen + Peach juice => Ice block
+ - Liquid nitrogen + Healing water => Ice block
+ - Liquid nitrogen + Coconut milk => Ice block
+ - Liquid nitrogen + Coffee => Ice block
+ - Liquid nitrogen + Slime => Ice block
+ - Liquid nitrogen + Swamp water => Ice block
+ - Liquid nitrogen + Alien juice => Ice block
+ - (Core) Lava + Liquid nitrogen => Magma rock
+ - (Core) Lava + Alien juice => Magma rock
+ - Slime + Alien juice = Slime
+
++ [N] Liquid guns:
+ - Alien juice gun
+ - Blood gun
+ - Dark water gun
+ - Elder liquid gun
+ - Liquid iron gun
+ - Liquid nitrogen gun
+ - Gravrain gun
+ - Helium gun
+ - Honey gun
+ - Irradium gun
+ - Mercury gun
+ - Bio-ooze gun
+ - Protocite gun
+ - Pus gun
+ - Red honey gun
+ - Shadow gas gun
+ - Organic soup gun
+ - Sulphuric acid gun
+ - Tar gun
+
+
 Extra (Enhanced Storage) addon
 ------------------------------
 
@@ -828,13 +880,14 @@ CLeF is not a classic "modpack", as the merged mods are not simply copy-pasted, 
 + http://community.playstarbound.com/resources/3134/ - Aquatic Rice (by LoPhatKao)
 + http://community.playstarbound.com/resources/3170/ - Liquid Guns (by KingJigglypuff)
 + http://community.playstarbound.com/resources/3183/ - Biome Treasure Pool Cleanup (by Surn_Thing)
++ http://community.playstarbound.com/resources/3210/ - No Sand Sandstorms (by lazarus78)
 
 
 Version history
 ---------------
 
 - 2015/10/22 v60 - October 18 Nightly support, moved No Sand patch to Sandbox plug-in, updated quests for new Nightly format (more code splitting), removed More Critters code
-- 2015/10/14 v59 - September 30 Nightly support, lowered gravity ranges for Giant worlds (160 aka x2.0 was barely playable), updated treasure pool cleanup code (thanks to Surn_Thing), reduced spawning of moon biome, rebuild More Saplings mod code from scratch (added proper icons for all saplings, saplings now spawn from harvested branches), added 50 classic glitch heads (based on mod by Darkness Wizard & Pazius), added over 70 new and rehashed critters to all biomes and natural colour scheme to (not yet enabled) elephant pet (thanks to More Critters mod by ThunderBird123), added Leather and Traditional Kimono clothes (based on mod by Lissar), added 35 hair/beard/beak options for chargen (based on mod by Lissar), fixed transparency of Power Loom icon
+- 2015/10/14 v59 - September 30 Nightly support, lowered gravity ranges for Giant worlds (160 aka x2.0 was barely playable), updated treasure pool cleanup code (thanks to Surn_Thing), reduced spawning of moon biome, rebuild More Saplings mod code from scratch (added proper icons for all saplings, saplings now spawn from harvested branches), added 50 classic glitch heads (based on mod by Darkness Wizard & Pazius), merged in "No Sand Sandstorms" patch (by lazarus78), added over 70 new and rehashed critters to all biomes and natural colour scheme to (not yet enabled) elephant pet (thanks to More Critters mod by ThunderBird123), added Leather and Traditional Kimono clothes (based on mod by Lissar), added 35 hair/beard/beak options for chargen (based on mod by Lissar), fixed transparency of Power Loom icon
 - 2015/10/06 v58 - September 30 Nightly support, added liquid guns (based on mod by KingJigglypuff), added Frostygen and Peach Juice liquids (instead of removed Liquid Nitrogen and Alien Juice), added old-new planet sizes (Tiny (2000x1500), Massive (8000x5000) and Giant (16000x8000)), added biomes from TierN+1 planets to TierN (where N is 1..5), Moon biome can be found on planet or satellite with any threat level, Moon and Barren planets can have up to 2 satellites, updated Paint & Wire tool restoration code (thanks to TanzNukeTerror), fixed leftover code popcorn bug (thanks to Luthor614), reworked surface layer for Giant worlds (thanks to TempTemp for suggestion), all trees will drop at least two saplings (based on mod by KateisLost), reworked biome chest treasure pools (based on mod by Surn_Thing), race patch for updated Kineptic
 - 2015/09/26 v57 - September 21 Nightly support (Stable and Nightly-specific runtime plugins exist yet again), fuel hatch patch for Mousqutaire (requested by Coralus), added sandstone furniture recipes (requested at 4chan's /sbg/, pointed out they existed in Upbeat Giraffe), re-arranged CLeF-specific recipes in order to differ them from vanilla replacements, renamed 3dprinter override to apex3dprinter, added recipe for coconut milk and bottled coconut milk consumable, fish don't talk
 - 2015/09/17 v56 - plants can be watered with healing and swamp water, disabled soild drying out (Sandbox only), more planet gravity ranges, enhanced storage compat layer, Common -> Common-Stable + Common-Nightly (again), new (vanilla-friendly) fuel hatch patching, racial portable 3D Printers, varied day length range
@@ -898,6 +951,6 @@ Version history
 License
 -------
 
-This modification has been released under Creative Commons Attribution Non-Commercial Share-Alike 4.0 International license terms.
+This modification has been released under Creative Commons Attribution Share-Alike 4.0 International license terms.
 
-It means you cannot use it if you accept donations or getting paid for your site. However, you don't need to ask my permission to integrate this mod or any part of it into modpacks, as long as you release the resulting material under the exact same license terms for non-profit.
+You don't need to ask my permission to modify or integrate this mod or any part of it into other modpacks, but please release the resulting material under the exact same license terms, so the other people would enjoy it. Thank you. ^_^

@@ -1,0 +1,11 @@
+{
+  "input" : [
+	{ "item" : "watergun", "count" : 1 },
+	{ "item" : "liquidblood", "count" : 50 }
+  ],
+  "output" : {
+    "item" : "bloodgun",
+    "count" : 1
+  },
+  "groups" : [ "craftingtable", "tools", "all" ]
+}

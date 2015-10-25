@@ -1,0 +1,24 @@
+{
+  "kind" : "mercurysquirt",
+  "location" : "mouth",
+  "definition" : {
+    "duration" : 0.001,
+    "loops" : true,
+    "start" : {
+      "particles" : [
+        [ "mercurysquirt" ]
+      ],
+      "sounds" : [ [ ] ]
+    },
+    "particles" : [
+      [ "mercurysquirt" ]
+    ],
+    "sounds" : [ [ ] ],
+    "stop" : {
+      "particles" : [
+        [ ]
+      ],
+      "sounds" : [ [ ] ]
+    }
+  }
+}

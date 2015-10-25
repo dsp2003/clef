@@ -1,0 +1,19 @@
+{
+  "projectileName" : "soupsquirt",
+  "frames" : "soupsquirt.png",
+  "physics" : "squirt",
+  "animationCycle" : 1,
+  "frameNumber" : 10,
+  "power" : 50,
+  "speed" : 50,
+  "bounces" : 0,
+  "piercing" : false,
+  "damagePoly" : [ [-9, 0], [-6, -6], [0, -9], [6, -6], [9, 0], [6, 6], [0, 9], [-6, 6] ],
+  "damageKind" : "default",
+  "statusEffects" : [
+    "energyregenfu05"
+  ],
+  "actionOnReap" : [ { "action" : "liquid", "liquid" : "organicsoup", "quantity" : 1 } ],
+  "emitters" : [ "soupsquirt" ],
+  "hydrophobic" : true
+}
