@@ -1,7 +1,7 @@
 # CLeF - Things To Do In Starbound
 Starbound content restoration and gameplay overhaul project
 
-Version 61 (2015/10/28) WORK-IN-PROGRESS
+Version 61 (2015/10/31) WORK-IN-PROGRESS
 ----------
 
 Known to work with:
@@ -572,6 +572,23 @@ Values for world size (added on top of the previous):
  - Shattergun
  - Stinger Gun
 
++ [R] NPC Spawner (aka Employer) Station can be crafted via Research Station for 20 Platinum Bars (same as in EK/UG)
+
++ [R] Restored all NPC spawners along with Spawner Station. Each spawner requires 20 Steel Bars (same as in EK/UG):
+ - Apex
+ - Avian
+ - Floran
+ - Glitch
+ - Human
+ - Hylotl
+ - Chef (Random)
+ - Doctor (Random)
+ - Guard (Random)
+ - Pirate (Random)
+ - Stimpack trader (Random)
+ - Tools trader (Random)
+ - Wizard trader (Random)
+
 + [M] Changed monster_surprise sound effect for randomly generated monsters to:
  - Small Biped - angstyhead_small_turnhostile.wav
  - Small Quadruped - teethyhead_small_turnhostile.wav
@@ -623,6 +640,10 @@ Nightly addon
 
 Extra (Frackin' Universe) addon
 -------------------------------
+
+Note: this addon is unsupported and subject of removal because Sayter, author of FU, decided to act like an asshole.
+
+I do not recommend installing Frackin' Universe and neither recommend to use this addon since it's present here strictly for archival purposes.
 
 Requires "Frackin' Universe" mod. Includes the following things:
 
@@ -886,7 +907,7 @@ CLeF is not a classic "modpack", as the merged mods are not simply copy-pasted, 
 Version history
 ---------------
 
-- 2015/10/28 v61 - October 24 Nightly support, added Solarium Star requirement for endgame compound recipes
+- 2015/10/31 v61 - October 24 Nightly support, added Solarium Star requirement for endgame compound recipes, restored all spawners and spawner station (requested by Captian_Fishystick), removed annoying buzzling from Sci-Fi Furnace
 - 2015/10/22 v60 - October 18 Nightly support, moved No Sand patch to Sandbox plug-in, updated quests for new Nightly format (more code splitting), removed More Critters code
 - 2015/10/14 v59 - September 30 Nightly support, lowered gravity ranges for Giant worlds (160 aka x2.0 was barely playable), updated treasure pool cleanup code (thanks to Surn_Thing), reduced spawning of moon biome, rebuild More Saplings mod code from scratch (added proper icons for all saplings, saplings now spawn from harvested branches), added 50 classic glitch heads (based on mod by Darkness Wizard & Pazius), merged in "No Sand Sandstorms" patch (by lazarus78), added over 70 new and rehashed critters to all biomes and natural colour scheme to (not yet enabled) elephant pet (thanks to More Critters mod by ThunderBird123), added Leather and Traditional Kimono clothes (based on mod by Lissar), added 35 hair/beard/beak options for chargen (based on mod by Lissar), fixed transparency of Power Loom icon
 - 2015/10/06 v58 - September 30 Nightly support, added liquid guns (based on mod by KingJigglypuff), added Frostygen and Peach Juice liquids (instead of removed Liquid Nitrogen and Alien Juice), added old-new planet sizes (Tiny (2000x1500), Massive (8000x5000) and Giant (16000x8000)), added biomes from TierN+1 planets to TierN (where N is 1..5), Moon biome can be found on planet or satellite with any threat level, Moon and Barren planets can have up to 2 satellites, updated Paint & Wire tool restoration code (thanks to TanzNukeTerror), fixed leftover code popcorn bug (thanks to Luthor614), reworked surface layer for Giant worlds (thanks to TempTemp for suggestion), all trees will drop at least two saplings (based on mod by KateisLost), reworked biome chest treasure pools (based on mod by Surn_Thing), race patch for updated Kineptic
