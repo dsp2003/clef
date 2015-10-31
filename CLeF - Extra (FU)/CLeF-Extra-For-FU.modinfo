@@ -3,12 +3,12 @@
 	"version" : "",
 	"path" : ".",
 	"requires" : [ "CLeF", "FrackinUniverse" ],
-	"includes" : [ ],
+	"includes" : [],
 	"metadata" : {
 	  "displayName" : "CLeF Extra integration with Frackin' Universe",
 		"author" : "dsp2003",
 		"description" : "",
-		"support_url" : "https://github/dsp2003/clf/",
+		"support_url" : "",
 		"version" : "",
 		"thanks" : ""
 	}

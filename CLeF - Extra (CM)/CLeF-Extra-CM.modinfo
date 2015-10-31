@@ -1,11 +1,11 @@
 {
-	"name" : "CLeF-Extra-No-ES",
+	"name" : "CLeF-Extra-CM",
 	"version" : "",
 	"path" : ".",
-	"requires" : [ "CLeF" ],
-	"includes" : [],
+	"requires" : [ "CLeF", "CreativeMode" ],
+	"includes" : [ ],
 	"metadata" : {
-	  "displayName" : "CLeF Extra features incompatible with Enhanced Storage",
+	  "displayName" : "CLeF Extra integration with Creative Mode",
 		"author" : "dsp2003",
 		"description" : "",
 		"support_url" : "",
