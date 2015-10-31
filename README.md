@@ -643,9 +643,9 @@ Nightly addon
 Extra (Frackin' Universe) addon
 -------------------------------
 
-Note: this addon is unsupported and subject of removal because Sayter, author of FU, decided to act like an asshole.
+Note: this addon is unsupported and subject of removal because Sayter, author of FU, decided to act against CLeF's developer.
 
-I do not recommend installing Frackin' Universe and neither recommend to use this addon since it's present here strictly for archival purposes.
+Hence, we do not recommend installing Frackin' Universe and neither recommend to use this addon since it's present here strictly for archival purposes.
 
 Requires "Frackin' Universe" mod. Includes the following things:
 
