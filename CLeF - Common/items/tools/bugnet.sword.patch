@@ -1,3 +1,0 @@
-[
-  { "op" : "replace", "path" : "/primaryStances/projectile/power", "value" : 2 }
-]
