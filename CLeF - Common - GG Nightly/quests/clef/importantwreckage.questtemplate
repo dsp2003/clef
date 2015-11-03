@@ -3,7 +3,7 @@
   "title" : "^green;Wreckage of the Dreadwing",
   "text" : "This wreckage might have some ^yellow;value^white;. I should probably ^orange;keep it in my ship's cargo^white; for the time being. You'll never know who might be interested in it.",
   "completionText" : "I have successfully delivered ^yellow;the wreckage^white; to the interested pen... person! He gave me a chunk of rare ^orange;contraband material^white; which I can use to craft ^green;a decent and powerful armour^white;!",
-  "portrait" : "player",
+  "speaker" : "player",
   "moneyRange" : [0, 0],  
   "rewards" : [ ],
 

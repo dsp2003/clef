@@ -4,7 +4,7 @@
   "title" : "^orange;Stirred not Shaken",
   "text" : "If you ^green;get some steel and forge a ^orange;stirring spoon ^green;for me ^white;the drink will be perfect! ^green;Craft it on a metalwork station ^white;and I'll surely give you the blank tech card.",
   "completionText" : "The perfect coffee! Here, you deserve this. ^green;You can use the ^orange;blank tech card ^green;to unlock tech at your ship's computer.",
-  "portrait" : "questGiver",
+  "speaker" : "questGiver",
   "moneyRange" : [0, 0],
   "rewards" : [
       [ [ "blanktechcard", 1] ]
