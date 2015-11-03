@@ -1,7 +1,7 @@
 # CLeF - Things To Do In Starbound
 Starbound content restoration and gameplay overhaul project
 
-Version 61 (2015/11/03)
+Version 61 (2015/11/04)
 ----------
 
 Known to work with:
@@ -24,7 +24,7 @@ Required (with conditions):
 
 + CLeF - Common - PG Stable. For Stable Pleased Giraffe Update 5 (September 10)
 
-+ CLeF - Common - GG Nightly. For Nightly Glad Giraffe Update 0 (October 18)
++ CLeF - Common - GG Nightly. For Nightly Glad Giraffe Update 0 (November 1)
 
 Optional (with conditions):
 
