@@ -190,6 +190,8 @@ Third-party mods merged with CLeF
 
 CLeF is not a classic "modpack", as the merged mods are not simply copy-pasted, but rebalanced, rearranged and tightly integrated with the rest of the content, hence they will conflict with original mods. Use these only if you're not planning to install CLeF.
 
+PLEASE NOTE: Installing these separately won't give you 100% functionality of CLeF - just somewhere around 15% (plus you'll have to port these to the latest game version on your own).
+
 + http://community.playstarbound.com/resources/22/ - Hair Mods (by Lissar)
 + http://community.playstarbound.com/resources/25/ - Kimono Mods (by Lissar)
 + http://community.playstarbound.com/resources/2142/ - Emeralds! (by Serverator)
