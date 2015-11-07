@@ -1,7 +1,7 @@
 # CLeF - Things To Do In Starbound
 Starbound content restoration and gameplay overhaul project
 
-Version 61 (2015/11/04)
+Version 62 (2015/11/08) WORK-IN-PROGRESS
 ----------
 
 Known to work with:
@@ -35,8 +35,6 @@ Optional (with conditions):
 + CLeF - Extra (ES). Compatibility bridge and features from Enhanced Storage mod.
 
 + CLeF - Extra (No ES). Extra features that are incompatible with Enhanced Storage mod.
-
-+ CLeF - Extra (FU). Compatibility bridge and features from Frackin' Universe mod. Not recommended.
 
 Optional (consult "Gameplay changes" section for details):
 
@@ -224,7 +222,6 @@ PLEASE NOTE: Installing these separately won't give you 100% functionality of CL
 + http://community.playstarbound.com/resources/3107/ - ezGlass (by Lefl)
 + http://community.playstarbound.com/resources/3112/ - Lossless Voxels! (by TanzNukeTerror)
 + http://community.playstarbound.com/resources/3134/ - Aquatic Rice (by LoPhatKao)
-+ http://community.playstarbound.com/resources/3170/ - Liquid Guns (by KingJigglypuff)
 + http://community.playstarbound.com/resources/3183/ - Biome Treasure Pool Cleanup (by Surn_Thing)
 + http://community.playstarbound.com/resources/3210/ - No Sand Sandstorms (by lazarus78)
 
