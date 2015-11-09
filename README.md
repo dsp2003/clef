@@ -1,12 +1,6 @@
 # CLeF - Things To Do In Starbound
 Starbound content restoration and gameplay overhaul project
 
-Important
----------
-
-Please read this link before proceeding: http://dsp2003.tumblr.com/post/132783887194
-
-
 Version 62 (2015/11/08) WORK-IN-PROGRESS
 ----------
 
