@@ -54,19 +54,6 @@ Gameplay changes
  - (Core) Lava + Swamp water => Magma rock
  - (Core) Lava + Slime => Magma rock
 
-+ [N] Liquid guns:
- - Coffee gun
- - Core lava gun
- - Frostygen gun
- - Erchius fuel gun
- - Healing water gun
- - Lava gun
- - Oil gun
- - Peach juice gun
- - Poison gun
- - Slime gun
- - Swamp water gun
-
 + [M] Renamed "Coffee Seed" into "Raw Coffee Beans". You can roast them in Microwave or Campfire and get consumable "Coffee Beans"
 
 + [R] Glass Coffee Mug can be crafted via Crafting Table for 2 Glass Blocks
