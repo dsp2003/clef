@@ -1,12 +1,12 @@
 # CLeF - Things To Do In Starbound
 Starbound content restoration and gameplay overhaul project
 
-Version 62 (2015/11/08) WORK-IN-PROGRESS
+Version 62 (2015/11/12) WORK-IN-PROGRESS
 ----------
 
 Known to work with:
 - [Stable] Pleased Giraffe Update 5 (September 10)
-- [Nightly] Glad Giraffe Update 0 (November 1)
+- [Nightly] Glad Giraffe Update 0 (November 9)
 
 
 Installation
@@ -24,7 +24,7 @@ Required (with conditions):
 
 + CLeF - Common - PG Stable. For Stable Pleased Giraffe Update 5 (September 10)
 
-+ CLeF - Common - GG Nightly. For Nightly Glad Giraffe Update 0 (November 1)
++ CLeF - Common - GG Nightly. For Nightly Glad Giraffe Update 0 (November 9)
 
 Optional (with conditions):
 
@@ -224,6 +224,7 @@ PLEASE NOTE: Installing these separately won't give you 100% functionality of CL
 + http://community.playstarbound.com/resources/3134/ - Aquatic Rice (by LoPhatKao)
 + http://community.playstarbound.com/resources/3183/ - Biome Treasure Pool Cleanup (by Surn_Thing)
 + http://community.playstarbound.com/resources/3210/ - No Sand Sandstorms (by lazarus78)
++ http://community.playstarbound.com/resources/3237/ - Hylotl Fake Plant Fix (by TheElderScroller)
 
 
 Version history
