@@ -1,5 +1,5 @@
 {
 	"input" : [ ],
-	"output" : { "item" : "humanvanguardslegs", "count" : 1 },
+	"output" : { "item" : "humanvanguardspants", "count" : 1 },
 	"groups" : [ "spawningtable", "armor" ]
 }

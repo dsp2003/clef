@@ -238,4 +238,4 @@ License
 
 This modification has been released under Creative Commons Attribution Non-Commercial Share-Alike 4.0 International license terms.
 
-It means you cannot use it if you accept donations or getting paid for your site. However, you don't need to ask my permission to integrate this mod or any part of it into modpacks, as long as you release the resulting material under the exact same license terms for non-profit.
+It means you cannot redistribute it if you accept donations or getting paid for your site. However, you don't need to ask my permission to integrate this mod or any part of it into modpacks, as long as you release the resulting material under the exact same license terms, for non-profit.

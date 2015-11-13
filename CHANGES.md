@@ -309,6 +309,8 @@ Gameplay changes
 
 + [M] Merchant buy/sell ratios changed to 90%/110% (was 20%/100% in PG)
 
++ [R] No more mandatory spawning of Moon planet at 11-th orbit (same as in EK)
+
 + [R] Planets now spawn in six sizes (partially restored from EK):
  - Tiny (2000 x 1500)
  - Small (3000 x 2000)

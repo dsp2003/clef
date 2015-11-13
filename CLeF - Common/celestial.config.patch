@@ -1,7 +1,17 @@
 [
-  // Planetary probability patch -------------------------------------------------
-//{ "op" : "replace", "path" : "/systemTypes/White/orbitRegions/0/bodyProbability", "value" : 0.8 },
-//{ "op" : "replace", "path" : "/systemTypes/White/orbitRegions/1/bodyProbability", "value" : 0.2 },
+  // Planetary regions patch -----------------------------------------------------
+  { "op" : "replace", "path" : "/systemTypes/White/orbitRegions/0/orbitRange", "value" : [ 2, 11 ] },
+  { "op" : "replace", "path" : "/systemTypes/Orange/orbitRegions/0/orbitRange", "value" : [ 2, 11 ] },
+  { "op" : "replace", "path" : "/systemTypes/Yellow/orbitRegions/0/orbitRange", "value" : [ 2, 11 ] },
+  { "op" : "replace", "path" : "/systemTypes/Blue/orbitRegions/0/orbitRange", "value" : [ 2, 11 ] },
+  { "op" : "replace", "path" : "/systemTypes/Red/orbitRegions/0/orbitRange", "value" : [ 2, 11 ] },
+
+  // Removing useless mandatory "Moon" planet spawning ---------------------------
+  { "op" : "remove", "path" : "/systemTypes/White/orbitRegions/1" },
+  { "op" : "remove", "path" : "/systemTypes/Orange/orbitRegions/1" },
+  { "op" : "remove", "path" : "/systemTypes/Yellow/orbitRegions/1" },
+  { "op" : "remove", "path" : "/systemTypes/Blue/orbitRegions/1" },
+  { "op" : "remove", "path" : "/systemTypes/Red/orbitRegions/1" },
 
   // Satellite probability patch -------------------------------------------------
   { "op" : "replace", "path" : "/planetaryTypes/Moon/satelliteProbability",   "value" : 0.15 },
@@ -101,7 +111,6 @@
   // Moon
   { "op" : "add", "path" : "/planetaryTypes/Moon/variationParameters/-", "value" : { "worldSize" : "tiny",    "imageScale" : 0.08, "smallImageScale" : 0.4 } },
   { "op" : "add", "path" : "/planetaryTypes/Moon/variationParameters/-", "value" : { "worldSize" : "small",   "imageScale" : 0.1,  "smallImageScale" : 0.5 } },
-  { "op" : "add", "path" : "/planetaryTypes/Moon/variationParameters/-", "value" : { "worldSize" : "massive", "imageScale" : 0.21, "smallImageScale" : 0.7 } },
   // Barren
   { "op" : "add", "path" : "/planetaryTypes/Barren/variationParameters/-", "value" : { "worldSize" : "tiny",    "imageScale" : 0.08, "smallImageScale" : 0.4 } },
   { "op" : "add", "path" : "/planetaryTypes/Barren/variationParameters/-", "value" : { "worldSize" : "massive", "imageScale" : 0.21, "smallImageScale" : 0.7 } },
