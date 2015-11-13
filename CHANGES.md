@@ -309,6 +309,12 @@ Gameplay changes
 
 + [M] Merchant buy/sell ratios changed to 90%/110% (was 20%/100% in PG)
 
++ [N] Rare Bonus Duck critter will spawn in Garden, Forest, Ocean, Colorful and Giant Flowers biome. It will drop the following items:
+ - Stuffed Bonus Duck
+ - Bonus Duck K.C. Poster
+ - Bonus Duck A.S. Poster
+ - Bonus Duck N.N. Poster
+
 + [R] No more mandatory spawning of Moon planet at 11-th orbit (same as in EK)
 
 + [R] Planets now spawn in six sizes (partially restored from EK):

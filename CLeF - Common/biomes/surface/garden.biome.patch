@@ -11,5 +11,9 @@
     "objectSets" : [ { "pool" : [ [1, "wildpeanutseed" ] ], "parameters" : { "startingStage" : 2 } } ]
 
     }
-  }
+  },
+
+  // Bonus duck -----------------------------------------------------------------------------
+  { "op" : "add", "path" : "/spawnProfiles/0/extraSpawns/-", "value" : "bonusduckcritter" },
+  { "op" : "add", "path" : "/spawnProfiles/1/extraSpawns/-", "value" : "bonusduckcritter" }
 ]

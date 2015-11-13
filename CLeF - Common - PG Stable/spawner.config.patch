@@ -1,0 +1,9 @@
+[
+  {
+    "op" : "add", "path" : "/spawns/bonusduckcritter", "value" : {
+    "spawnParameters" : { "area" : "surface", "region" : "exposed", "time" : "all" },
+    "targetDensity" : 0.008,
+    "monsterType" : "bonusduckcritter",
+    "monsterParameters" : { "aggressive" : false } }
+  }
+]
