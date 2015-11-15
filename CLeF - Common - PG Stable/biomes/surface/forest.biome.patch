@@ -1,0 +1,22 @@
+[
+  // Peanut plant patch ---------------------------------------------------------------------
+  { "op" : "add", "path" : "/surfacePlaceables/items/-", "value" : {
+
+    "mode" : "floor",
+    "priority" : 1.0,
+    "variants" : 1,
+    "distribution" : "/biomes/distributions.config:surfaceCrops",
+
+    "type" : "object",
+    "objectSets" : [ { "pool" : [ [1, "wildpeanutseed" ] ], "parameters" : { "startingStage" : 2 } } ]
+
+    }
+  },
+
+  // Microdungeon patch ---------------------------------------------------------------------
+  { "op" : "add", "path": "/surfacePlaceables/items/6/microdungeons/-", "value": "oldshroomencounter" }, // Old shroom people and smallshroom monster encounter
+ 
+  // Bonus duck -----------------------------------------------------------------------------
+  { "op" : "add", "path" : "/spawnProfiles/0/extraSpawns/-", "value" : "bonusduckcritter" },
+  { "op" : "add", "path" : "/spawnProfiles/1/extraSpawns/-", "value" : "bonusduckcritter" }
+]
