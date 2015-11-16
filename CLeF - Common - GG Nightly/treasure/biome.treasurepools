@@ -848,7 +848,7 @@
         {"weight" : 0.3, "item" : "eyeballhead"},
         {"weight" : 0.3, "item" : "eyeballback"},
         {"weight" : 0.3, "item" : [ "generatedsword", 1, { "definition" : "eyeaxe" } ]},
-        {"weight" : 0.3, "item" : [ "generatedshield", 1, { "definition" : "eyeshield" } ]}
+        {"weight" : 0.3, "item" : "eyeshield"}
       ]
     }]
   ],
@@ -897,7 +897,6 @@
         {"weight" : 0.3, "item" : "snowglobe1"},
         {"weight" : 0.3, "item" : "snowglobe2"},
         {"weight" : 0.3, "item" : "frostspear"},
-        {"weight" : 0.3, "item" : [ "generatedshield", 1, { "definition" : "frostshield" } ]},
         {"weight" : 0.3, "item" : "snowinfantryhead"},
         {"weight" : 0.3, "item" : "snowinfantrychest"},
         {"weight" : 0.3, "item" : "snowinfantrypants"},
