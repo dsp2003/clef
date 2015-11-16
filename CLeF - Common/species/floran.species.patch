@@ -17,7 +17,7 @@
   { "op" : "add", "path" : "/genders/0/hair/-", "value" : "ex8" },
   { "op" : "add", "path" : "/genders/1/hair/-", "value" : "ex8" },
   { "op" : "add", "path" : "/genders/0/hair/-", "value" : "ex9" },
-  { "op" : "add", "path" : "/genders/1/hair/-", "value" : "ex9" }
+  { "op" : "add", "path" : "/genders/1/hair/-", "value" : "ex9" },
   // Chocodile's Roserade hair
   { "op" : "add", "path" : "/genders/0/hair/-", "value" : "ch1" },
   { "op" : "add", "path" : "/genders/1/hair/-", "value" : "ch1" }
