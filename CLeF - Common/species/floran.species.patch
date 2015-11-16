@@ -1,22 +1,24 @@
 [
-  // Lissar's male hair
+  // Lissar's hair
   { "op" : "add", "path" : "/genders/0/hair/-", "value" : "ex1" },
-  { "op" : "add", "path" : "/genders/0/hair/-", "value" : "ex2" },
-  { "op" : "add", "path" : "/genders/0/hair/-", "value" : "ex3" },
-  { "op" : "add", "path" : "/genders/0/hair/-", "value" : "ex4" },
-  { "op" : "add", "path" : "/genders/0/hair/-", "value" : "ex5" },
-  { "op" : "add", "path" : "/genders/0/hair/-", "value" : "ex6" },
-  { "op" : "add", "path" : "/genders/0/hair/-", "value" : "ex7" },
-  { "op" : "add", "path" : "/genders/0/hair/-", "value" : "ex8" },
-  { "op" : "add", "path" : "/genders/0/hair/-", "value" : "ex9" },
-  // Lissar's female hair
   { "op" : "add", "path" : "/genders/1/hair/-", "value" : "ex1" },
+  { "op" : "add", "path" : "/genders/0/hair/-", "value" : "ex2" },
   { "op" : "add", "path" : "/genders/1/hair/-", "value" : "ex2" },
+  { "op" : "add", "path" : "/genders/0/hair/-", "value" : "ex3" },
   { "op" : "add", "path" : "/genders/1/hair/-", "value" : "ex3" },
+  { "op" : "add", "path" : "/genders/0/hair/-", "value" : "ex4" },
   { "op" : "add", "path" : "/genders/1/hair/-", "value" : "ex4" },
+  { "op" : "add", "path" : "/genders/0/hair/-", "value" : "ex5" },
   { "op" : "add", "path" : "/genders/1/hair/-", "value" : "ex5" },
+  { "op" : "add", "path" : "/genders/0/hair/-", "value" : "ex6" },
   { "op" : "add", "path" : "/genders/1/hair/-", "value" : "ex6" },
+  { "op" : "add", "path" : "/genders/0/hair/-", "value" : "ex7" },
   { "op" : "add", "path" : "/genders/1/hair/-", "value" : "ex7" },
+  { "op" : "add", "path" : "/genders/0/hair/-", "value" : "ex8" },
   { "op" : "add", "path" : "/genders/1/hair/-", "value" : "ex8" },
+  { "op" : "add", "path" : "/genders/0/hair/-", "value" : "ex9" },
   { "op" : "add", "path" : "/genders/1/hair/-", "value" : "ex9" }
+  // Chocodile's Roserade hair
+  { "op" : "add", "path" : "/genders/0/hair/-", "value" : "ch1" },
+  { "op" : "add", "path" : "/genders/1/hair/-", "value" : "ch1" }
 ]
