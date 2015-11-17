@@ -1,16 +1,20 @@
 [
-  // Lissar's male hair
+  // Note: Hylotl Male (0) and Female (1) hairs are shared between genders.
+  //       Duplicate them between the two.
+
+  // Lissar's hair
   { "op" : "add", "path" : "/genders/0/hair/-", "value" : "ex1" },
-  { "op" : "add", "path" : "/genders/0/hair/-", "value" : "ex2" },
-  { "op" : "add", "path" : "/genders/0/hair/-", "value" : "ex3" },
-  { "op" : "add", "path" : "/genders/0/hair/-", "value" : "ex4" },
-  { "op" : "add", "path" : "/genders/0/hair/-", "value" : "ex5" },
-  // Lissar's female hair
   { "op" : "add", "path" : "/genders/1/hair/-", "value" : "ex1" },
+  { "op" : "add", "path" : "/genders/0/hair/-", "value" : "ex2" },
   { "op" : "add", "path" : "/genders/1/hair/-", "value" : "ex2" },
+  { "op" : "add", "path" : "/genders/0/hair/-", "value" : "ex3" },
   { "op" : "add", "path" : "/genders/1/hair/-", "value" : "ex3" },
+  { "op" : "add", "path" : "/genders/0/hair/-", "value" : "ex4" },
   { "op" : "add", "path" : "/genders/1/hair/-", "value" : "ex4" },
+  { "op" : "add", "path" : "/genders/0/hair/-", "value" : "ex5" },
   { "op" : "add", "path" : "/genders/1/hair/-", "value" : "ex5" },
+  // Patchwork's hair
+  
 
   // Blueprints
   { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "kimonotraditionalchest" } },

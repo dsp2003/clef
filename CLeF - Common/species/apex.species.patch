@@ -1,17 +1,22 @@
 [
-  // Lissar's male hair
-  { "op" : "add", "path" : "/genders/0/hair/-", "value" : "ex1" },
+  // Note: Apex Male (0) and Female (1) hairs are stored separately.
+  //       Do not copypaste them!
 
-  // Lissar's male beards
+  // Lissar's hair
+  { "op" : "add", "path" : "/genders/0/hair/-", "value" : "ex1" },
+  { "op" : "add", "path" : "/genders/1/hair/-", "value" : "ex1" },
+  { "op" : "add", "path" : "/genders/1/hair/-", "value" : "ex2" },
+  // Patchwork's hair
+  { "op" : "add", "path" : "/genders/1/hair/-", "value" : "pw1" },
+  { "op" : "add", "path" : "/genders/1/hair/-", "value" : "pw2" },
+  { "op" : "add", "path" : "/genders/1/hair/-", "value" : "pw3" },
+  { "op" : "add", "path" : "/genders/1/hair/-", "value" : "pw4" },
+  { "op" : "add", "path" : "/genders/1/hair/-", "value" : "pw5" },
+
+  // Lissar's beards
   { "op" : "add", "path" : "/genders/0/facialHair/-", "value" : "ex1" },
   { "op" : "add", "path" : "/genders/0/facialHair/-", "value" : "ex2" },
   { "op" : "add", "path" : "/genders/0/facialHair/-", "value" : "ex3" },
-
-  // Lissar's female hair
-  { "op" : "add", "path" : "/genders/1/hair/-", "value" : "ex1" },
-  { "op" : "add", "path" : "/genders/1/hair/-", "value" : "ex2" },
-
-  // Lissar's female beards
   { "op" : "add", "path" : "/genders/1/facialHair/-", "value" : "ex1" },
   { "op" : "add", "path" : "/genders/1/facialHair/-", "value" : "ex2" },
   { "op" : "add", "path" : "/genders/1/facialHair/-", "value" : "ex3" }

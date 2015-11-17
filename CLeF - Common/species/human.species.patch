@@ -1,6 +1,11 @@
 [
+  // Note: Human Male (0) and Female (1) hairs are mix-and-match shared between genders.
+  //       Duplicate them between the two if needed.
+  //       male - male, fem - female, uni - unisex
+
   // Lissar's hair
   { "op" : "add", "path" : "/genders/0/hair/-", "value" : "maleex1" },
+  { "op" : "add", "path" : "/genders/0/hair/-", "value" : "femex1" }, // not an error, added for asian male characters
   { "op" : "add", "path" : "/genders/1/hair/-", "value" : "femex1" },
   { "op" : "add", "path" : "/genders/1/hair/-", "value" : "femex2" },
   { "op" : "add", "path" : "/genders/1/hair/-", "value" : "femex3" },
@@ -9,5 +14,16 @@
   { "op" : "add", "path" : "/genders/0/hair/-", "value" : "maleta2" },
   { "op" : "add", "path" : "/genders/1/hair/-", "value" : "femta1" },
   { "op" : "add", "path" : "/genders/1/hair/-", "value" : "femta2" },
-  { "op" : "add", "path" : "/genders/1/hair/-", "value" : "femta3" }
+  { "op" : "add", "path" : "/genders/1/hair/-", "value" : "femta3" },
+  // Patchwork's hair
+  { "op" : "add", "path" : "/genders/0/hair/-", "value" : "unipw1" },
+  { "op" : "add", "path" : "/genders/1/hair/-", "value" : "unipw1" },
+  { "op" : "add", "path" : "/genders/0/hair/-", "value" : "unipw2" },
+  { "op" : "add", "path" : "/genders/1/hair/-", "value" : "unipw2" },
+  { "op" : "add", "path" : "/genders/0/hair/-", "value" : "unipw3" },
+  { "op" : "add", "path" : "/genders/1/hair/-", "value" : "unipw3" },
+  { "op" : "add", "path" : "/genders/0/hair/-", "value" : "unipw4" },
+  { "op" : "add", "path" : "/genders/1/hair/-", "value" : "unipw4" },
+  { "op" : "add", "path" : "/genders/0/hair/-", "value" : "unipw5" },
+  { "op" : "add", "path" : "/genders/1/hair/-", "value" : "unipw5" }
 ]

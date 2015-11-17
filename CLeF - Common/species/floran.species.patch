@@ -1,4 +1,7 @@
 [
+  // Note: Floran Male (0) and Female (1) hairs are shared between genders.
+  //       Duplicate them between the two.
+
   // Lissar's hair
   { "op" : "add", "path" : "/genders/0/hair/-", "value" : "ex1" },
   { "op" : "add", "path" : "/genders/1/hair/-", "value" : "ex1" },
@@ -20,5 +23,17 @@
   { "op" : "add", "path" : "/genders/1/hair/-", "value" : "ex9" },
   // Chocodile's Roserade hair
   { "op" : "add", "path" : "/genders/0/hair/-", "value" : "ch1" },
-  { "op" : "add", "path" : "/genders/1/hair/-", "value" : "ch1" }
+  { "op" : "add", "path" : "/genders/1/hair/-", "value" : "ch1" },
+  // Patchwork's hair
+  { "op" : "add", "path" : "/genders/0/hair/-", "value" : "pw1" },
+  { "op" : "add", "path" : "/genders/1/hair/-", "value" : "pw1" },
+  { "op" : "add", "path" : "/genders/0/hair/-", "value" : "pw2" },
+  { "op" : "add", "path" : "/genders/1/hair/-", "value" : "pw2" },
+  { "op" : "add", "path" : "/genders/0/hair/-", "value" : "pw3" },
+  { "op" : "add", "path" : "/genders/1/hair/-", "value" : "pw3" },
+  { "op" : "add", "path" : "/genders/0/hair/-", "value" : "pw4" },
+  { "op" : "add", "path" : "/genders/1/hair/-", "value" : "pw4" },
+  { "op" : "add", "path" : "/genders/0/hair/-", "value" : "pw5" },
+  { "op" : "add", "path" : "/genders/1/hair/-", "value" : "pw5" }
+  
 ]

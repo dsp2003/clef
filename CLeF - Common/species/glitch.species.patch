@@ -1,9 +1,18 @@
 [
+  // Note: Glitch Male (0) and Female (1) headmods (i.e. hair) are shared between genders.
+  //       Duplicate them between the two.
+
   // Lissar's male hair
   { "op" : "add", "path" : "/genders/0/hair/-", "value" : "ex1" },
   { "op" : "add", "path" : "/genders/0/hair/-", "value" : "ex2" },
   { "op" : "add", "path" : "/genders/0/hair/-", "value" : "ex3" },
   { "op" : "add", "path" : "/genders/0/hair/-", "value" : "ex4" },
+  // Patchwork's male hair
+  { "op" : "add", "path" : "/genders/0/hair/-", "value" : "pw1" },
+  { "op" : "add", "path" : "/genders/0/hair/-", "value" : "pw2" },
+  { "op" : "add", "path" : "/genders/0/hair/-", "value" : "pw3" },
+  { "op" : "add", "path" : "/genders/0/hair/-", "value" : "pw4" },
+  { "op" : "add", "path" : "/genders/0/hair/-", "value" : "pw5" },
   // Classic male hair
   { "op" : "add", "path" : "/genders/0/hair/-", "value" : "c01" },
   { "op" : "add", "path" : "/genders/0/hair/-", "value" : "c02" },
@@ -56,10 +65,16 @@
   { "op" : "add", "path" : "/genders/0/hair/-", "value" : "c49" },
   { "op" : "add", "path" : "/genders/0/hair/-", "value" : "c50" },
   // Lissar's female hair
-  { "op" : "add", "path" : "/genders/0/hair/-", "value" : "ex1" },
-  { "op" : "add", "path" : "/genders/0/hair/-", "value" : "ex2" },
-  { "op" : "add", "path" : "/genders/0/hair/-", "value" : "ex3" },
-  { "op" : "add", "path" : "/genders/0/hair/-", "value" : "ex4" },
+  { "op" : "add", "path" : "/genders/1/hair/-", "value" : "ex1" },
+  { "op" : "add", "path" : "/genders/1/hair/-", "value" : "ex2" },
+  { "op" : "add", "path" : "/genders/1/hair/-", "value" : "ex3" },
+  { "op" : "add", "path" : "/genders/1/hair/-", "value" : "ex4" },
+  // Patchwork's female hair
+  { "op" : "add", "path" : "/genders/1/hair/-", "value" : "pw1" },
+  { "op" : "add", "path" : "/genders/1/hair/-", "value" : "pw2" },
+  { "op" : "add", "path" : "/genders/1/hair/-", "value" : "pw3" },
+  { "op" : "add", "path" : "/genders/1/hair/-", "value" : "pw4" },
+  { "op" : "add", "path" : "/genders/1/hair/-", "value" : "pw5" },
   // Classic female hair
   { "op" : "add", "path" : "/genders/1/hair/-", "value" : "c01" },
   { "op" : "add", "path" : "/genders/1/hair/-", "value" : "c02" },
