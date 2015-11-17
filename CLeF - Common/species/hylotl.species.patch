@@ -14,7 +14,16 @@
   { "op" : "add", "path" : "/genders/0/hair/-", "value" : "ex5" },
   { "op" : "add", "path" : "/genders/1/hair/-", "value" : "ex5" },
   // Patchwork's hair
-  
+  { "op" : "add", "path" : "/genders/0/hair/-", "value" : "pw1" },
+  { "op" : "add", "path" : "/genders/1/hair/-", "value" : "pw1" },
+  { "op" : "add", "path" : "/genders/0/hair/-", "value" : "pw2" },
+  { "op" : "add", "path" : "/genders/1/hair/-", "value" : "pw2" },
+  { "op" : "add", "path" : "/genders/0/hair/-", "value" : "pw3" },
+  { "op" : "add", "path" : "/genders/1/hair/-", "value" : "pw3" },
+  { "op" : "add", "path" : "/genders/0/hair/-", "value" : "pw4" },
+  { "op" : "add", "path" : "/genders/1/hair/-", "value" : "pw4" },
+  { "op" : "add", "path" : "/genders/0/hair/-", "value" : "pw5" },
+  { "op" : "add", "path" : "/genders/1/hair/-", "value" : "pw5" },  
 
   // Blueprints
   { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "kimonotraditionalchest" } },
