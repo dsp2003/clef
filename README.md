@@ -195,6 +195,7 @@ PLEASE NOTE: Installing these separately won't give you 100% functionality of CL
 + http://community.playstarbound.com/resources/45/ - Modified Vanilla Hairstyles (by Team Aardvark)
 + http://community.playstarbound.com/resources/106/ - Haircut v1.3 (by patchwork536)
 + http://community.playstarbound.com/resources/309/ - Roserade foliage for Florans (by Chocodile)
++ http://community.playstarbound.com/resources/418/ - Beauty Blooms (by IcyOrio)
 + http://community.playstarbound.com/resources/2142/ - Emeralds! (by Serverator)
 + http://community.playstarbound.com/resources/2324/ - Classic Glitch Heads (by Darkness Wizard & Pazius)
 + http://community.playstarbound.com/resources/2498/ - More Screen Resolutions (by eurosat7)
