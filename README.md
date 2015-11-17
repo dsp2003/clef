@@ -1,7 +1,7 @@
 # CLeF - Things To Do In Starbound
 Starbound content restoration and gameplay overhaul project
 
-Version 62 (2015/11/16) WORK-IN-PROGRESS
+Version 62 (2015/11/17) WORK-IN-PROGRESS
 ----------
 
 Known to work with:
@@ -192,6 +192,7 @@ PLEASE NOTE: Installing these separately won't give you 100% functionality of CL
 
 + http://community.playstarbound.com/resources/22/ - Hair Mods (by Lissar)
 + http://community.playstarbound.com/resources/25/ - Kimono Mods (by Lissar)
++ http://community.playstarbound.com/resources/45/ - Modified Vanilla Hairstyles (by Team Aardvark)
 + http://community.playstarbound.com/resources/309/ - Roserade foliage for Florans (by Chocodile)
 + http://community.playstarbound.com/resources/2142/ - Emeralds! (by Serverator)
 + http://community.playstarbound.com/resources/2324/ - Classic Glitch Heads (by Darkness Wizard & Pazius)

@@ -1,9 +1,13 @@
 [
-  // Lissar's male hair
+  // Lissar's hair
   { "op" : "add", "path" : "/genders/0/hair/-", "value" : "maleex1" },
-
-  // Lissar's female hair
   { "op" : "add", "path" : "/genders/1/hair/-", "value" : "femex1" },
   { "op" : "add", "path" : "/genders/1/hair/-", "value" : "femex2" },
-  { "op" : "add", "path" : "/genders/1/hair/-", "value" : "femex3" }
+  { "op" : "add", "path" : "/genders/1/hair/-", "value" : "femex3" },
+  // Team Aardvark's hair
+  { "op" : "add", "path" : "/genders/0/hair/-", "value" : "maleta1" },
+  { "op" : "add", "path" : "/genders/0/hair/-", "value" : "maleta2" },
+  { "op" : "add", "path" : "/genders/1/hair/-", "value" : "femta1" },
+  { "op" : "add", "path" : "/genders/1/hair/-", "value" : "femta2" },
+  { "op" : "add", "path" : "/genders/1/hair/-", "value" : "femta3" }
 ]
