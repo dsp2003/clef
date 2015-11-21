@@ -62,6 +62,8 @@ Gameplay changes
 
 + [R] Liquid Coffee can be crafted via Coffee Machine for 1 Coffee Beans
 
++ [F] Coffee in a mug consumable can be crafted via Kitchen Table for 1 Coffee Beans (or 1 Liquid Coffee) and 1 Glass Coffee Mug
+
 + [R] Coffee-related questline will be given by Human Survivor at the Outpost after completion of his "Rent Well Spent" quest (no progress requirements)
 
 + [F] Toy (Lego) Blocks no longer fall when placed. Now it's possible to build colourful plastic castles
