@@ -1,8 +1,4 @@
 [
-  // Surface dungeon count range patch -------------------------------------------------------------------------
-  { "op" : "add", "path" : "/planetTypes/midnight/layers/surface/dungeonCountRange", "value" : [0, 6] },
-  // Threat ranges patch ---------------------------------------------------------------------------------------
-  { "op" : "replace", "path" : "/planetTypes/midnight/threatRange", "value" : [4, 5] },
   // Safe and custom biome types -------------------------------------------------------------------------------
   { "op" : "add", "path" : "/planetTypes/grassland", "value" : {
       "threatRange" : [2, 4],
@@ -11,7 +7,7 @@
           "primaryRegion" : [ "grassland" ],
           "secondaryRegion" : [ "oasis", "spring" ],
           "dungeonCountRange" : [0, 6],
-          "dungeons" : [ "glitchvillage", "avianvillage", "floranvillagetower", "oceanislandsmicrodungeons", "oldshroomencounter" ]
+          "dungeons" : [ "glitchvillage", "avianvillage", "floranvillagetower", "oldshroomencounter" ]
         },
         "underground1" : { "secondaryRegion" : [ "mushroomunderground", "wildernessunderground", "minivillageunderground", "luminouscaves", "stonecaves" ] },
         "underground2" : { "secondaryRegion" : [ "mushroomunderground", "wildernessunderground", "minivillageunderground", "luminouscaves", "stonecaves" ] },
