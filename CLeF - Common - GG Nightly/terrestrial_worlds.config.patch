@@ -4,22 +4,5 @@
   // Threat ranges patch ---------------------------------------------------------------------------------------
   { "op" : "replace", "path" : "/planetTypes/midnight/threatRange", "value" : [4, 5] },
   // Safe and custom biome types -------------------------------------------------------------------------------
-  { "op" : "add", "path" : "/planetTypes/grassland", "value" : {
-      "threatRange" : [2, 4],
-      "layers" : {
-        "surface" : {
-          "primaryRegion" : [ "grassland" ],
-          "secondaryRegion" : [ "oasis", "spring" ],
-          "dungeonCountRange" : [0, 6],
-          "dungeons" : [ "glitchvillage", "avianvillage", "floranvillagetower", "oceanislandsmicrodungeons", "oldshroomencounter" ]
-        },
-        "underground1" : { "secondaryRegion" : [ "mushroomunderground", "wildernessunderground", "minivillageunderground", "luminouscaves", "stonecaves" ] },
-        "underground2" : { "secondaryRegion" : [ "mushroomunderground", "wildernessunderground", "minivillageunderground", "luminouscaves", "stonecaves" ] },
-        "underground3" : { "secondaryRegion" : [ "mushroomunderground", "wildernessunderground", "minivillageunderground", "luminouscaves", "stonecaves" ] },
-        "underground4" : { "secondaryRegion" : [ "mushroomunderground", "wildernessunderground", "minivillageunderground", "luminouscaves", "stonecaves" ] },
-        "underground5" : { "secondaryRegion" : [ "mushroomunderground", "wildernessunderground", "minivillageunderground", "luminouscaves", "stonecaves" ] },
-        "underground6" : { "secondaryRegion" : [ "mushroomunderground", "wildernessunderground", "minivillageunderground", "luminouscaves", "stonecaves" ] }
-      }
-    }
-  }
+  { "op" : "replace", "path" : "/planetTypes/grassland/layers/surface/dungeons", "value" : [ "glitchvillage", "avianvillage", "floranvillagetower", "oceanislandsmicrodungeons", "oldshroomencounter" ] }
 ]
