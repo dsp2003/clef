@@ -3,7 +3,7 @@
 	"version" : "",
 	"path" : ".",
 	"requires" : [],
-	"includes" : [],
+	"includes" : [ "The Pony Modpack" ],
 	"metadata" : {
 	  "displayName" : "CLeF - Things to do in Starbound",
 		"author" : "dsp2003",

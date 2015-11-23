@@ -1,4 +1,6 @@
 [
   // Surface dungeon count range patch ------------------------------------------------------------------------
-  { "op" : "add", "path" : "/planetTypes/midnight/layers/surface/dungeonCountRange", "value" : [0, 6] }
+  { "op" : "add", "path" : "/planetTypes/midnight/layers/surface/dungeonCountRange", "value" : [0, 6] },
+  // Threat ranges patch ---------------------------------------------------------------------------------------
+  { "op" : "replace", "path" : "/planetTypes/midnight/threatRange", "value" : [4, 5] }
 ]
