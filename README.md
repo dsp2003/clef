@@ -167,6 +167,14 @@ Bring back biome variety:
 Bunch of other stuff I tend to forget...
 
 
+Team
+----
+
+* dsp2003 (founder, lead developer, documentation writer)
+* Djekue-kun (bonus ducks, moral support)
+* LoPhatKao (Lua coding and major fixes for bosses, restored monster sound effects! ^o^)
+
+
 Contributors
 ------------
 
@@ -174,9 +182,8 @@ These people has (in)directly contributed fixes and/or improvements. In alphabet
 
 * Grover Cures Houses (repairable tools flag)
 * Kawa (JSON stuff, modding tips and tricks)
-* LoPhatKao (Lua coding and major fixes for bosses, restored monster sound effects! ^o^)
 * Rhyssia (initial Fatal Circuit fixes, which kick-started more stuff)
-* Sayter (major fixes for Jelly Boss)
+* Sayter (fixes for Jelly Boss)
 * TanzNukeTerror (several improvements I was too lazy to do on my own)
 * Varixai (modding tips and tricks)
 * XNicoX14 (alternative repairs mechanism and inspiration ^u^)
@@ -243,4 +250,4 @@ License
 
 This modification has been released under Creative Commons Attribution Non-Commercial Share-Alike 4.0 International license terms.
 
-It means you cannot redistribute it if you accept donations or getting paid for your site. However, you don't need to ask my permission to integrate this mod or any part of it into modpacks, as long as you release the resulting material under the exact same license terms, for non-profit.
+See https://creativecommons.org/licenses/by-nc-sa/4.0/ for details.
