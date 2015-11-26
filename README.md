@@ -248,6 +248,6 @@ See HISTORY.md for details.
 License
 -------
 
-This modification has been released under Creative Commons Attribution Non-Commercial Share-Alike 4.0 International license terms.
+This modification has been released under Creative Commons Attribution Share-Alike 4.0 International license terms.
 
-See https://creativecommons.org/licenses/by-nc-sa/4.0/ for details.
+See https://creativecommons.org/licenses/by-sa/4.0/ for details.
