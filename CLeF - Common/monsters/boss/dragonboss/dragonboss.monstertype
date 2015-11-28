@@ -108,7 +108,7 @@
     "feetOffset" : [ 0, -8 ],
     "aggressive" : true,
     "alwaysAggressive" : true,
-    "alwaysDamageOnTouch" : true,
+    "alwaysDamageOnTouch" : false,
 
     "attackSound" : [ "attack1", "attack2" ],
     "idleSound" : [ "idle1", "idle2" ],
