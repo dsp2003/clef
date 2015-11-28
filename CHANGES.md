@@ -503,6 +503,10 @@ Values for world size (added on top of the previous):
 Nightly addon
 -------------
 
++ [R] Removed damage on touch for all monsters (reintroduced in GG)
+
++ [R] Restored extra slots for rewards in Quest and Questlog windows
+
 + [M] Changed dungeon spawn rates of the newly introduced biomes:
  - Midnight (0 - 6)
 
