@@ -5,7 +5,6 @@
   "parts" : [ "body", "head", "wings" ],
 
   "animation" : "dragonboss.animation",
-  "colors" : "/monsters/colors.config",
   "reversed" : true,
 
   "dropPools" : [

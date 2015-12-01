@@ -22,12 +22,12 @@
       "/scripts/util.lua",
       "/scripts/vec2.lua",
 
-      "/monsters/ground/aggrohopstate.lua",
-      "/monsters/ground/approachstate.lua",
-      "/monsters/ground/stunstate.lua",
-      "/monsters/ground/wanderstate.lua",
+      "/monsters/generated/ground/aggrohopstate.lua",
+      "/monsters/generated/ground/approachstate.lua",
+      "/monsters/generated/ground/stunstate.lua",
+      "/monsters/generated/ground/wanderstate.lua",
 
-      "/monsters/ground/skills/creategroundrangedattack.lua"
+      "/monsters/generated/ground/skills/creategroundrangedattack.lua"
     ],
 
     "metaBoundBox" : [-1, -5.6, 1, 3],
