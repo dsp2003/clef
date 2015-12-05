@@ -1,12 +1,14 @@
 # CLeF - Things To Do In Starbound
 Starbound content restoration and gameplay overhaul project
 
-Version 62 (2015/11/29) WORK-IN-PROGRESS
+Version 63 (2015/12/06) WORK-IN-PROGRESS
 ----------
 
 Known to work with:
 - [Stable] Pleased Giraffe Update 5 (September 10)
-- [Nightly] Glad Giraffe Update 0 (November 13)
+
+/!\ CURRENTLY BROKEN:
+- [Nightly] Glad Giraffe Update 0 (December 6)
 
 
 Installation
@@ -138,7 +140,7 @@ Known bugs
 Gameplay changes
 ----------------
 
-See CHANGES.md for details.
+See GAMEPLAY_CHANGES.md for details.
 
 
 To-do list
@@ -242,7 +244,7 @@ PLEASE NOTE: Installing these separately won't give you 100% functionality of CL
 Version history
 ---------------
 
-See HISTORY.md for details.
+See VERSION_HISTORY.md for details.
 
 
 License
