@@ -1,14 +1,11 @@
 # CLeF - Things To Do In Starbound
 Starbound content restoration and gameplay overhaul project
 
-Version 63 (2015/12/06) WORK-IN-PROGRESS
+Version 63 (2015/12/09) WORK-IN-PROGRESS
 ----------
 
-Known to work with:
-- [Stable] Pleased Giraffe Update 5 (September 10)
-
 /!\ CURRENTLY BROKEN:
-- [Nightly] Glad Giraffe Update 0 (December 6)
+- [Stable] Glad Giraffe Update 1 (December 7)
 
 
 Installation
@@ -21,12 +18,6 @@ Copy the following directories into "starbound/giraffe_storage/mods/" directory:
 Required:
 
 + CLeF - Common. Core mod files common for all supported game versions
-
-Required (with conditions):
-
-+ CLeF - Common - PG Stable. For Stable Pleased Giraffe Update 5
-
-+ CLeF - Common - GG Nightly. For Nightly Glad Giraffe Update 0
 
 Optional (with conditions):
 
