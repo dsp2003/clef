@@ -39,7 +39,7 @@
   // Tier4
   { "op" : "add", "path" : "/planetaryTypes/Tier4/baseParameters/terrestrialType/-", "value" : "arctic" },
   { "op" : "add", "path" : "/planetaryTypes/Tier4/baseParameters/terrestrialType/-", "value" : "grassland" }, //new
-//{ "op" : "add", "path" : "/planetaryTypes/Tier4/baseParameters/terrestrialType/-", "value" : "midnight" },
+  { "op" : "add", "path" : "/planetaryTypes/Tier4/baseParameters/terrestrialType/-", "value" : "midnight" },
   { "op" : "add", "path" : "/planetaryTypes/Tier4/baseParameters/terrestrialType/-", "value" : "moon" },
   { "op" : "add", "path" : "/planetaryTypes/Tier4/baseParameters/terrestrialType/-", "value" : "tundra" },
   { "op" : "add", "path" : "/planetaryTypes/Tier4/baseParameters/terrestrialType/-", "value" : "aliensafe" }, //new

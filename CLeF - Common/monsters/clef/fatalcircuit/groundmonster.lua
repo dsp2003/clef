@@ -1,6 +1,8 @@
 -- modified groundmonster.lua for fatal circuit
 -- by LoPhatKao
 
+require "/scripts/util.lua"
+
 function init()
   self.position = {0, 0}
 
@@ -229,7 +231,9 @@ function damage(args)
         world.callScriptedEntity(args.sourceId, "monsterKilled", entity.id())
       end
     else
-      if args.sourceId ~= self.target and args.sourceId ~= 0 then setTarget(args.sourceId) end
+      if args.sourceId ~= self.target and args.sourceId ~= 0 and entity.isValidTarget(args.sourceId) then 
+        setTarget(args.sourceId) 
+      end
       --lpk: pain sounds
       if self.painSoundTimer < 0 then
         local painsnd = entity.randomizeParameter("painSound")  
@@ -274,9 +278,7 @@ function update(dt)
 
   local inState = self.state.stateDesc()
 
-  if self.debug then
-    world.debugText(inState, mcontroller.position(), "blue")
-  end
+  util.debugText(inState, mcontroller.position(), "blue")
 
   --don't automatically switch states in combat
   self.state.autoPickState = not hasTarget()
@@ -706,21 +708,11 @@ function pointWithinRect(point, rect)
 end
 
 --------------------------------------------------------------------------------
--- draw lines to display the specified rect {x1, y1, x2, y2} in the specified color, optionally offset by basePos
-function debugRect(rect, color, basePos)
-  if basePos then rect = translate(rect, basePos) end
-  world.debugLine({rect[1], rect[2]}, {rect[1], rect[4]}, color)
-  world.debugLine({rect[1], rect[2]}, {rect[3], rect[2]}, color)
-  world.debugLine({rect[3], rect[4]}, {rect[1], rect[4]}, color)
-  world.debugLine({rect[3], rect[4]}, {rect[3], rect[2]}, color)
-end
-
---------------------------------------------------------------------------------
 -- draw points and rects for each approach point and valid attack start zone
 function debugSkillOptions()
   for i, option in pairs(self.skillOptions) do
     world.debugPoint(option.approachPoint, "green")
-    debugRect(option.startRect, i == 1 and "#3333FF" or option.valid and "#AAFFBB" or "#FF3333")
+    util.debugRect(option.startRect, i == 1 and "#3333FF" or option.valid and "#AAFFBB" or "#FF3333")
     world.debugText(option.skillName, {option.startRect[1], option.startRect[4]}, "#BBBBFF")
     world.debugText(option.approachDelta[1], {option.startRect[1], option.startRect[4] + 1.5}, "#000099")
 

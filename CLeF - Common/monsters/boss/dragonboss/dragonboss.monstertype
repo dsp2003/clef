@@ -123,11 +123,11 @@
         "attackMaxDistance" : 100.0,
         "attackCooldownTime" : 1.5,
         "scripts" : [
-          "/monsters/flying/skills/createFlyingRangedAttack.lua",
-          "/monsters/flying/circleState.lua",
-          "/monsters/flying/wanderState.lua",
-          "/monsters/flying/glideState.lua",
-          "/monsters/flying/landState.lua"
+          "/monsters/koala/flying/skills/createFlyingRangedAttack.lua",
+          "/monsters/koala/flying/circleState.lua",
+          "/monsters/koala/flying/wanderState.lua",
+          "/monsters/koala/flying/glideState.lua",
+          "/monsters/koala/flying/landState.lua"
         ],
 
         "wanderRiseSpeed" : 0.9,

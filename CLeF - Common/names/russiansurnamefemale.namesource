@@ -1,4 +1,7 @@
 {
+  // To Chucklefish - read this before attempting to implement Russian names:
+  // https://rn3aoh.net/archive/2014/04/18/naming-theory/
+
   "name" : "russiansurnamefemale",
   "prefixSize" : 2,
   "endSize" : 2,

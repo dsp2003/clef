@@ -1,0 +1,13 @@
+{
+  "name" : "staticFireball",
+  "label" : "HELLO CALL ME KELVIN",
+  "image" : "/monsters/generated/flying/skills/default.png",
+
+  "parameters" : {
+    "scripts" : [ "/monsters/generated/ground/skills/staticProjectileAttack.lua" ],
+    "staticProjectile" : [ "staticFireball" ],
+    "staticSkillName" : "staticFireball",
+    "staticProjectileHoldTime" : 2.0,
+    "staticProjectileCooldown" : 5.0
+  }
+}

@@ -5,7 +5,6 @@
   "parts" : [ "arms", "chest", "tail", "head" ],
 
   "animation" : "jellyboss.animation",
-  "colors" : "/monsters/colors.config",
   "reversed" : true,
   "dropPools" : [
     {
@@ -15,19 +14,19 @@
 
   "baseParameters" : {
     "scripts" : [
-      "/monsters/ground/groundMonster.lua",
+      "/monsters/koala/ground/groundMonster.lua",
       "/scripts/pathing.lua",
       "/scripts/stateMachine.lua",
       "/scripts/util.lua",
       "/scripts/vec2.lua",
 
-      "/monsters/ground/aggroHopState.lua",
-      "/monsters/ground/approachState.lua",
-      "/monsters/ground/fleeState.lua",
-      "/monsters/ground/stunState.lua",
-      "/monsters/ground/wanderState.lua",
+      "/monsters/koala/ground/aggroHopState.lua",
+      "/monsters/koala/ground/approachState.lua",
+      "/monsters/koala/ground/fleeState.lua",
+      "/monsters/koala/ground/stunState.lua",
+      "/monsters/koala/ground/wanderState.lua",
 
-      "/monsters/ground/skills/createGroundRangedAttack.lua"
+      "/monsters/koala/ground/skills/createGroundRangedAttack.lua"
     ],
 
     "territoryDistance" : 40.0,

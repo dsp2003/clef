@@ -16,5 +16,5 @@
   "altBlockRadius" : 1,
   "damage" : 10,
   "twoHanded" : false,
-  "strikeSounds" : [ "/sfx/tools/pickaxe_hit.wav" ]
+  "strikeSounds" : [ "/sfx/tools/pickaxe_hit.ogg" ]
 }

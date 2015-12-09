@@ -35,7 +35,7 @@
   { "op" : "add", "path" : "/planetTypes/forest/layers/surface/dungeonCountRange", "value" : [0, 6] },
   { "op" : "add", "path" : "/planetTypes/jungle/layers/surface/dungeonCountRange", "value" : [0, 6] },
   { "op" : "add", "path" : "/planetTypes/magma/layers/surface/dungeonCountRange", "value" : [0, 6] },
-//{ "op" : "add", "path" : "/planetTypes/midnight/layers/surface/dungeonCountRange", "value" : [0, 6] }, // GG only
+  { "op" : "add", "path" : "/planetTypes/midnight/layers/surface/dungeonCountRange", "value" : [0, 6] },
   { "op" : "add", "path" : "/planetTypes/savannah/layers/surface/dungeonCountRange", "value" : [0, 6] },
   { "op" : "add", "path" : "/planetTypes/scorched/layers/surface/dungeonCountRange", "value" : [0, 6] },
   { "op" : "add", "path" : "/planetTypes/snow/layers/surface/dungeonCountRange", "value" : [0, 6] },
@@ -155,7 +155,7 @@
   { "op" : "replace", "path" : "/planetTypes/alien/threatRange",    "value" : [3, 4] },
   { "op" : "replace", "path" : "/planetTypes/arctic/threatRange",   "value" : [4, 5] },
   { "op" : "replace", "path" : "/planetTypes/tundra/threatRange",   "value" : [4, 5] },
-//{ "op" : "replace", "path" : "/planetTypes/midnight/threatRange", "value" : [4, 5] }, // GG only
+  { "op" : "replace", "path" : "/planetTypes/midnight/threatRange", "value" : [4, 5] },
   { "op" : "replace", "path" : "/planetTypes/magma/threatRange",    "value" : [5, 6] },
   { "op" : "replace", "path" : "/planetTypes/volcanic/threatRange", "value" : [5, 6] },
   { "op" : "replace", "path" : "/planetTypes/scorched/threatRange", "value" : [5, 6] },
@@ -168,7 +168,7 @@
           "primaryRegion" : [ "grassland" ],
           "secondaryRegion" : [ "oasis", "spring" ],
           "dungeonCountRange" : [0, 6],
-          "dungeons" : [ "glitchvillage", "avianvillage", "floranvillagetower", "oldshroomencounter" ]
+          "dungeons" : [ "glitchvillage", "avianvillage", "floranvillagetower", "oceanislandsmicrodungeons", "oldshroomencounter" ]
         },
         "underground1" : { "secondaryRegion" : [ "mushroomunderground", "wildernessunderground", "minivillageunderground", "luminouscaves", "stonecaves" ] },
         "underground2" : { "secondaryRegion" : [ "mushroomunderground", "wildernessunderground", "minivillageunderground", "luminouscaves", "stonecaves" ] },
