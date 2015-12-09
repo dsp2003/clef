@@ -1,41 +1,34 @@
 {
-  "type" : "tentaclecomet",
+  "type" : "tentaclecometspore",
 
-  "categories" : [ "tentaclecomet" ],
-  "parts" : [
-    "background", "foreground",
-    "eyelarge", "eyemedium", "eyesmall",
-    "tentacle1", "tentacle2", "tentacle3", "tentacle4",
-    "tentacle5", "tentacle6", "tentacle7", "tentacle8",
-    "flames"
-  ],
+  "categories" : [ "tentaclecometspore" ],
+  "parts" : [ "body" ],
 
-  "animation" : "tentaclecomet.animation",
-  "reversed" : false,
+  "animation" : "tentaclecometspore.animation",
+  "reversed" : true,
 
-  "dropPools" : [ "basicMonsterTreasure" ],
+  "dropPools" : [ "robotTreasure" ],
 
   "baseParameters" : {
     "scripts" : [
-      "/monsters/boss/tentaclecomet/behavior.lua",
+      "/monsters/clef/boss/tentaclecometspore/behavior.lua",
       "/scripts/stateMachine.lua",
-      "/npcs/timers.lua",
       "/scripts/util.lua",
       "/scripts/vec2.lua"
     ],
 
-    "metaBoundBox" : [-6.0, -5.75, 6.0, 5.75],
+    "metaBoundBox" : [-2.25, -1.75, 1.875, 1.0],
     "scale" : 1.0,
 
     "movementSettings" : {
-      "collisionPoly" : [ [-6, 0], [-4.625, -3.625], [0, -5.75], [4.75, -3.625], [6, 0], [4.625, 3.625], [0, 5.75], [-5.125, 3.625] ],
+      "collisionPoly" : [ [-2.25, -1.75], [1.875, -1.75], [1.875, 1.0], [-2.25, 1.0] ],
 
-      "mass" : 0.1,
-      "walkSpeed" : 3,
-      "runSpeed" : 6,
+      "mass" : 1.0,
+      "walkSpeed" : 6,
+      "runSpeed" : 8,
       "jumpSpeed" : 5,
-      "flySpeed" : 8,
-      "airFriction" : 0.1,
+      "flySpeed" : 15,
+      "airFriction" : 0.25,
       "airForce" : 50.0
     },
 
@@ -46,8 +39,8 @@
     "deathParticles" : "deathPoof",
 
     "touchDamage" : {
-      "poly" : [ [-6, 0], [-4.625, -3.625], [0, -5.75], [4.75, -3.625], [6, 0], [4.625, 3.625], [0, 5.75], [-5.125, 3.625] ],
-      "damage" : 30,
+      "poly" : [ [-2.25, -1.75], [1.875, -1.75], [1.875, 1.0], [-2.25, 1.0] ],
+      "damage" : 12,
 
       "teamType" : "enemy",
       "damageSourceKind" : "bite",
@@ -72,7 +65,7 @@
           "baseValue" : 0.25
         },
         "maxHealth" : {
-          "baseValue" : 600
+          "baseValue" : 60
         },
         "protection" : {
           "baseValue" : 1.0
@@ -98,21 +91,12 @@
     "mouthOffset" : [0, 0],
     "feetOffset" : [0, -8],
 
-    "blinkTimeRange" : [2.0, 4.0],
+    "targetNoticeDistance" : 20,
 
-    // These are in the same order as the tentacleN.png images
-    "craterOffsets" : [
-      [2.625, 5.0],
-      [5.125, 2.5],
-      [5.75, -1.125],
-      [3.0, -4.25],
-      [-2.875, -5.25],
-      [-5.375, -1.25],
-      [-5.125, 2.625],
-      [-3.0, 5.125]
-    ],
+    "initialPauseTime" : 2,
 
-    "hoverAmplitude" : 0.15,
-    "hoverFrequency" : 0.8
+    "idleBlinkIntervalRange" : [4, 5],
+
+    "attackTargetHoldTime" : 5.0
   }
 }

@@ -5,6 +5,7 @@
   "parts" : [ "arms", "chest", "tail", "head" ],
 
   "animation" : "jellyboss.animation",
+  "colors" : "/monsters/colors.config",
   "reversed" : true,
   "dropPools" : [
     {

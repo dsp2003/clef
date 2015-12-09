@@ -6,6 +6,7 @@
   "partParameters" : "fatalcircuit.partparams",
 
   "animation" : "fatalcircuit.animation",
+  "colors" : "/monsters/colors.config",
   "reversed" : true,
   "dropPools" : [
     {
