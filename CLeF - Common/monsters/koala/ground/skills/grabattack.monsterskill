@@ -1,10 +1,10 @@
 {
   "name" : "grabAttack",
   "label" : "GRAB",
-  "image" : "/monsters/generated/ground/skills/icon.png",
+  "image" : "/monsters/koala/ground/skills/icon.png",
 
   "parameters" : {
-    "scripts" : [ "/monsters/generated/ground/skills/grabAttack.lua" ],
+    "scripts" : [ "/monsters/koala/ground/skills/grabAttack.lua" ],
     "grabAttack" : {
       "skillTimeLimit" : 5.0,
       "cooldownTime" : 5.0,

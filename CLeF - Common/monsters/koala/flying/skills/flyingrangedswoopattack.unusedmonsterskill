@@ -1,11 +1,11 @@
 {
   "name" : "flyingRangedSwoopAttack",
   "label" : "RANGED SWOOP",
-  "image" : "/monsters/generated/flying/skills/default.png",
+  "image" : "/monsters/koala/flying/skills/default.png",
 
   "parameters" : {
     "scripts" : [
-      "/monsters/generated/flying/skills/flyingRangedSwoopAttack.lua"
+      "/monsters/koala/flying/skills/flyingRangedSwoopAttack.lua"
     ],
 
     "rangedSwoopTime" : 1.5,

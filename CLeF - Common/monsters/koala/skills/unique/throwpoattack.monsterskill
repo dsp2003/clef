@@ -1,10 +1,10 @@
 {
   "name" : "throwPoAttack",
   "label" : "LIGHT BALL",
-  "image" : "/monsters/generated/flying/skills/default.png",
+  "image" : "/monsters/koala/flying/skills/default.png",
 
   "parameters" : {
-    "scripts" : [ "/monsters/generated/skills/unique/throwPoAttack.lua" ],
+    "scripts" : [ "/monsters/koala/skills/unique/throwPoAttack.lua" ],
     "throwPoAttack" : {
       "skillTimeLimit" : 1.5,
       "cooldownTime" : 5,

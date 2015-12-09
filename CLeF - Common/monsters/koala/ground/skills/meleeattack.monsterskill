@@ -1,10 +1,10 @@
 {
   "name" : "meleeAttack",
   "label" : "BASH",
-  "image" : "/monsters/generated/flying/skills/default.png",
+  "image" : "/monsters/koala/flying/skills/default.png",
 
   "parameters" : {
-    "scripts" : [ "/monsters/generated/ground/skills/meleeAttack.lua" ],
+    "scripts" : [ "/monsters/koala/ground/skills/meleeAttack.lua" ],
     "meleeAttack" : {
       "skillTimeLimit" : 0.75,
       "cooldownTime" : 0.75,

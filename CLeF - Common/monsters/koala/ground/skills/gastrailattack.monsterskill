@@ -1,10 +1,10 @@
 {
   "name" : "gasTrailAttack",
   "label" : "TOXIC CLOUD",
-  "image" : "/monsters/generated/flying/skills/default.png",
+  "image" : "/monsters/koala/flying/skills/default.png",
 
   "parameters" : {
-    "scripts" : [ "/monsters/generated/ground/skills/gasTrailAttack.lua" ],
+    "scripts" : [ "/monsters/koala/ground/skills/gasTrailAttack.lua" ],
     "gasTrailAttack" : {
       "skillTimeLimit" : 2.5,
       "cooldownTime" : 7.0,

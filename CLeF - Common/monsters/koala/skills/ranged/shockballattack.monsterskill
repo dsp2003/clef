@@ -1,7 +1,7 @@
 {
   "name" : "shockBallAttack",
   "label" : "SHOCK BALL",
-  "image" : "/monsters/generated/flying/skills/default.png",
+  "image" : "/monsters/koala/flying/skills/default.png",
 
   "parameters" : {
     "shockBallAttack" : {

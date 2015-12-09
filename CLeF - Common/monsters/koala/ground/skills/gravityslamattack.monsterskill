@@ -1,10 +1,10 @@
 {
   "name" : "gravitySlamAttack",
   "label" : "GRAVITY SLAM",
-  "image" : "/monsters/generated/ground/skills/icon.png",
+  "image" : "/monsters/koala/ground/skills/icon.png",
 
   "parameters" : {
-    "scripts" : [ "/monsters/generated/ground/skills/gravitySlamAttack.lua" ],
+    "scripts" : [ "/monsters/koala/ground/skills/gravitySlamAttack.lua" ],
     "gravitySlamAttack" : {
       "skillTimeLimit" : 1.5,
       "cooldownTime" : 3,

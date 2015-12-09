@@ -1,11 +1,11 @@
 {
   "name" : "flyingSwoopBounceAttack",
   "label" : "DIVE",
-  "image" : "/monsters/generated/flying/skills/default.png",
+  "image" : "/monsters/koala/flying/skills/default.png",
 
   "parameters" : {
     "scripts" : [
-      "/monsters/generated/flying/skills/flyingSwoopBounceAttack.lua"
+      "/monsters/koala/flying/skills/flyingSwoopBounceAttack.lua"
     ],
     "swoopEffect" : "motionattack",
     "swoopBounceLimit" : 0.5,
