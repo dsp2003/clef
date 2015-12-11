@@ -16,7 +16,7 @@
 
   "baseParameters" : {
     "scripts" : [
-      "/monsters/clef/fatalcircuit/groundmonster.lua",
+      "/monsters/clef/boss/fatalcircuit/groundmonster.lua",
       "/scripts/pathing.lua",
       "/scripts/stateMachine.lua",
       "/scripts/util.lua",
