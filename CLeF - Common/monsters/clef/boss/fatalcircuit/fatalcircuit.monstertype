@@ -24,6 +24,7 @@
 
       "/monsters/koala/ground/aggrohopstate.lua",
       "/monsters/koala/ground/approachstate.lua",
+      "/monsters/koala/ground/aggressstate.lua",
       "/monsters/koala/ground/stunstate.lua",
       "/monsters/koala/ground/wanderstate.lua",
 

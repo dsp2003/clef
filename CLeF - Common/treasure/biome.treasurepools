@@ -99,7 +99,7 @@
         {"weight" : 0.3, "item" : "bedouinhead"},
         {"weight" : 0.3, "item" : "bedouinlegs"},
         {"weight" : 0.05, "item" : "cactusjuice"},
-        {"weight" : 0.2, "item" : "cactislammer"},
+        {"weight" : 0.2, "item" : "cactislammer"}, // TODO: replace old sword
         {"weight" : 0.2, "item" : "mininglantern"},
         {"weight" : 0.2, "item" : "lanternstickback"},
         {"weight" : 0.05, "item" : ["cactiblock", 5]},
@@ -133,8 +133,8 @@
       "pool" : [
         {"weight" : 0.05, "item" : ["thornfruit", 5]},
         {"weight" : 0.1, "item" : ["thorngrenade", 3]},
-        {"weight" : 0.3, "item" : "thornyneedler"},
-        {"weight" : 0.3, "item" : "terminite"},
+        {"weight" : 0.3, "item" : "thornyneedler"}, // TODO: replace old gun
+        {"weight" : 0.3, "item" : "terminite"}, // TODO: replace old sword
         {"weight" : 0.05, "item" : "coolfezhead"},
         {"weight" : 0.3, "item" : "hunterchest"},
         {"weight" : 0.3, "item" : "hunterback"},
@@ -169,7 +169,7 @@
       "pool" : [
         {"weight" : 0.05, "item" : ["snowball", 10]},
         {"weight" : 0.05, "item" : ["mediumsnowball", 2]},
-        {"weight" : 0.3, "item" : "snowgun"},
+        {"weight" : 0.3, "item" : "snowgun"}, // TODO: replace old gun
         {"weight" : 0.05, "item" : ["mediumsnowball", 1]},
         {"weight" : 0.3, "item" : "survivalgearback"},
         {"weight" : 0.3, "item" : "snowinfantryhead"},
@@ -207,8 +207,8 @@
         {"weight" : 0.05, "item" : ["waterballoon", 6]},
         {"weight" : 0.05, "item" : ["waterballoon", 9]},
         {"weight" : 0.1, "item" : "medkit"},
-        {"weight" : 0.3, "item" : "watersword"},
-        {"weight" : 0.1, "item" : "watergun"},
+        {"weight" : 0.3, "item" : "watersword"}, // TODO: replace old sword
+        {"weight" : 0.1, "item" : "watergun"}, // TODO: replace old gun
         {"weight" : 0.3, "item" : [ "generatedshield", 1, { "definition" : "seashellshield" } ]},
         {"weight" : 0.3, "item" : "hawaiianhead"},
         {"weight" : 0.3, "item" : "hawaiianchest"},
@@ -286,7 +286,6 @@
         {"weight" : 0.05, "item" : ["biosample", 4]},
         {"weight" : 0.05, "item" : ["biosample", 5]},
         {"weight" : 0.1, "item" : "medkit"},
-        {"weight" : 0.1, "item" : [ "generatedsword", 1, { "definition" : "toxicbroadsword" } ]},
         {"weight" : 0.3, "item" : "headbandhead"},
         {"weight" : 0.3, "item" : "toughchest"},        
         {"weight" : 0.3, "item" : "toughlegs"},
@@ -325,10 +324,10 @@
     [1, {
       "pool" : [
         {"weight" : 0.1, "item" : "medkit"},
-        {"weight" : 0.3, "item" : "midnightcape"},
+        {"weight" : 0.3, "item" : "darkcapeback"},
         {"weight" : 0.3, "item" : "darkdisguisehead"},
         {"weight" : 0.3, "item" : "darkdisguisechest"},
-        {"weight" : 0.3, "item" : "darkdisguiseheadlegs"}
+        {"weight" : 0.3, "item" : "darkdisguiselegs"}
       ]
     }]
   ],
@@ -359,8 +358,8 @@
         {"weight" : 0.05, "item" : ["corrosivegrenade", 2]},
         {"weight" : 0.05, "item" : ["corrosivegrenade", 4]},
         {"weight" : 0.05, "item" : ["corrosivegrenade", 5]},
-        {"weight" : 0.3, "item" : "corrosivegun"},
-        {"weight" : 0.3, "item" : "alienlaser"},
+        {"weight" : 0.3, "item" : "corrosivegun"}, // TODO: replace old gun
+        {"weight" : 0.3, "item" : "alienlaser"}, // TODO: replace old gun
         {"weight" : 0.3, "item" : "symbiotehead"},
         {"weight" : 0.3, "item" : "alienskullhead"},
         {"weight" : 0.3, "item" : "beachcreeperhead"},
@@ -419,7 +418,6 @@
         {"weight" : 0.3, "item" : "plaguedoctorhead"},
         {"weight" : 0.3, "item" : "toxicwasteback"},
         {"weight" : 0.3, "item" : "dangerbarrelback"},
-        {"weight" : 0.1, "item" : [ "generatedsword", 1, { "definition" : "toxicbroadsword" } ]},
         {"weight" : 0.1, "item" : "hazmatdemohead"},
         {"weight" : 0.1, "item" : "hazmatdemochest"},
         {"weight" : 0.1, "item" : "hazmatdemolegs"},
@@ -463,8 +461,8 @@
         {"weight" : 0.3, "item" : "wildfungushead"},
         {"weight" : 0.3, "item" : "wildfunguschest"},
         {"weight" : 0.3, "item" : "wildfunguspants"},
-        {"weight" : 0.3, "item" : "mushroomsword" },
-        {"weight" : 0.3, "item" : [ "generatedshield", 1, { "definition" : "mushroomshield" } ]}
+        {"weight" : 0.3, "item" : "mushroomsword"}, // TODO: replace old sword
+        {"weight" : 0.3, "item" : "mushroomshield"}
       ]
     }]
   ],
@@ -492,7 +490,7 @@
         {"weight" : 0.05, "item" : ["petalred", 3]},
         {"weight" : 0.05, "item" : ["petalyellow", 3]},
         {"weight" : 0.05, "item" : ["petalblue", 3]},
-        {"weight" : 0.3, "item" : "pollenpump"},
+        {"weight" : 0.3, "item" : "pollenpump"}, // TODO: replace old gun
         {"weight" : 0.3, "item" : "flowerbox-recipe"},
         {"weight" : 0.3, "item" : "flowerlamp-recipe"},
         {"weight" : 0.3, "item" : "movingsunflower-recipe"},
@@ -527,7 +525,7 @@
     [1, {
       "pool" : [
         {"weight" : 0.05, "item" : ["reed", 5]},
-        {"weight" : 0.3, "item" : "blowgun"},
+        {"weight" : 0.3, "item" : "blowgun"}, // TODO: replace old gun
         {"weight" : 0.3, "item" : "reedchair-recipe"},
         {"weight" : 0.3, "item" : "reedbed-recipe"},
         {"weight" : 0.3, "item" : "reedclock-recipe"},
@@ -566,7 +564,7 @@
         {"weight" : 0.05, "item" : ["tar", 5]},
         {"weight" : 0.05, "item" : ["tarball", 5]},
         {"weight" : 0.3, "item" : "asphalt-recipe"},
-        {"weight" : 0.3, "item" : "sabertoothspear"},
+        {"weight" : 0.3, "item" : "sabertoothspear"}, // TODO: replace old sword
         {"weight" : 0.3, "item" : "woollychest"},
         {"weight" : 0.3, "item" : "woollyback"},
         {"weight" : 0.3, "item" : "woollylegs"},
@@ -611,13 +609,13 @@
         {"weight" : 0.3, "item" : "rainbowcapeback"},
         {"weight" : 0.3, "item" : "rainbowhoodhead"},
         {"weight" : 0.3, "item" : "unicornhead"},
-        {"weight" : 0.3, "item" : "rainbowsword"},
-        {"weight" : 0.2, "item" : "paintgunred-recipe"},
-        {"weight" : 0.2, "item" : "paintgunblue-recipe"},
-        {"weight" : 0.2, "item" : "paintgunyellow-recipe"},
-        {"weight" : 0.2, "item" : "paintgunpurple-recipe"},
-        {"weight" : 0.2, "item" : "paintgungreen-recipe"},
-        {"weight" : 0.2, "item" : "paintgunorange-recipe"},
+        {"weight" : 0.3, "item" : "rainbowsword"}, // TODO: replace old sword
+        {"weight" : 0.2, "item" : "paintgunred-recipe"}, // TODO: replace old gun
+        {"weight" : 0.2, "item" : "paintgunblue-recipe"}, // TODO: replace old gun
+        {"weight" : 0.2, "item" : "paintgunyellow-recipe"}, // TODO: replace old gun
+        {"weight" : 0.2, "item" : "paintgunpurple-recipe"}, // TODO: replace old gun
+        {"weight" : 0.2, "item" : "paintgungreen-recipe"}, // TODO: replace old gun
+        {"weight" : 0.2, "item" : "paintgunorange-recipe"}, // TODO: replace old gun
         {"weight" : 0.3, "item" : "rainbowwoodhead"},
         {"weight" : 0.3, "item" : "rainbowwoodchest"},
         {"weight" : 0.3, "item" : "rainbowwoodlegs"},
@@ -653,8 +651,8 @@
         {"weight" : 0.3, "item" : "bonechest-recipe"},
         {"weight" : 0.3, "item" : "bonedoor-recipe"},
         {"weight" : 0.3, "item" : "bonetable-recipe"},
-        {"weight" : 0.3, "item" : "bonesword"},
-        {"weight" : 0.3, "item" : "bonepistol"},
+        {"weight" : 0.3, "item" : "bonesword"}, // TODO: replace old sword
+        {"weight" : 0.3, "item" : "bonepistol"}, // TODO: replace old gun
         {"weight" : 0.2, "item" : "apexskullhead"},
         {"weight" : 0.2, "item" : "avianskullhead"},
         {"weight" : 0.2, "item" : "floranskullhead"},
@@ -693,11 +691,11 @@
         {"weight" : 0.3, "item" : "stonechair-recipe"},
         {"weight" : 0.3, "item" : "stonedoor-recipe"},
         {"weight" : 0.3, "item" : "stonetable-recipe"},
-        {"weight" : 0.3, "item" : "boulderstaff"},
+        {"weight" : 0.3, "item" : "boulderstaff"}, // TODO: replace old staff
         {"weight" : 0.05, "item" : "alpacahead"},
         {"weight" : 0.05, "item" : "alpacachest"},
         {"weight" : 0.05, "item" : "alpacalegs"},
-        {"weight" : 0.15, "item" : "iceaxe"}
+        {"weight" : 0.15, "item" : "iceaxe"} // TODO: replace old grappling hook
       ]
     }]
   ],
@@ -730,8 +728,8 @@
         {"weight" : 0.3, "item" : "glowbed-recipe"},
         {"weight" : 0.3, "item" : "glowchair-recipe"},
         {"weight" : 0.3, "item" : "glowstickgreen-recipe"},
-        {"weight" : 0.3, "item" : "lightsword"},
-        {"weight" : 0.3, "item" : "lightbow"},
+        {"weight" : 0.3, "item" : "lightsword"}, // TODO: replace old sword
+        {"weight" : 0.3, "item" : "lightbow"}, // TODO: replace old gun
         {"weight" : 0.3, "item" : "lighthelmhead"},
         {"weight" : 0.3, "item" : "bioluminhead"},
         {"weight" : 0.3, "item" : "bioluminchest"},
@@ -761,6 +759,10 @@
     [1, {
       "pool" : [
         {"weight" : 0.05, "item" : ["giantflowerpetal", 15]},
+        {"weight" : 0.3, "item" : "buzzyhead"},
+        {"weight" : 0.3, "item" : "buzzychest"},
+        {"weight" : 0.3, "item" : "buzzyback"},
+        {"weight" : 0.3, "item" : "buzzylegs"},
         {"weight" : 0.3, "item" : "bananahead"},
         {"weight" : 0.3, "item" : "strawberryhead"},
         {"weight" : 0.3, "item" : "berryhead"},
@@ -847,7 +849,7 @@
         {"weight" : 0.3, "item" : "eyeballlegs"},
         {"weight" : 0.3, "item" : "eyeballhead"},
         {"weight" : 0.3, "item" : "eyeballback"},
-        {"weight" : 0.3, "item" : [ "generatedsword", 1, { "definition" : "eyeaxe" } ]},
+        {"weight" : 0.3, "item" : [ "generatedsword", 1, { "definition" : "eyeaxe" } ]}, // TODO: replace old sword
         {"weight" : 0.3, "item" : "eyeshield"}
       ]
     }]
@@ -896,7 +898,6 @@
         {"weight" : 0.3, "item" : "icemachine-recipe"},
         {"weight" : 0.3, "item" : "snowglobe1"},
         {"weight" : 0.3, "item" : "snowglobe2"},
-        {"weight" : 0.3, "item" : "frostspear"},
         {"weight" : 0.3, "item" : "snowinfantryhead"},
         {"weight" : 0.3, "item" : "snowinfantrychest"},
         {"weight" : 0.3, "item" : "snowinfantrypants"},
@@ -1040,8 +1041,7 @@
         {"weight" : 0.3, "item" : "rustbed-recipe"},
         {"weight" : 0.3, "item" : "rustchest-recipe"},
         {"weight" : 0.3, "item" : "rustdoor-recipe"},
-        {"weight" : 0.3, "item" : "rusttable-recipe"},
-        {"weight" : 0.3, "item" : [ "generatedsword", 1, { "definition" : "rustsword" } ]}
+        {"weight" : 0.3, "item" : "rusttable-recipe"}
       ]
     }]
   ],
@@ -1073,7 +1073,7 @@
         {"weight" : 0.3, "item" : "crystallamp-recipe"},
         {"weight" : 0.3, "item" : "crystaltable-recipe"},
         {"weight" : 0.3, "item" : "crystalbackpackback"},
-        {"weight" : 0.3, "item" : [ "generatedsword", 1, { "definition" : "crystalspear" } ]}
+        {"weight" : 0.3, "item" : [ "generatedsword", 1, { "definition" : "crystalspear" } ]} // TODO: replace old sword
       ]
     }]
   ],
@@ -1113,7 +1113,7 @@
         {"weight" : 0.3, "item" : "evilmushroomhead"},
         {"weight" : 0.3, "item" : "mushroomhead"},
         {"weight" : 0.3, "item" : "raggedcapeback"},
-        {"weight" : 0.3, "item" : "smashroom"}
+        {"weight" : 0.3, "item" : "smashroom"} // TODO: replace old sword
       ]
     }]
   ],
@@ -1142,8 +1142,8 @@
         {"weight" : 0.3, "item" : "copperarmorhead"},
         {"weight" : 0.3, "item" : "copperarmorchest"},
         {"weight" : 0.3, "item" : "copperarmorpants"},
-        {"weight" : 0.3, "item" : "overgrownmower"},
-        {"weight" : 0.3, "item" : "undergrowthtrimmer"},
+        {"weight" : 0.3, "item" : "overgrownmower"}, // TODO: replace old sword
+        {"weight" : 0.3, "item" : "undergrowthtrimmer"}, // TODO: replace old sword
         {"weight" : 0.05, "item" : "beanstalk"},
         {"weight" : 0.05, "item" : "goldenegg"}
       ]
@@ -1157,7 +1157,7 @@
         {"weight" : 0.05, "item" : ["money", 2]},
         {"weight" : 0.05, "item" : ["money", 3]},
         {"weight" : 0.15, "item" : ["throwinggnome", 3]},
-        {"weight" : 0.2, "item" : "gnomegun"},
+        {"weight" : 0.2, "item" : "gnomegun"}, // TODO: replace old gun
         {"weight" : 0.2, "item" : "gnomecaphead"},
         {"weight" : 0.2, "item" : "gnomehead"},
         {"weight" : 0.2, "item" : "househathead"},
@@ -1190,7 +1190,7 @@
         {"weight" : 0.05, "item" : ["tarball", 5]},
         {"weight" : 0.05, "item" : "tarblob"},
         {"weight" : 0.3, "item" : "asphalt-recipe"},
-        {"weight" : 0.3, "item" : "tarhammer"},
+        {"weight" : 0.3, "item" : "tarhammer"}, // TODO: replace old sword
         {"weight" : 0.3, "item" : "spearback"},
         {"weight" : 0.3, "item" : "tarhead"},
         {"weight" : 0.3, "item" : "tarchest"},
@@ -1237,10 +1237,10 @@
         {"weight" : 0.3, "item" : "bonewingsback"},
         {"weight" : 0.3, "item" : "goathead"},
         {"weight" : 0.3, "item" : "alienskullhead"},
-        {"weight" : 0.3, "item" : [ "generatedgun", 1, { "definition" : "boneassault" } ]},
-        {"weight" : 0.3, "item" : [ "generatedgun", 1, { "definition" : "boneshotgun" } ]},
-        {"weight" : 0.3, "item" : [ "generatedgun", 1, { "definition" : "bonepistol" } ]},
-        {"weight" : 0.3, "item" : [ "generatedsword", 1, { "definition" : "bonesword" } ]}
+        {"weight" : 0.3, "item" : [ "generatedgun", 1, { "definition" : "boneassault" } ]}, // TODO: replace old gun
+        {"weight" : 0.3, "item" : [ "generatedgun", 1, { "definition" : "boneshotgun" } ]}, // TODO: replace old gun
+        {"weight" : 0.3, "item" : [ "generatedgun", 1, { "definition" : "bonepistol" } ]}, // TODO: replace old gun
+        {"weight" : 0.3, "item" : [ "generatedsword", 1, { "definition" : "bonesword" } ]} // TODO: replace old sword
       ]
     }]
   ],
@@ -1272,8 +1272,8 @@
         {"weight" : 0.3, "item" : "icearmorchest"},
         {"weight" : 0.3, "item" : "icearmorlegs"},
         {"weight" : 0.1, "item" : "icecubehead"},
-        {"weight" : 0.2, "item" : "icechucker"},
-        {"weight" : 0.3, "item" : "frozenbow"}
+        {"weight" : 0.2, "item" : "icechucker"}, // TODO: replace old gun
+        {"weight" : 0.3, "item" : "frozenbow"} // TODO: replace old gun
       ]
     }]
   ],
@@ -1307,8 +1307,8 @@
         {"weight" : 0.3, "item" : "rockhead"},
         {"weight" : 0.3, "item" : "rockchest"},
         {"weight" : 0.3, "item" : "rocklegs"},
-        {"weight" : 0.3, "item" : "cavebow"},
-        {"weight" : 0.3, "item" : "cavehammer"}
+        {"weight" : 0.3, "item" : "cavebow"}, // TODO: replace old gun
+        {"weight" : 0.3, "item" : "cavehammer"} // TODO: replace old sword
       ]
     }]
   ],
@@ -1340,7 +1340,7 @@
         {"weight" : 0.5, "item" : ["glowstickyellow", 5]},
         {"weight" : 0.5, "item" : ["glowstickorange", 5]},
         {"weight" : 0.3, "item" : "bioshroomtable-recipe"},
-        {"weight" : 0.3, "item" : "biostaff"}
+        {"weight" : 0.3, "item" : "biostaff"} // TODO: replace old staff
       ]
     }]
   ],
@@ -1440,9 +1440,9 @@
         {"weight" : 0.2, "item" : "slimehead"},
         {"weight" : 0.2, "item" : "slimelegs"},
         {"weight" : 0.05, "item" : ["slimetorch", 10]},
-        {"weight" : 0.05, "item" : "cutarrh"},
-        {"weight" : 0.05, "item" : "katarrhna"},
-        {"weight" : 0.05, "item" : ["slimehandgrapple", 5]}
+        {"weight" : 0.05, "item" : "cutarrh"}, // TODO: replace old sword
+        {"weight" : 0.05, "item" : "katarrhna"}, // TODO: replace old sword
+        {"weight" : 0.05, "item" : ["slimehandgrapple", 5]} // TODO: replace old grappling hook
       ]
     }]
   ],
@@ -1467,7 +1467,6 @@
       "allowDuplication" : false
     }]
   ],
-
   "sandstoneTreasure" : [
     [1, {
       "pool" : [

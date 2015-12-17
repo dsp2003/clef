@@ -1,11 +1,11 @@
 # CLeF - Things To Do In Starbound
 Starbound content restoration and gameplay overhaul project
 
-Version 63 (2015/12/09) WORK-IN-PROGRESS
+Version 63 (2015/12/17) WORK-IN-PROGRESS
 ----------
 
 /!\ CURRENTLY BROKEN:
-- [Stable] Glad Giraffe Update 1 (December 7)
+- [Stable] Glad Giraffe Update 3 (December 15)
 
 
 Installation
