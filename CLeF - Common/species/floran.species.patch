@@ -165,6 +165,21 @@
   { "op" : "add", "path" : "/genders/1/hair/-", "value" : "an29" },
   { "op" : "add", "path" : "/genders/0/hair/-", "value" : "an30" },
   { "op" : "add", "path" : "/genders/1/hair/-", "value" : "an30" },
+  // Amethystumn's hair
+  { "op" : "add", "path" : "/genders/0/hair/-", "value" : "am01" },
+  { "op" : "add", "path" : "/genders/1/hair/-", "value" : "am01" },
+  { "op" : "add", "path" : "/genders/0/hair/-", "value" : "am02" },
+  { "op" : "add", "path" : "/genders/1/hair/-", "value" : "am02" },
+  { "op" : "add", "path" : "/genders/0/hair/-", "value" : "am03" },
+  { "op" : "add", "path" : "/genders/1/hair/-", "value" : "am03" },
+  { "op" : "add", "path" : "/genders/0/hair/-", "value" : "am04" },
+  { "op" : "add", "path" : "/genders/1/hair/-", "value" : "am04" },
+  { "op" : "add", "path" : "/genders/0/hair/-", "value" : "am05" },
+  { "op" : "add", "path" : "/genders/1/hair/-", "value" : "am05" },
+  { "op" : "add", "path" : "/genders/0/hair/-", "value" : "am06" },
+  { "op" : "add", "path" : "/genders/1/hair/-", "value" : "am06" },
+  { "op" : "add", "path" : "/genders/0/hair/-", "value" : "am07" },
+  { "op" : "add", "path" : "/genders/1/hair/-", "value" : "am07" },
   
   // Additional colours from Annuschka's Floran Colour Scheme Mix mod
   // Copied from undyColor (Leaf)

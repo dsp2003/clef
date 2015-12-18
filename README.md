@@ -230,6 +230,7 @@ PLEASE NOTE: Installing these separately won't give you 100% functionality of CL
 + http://community.playstarbound.com/resources/3183/ - Biome Treasure Pool Cleanup (by Surn_Thing)
 + http://community.playstarbound.com/resources/3210/ - No Sand Sandstorms (by lazarus78)
 + http://community.playstarbound.com/resources/3237/ - Hylotl Fake Plant Fix (by TheElderScroller)
++ http://community.playstarbound.com/resources/3262/ - Amethystumn's Floran Hair Pack (by KittyBlossom)
 
 
 Version history
