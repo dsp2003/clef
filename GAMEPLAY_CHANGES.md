@@ -317,6 +317,13 @@ Gameplay changes
  - Bonus Duck A.S. Poster
  - Bonus Duck N.N. Poster
 
++ [N] Various upgrade modules can be purchased at Infinity Express:
+ - Manipulator Module (2000 pixels)
+ - Manipulator Component (200 pixels)
+ - Upgrade Module (1500 pixels)
+ - Tech Drive (2000 pixels)
+ - Tech Chip (600 pixels)
+
 + [R] No more mandatory spawning of Moon planet at 11-th orbit (same as in EK)
 
 + [R] Planets now spawn in six sizes (partially restored from EK):
@@ -356,6 +363,7 @@ Gameplay changes
  - Forest (0 - 6)
  - Jungle (0 - 6)
  - Magma (0 - 6)
+ - Midnight (0 - 6)
  - Savannah (0 - 6)
  - Scorched (0 - 6)
  - Snow (0 - 6)
@@ -459,13 +467,17 @@ Values for world size (added on top of the previous):
  - Wizard trader (Random)
 
 + [M] Changed monster_surprise sound effect for randomly generated monsters to:
- - Small Biped - angstyhead_small_turnhostile.wav
- - Small Quadruped - teethyhead_small_turnhostile.wav
- - Large Biped - powlhead_turnhostile.wav
- - Large Quadruped - angstyhead_turnhostile.wav
- - Huge Biped - dragonboss_death.wav
- - Miniboss Biped - arrowhead_turnhostile.wav
- - Miniboss Quadruped - canine_turnhostile.wav
+ - Small Biped - angstyhead_small_turnhostile.ogg
+ - Small Quadruped - teethyhead_small_turnhostile.ogg
+ - Large Biped - powlhead_turnhostile.ogg
+ - Large Quadruped - angstyhead_turnhostile.ogg
+ - Huge Biped - dragonboss_death.ogg
+ - Miniboss Biped - arrowhead_turnhostile.ogg
+ - Miniboss Quadruped - canine_turnhostile.ogg
+
++ [R] Removed damage on touch for all monsters (reintroduced in GG)
+
++ [R] Restored extra slots for rewards in Quest and Questlog windows
 
 + [M] Reworked initial S.A.I.L. dialogues to look more credible and humorous:
  - Apex - Windows 8
@@ -498,17 +510,6 @@ Values for world size (added on top of the previous):
 + [M] Replaced Chucklefish icon and logo animation with recoloured & shaded version (also fixed "u" which strongly resembled "v")
 
 + [M] All tutorial quests replaced with new descriptive ones which better match the mod's progression and cover the most of its important changes. Old tutorial questline is no longer used nor called
-
-
-Nightly addon
--------------
-
-+ [R] Removed damage on touch for all monsters (reintroduced in GG)
-
-+ [R] Restored extra slots for rewards in Quest and Questlog windows
-
-+ [M] Changed dungeon spawn rates of the newly introduced biomes:
- - Midnight (0 - 6)
 
 
 Extra (Enhanced Storage) addon

@@ -223,6 +223,7 @@ PLEASE NOTE: Installing these separately won't give you 100% functionality of CL
 + http://community.playstarbound.com/resources/3070/ - Paint and Wire Tool restoration (by TanzNukeTerror)
 + http://community.playstarbound.com/resources/3077/ - Reliable Flares (by Oberic)
 + http://community.playstarbound.com/resources/3079/ - Vanilla Gun Activator (by Oberic)
++ http://community.playstarbound.com/resources/3089/ - Reasonable Modules (by Artix3)
 + http://community.playstarbound.com/resources/3104/ - Poop's Revenge (by Surn_Thing)
 + http://community.playstarbound.com/resources/3107/ - ezGlass (by Lefl)
 + http://community.playstarbound.com/resources/3112/ - Lossless Voxels! (by TanzNukeTerror)
@@ -231,6 +232,7 @@ PLEASE NOTE: Installing these separately won't give you 100% functionality of CL
 + http://community.playstarbound.com/resources/3210/ - No Sand Sandstorms (by lazarus78)
 + http://community.playstarbound.com/resources/3237/ - Hylotl Fake Plant Fix (by TheElderScroller)
 + http://community.playstarbound.com/resources/3262/ - Amethystumn's Floran Hair Pack (by KittyBlossom)
+
 
 
 Version history
