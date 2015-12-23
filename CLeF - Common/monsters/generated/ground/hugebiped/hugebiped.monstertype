@@ -16,20 +16,20 @@
 
   "baseParameters" : {
     "scripts" : [
-      "/monsters/ground/groundMonster.lua",
+      "/monsters/koala/ground/groundMonster.lua",
       "/scripts/pathing.lua",
       "/scripts/stateMachine.lua",
       "/scripts/util.lua",
       "/scripts/vec2.lua",
 
-      "/monsters/ground/approachState.lua",
-      "/monsters/ground/fleeState.lua",
-      "/monsters/ground/captiveState.lua",
-      "/monsters/ground/stunState.lua",
-      "/monsters/ground/socializeState.lua",
-      "/monsters/ground/wanderState.lua",
+      "/monsters/koala/ground/approachState.lua",
+      "/monsters/koala/ground/fleeState.lua",
+      "/monsters/koala/ground/captiveState.lua",
+      "/monsters/koala/ground/stunState.lua",
+      "/monsters/koala/ground/socializeState.lua",
+      "/monsters/koala/ground/wanderState.lua",
 
-      "/monsters/ground/skills/createGroundRangedAttack.lua"
+      "/monsters/koala/ground/skills/createGroundRangedAttack.lua"
     ],
 
     "skills" : [],
@@ -68,7 +68,7 @@
   "familyParameters" : [
     [
       {
-        "baseSkills" : [ "meleeAttack" ],
+        "baseSkills" : [ "oldMeleeAttack" ],
         "specialSkills" : [ ]
       }
     ]

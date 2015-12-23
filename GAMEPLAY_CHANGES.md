@@ -205,6 +205,8 @@ Gameplay changes
 
 + [M] Un-nerfed Morph Ball tech. It consumes 20 points of energy (was 35 in EK and 65 in UG)
 
++ [M] Un-nerfed Dash tech. Also, can be used in mid-air again (was screwed up in GG)
+
 + [R] Iron Beacon is available for crafting. As a result, the Penguin UFO boss can be summoned in open space (moved to its own quest location in UG)
 
 + [R] Quest "CLeF Tutorial #9.1.1: The First Contact". Automatically assigned upon crafting or picking up the Old Distress Beacon. Reward: 11-900 pixels
@@ -409,6 +411,8 @@ Values for world size (added on top of the previous):
 + [N] Water and Healing water will spawn in Water Cooler and Outpost Water cooler in previously unvisited worlds
 
 + [M] Rice requires to be submerged in water for at least 0.5 of block (2.0 max) to grow properly and no longer consumes wetness from soil
+
++ [M] Oshrooms no longer require to be submerged in water
 
 + [M] All types of trees will drop at least two saplings
 

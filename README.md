@@ -1,11 +1,12 @@
 # CLeF - Things To Do In Starbound
 Starbound content restoration and gameplay overhaul project
 
-Version 63 (2015/12/17) WORK-IN-PROGRESS
+Version 63 (2015/12/23) WORK-IN-PROGRESS
 ----------
 
 /!\ CURRENTLY BROKEN:
 - [Stable] Glad Giraffe Update 3 (December 15)
+- [Nightly] Cheerful Giraffe Update 0 (December 22)
 
 
 Installation
@@ -232,7 +233,8 @@ PLEASE NOTE: Installing these separately won't give you 100% functionality of CL
 + http://community.playstarbound.com/resources/3210/ - No Sand Sandstorms (by lazarus78)
 + http://community.playstarbound.com/resources/3237/ - Hylotl Fake Plant Fix (by TheElderScroller)
 + http://community.playstarbound.com/resources/3262/ - Amethystumn's Floran Hair Pack (by KittyBlossom)
-
++ http://community.playstarbound.com/resources/3281/ - Strong Oshrooms (by Snaid1)
++ http://community.playstarbound.com/resources/3298/ - Classic Dash Tech (by Wow_Space)
 
 
 Version history

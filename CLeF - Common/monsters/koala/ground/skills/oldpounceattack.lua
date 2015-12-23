@@ -1,9 +1,9 @@
-pounceAttack = {}
+oldPounceAttack = {}
 
-function pounceAttack.loadSkillParameters()
-  local params = entity.configParameter("pounceAttack")
+function oldPounceAttack.loadSkillParameters()
+  local params = entity.configParameter("oldPounceAttack")
 
-  local jumpSpeed = pounceAttack.jumpSpeed()
+  local jumpSpeed = oldPounceAttack.jumpSpeed()
   local maxJumpDistance = 0.8 * ( (jumpSpeed * jumpSpeed * 0.7071) / (world.gravity(mcontroller.position()) * 1.5) )
   local tolerance = {-1, -9.0, 6, 7}
 
@@ -20,28 +20,28 @@ function pounceAttack.loadSkillParameters()
   return params
 end
 
-function pounceAttack.jumpSpeed()
-  return math.min(mcontroller.baseParameters().airJumpProfile.jumpSpeed * entity.configParameter("pounceAttack.jumpSpeedMultiplier"), entity.configParameter("pounceAttack.jumpSpeedMax"))
+function oldPounceAttack.jumpSpeed()
+  return math.min(mcontroller.baseParameters().airJumpProfile.jumpSpeed * entity.configParameter("oldPounceAttack.jumpSpeedMultiplier"), entity.configParameter("oldPounceAttack.jumpSpeedMax"))
 end
 
-function pounceAttack.enter()
-  if not canStartSkill("pounceAttack") then return nil end
+function oldPounceAttack.enter()
+  if not canStartSkill("oldPounceAttack") then return nil end
 
   mcontroller.controlFace(self.toTarget[1])
 
   return {
     winddownTime = 0.0,
-    windupTime = entity.configParameter("pounceAttack.windupTime"),
+    windupTime = entity.configParameter("oldPounceAttack.windupTime"),
     followThrough = false
   }
 end
 
-function pounceAttack.enteringState(stateData)
+function oldPounceAttack.enteringState(stateData)
   entity.setAnimationState("attack", "idle")
-  entity.setActiveSkillName("pounceAttack")
+  entity.setActiveSkillName("oldPounceAttack")
 end
 
-function pounceAttack.update(dt, stateData)
+function oldPounceAttack.update(dt, stateData)
   if not canContinueSkill() then return true end
 
   mcontroller.controlParameters({airFriction=0})
@@ -56,11 +56,11 @@ function pounceAttack.update(dt, stateData)
     setAggressive(true, true)
     entity.setAnimationState("movement", "jump")
 
-    stateData.pounceJumpHoldTime = entity.configParameter("pounceAttack.jumpHoldTime")
+    stateData.pounceJumpHoldTime = entity.configParameter("oldPounceAttack.jumpHoldTime")
     stateData.pounceWasOffGround = false
     stateData.followThrough = true
 
-    local jumpSpeed = pounceAttack.jumpSpeed()
+    local jumpSpeed = oldPounceAttack.jumpSpeed()
     stateData.jumpVector = util.aimVector(self.toTarget, jumpSpeed, 1.5, true)
     mcontroller.setVelocity(stateData.jumpVector)
   end
@@ -81,7 +81,7 @@ function pounceAttack.update(dt, stateData)
     -- If the monster is on the ground and was off the ground, the attack is over
     if mcontroller.onGround() then
       if stateData.pounceWasOffGround then
-        stateData.winddownTime = entity.configParameter("pounceAttack.winddownTime")
+        stateData.winddownTime = entity.configParameter("oldPounceAttack.winddownTime")
       end
     else
       stateData.pounceWasOffGround = true
@@ -91,5 +91,5 @@ function pounceAttack.update(dt, stateData)
   return false
 end
 
-function pounceAttack.leavingState(stateData)
+function oldPounceAttack.leavingState(stateData)
 end

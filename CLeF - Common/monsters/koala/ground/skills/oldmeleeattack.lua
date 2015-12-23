@@ -1,19 +1,19 @@
-meleeAttack = {}
+oldMeleeAttack = {}
 
 --allow force entering state without canStartSkill
-function meleeAttack.enterWith(args)
-  if not args.meleeAttack then return nil end
+function oldMeleeAttack.enterWith(args)
+  if not args.oldMeleeAttack then return nil end
 
   return { didAttack = false, wasInRange = false }
 end
 
-function meleeAttack.enter()
-  if not canStartSkill("meleeAttack") then return nil end
+function oldMeleeAttack.enter()
+  if not canStartSkill("oldMeleeAttack") then return nil end
 
   return { didAttack = false, wasInRange = false }
 end
 
-function meleeAttack.enteringState(stateData)
+function oldMeleeAttack.enteringState(stateData)
   setAggressive(true, false)
   entity.setAnimationState("attack", "melee")
 
@@ -22,15 +22,15 @@ function meleeAttack.enteringState(stateData)
       entity.configParameter("projectileSourcePosition", {0, 0})[2] + entity.configParameter("meleeProjectileOffset", {0, 0})[2]
     }
 
-  entity.setActiveSkillName("meleeAttack")
+  entity.setActiveSkillName("oldMeleeAttack")
 end
 
-function meleeAttack.update(dt, stateData)
+function oldMeleeAttack.update(dt, stateData)
   if not canContinueSkill() then return true end
 
   entity.setAnimationState("movement", "run")
 
-  local attackCompletion = (entity.configParameter("meleeAttack.skillTimeLimit") - self.skillTimer) / entity.configParameter("meleeAttack.skillTimeLimit")
+  local attackCompletion = (entity.configParameter("oldMeleeAttack.skillTimeLimit") - self.skillTimer) / entity.configParameter("oldMeleeAttack.skillTimeLimit")
 
   local baseRunSpeed = mcontroller.baseParameters().runSpeed
 
@@ -64,8 +64,8 @@ function meleeAttack.update(dt, stateData)
   
   if stateData.didAttack == false and attackCompletion >= 0.25 then
     local projectileStartPosition = entity.toAbsolutePosition(stateData.projectileSourcePosition)
-    local projectileName = entity.configParameter("meleeProjectile") or entity.configParameter("meleeAttack.projectile")
-    local power = root.evalFunction("monsterLevelPowerMultiplier", entity.level()) * entity.configParameter("meleeAttack.power")
+    local projectileName = entity.configParameter("meleeProjectile") or entity.configParameter("oldMeleeAttack.projectile")
+    local power = root.evalFunction("monsterLevelPowerMultiplier", entity.level()) * entity.configParameter("oldMeleeAttack.power")
     world.spawnProjectile(projectileName, projectileStartPosition, entity.id(), {mcontroller.facingDirection(), 0}, true, {speed = 7.0, power = power})
     stateData.didAttack = true
   end
@@ -73,6 +73,6 @@ function meleeAttack.update(dt, stateData)
   return false
 end
 
-function meleeAttack.leavingState(stateData)
+function oldMeleeAttack.leavingState(stateData)
   
 end
