@@ -414,6 +414,8 @@ Values for world size (added on top of the previous):
 
 + [M] Oshrooms no longer require to be submerged in water
 
++ [N] Reed drops seeds and can be farmed
+
 + [M] All types of trees will drop at least two saplings
 
 + [R] Removed water consumption directional restrictions for tilled dirt (all hail hydroponics!)

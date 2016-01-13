@@ -1,7 +1,7 @@
 # CLeF - Things To Do In Starbound
 Starbound content restoration and gameplay overhaul project
 
-Version 63 (2015/12/23) WORK-IN-PROGRESS
+Version 63 (2016/01/13) WORK-IN-PROGRESS
 ----------
 
 /!\ CURRENTLY BROKEN:
@@ -235,6 +235,7 @@ PLEASE NOTE: Installing these separately won't give you 100% functionality of CL
 + http://community.playstarbound.com/resources/3262/ - Amethystumn's Floran Hair Pack (by KittyBlossom)
 + http://community.playstarbound.com/resources/3281/ - Strong Oshrooms (by Snaid1)
 + http://community.playstarbound.com/resources/3298/ - Classic Dash Tech (by Wow_Space)
++ http://community.playstarbound.com/resources/3341/ - Reed Farming (by Markelius)
 
 
 Version history
