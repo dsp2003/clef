@@ -13,9 +13,6 @@
     }
   },
 
-  // Microdungeon patch ---------------------------------------------------------------------
-  { "op" : "add", "path": "/surfacePlaceables/items/6/microdungeons/-", "value": "oldshroomencounter" }, // Old shroom people and smallshroom monster encounter
- 
   // Bonus duck -----------------------------------------------------------------------------
   { "op" : "add", "path" : "/spawnProfile/groups/3/pool/-", "value" : [ 0.08, "bonusduckcritter" ] }
 ]

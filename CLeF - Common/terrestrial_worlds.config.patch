@@ -11,6 +11,10 @@
   // { "op" : "add", "path" : "/planetTypes/scorched/layers/surface/dungeons/-", "value" : "scifidungeon" },
   // { "op" : "add", "path" : "/planetTypes/moon/layers/surface/dungeons/-", "value" : "scifidungeon" },
 
+  // Restores old shroom people and smallshroom monster encounter
+  { "op" : "add", "path" : "/planetTypes/garden/layers/surface/dungeons/-", "value" : "oldshroomencounter" },
+  { "op" : "add", "path" : "/planetTypes/forest/layers/surface/dungeons/-", "value" : "oldshroomencounter" },
+
   // Near-surface extended outpost microdungeon
   { "op" : "add", "path" : "/planetTypes/moon/layers/surface/dungeons/-", "value" : "outpostsurfaceencounter" },
 
