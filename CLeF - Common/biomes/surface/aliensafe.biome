@@ -43,7 +43,14 @@
       }
     ],
     "monsterParameters" : {
-      "colors" : "alien"
+      "colors" : "alien",
+      "statusSettings" : {
+        "stats" : {
+          "poisonImmunity" : {
+            "baseValue" : 1.0
+          }
+        }
+      }
     }
   },
 
@@ -206,16 +213,6 @@
             "parameters" : { }
           }
         ]
-      },
-
-      {
-        "mode" : "floor",
-        "priority" : 3.0,
-        "variants" : 1,
-        "distribution" : "/biomes/distributions.config:minibossoverground",
-
-        "type" : "microdungeon",
-        "microdungeons" : [ "minibossoverground" ]
       },
 
       {
