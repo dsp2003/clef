@@ -236,6 +236,7 @@ PLEASE NOTE: Installing these separately won't give you 100% functionality of CL
 + http://community.playstarbound.com/resources/3281/ - Strong Oshrooms (by Snaid1)
 + http://community.playstarbound.com/resources/3298/ - Classic Dash Tech (by Wow_Space)
 + http://community.playstarbound.com/resources/3341/ - Reed Farming (by Markelius)
++ http://community.playstarbound.com/resources/3373/ - Vanilla Boat Fixes (by LoPhatKao)
 
 
 Version history
