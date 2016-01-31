@@ -1,0 +1,7 @@
+[
+  // Airlock patch for Portable Outpost mod
+  { "op" : "add", "path" : "/storeInventory/furniture/-", "value" : "outpostverticalairlock" },
+  { "op" : "add", "path" : "/storeInventory/furniture/-", "value" : "outpostairlock" },
+  { "op" : "add", "path" : "/storeInventory/furniture/-", "value" : "outpostverticalairlocklarge" },
+  { "op" : "add", "path" : "/storeInventory/furniture/-", "value" : "outpostairlocklarge" }
+]

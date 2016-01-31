@@ -1,12 +1,12 @@
 # CLeF - Things To Do In Starbound
 Starbound content restoration and gameplay overhaul project
 
-Version 63 (2016/01/13) WORK-IN-PROGRESS
+Version 63 (2016/01/31) WORK-IN-PROGRESS
 ----------
 
 /!\ CURRENTLY BROKEN:
 - [Stable] Glad Giraffe Update 3 (December 15)
-- [Nightly] Cheerful Giraffe Update 0 (December 22)
+- [Nightly] Cheerful Giraffe Update 0 (January 22)
 
 
 Installation
@@ -237,6 +237,7 @@ PLEASE NOTE: Installing these separately won't give you 100% functionality of CL
 + http://community.playstarbound.com/resources/3298/ - Classic Dash Tech (by Wow_Space)
 + http://community.playstarbound.com/resources/3341/ - Reed Farming (by Markelius)
 + http://community.playstarbound.com/resources/3373/ - Vanilla Boat Fixes (by LoPhatKao)
++ http://community.playstarbound.com/resources/3389/ - Airlocks! (by LoPhatKao)
 
 
 Version history

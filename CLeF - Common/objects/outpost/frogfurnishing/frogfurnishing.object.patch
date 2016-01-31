@@ -1,4 +1,10 @@
 [
+  // Airlock patch
+  { "op": "add", "path" : "/storeInventory/furniture/-", "value" : "outpostverticalairlock" },
+  { "op": "add", "path" : "/storeInventory/furniture/-", "value" : "outpostairlock" },
+  { "op": "add", "path" : "/storeInventory/furniture/-", "value" : "outpostverticalairlocklarge" },
+  { "op": "add", "path" : "/storeInventory/furniture/-", "value" : "outpostairlocklarge" },
+
   // NoLag patch
   { "op" : "replace", "path" : "/orientations/0/animationCycle", "value" : 6.3 },
   { "op" : "replace", "path" : "/orientations/1/animationCycle", "value" : 6.3 },

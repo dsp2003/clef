@@ -255,6 +255,8 @@ Gameplay changes
 
 + [N] Power Loom, a modern replacement for Spinning Wheel, can be crafted in Metalwork Station for 8 Steel Bars
 
++ [M] Airlock doors can be placed at 5 & 7 wide block-wise, can be placed on background and chained together to make a giant door, can be purchased at Frogg Furnishing
+
 + [R] Re-added 50 classic glitch head mods (existed in online chargen)
 
 + [R] Re-added developer clothing sets (can be crafted via Yarn Spinner):
