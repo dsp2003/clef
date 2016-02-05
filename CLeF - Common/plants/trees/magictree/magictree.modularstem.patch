@@ -1,4 +1,0 @@
-[ 
-  // Commented out due to PGI drop instead of sapling
-  //{ "op" : "add", "path" : "/dropConfig/drops/0/-", "value" : { "item" : "sapling", "count" : 2 } }
-]
