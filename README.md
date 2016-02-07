@@ -177,7 +177,6 @@ These people has (in)directly contributed fixes and/or improvements. In alphabet
 * Grover Cures Houses (repairable tools flag)
 * Kawa (JSON stuff, modding tips and tricks)
 * Rhyssia (initial Fatal Circuit fixes, which kick-started more stuff)
-* Sayter (fixes for Jelly Boss)
 * TanzNukeTerror (several improvements I was too lazy to do on my own)
 * Varixai (modding tips and tricks)
 * XNicoX14 (alternative repairs mechanism and inspiration ^u^)
