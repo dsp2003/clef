@@ -15,11 +15,11 @@
 
   "baseParameters" : {
     "scripts" : [
-      "/monsters/clef/boss/dragonboss/flyingmonster.lua",
-      "/scripts/util.lua",
-      "/scripts/sensors.lua",
-      "/scripts/stateMachine.lua",
-      "/scripts/vec2.lua"
+      "/monsters/clef/boss/dragonboss/scripts/flying/flyingmonster.lua",
+      "/monsters/clef/boss/dragonboss/scripts/util.lua",
+      "/monsters/clef/boss/dragonboss/scripts/sensors.lua",
+      "/monsters/clef/boss/dragonboss/scripts/stateMachine.lua",
+      "/monsters/clef/boss/dragonboss/scripts/vec2.lua"
     ],
 
     "metaBoundBox" : [ -12.5, -12.5, 12.5, 12.5 ],
@@ -91,10 +91,18 @@
         },
         "poisonImmunity" : {
           "baseValue" : 1.0
+        },
+        "stunImmunity" : {
+          "baseValue" : 1.0
         }
       },
 
       "resources" : {
+        "stunned" : {
+          "deltaValue" : -1.0,
+          "initialValue" : 0.0,
+          "maxValue" : 0.0
+        },
         "health" : {
           "maxStat" : "maxHealth",
           "deltaStat" : "healthRegen",
@@ -123,11 +131,11 @@
         "attackMaxDistance" : 100.0,
         "attackCooldownTime" : 1.5,
         "scripts" : [
-          "/monsters/koala/flying/skills/createFlyingRangedAttack.lua",
-          "/monsters/koala/flying/circleState.lua",
-          "/monsters/koala/flying/wanderState.lua",
-          "/monsters/koala/flying/glideState.lua",
-          "/monsters/koala/flying/landState.lua"
+          "/monsters/clef/boss/dragonboss/scripts/flying/skills/createFlyingRangedAttack.lua",
+          "/monsters/clef/boss/dragonboss/scripts/flying/circleState.lua",
+          "/monsters/clef/boss/dragonboss/scripts/flying/wanderState.lua",
+          "/monsters/clef/boss/dragonboss/scripts/flying/glideState.lua",
+          "/monsters/clef/boss/dragonboss/scripts/flying/landState.lua"
         ],
 
         "wanderRiseSpeed" : 0.9,
