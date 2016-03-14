@@ -237,6 +237,7 @@ PLEASE NOTE: Installing these separately won't give you 100% functionality of CL
 + http://community.playstarbound.com/resources/3341/ - Reed Farming (by Markelius)
 + http://community.playstarbound.com/resources/3373/ - Vanilla Boat Fixes (by LoPhatKao)
 + http://community.playstarbound.com/resources/3389/ - Airlocks! (by LoPhatKao)
++ http://community.playstarbound.com/resources/3471/ - SPACE! Pickaxes (by zickeli7 & thempiggy22)
 
 
 Version history
