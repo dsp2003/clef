@@ -3,7 +3,7 @@
 	"version" : "",
 	"path" : ".",
 	"requires" : [ "CLeF" ],
-	"includes" : [ "CLeF-PG-Stable", "CLeF-GG-Nightly", "CLeF-Extra-CM", "CLeF-Extra-No-ES", "CLeF-Extra-ES" ],
+	"includes" : [ "CLeF-GG-Stable", "CLeF-Extra-CM", "CLeF-Extra-No-ES", "CLeF-Extra-ES" ],
 	"metadata" : {
 	  "displayName" : "CLeF Sandbox Addon Module",
 		"author" : "dsp2003",

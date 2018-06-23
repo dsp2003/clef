@@ -1,12 +1,13 @@
 # CLeF - Things To Do In Starbound
 Starbound content restoration and gameplay overhaul project
 
-Version 62 (2015/11/12) WORK-IN-PROGRESS
+Version 63 (2016/03/11) ABANDONED. FEEL FREE TO FORK THIS PROJECT
 ----------
 
-Known to work with:
-- [Stable] Pleased Giraffe Update 5 (September 10)
-- [Nightly] Glad Giraffe Update 0 (November 9)
+/!\ CURRENTLY BROKEN. None of the current game versions work.
+
+Last known version to work:
+- [Stable] Pleased Giraffe Build 691
 
 
 Installation
@@ -19,12 +20,6 @@ Copy the following directories into "starbound/giraffe_storage/mods/" directory:
 Required:
 
 + CLeF - Common. Core mod files common for all supported game versions
-
-Required (with conditions):
-
-+ CLeF - Common - PG Stable. For Stable Pleased Giraffe Update 5 (September 10)
-
-+ CLeF - Common - GG Nightly. For Nightly Glad Giraffe Update 0 (November 9)
 
 Optional (with conditions):
 
@@ -138,7 +133,7 @@ Known bugs
 Gameplay changes
 ----------------
 
-See CHANGES.md for details.
+See GAMEPLAY_CHANGES.md for details.
 
 
 To-do list
@@ -167,6 +162,14 @@ Bring back biome variety:
 Bunch of other stuff I tend to forget...
 
 
+Team
+----
+
+* dsp2003 (founder, lead developer, documentation writer)
+* Djekue-kun (bonus ducks, moral support)
+* LoPhatKao (Lua coding and major fixes for bosses, restored monster sound effects! ^o^)
+
+
 Contributors
 ------------
 
@@ -174,9 +177,7 @@ These people has (in)directly contributed fixes and/or improvements. In alphabet
 
 * Grover Cures Houses (repairable tools flag)
 * Kawa (JSON stuff, modding tips and tricks)
-* LoPhatKao (Lua coding and major fixes for bosses, restored monster sound effects! ^o^)
 * Rhyssia (initial Fatal Circuit fixes, which kick-started more stuff)
-* Sayter (major fixes for Jelly Boss)
 * TanzNukeTerror (several improvements I was too lazy to do on my own)
 * Varixai (modding tips and tricks)
 * XNicoX14 (alternative repairs mechanism and inspiration ^u^)
@@ -192,6 +193,11 @@ PLEASE NOTE: Installing these separately won't give you 100% functionality of CL
 
 + http://community.playstarbound.com/resources/22/ - Hair Mods (by Lissar)
 + http://community.playstarbound.com/resources/25/ - Kimono Mods (by Lissar)
++ http://community.playstarbound.com/resources/45/ - Modified Vanilla Hairstyles (by Team Aardvark)
++ http://community.playstarbound.com/resources/106/ - Haircut v1.3 (by patchwork536)
++ http://community.playstarbound.com/resources/309/ - Roserade foliage for Florans (by Chocodile)
++ http://community.playstarbound.com/resources/346/ - Floran Color Scheme Mix (by Annuschka)
++ http://community.playstarbound.com/resources/418/ - Beauty Blooms (by IcyOrio)
 + http://community.playstarbound.com/resources/2142/ - Emeralds! (by Serverator)
 + http://community.playstarbound.com/resources/2324/ - Classic Glitch Heads (by Darkness Wizard & Pazius)
 + http://community.playstarbound.com/resources/2498/ - More Screen Resolutions (by eurosat7)
@@ -218,6 +224,7 @@ PLEASE NOTE: Installing these separately won't give you 100% functionality of CL
 + http://community.playstarbound.com/resources/3070/ - Paint and Wire Tool restoration (by TanzNukeTerror)
 + http://community.playstarbound.com/resources/3077/ - Reliable Flares (by Oberic)
 + http://community.playstarbound.com/resources/3079/ - Vanilla Gun Activator (by Oberic)
++ http://community.playstarbound.com/resources/3089/ - Reasonable Modules (by Artix3)
 + http://community.playstarbound.com/resources/3104/ - Poop's Revenge (by Surn_Thing)
 + http://community.playstarbound.com/resources/3107/ - ezGlass (by Lefl)
 + http://community.playstarbound.com/resources/3112/ - Lossless Voxels! (by TanzNukeTerror)
@@ -225,16 +232,24 @@ PLEASE NOTE: Installing these separately won't give you 100% functionality of CL
 + http://community.playstarbound.com/resources/3183/ - Biome Treasure Pool Cleanup (by Surn_Thing)
 + http://community.playstarbound.com/resources/3210/ - No Sand Sandstorms (by lazarus78)
 + http://community.playstarbound.com/resources/3237/ - Hylotl Fake Plant Fix (by TheElderScroller)
++ http://community.playstarbound.com/resources/3262/ - Amethystumn's Floran Hair Pack (by KittyBlossom)
++ http://community.playstarbound.com/resources/3281/ - Strong Oshrooms (by Snaid1)
++ http://community.playstarbound.com/resources/3298/ - Classic Dash Tech (by Wow_Space)
++ http://community.playstarbound.com/resources/3341/ - Reed Farming (by Markelius)
++ http://community.playstarbound.com/resources/3373/ - Vanilla Boat Fixes (by LoPhatKao)
++ http://community.playstarbound.com/resources/3389/ - Airlocks! (by LoPhatKao)
++ http://community.playstarbound.com/resources/3471/ - SPACE! Pickaxes (by zickeli7 & thempiggy22)
 
 
 Version history
 ---------------
 
-See HISTORY.md for details.
+See VERSION_HISTORY.md for details.
 
 
 License
 -------
-This modification has been released under Creative Commons Attribution Non-Commercial Share-Alike 4.0 International license terms.
-For more info see: https://creativecommons.org/licenses/by-nc-sa/4.0/
-For attribution see the git repo at https://github.com/HiddenKn/clf/
+
+This modification has been released under Creative Commons Attribution Share-Alike 4.0 International license terms.
+
+See https://creativecommons.org/licenses/by-sa/4.0/ for details.

@@ -11,6 +11,10 @@
   // { "op" : "add", "path" : "/planetTypes/scorched/layers/surface/dungeons/-", "value" : "scifidungeon" },
   // { "op" : "add", "path" : "/planetTypes/moon/layers/surface/dungeons/-", "value" : "scifidungeon" },
 
+  // Restores old shroom people and smallshroom monster encounter
+  { "op" : "add", "path" : "/planetTypes/garden/layers/surface/dungeons/-", "value" : "oldshroomencounter" },
+  { "op" : "add", "path" : "/planetTypes/forest/layers/surface/dungeons/-", "value" : "oldshroomencounter" },
+
   // Near-surface extended outpost microdungeon
   { "op" : "add", "path" : "/planetTypes/moon/layers/surface/dungeons/-", "value" : "outpostsurfaceencounter" },
 
@@ -35,6 +39,7 @@
   { "op" : "add", "path" : "/planetTypes/forest/layers/surface/dungeonCountRange", "value" : [0, 6] },
   { "op" : "add", "path" : "/planetTypes/jungle/layers/surface/dungeonCountRange", "value" : [0, 6] },
   { "op" : "add", "path" : "/planetTypes/magma/layers/surface/dungeonCountRange", "value" : [0, 6] },
+  { "op" : "add", "path" : "/planetTypes/midnight/layers/surface/dungeonCountRange", "value" : [0, 6] },
   { "op" : "add", "path" : "/planetTypes/savannah/layers/surface/dungeonCountRange", "value" : [0, 6] },
   { "op" : "add", "path" : "/planetTypes/scorched/layers/surface/dungeonCountRange", "value" : [0, 6] },
   { "op" : "add", "path" : "/planetTypes/snow/layers/surface/dungeonCountRange", "value" : [0, 6] },
@@ -131,13 +136,144 @@
   },
 
   // Varied gravity patch --------------------------------------------------------------------------------------
-//{ "op" : "replace", "path" : "/planetSizes/tiny/gravityRange",    "value" : [30,   40] },
+//{ "op" : "replace", "path" : "/planetSizes/tiny/gravityRange",    "value" : [30,   40] }, // ref. do not uncomment!
   { "op" : "replace", "path" : "/planetSizes/small/gravityRange",   "value" : [40,   60] },
   { "op" : "replace", "path" : "/planetSizes/medium/gravityRange",  "value" : [60,   80] },
   { "op" : "replace", "path" : "/planetSizes/large/gravityRange",   "value" : [80,  100] },
-//{ "op" : "replace", "path" : "/planetSizes/massive/gravityRange", "value" : [100, 110] },
-//{ "op" : "replace", "path" : "/planetSizes/giant/gravityRange",   "value" : [110, 130] },
+//{ "op" : "replace", "path" : "/planetSizes/massive/gravityRange", "value" : [100, 110] }, // ref. same
+//{ "op" : "replace", "path" : "/planetSizes/giant/gravityRange",   "value" : [110, 130] }, // ref. same thing
   
   // Varied daytime patch --------------------------------------------------------------------------------------
-  { "op" : "replace", "path" : "/planetDefaults/dayLengthRange", "value" : [500, 2000] }
+  { "op" : "replace", "path" : "/planetDefaults/dayLengthRange", "value" : [500, 2000] },
+
+  // Threat ranges patch ---------------------------------------------------------------------------------------
+  { "op" : "replace", "path" : "/planetTypes/moon/threatRange",     "value" : [1, 4] }, // Ha ha!
+  { "op" : "replace", "path" : "/planetTypes/garden/threatRange",   "value" : [1, 2] }, // Mwuhaha~!
+  { "op" : "replace", "path" : "/planetTypes/forest/threatRange",   "value" : [1, 2] },
+  { "op" : "replace", "path" : "/planetTypes/desert/threatRange",   "value" : [1, 2] },
+  { "op" : "replace", "path" : "/planetTypes/ocean/threatRange",    "value" : [2, 3] },
+  { "op" : "replace", "path" : "/planetTypes/savannah/threatRange", "value" : [2, 3] },
+  { "op" : "replace", "path" : "/planetTypes/snow/threatRange",     "value" : [2, 3] },
+  { "op" : "replace", "path" : "/planetTypes/jungle/threatRange",   "value" : [3, 4] },
+  { "op" : "replace", "path" : "/planetTypes/toxic/threatRange",    "value" : [3, 4] },
+  { "op" : "replace", "path" : "/planetTypes/alien/threatRange",    "value" : [3, 4] },
+  { "op" : "replace", "path" : "/planetTypes/arctic/threatRange",   "value" : [4, 5] },
+  { "op" : "replace", "path" : "/planetTypes/tundra/threatRange",   "value" : [4, 5] },
+  { "op" : "replace", "path" : "/planetTypes/midnight/threatRange", "value" : [4, 5] },
+  { "op" : "replace", "path" : "/planetTypes/magma/threatRange",    "value" : [5, 6] },
+  { "op" : "replace", "path" : "/planetTypes/volcanic/threatRange", "value" : [5, 6] },
+  { "op" : "replace", "path" : "/planetTypes/scorched/threatRange", "value" : [5, 6] },
+
+  // Safe and custom biome types -------------------------------------------------------------------------------
+  { "op" : "add", "path" : "/planetTypes/grassland", "value" : {
+      "threatRange" : [2, 4],
+      "layers" : {
+        "surface" : {
+          "primaryRegion" : [ "grassland" ],
+          "secondaryRegion" : [ "oasis", "spring" ],
+          "dungeonCountRange" : [0, 6],
+          "dungeons" : [ "glitchvillage", "avianvillage", "floranvillagetower", "oceanislandsmicrodungeons", "oldshroomencounter" ]
+        },
+        "underground1" : { "secondaryRegion" : [ "mushroomunderground", "wildernessunderground", "minivillageunderground", "luminouscaves", "stonecaves" ] },
+        "underground2" : { "secondaryRegion" : [ "mushroomunderground", "wildernessunderground", "minivillageunderground", "luminouscaves", "stonecaves" ] },
+        "underground3" : { "secondaryRegion" : [ "mushroomunderground", "wildernessunderground", "minivillageunderground", "luminouscaves", "stonecaves" ] },
+        "underground4" : { "secondaryRegion" : [ "mushroomunderground", "wildernessunderground", "minivillageunderground", "luminouscaves", "stonecaves" ] },
+        "underground5" : { "secondaryRegion" : [ "mushroomunderground", "wildernessunderground", "minivillageunderground", "luminouscaves", "stonecaves" ] },
+        "underground6" : { "secondaryRegion" : [ "mushroomunderground", "wildernessunderground", "minivillageunderground", "luminouscaves", "stonecaves" ] }
+      }
+    }
+  },
+  { "op" : "add", "path" : "/planetTypes/junglesafe", "value" : {
+      "threatRange" : [3, 4],
+      "layers" : {
+        "surface" : { "primaryRegion" : [ "junglesafe" ],
+                      "secondaryRegion" : [ "giantflowers", "swamp" ],
+                      "dungeons" : [ "glitchsewer", "apexresearchlab", "apextestchamber",
+                                     "aviantomb", "aviantower", "humanbunker",
+                                     "floranhuntinggrounds", "glitchcastle", "humanprison",
+                                     "aviantemple", "avianairship", "floranhell" ]
+        },
+        "underground1" : { "secondaryRegion" : [ "cellcaves", "fleshcaves", "slimecaves" ] },
+        "underground2" : { "secondaryRegion" : [ "cellcaves", "fleshcaves", "slimecaves" ] },
+        "underground3" : { "secondaryRegion" : [ "cellcaves", "fleshcaves", "slimecaves" ] },
+        "underground4" : { "secondaryRegion" : [ "cellcaves", "fleshcaves", "slimecaves" ] },
+        "underground5" : { "secondaryRegion" : [ "cellcaves", "fleshcaves", "slimecaves" ] },
+        "underground6" : { "secondaryRegion" : [ "cellcaves", "fleshcaves", "slimecaves" ] }
+      }
+    }
+  },
+  { "op" : "add", "path" : "/planetTypes/toxicsafe", "value" : {
+      "blendSize" : 30,
+      "threatRange" : [3, 4],
+      "layers" : {
+        "surface" : { "primaryRegion" : [ "toxicsafe" ] },
+        "subsurface" : { "primaryRegion" : [ "toxicoceanfloor" ] },
+        "underground1" : { "secondaryRegion" : [ "cellcaves", "fleshcaves", "slimecaves" ] },
+        "underground2" : { "secondaryRegion" : [ "cellcaves", "fleshcaves", "slimecaves" ] },
+        "underground3" : { "secondaryRegion" : [ "cellcaves", "fleshcaves", "slimecaves" ] },
+        "underground4" : { "secondaryRegion" : [ "cellcaves", "fleshcaves", "slimecaves" ] },
+        "underground5" : { "secondaryRegion" : [ "cellcaves", "fleshcaves", "slimecaves" ] },
+        "underground6" : { "secondaryRegion" : [ "cellcaves", "fleshcaves", "slimecaves" ] }
+      }
+    }
+  },
+  { "op" : "add", "path" : "/planetTypes/aliensafe", "value" : {
+      "threatRange" : [3, 4],
+      "layers" : {
+        "surface" : { "primaryRegion" : [ "aliensafe" ],
+                      "secondaryRegion" : [ "eyepatch", "flesh" ],
+                      "dungeons" : [ "glitchsewer", "apexresearchlab", "apextestchamber",
+                                     "aviantomb", "aviantower", "humanbunker",
+                                     "floranhuntinggrounds", "glitchcastle", "humanprison",
+                                     "aviantemple", "avianairship", "floranhell" ] },
+        "underground1" : { "secondaryRegion" : [ "cellcaves", "fleshcaves", "slimecaves" ] },
+        "underground2" : { "secondaryRegion" : [ "cellcaves", "fleshcaves", "slimecaves" ] },
+        "underground3" : { "secondaryRegion" : [ "cellcaves", "fleshcaves", "slimecaves" ] },
+        "underground4" : { "secondaryRegion" : [ "cellcaves", "fleshcaves", "slimecaves" ] },
+        "underground5" : { "secondaryRegion" : [ "cellcaves", "fleshcaves", "slimecaves" ] },
+        "underground6" : { "secondaryRegion" : [ "cellcaves", "fleshcaves", "slimecaves" ] }
+      }
+    }
+  },
+  { "op" : "add", "path" : "/regionTypes/grassland", "value" : {
+      "caveLiquid" : [ "water" ],
+      "blockSelector" : [ "remixedMildSurface" ],
+      "fgCaveSelector" : [ "empty" ],
+      "bgCaveSelector" : [ "empty" ],
+      "biome" : [
+        [0, [ "grassland" ]]
+      ]
+    }
+  },
+  { "op" : "add", "path" : "/regionTypes/junglesafe", "value" : {
+      "caveLiquid" : [ "water", "swampwater", "healingliquid" ],
+      "blockSelector" : [ "remixedMildSurface" ],
+      "fgCaveSelector" : [ "surfaceCaves" ],
+      "bgCaveSelector" : [ "empty" ],
+      "biome" : [
+        [0, [ "junglesafe" ]]
+      ]
+    }
+  },
+  { "op" : "add", "path" : "/regionTypes/aliensafe", "value" : {
+      "caveLiquid" : [ "water", "swampwater" ],
+      "blockSelector" : [ "remixedSurface" ],
+      "fgCaveSelector" : [ "surfaceCaves" ],
+      "bgCaveSelector" : [ "empty" ],
+      "biome" : [
+        [0, [ "aliensafe" ]]
+      ]
+    }
+  },
+  { "op" : "add", "path" : "/regionTypes/toxicsafe", "value" : {
+      "oceanLiquid" : [ "poison" ],
+      "blockSelector" : [ "remixedFlatIslandsSurface" ],
+      "fgCaveSelector" : [ "empty" ],
+      "caveLiquid" : [ "poison" ],
+      "bgCaveSelector" : [ "empty" ],
+      "biome" : [
+        [0, [ "toxicsafe" ]]
+      ]
+    }
+  }
 ]
